@@ -1,1 +1,1 @@
-### See https://plailect.github.io/Guide/
+### See https://plailect.github.io/devGuide/

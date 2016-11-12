@@ -3,21 +3,22 @@ title: "Get Started"
 permalink: /get-started.html
 ---
 
-The colors of the devices in the image may vary, but note the button placement and features of each device carefully to ensure you select the correct one.
-{: .notice}
-
-Click the image of your device to take you to the appropriate page.
-{: .notice--primary}
-
-Different device models, versions, and regions will require different steps to achieve the end goal of arm9loaderhax Custom Firmware. The following series of pages will help you find where to start for your device.
+OTPless is not currently possible with PANDA consoles because no developer FIRM has the necessary properties.
 {: .notice--info}
 
-If you have already hacked your 3DS before and have an EmuNAND based CFW setup, just follow all instructions while on SysNAND. Your data will be transfered from EmuNAND to your new A9LH install at the end.
+For now, a DS flashcart is _required_!
 {: .notice--info}
 
 Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-| New 3DS | Old 3DS or 2DS |
-|:-:|:-:|
-| [![New 3DS](images/new3ds.png)](get-started-(new-3ds)) <br><br> [![New 3DS XL](images/new3dsxl.png)](get-started-(new-3ds)) | [![Old 3DS](images/old3ds.png)](get-started-(old-3ds)) &nbsp;&nbsp; [![Old 3DS XL](images/old3dsxl.png)](get-started-(old-3ds)) <br><br> [![2DS](images/2ds.png)](get-started-(old-3ds)) |
+#### Overview of steps
+
+- Install the 9.2.0 CIAs for your region / device
+- Downgrade the MSET application to 4.0.0 on 9.2.0
+- Use a DS flashcart to install an MSET rop for launching Decrypt9
+- Use a ctrtransfer to get to 2.1.0
+- Use a modified SafeA9LHInstaller to install arm9loaderhax and dump the OTP
+
+Continue to [9.2.0 Install](9.2.0-install)
+{: .notice--primary}
