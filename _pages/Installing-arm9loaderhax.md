@@ -77,6 +77,9 @@ We will also setup the ability to launch payloads from arm9loaderhax, giving us 
 3. Go to "SysNAND Backup/Restore"
 4. Restore **(keep a9lh)** from `NANDmin.bin`
 5. Press (Start) to reboot
+6. Update your PANDA using a CTR System Updater (CSU)
+  + **This is only safe for Luma3DS version 6.6 (commit 0b16d88) and above!**
+  + **Attempting to update your PANDA on any lower Luma3DS version will BRICK your device!**
 
 ##### Section V - CTRNAND Luma3DS
 
@@ -110,8 +113,12 @@ We will also setup the ability to launch payloads from arm9loaderhax, giving us 
 
 ___
 
-**For now, you CANNOT update a developer a9lh console or you will BRICK!**
-{: .notice--warning}
+{% capture notice-11 %}
+**Updating your PANDA using a CSU is only safe for Luma3DS version 6.6 (commit 0b16d88) and above!**
+**Attempting to update your PANDA on any lower Luma3DS version will BRICK your device!**
+{% endcapture %}
+
+<div class="notice--danger">{{ notice-11 | markdownify }}</div>
 
 {% capture notice-10 %}
 You can now use Luma3DS Updater to update your Luma3DS to the latest version just by opening it and pressing (A).     

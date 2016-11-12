@@ -88,3 +88,10 @@ These steps will also update your various payloads and the AES key database.
     + This will increase the framerate of many games, but may cause instability in others
     + If some games do not work properly, disable this option and try again
 14. Reinsert your SD card, then press Start to save and reboot!
+
+{% capture notice-11 %}
+**Updating your PANDA using a CSU is only safe for Luma3DS version 6.6 (commit 0b16d88) and above!**
+**Attempting to update your PANDA on any lower Luma3DS version will BRICK your device!**
+{% endcapture %}
+
+<div class="notice--danger">{{ notice-11 | markdownify }}</div>
