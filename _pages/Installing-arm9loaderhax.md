@@ -114,7 +114,7 @@ We will also setup the ability to launch payloads from arm9loaderhax, giving us 
 ___
 
 {% capture notice-11 %}
-**Updating your PANDA using a CSU is only safe for Luma3DS version 6.6 (commit 0b16d88) and above!**
+**Updating your PANDA using a CSU is only safe for Luma3DS version 6.6 (commit 0b16d88) and above!**    
 **Attempting to update your PANDA on any lower Luma3DS version will BRICK your device!**
 {% endcapture %}
 
