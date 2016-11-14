@@ -3,7 +3,7 @@ title: "Get Started"
 permalink: /get-started.html
 ---
 
-OTPless is not currently possible with PANDA consoles because no developer FIRM has the necessary properties.
+OTPless is not currently possible with PANDA / SNAKE consoles because no developer FIRM has the necessary properties.
 {: .notice--info}
 
 For now, a DS flashcart is _required_!

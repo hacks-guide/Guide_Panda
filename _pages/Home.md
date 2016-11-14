@@ -11,7 +11,7 @@ header:
 excerpt: 'A complete guide to developer 3DS custom firmware, <br /> from stock to arm9loaderhax.<br />'
 ---
 
-**This guide is for developer ("PANDA") consoles _only_!**
+**This guide is for developer ("PANDA" or "SNAKE") consoles _only_!**
 {: .notice--danger}
 
 **This guide needs *your* help to seed [these](https://plailect.github.io/Guide/rss.xml) torrents!**
