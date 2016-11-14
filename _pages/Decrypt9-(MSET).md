@@ -21,9 +21,9 @@ permalink: /decrypt9-(mset).html
 4. Put `Decrypt9.nds` from the Decrypt9 zip on your DS flashcard
 5. Start your DS flashcard from your PANDA
 6. Boot `Decrypt9.nds` using your flashcart
-7. Select the correct option for your system version
-  + 4.X.X -> "4.x Decrypt9WIP"
-  + 6.X.X -> "6.x Decrypt9WIP"
+7. Select the correct option for your device
+  + N3DS PANDA -> "4.x NDG Decrypt9WIP"
+  + O3DS PANDA -> "4.x DG Decrypt9WIP"
 8. Reboot the system, then go to System Settings, then "Other Settings", then "Profile", then "Nintendo DS Profile"
 9. If the exploit was successful, you will have booted into Decrypt9
 
