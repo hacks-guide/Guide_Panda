@@ -17,7 +17,7 @@ We will also setup the ability to launch payloads from arm9loaderhax, giving us 
 
 #### What you need
 
-* [`aeskeydb_panda.zip`](../Guide/torrents/aeskeydb_panda.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:8409379ff4f495e53be1032e539f07fad05e0874"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
+* [`aeskeydb_panda.zip`](../Guide/torrents/aeskeydb_panda.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:de90db8584fe9297b3b3e9cfcafea6d10819170d"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
 * [`safea9lhinstaller_v2_panda.zip`](../Guide/torrents/safea9lhinstaller_v2_panda.torrent) - <code class="highlighterrouge"><a href="magnet:?xt=urn:btih:502d3731fb5d4bec2fcdfbd21e6a08f2125dc583"><i class="fa fa-magnet" aria-hidden="true"></i></a></code>
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest)
 * The latest release of [Decrypt9WIP](https://github.com/d0k3/Decrypt9WIP/releases/latest)
