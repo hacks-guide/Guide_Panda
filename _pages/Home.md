@@ -33,7 +33,7 @@ In most cases, running homebrew on your console is 100% free using just the Inte
 
 **Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do. For instance, signature patches let you install unsigned titles that appear right on your HOME Menu.
 
-CFW can be easily set up on any console that is on 9.2.0-20 or lower. Other versions can be downgraded, most for free or with just an exploit game.
+CFW can be easily set up on any console and version
 
 ## What does this guide install?
 
