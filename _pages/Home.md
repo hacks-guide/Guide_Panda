@@ -14,7 +14,7 @@ excerpt: 'A complete guide to developer 3DS custom firmware, <br /> from stock t
 **This guide is for developer ("PANDA" or "SNAKE") consoles _only_!**
 {: .notice--danger}
 
-**This guide needs *your* help to seed [these](https://plailect.github.io/Guide/rss.xml) torrents!**
+**This guide needs *your* help to seed [these](https://3ds.guide/rss.xml) torrents!**
 {: .notice--info}
 
 **To use the [torrent](https://en.wikipedia.org/wiki/Torrent_file) files in this guide, you will need a torrent client like [Transmission](https://sourceforge.net/projects/trqtw/files/latest/download)**
