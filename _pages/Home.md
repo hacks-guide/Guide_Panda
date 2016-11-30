@@ -17,7 +17,7 @@ excerpt: 'A complete guide to developer 3DS custom firmware, <br /> from stock t
 **This guide needs *your* help to seed [these](https://3ds.guide/rss.xml) torrents!**
 {: .notice--info}
 
-**To use the [torrent](https://en.wikipedia.org/wiki/Torrent_file) files in this guide, you will need a torrent client like [Transmission](https://sourceforge.net/projects/trqtw/files/latest/download)**
+**To use the [torrent](https://en.wikipedia.org/wiki/Torrent_file) files in this guide, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download)**
 {: .notice--info}
 
 **Read all of the introductory pages before proceeding.**
