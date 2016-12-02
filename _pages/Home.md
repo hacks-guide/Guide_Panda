@@ -12,7 +12,7 @@ excerpt: 'A complete guide to developer 3DS custom firmware, <br /> from stock t
 ---
 
 {% capture notice-home %}
-**This guide is for developer ("PANDA" or "SNAKE") consoles _only_!
+**This guide is for developer ("PANDA" or "SNAKE") consoles _only_!    
 If you have a retail (consumer purchased; not from the Nintendo Developer Program) console, check out the [standard Guide](https://3ds.guide)**
 {% endcapture %}
 
