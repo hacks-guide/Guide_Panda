@@ -57,7 +57,7 @@ We will also setup the ability to launch payloads from arm9loaderhax, giving us 
 
 1. Reinsert your SD card into your 3DS
 2. Do the steps for installing arm9loaderhax on your device:
-3. You should be on 2.1.0
+3. You should be on 0_15_20
 4. Go to `http://dukesrg.github.io/2xrsa.html?arm11.bin` on your 3DS
   + If you get an error, [follow this troubleshooting guide](troubleshooting#ts_browser)
   + If you get a glitched screen, [follow this troubleshooting guide](troubleshooting#ts_safe_a9lh_screen)

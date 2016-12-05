@@ -56,8 +56,8 @@ This happens occasionally, but the reason is unknown. The buttons will still wor
 1. Try booting without any cartridges inserted (including flashcarts)
 2. If you have a hardmod and a NAND backup, flash the backup back to SysNAND.
 3. Try booting into recovery mode and updating your system.    
-    *This probably will not work for an Old 3DS downgraded to 2.1.0*    
-    **This will BRICK a New 3DS downgraded to 2.1.0**
+    *This probably will not work for an Old 3DS downgraded to 0_15_20*    
+    **This will BRICK a New 3DS downgraded to 0_15_20**
     1. Power off your 3DS by holding down the power button.
     2. Hold L+R+A+Up.
     3. Power on the 3DS.
