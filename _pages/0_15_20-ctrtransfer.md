@@ -26,7 +26,7 @@ Never format a 2DS while on a version <6.0.0 or you will be unable to complete i
 You should be in Decrypt9 for these steps.
 
 1. Press (Select) on the main menu to eject your SD card, then put it in your computer
-2. Copy the 0_15_20 `.bin` and `.bin.sha` from the ctrtransfer zip to the `/files9/` folder on your SD card
+2. Copy the 0_15_20 `.bin` and `.bin.sha` from the ctrtransfer `.zip` to the `/files9/` folder on your SD card
 3. Copy `SecureInfo_B` from `SecureInfo_B-panda.zip` to the `/files9/` folder on your SD card
 3. Reinsert your SD card into your 3DS
 4. Press (B) to get to the Decrypt9 main menu

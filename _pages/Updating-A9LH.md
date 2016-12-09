@@ -40,11 +40,11 @@ These steps will also update your various payloads and the AES key database.
 4. Delete the `a9lh` folder from the root of your SD card if it exists
 5. Copy _the contents of_ `safea9lhinstaller_v2_panda.zip` to the root of your SD card
 16. Copy `aeskeydb.bin` from `aeskeydb_panda.zip` to the `/files9/` folder on your SD card
-15. Copy `Decrypt9WIP.bin` from the Decrypt9WIP zip to the `/luma/payloads/` folder on your SD card and rename `Decrypt9WIP.bin` to `start_Decrypt9WIP.bin`
-16. Copy `GodMode9.bin` from the GodMode9 zip to the `/luma/payloads/` folder on your SD card and rename `GodMode9.bin` to `up_GodMode9.bin``
-5. Copy `arm9loaderhax.bin` from the SafeA9LHInstaller zip to the `/luma/payloads` folder on your SD card
+15. Copy `Decrypt9WIP.bin` from the Decrypt9WIP `.zip` to the `/luma/payloads/` folder on your SD card and rename `Decrypt9WIP.bin` to `start_Decrypt9WIP.bin`
+16. Copy `GodMode9.bin` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card and rename `GodMode9.bin` to `up_GodMode9.bin``
+5. Copy `arm9loaderhax.bin` from the SafeA9LHInstaller `.zip` to the `/luma/payloads` folder on your SD card
 6. Rename `arm9loaderhax.bin` in `/luma/payloads` to `down_safea9lhinstaller.bin`
-8. Copy `arm9loaderhax.bin` from the Luma3DS zip to the root of your SD card, overwrite existing files
+8. Copy `arm9loaderhax.bin` from the Luma3DS `.zip` to the root of your SD card, overwrite existing files
 9. Reinsert your SD card into your 3DS
 
 ##### Section II - Payload update
@@ -78,7 +78,7 @@ These steps will also update your various payloads and the AES key database.
 5. Press (Y) to paste a copy of `arm9loaderhax.bin`
 6. Select "Copy path(s)"
 6. Press (A) to unlock SysNAND writing, then input the key combo given
-7. Press Start to reboot
+7. Press (Start) to reboot
 15. Reboot with the SD card removed
   + Booting the device at least once with the SD card removed will allow you to configure the CTRNAND based luma installation
 16. Use the (A) button and the D-Pad to turn on the following:    

@@ -21,7 +21,7 @@ Browser based exploits (such as browserhax or 2xrsa) are often unstable and cras
 You copied the wrong `arm9loaderhax.bin` file to your SD card (you were only supposed to copy the `3ds` folder and `SafeA9LHInstaller.dat` file from the SafeA9LHInstaller zip)    
 
 1. Use the correct `arm9loaderhax.bin`
-    1. Copy `arm9loaderhax.bin` from the Luma3DS zip to the root of your SD card
+    1. Copy `arm9loaderhax.bin` from the Luma3DS `.zip` to the root of your SD card
     2. Reboot holding select and continue
 
 ## <a name="ts_safe_a9lh_screen" />SafeA9LHInstaller shows a glitched screen

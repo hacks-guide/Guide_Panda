@@ -16,9 +16,9 @@ permalink: /decrypt9-(mset).html
 
 1. Install the 0_17_6 MSET CIA for your region using Dev Menu
 1. Create a folder named `files9` on the root of your SD card if it does not already exist
-2. Copy `Launcher.dat` and `Decrypt9WIP.dat` from the Decrypt9WIP zip to the root of your SD card
+2. Copy `Launcher.dat` and `Decrypt9WIP.dat` from the Decrypt9WIP `.zip` to the root of your SD card
 3. Reinsert your SD card into your PANDA / SNAKE
-4. Put `Decrypt9.nds` from the Decrypt9 zip on your DS flashcard
+4. Put `Decrypt9.nds` from the Decrypt9 `.zip` on your DS flashcard
 5. Start your DS flashcard from your PANDA / SNAKE
 6. Boot `Decrypt9.nds` using your flashcart
 7. Select the correct option for your device
