@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /
+permalink: /index.html
 title: "devGuide"
 header:
   overlay_color: "#5e616c"
