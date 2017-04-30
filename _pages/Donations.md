@@ -8,11 +8,6 @@ layout: single-no-ads
 {: .text-center}
 {: .notice--success}
 
-![Bitcoin](images/donate_64.png){: .align-center}
-17qitDUbhhd8PdEa6kxJWSqbNvg9PRS4rT
-{: .text-center}
-
-
-![Paypal](images/paypal.jpg){: .align-center}
-devonmaloney@hotmail.com
+![Bitcoin]({{ base_path }}/images/donate_64.png){: .align-center}
+1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety
 {: .text-center}
