@@ -84,7 +84,7 @@ We will also setup the ability to launch payloads from arm9loaderhax, giving us 
 ##### Section IV - Restoring the System
 
 1. Copy `NANDmin.bin` to the `/files9/` folder on your SD card
-2. Open Decrypt9WIP from arm9loaderhax by holding (Start) on boot than selecting Decrypt9WIP
+2. Open Decrypt9WIP from arm9loaderhax by holding (Start) on boot than select Decrypt9WIP
 3. Go to "SysNAND Options"
 3. Go to "SysNAND Backup/Restore"
 4. Restore **(keep a9lh)** from `NANDmin.bin`
@@ -101,7 +101,7 @@ We will also setup the ability to launch payloads from arm9loaderhax, giving us 
 
 ##### Section V - CTRNAND Luma3DS
 
-1. Open GodMode9 from arm9loaderhax by holding (Start) on boot than selecting GodMode9
+1. Open GodMode9 from arm9loaderhax by holding (Start) on boot than select GodMode9
 2. Navigate to `SDCARD`
 3. Press (Y) on `arm9loaderhax.bin` to copy it
 4. Press (B) to go back to the main menu
