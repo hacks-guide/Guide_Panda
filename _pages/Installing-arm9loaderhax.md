@@ -45,8 +45,8 @@ We will also setup the ability to launch payloads from arm9loaderhax, giving us 
 12. Copy `arm9loaderhax.bin` from the `out` folder in the Luma3DS `.zip` to the root of your SD card
 13. Create a folder named `luma` on the root of your SD card
 14. Create a folder named `payloads` in the `luma` folder on your SD card
-15. Copy `Decrypt9WIP.bin` from the Decrypt9WIP `.zip` to the `/luma/payloads/` folder on your SD card and rename `Decrypt9WIP.bin` to `start_Decrypt9WIP.bin`
-16. Copy `GodMode9.bin` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card and rename `GodMode9.bin` to `up_GodMode9.bin`
+15. Copy `Decrypt9WIP.bin` from the Decrypt9WIP `.zip` to the `/luma/payloads/` folder on your SD card
+16. Copy `GodMode9.bin` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card
 16. Copy `aeskeydb.bin` from `aeskeydb_panda.zip` to the `/files9/` folder on your SD card
 17. Delete the 0_23_5 SystemUpdater folder from the root of your SD card
 17. Extract the 0_25_3 SystemUpdater `.zip` to the root of your SD card
@@ -84,7 +84,7 @@ We will also setup the ability to launch payloads from arm9loaderhax, giving us 
 ##### Section IV - Restoring the System
 
 1. Copy `NANDmin.bin` to the `/files9/` folder on your SD card
-2. Open Decrypt9WIP from arm9loaderhax by holding (Start) on boot
+2. Open Decrypt9WIP from arm9loaderhax by holding (Start) on boot than selecting Decrypt9WIP
 3. Go to "SysNAND Options"
 3. Go to "SysNAND Backup/Restore"
 4. Restore **(keep a9lh)** from `NANDmin.bin`
@@ -101,7 +101,7 @@ We will also setup the ability to launch payloads from arm9loaderhax, giving us 
 
 ##### Section V - CTRNAND Luma3DS
 
-1. Open GodMode9 from arm9loaderhax by holding (Start) on boot
+1. Open GodMode9 from arm9loaderhax by holding (Start) on boot than selecting GodMode9
 2. Navigate to `SDCARD`
 3. Press (Y) on `arm9loaderhax.bin` to copy it
 4. Press (B) to go back to the main menu
