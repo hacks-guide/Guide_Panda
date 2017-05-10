@@ -12,4 +12,10 @@ Thanks to everyone on [the original credits](https://3ds.guide/credits).
 If I forgot you here, contact me and I'll add your name.
 {: .notice}
 
-+ SciresM
+{% capture notice-1 %}
+
+    + SciresM
+
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>

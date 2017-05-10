@@ -32,13 +32,6 @@ This happens occasionally, but the reason is unknown. The buttons will still wor
     2. The console will reboot
         + If the console does not reboot, wait 10 seconds, then power off your 3DS by holding down the power button
 
-## <a name="ts_d9_backup" />Decrypt9 or Hourglass9 won't restore / can't find my NAND backup
-
-1. Make sure you do not have any folder named "Decrypt9" on **the root** of your SD card
-3. Try checking your SD card file system with something like `fsck.vfat <sd partition path>` (on *nix) or `CHKDSK <sd drive letter> /F` (on Windows)
-4. Try backing up your SD card files, then formatting it and copying them back
-5. Try a different SD card
-
 ## <a name="ts_sys_down" />Black screen on SysNAND boot
 
 1. Try booting with your SD card out, and then reinserting it after booting.
@@ -56,8 +49,8 @@ This happens occasionally, but the reason is unknown. The buttons will still wor
 1. Try booting without any cartridges inserted (including flashcarts)
 2. If you have a hardmod and a NAND backup, flash the backup back to SysNAND.
 3. Try booting into recovery mode and updating your system.    
-    *This probably will not work for an Old 3DS downgraded to 0_15_20*    
-    **This will BRICK a New 3DS downgraded to 0_15_20**
+    *This probably will not work for an Old 3DS downgraded to 0.15.20*    
+    **This will BRICK a New 3DS downgraded to 0.15.20**
     1. Power off your 3DS by holding down the power button.
     2. Hold L+R+A+Up.
     3. Power on the 3DS.

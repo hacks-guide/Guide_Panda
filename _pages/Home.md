@@ -32,13 +32,13 @@ If you have a retail (consumer purchased; not from the Nintendo Developer Progra
 
 [**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
 
-In most cases, running homebrew on your console is 100% free using just the Internet Browser. There are also various other exploits in commercial games to get homebrew running.
+In most cases, running homebrew on your console is 100% free using just a DS flashcart. There are also various other exploits in commercial games to get homebrew running.
 
 ## What is Custom Firmware?
 
 **Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do. For instance, signature patches let you install unsigned titles that appear right on your HOME Menu.
 
-CFW can be easily set up on any console and version
+CFW can be easily set up on any dev console and version
 
 ## What does this guide install?
 
@@ -48,6 +48,20 @@ firmware to arm9loaderhax powered Custom Firmware.
 Arm9loaderhax is the newest and best method of launching Custom Firmware that gives us nearly full control of the system only milliseconds into boot, which is similar to the effect of BootMii for the Wii.
 
 The benefits of arm9loaderhax over other Custom Firmware launch methods are numerous, and as such it is recommended to use this guide over any other that relies on outdated software (such as menuhax or rxTools).
+
+## What can I do with Custom Firmware?
+
++ Play all game cards and eShop games, regardless of region
++ Customize your HOME Menu with user-created [themes](https://3dsthem.es/), [badges](https://badges.3dsthem.es/), and [splash screens](https://splash.3dsthem.es/)
++ Use "ROM hacks" for games that you own
++ Take gameplay and application screenshots
++ [Backup, edit, and restore](https://gbatemp.net/threads/413143/) saves for many games
++ Play games for older systems with various emulators, using RetroArch or other standalone emulators. (Works best with a New Nintendo 3DS)
++ Install homebrew titles to your system, and have them appear on your HOME Menu
++ Dump your game cards to a format you can install, and play them without needing the card
++ New 3DS only: stream live gameplay to your PC wirelessly with NTR CFW
++ Run many old Nintendo DS flash carts that were blocked long ago or never worked on Nintendo 3DS
++ Safely update to the latest system version without fear of losing access to homebrew
 
 ## What do I need to know before starting?
 
