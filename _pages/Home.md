@@ -1,7 +1,7 @@
 ---
 layout: splash
 permalink: /index.html
-title: "devGuide"
+title: "3DS devGuide"
 header:
   overlay_color: "#5e616c"
   overlay_image: images/home-page-feature.jpg

@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "devGuide"
+title                    : "3DS devGuide"
 title_separator          : "-"
 name                     : "Plailect"
 description              : "Full arm9loaderhax CFW devGuide"
