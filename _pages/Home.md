@@ -9,7 +9,7 @@ header:
   cta_label: "Get Started"
   cta_url: "/get-started"
   caption:
-excerpt: 'A complete guide to developer 3DS custom firmware, <br /> from stock to arm9loaderhax.<br />'
+excerpt: 'A complete guide to developer 3DS custom firmware, <br /> from stock to boot9strap.<br />'
 ---
 
 {% capture notice-home %}
@@ -38,16 +38,20 @@ In most cases, running homebrew on your console is 100% free using just a DS fla
 
 **Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do. For instance, signature patches let you install unsigned titles that appear right on your HOME Menu.
 
-CFW can be easily set up on any dev console and version
+CFW can be easily set up on any dev console version
 
 ## What does this guide install?
 
 This guide has the end goal of taking a completely unmodified 3DS from stock
-firmware to arm9loaderhax powered Custom Firmware.
+firmware to boot9strap powered Custom Firmware. On some versions, it utilizes homebrew as a stepping off point, but Custom Firmware is still the goal.
 
-Arm9loaderhax is the newest and best method of launching Custom Firmware that gives us nearly full control of the system only milliseconds into boot, which is similar to the effect of BootMii for the Wii.
+boot9strap is the newest and best method of launching Custom Firmware that gives us nearly full control of the system only milliseconds into boot, which is similar to the effect of BootMii for the Wii. It gives us even earlier control than arm9loaderhax did, and, unlike standard sighax, boot9strap uses an NDMA overwrite exploit in order to gain Boot9 code execution. This means that any console running boot9strap is capable of dumping the console unique OTP (`OTP.bin`), the ARM11 bootrom (`boot11.bin`), and the ARM9 bootrom (`boot9.bin`).
 
-The benefits of arm9loaderhax over other Custom Firmware launch methods are numerous, and as such it is recommended to use this guide over any other that relies on outdated software (such as menuhax or rxTools).
+The benefits of boot9strap over other Custom Firmware launch methods are numerous, and as such it is recommended to use this guide over any other that relies on outdated software (such as menuhax + rxTools, arm9loaderhax, or even normal sighax).
+
+For information on how boot9strap works, please see [this presentation](https://sciresm.github.io/33-and-a-half-c3/) by [SciresM](https://github.com/SciresM/).
+
+For a list of each of the calculated sighax signatures (the platform boot9strap is built on), see [this gist](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52).
 
 ## What can I do with Custom Firmware?
 
@@ -66,7 +70,7 @@ The benefits of arm9loaderhax over other Custom Firmware launch methods are nume
 ## What do I need to know before starting?
 
 + **Before beginning the guide, you must know the risks of 3DS hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
-+ This guide will work on New 3DS, Old 3DS, and 2DS in all regions on on all firmwares (except for Old 3DS JPN).
++ This guide will work on New 3DS, Old 3DS, and 2DS in all regions on on all firmwares (except for Old 3DS JPN due to a missing 0.23.5 firmware pack).
 + If everything goes according to plan, you will lose no data and end up with everything that you started with.
 + A large part of this guide is lengthy NAND dumps and downgrades, so the entire process can take *several* hours thanks to the 3DS's slow processor.
 + **Keep the device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!**

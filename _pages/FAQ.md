@@ -12,7 +12,7 @@ permalink: /faq.html
 **A:** Use Luma3DS Updater
 <br><br>
 <a name="faq_gatewaysky" />**Q:** *I heard about this thing I have to pay for (Gateway, Sky3DS, etc), is that something I need?*    
-**A:** No. arm9loaderhax is a superior method of loading hax that runs early in boot and opens up the opportunity for things such as true custom firmware.
+**A:** No. boot9strap is a superior method of loading hax that runs early in boot and opens up the opportunity for things such as true custom firmware.
 <br><br>
 <a name="faq_need" />**Q:** *What do I need to do this guide?*    
 **A:** This guide can be completely done with free software and (if you have no browser) a compatible game   
@@ -33,7 +33,7 @@ permalink: /faq.html
 **A:** For support, ask for help at [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey).
 <br><br>
 <a name="faq_le4gbsd" />**Q:** *Can I do this with a 4GB (or smaller) SD card?*    
-**A:** Thanks to the new CTRNAND method, yes!
+**A:** Yes!
 <br><br>
 <a name="faq_ge128gbsd" />**Q:** *Can I use a 128 GB (or larger) SD card?*    
 **A:** Yes, but some users have reported slowdowns when using such large sizes. Note that you cannot format the card with exFAT; you need to format it with FAT32.

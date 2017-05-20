@@ -12,8 +12,8 @@ main:
   - title: "Credits"
     url: /credits
 
-  - title: "Updating A9LH"
-    url: /updating-a9lh
+  - title: "Updating to boot9strap"
+    url: /updating-to-boot9strap
 
   - title: "GodMode9 Usage"
     url: /godmode9-usage
