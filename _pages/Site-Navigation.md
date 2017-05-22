@@ -19,7 +19,7 @@ sitemap: false
 + [H2testw (Windows)](h2testw-(windows))
 + [Home](/)
 + [Installing arm9loaderhax](installing-arm9loaderhax)
-+ [SafeCTRTransfer (MSET)](safectrtransfer-(mset))
++ [SafeCTRTransfer (Browser)](safectrtransfer-(browser))
 + [Troubleshooting](troubleshooting)
 + [Updating A9LH](updating-a9lh)
 + [Why Ads?](why-ads)

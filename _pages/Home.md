@@ -32,7 +32,7 @@ If you have a retail (consumer purchased; not from the Nintendo Developer Progra
 
 [**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
 
-In most cases, running homebrew on your console is 100% free using just a DS flashcart. There are also various other exploits in commercial games to get homebrew running.
+In most cases, running homebrew on your console is 100% free using just the browser.
 
 ## What is Custom Firmware?
 
