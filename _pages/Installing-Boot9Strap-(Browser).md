@@ -1,7 +1,7 @@
 ---
 title: "Installing boot9strap (Browser)" #
 lang: en
-permalink: /installing-boot9strap-(Browser).html
+permalink: /installing-boot9strap-(browser).html
 ---
 
 To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download)
