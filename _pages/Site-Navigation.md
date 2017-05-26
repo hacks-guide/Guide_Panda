@@ -22,6 +22,5 @@ sitemap: false
 + [SafeCTRTransfer (Browser)](safectrtransfer-(browser))
 + [Troubleshooting](troubleshooting)
 + [Updating A9LH](updating-a9lh)
-+ [Why Ads?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>

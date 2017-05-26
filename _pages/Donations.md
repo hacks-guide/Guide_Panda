@@ -1,7 +1,6 @@
 ---
 title: "Donations"
 permalink: /donations.html
-layout: single-no-ads
 ---
 
 [![Bitcoin]({{ base_path }}/images/bitcoin_white.png){:height="73px" width="256px"}{: style="padding-bottom: .35em"}](bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety){: .align-center}
