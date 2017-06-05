@@ -1,5 +1,5 @@
 ---
-title: "Updating to boot9strap" #
+title: "A9LH to B9S" #
 lang: en
 permalink: /updating-to-boot9strap.html
 ---
@@ -9,6 +9,9 @@ This page is for existing arm9loaderhax users to update their devices to boot9st
 
 All future releases of Luma3DS will only be made in the `.firm` format, which will only be compatible with boot9strap and sighax. This means that to continue receiving the latest updates of Luma3DS, you should use this page to update your installation.
 {: .notice--info}
+
+If you have a PIN enabled on Luma3DS, SafeB9SInstaller will give you an "OTP Crypto Fail" error unless you temporarily disable your PIN (you can re-enable the PIN after the update).
+{: .notice--warning}
 
 To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download)
 {: .notice--info}

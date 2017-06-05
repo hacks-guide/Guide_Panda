@@ -10,6 +10,7 @@ sitemap: false
 **All**
 
 + [0.23.5 Install](0.23.5-install)
++ [A9LH to B9S](a9lh-to-b9s)
 + [Credits](credits)
 + [Donations](donations)
 + [F3 (Linux)](f3-(linux))
@@ -21,6 +22,6 @@ sitemap: false
 + [Installing arm9loaderhax](installing-arm9loaderhax)
 + [SafeCTRTransfer (Browser)](safectrtransfer-(browser))
 + [Troubleshooting](troubleshooting)
-+ [Updating A9LH](updating-a9lh)
++ [Updating B9S](updating-b9s)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
