@@ -61,7 +61,7 @@ During this process, we also setup programs such as the following:
 1. Press (Start) to save and reboot
   + If you get a black screen, just continue to the next section
 
-##### Section III - Restoring the System
+##### Section III - Updating the System
 
 1. Using Dev Menu, navigate to the 0.25.3 SystemUpdater folder
 1. Press (L + R + A) to install all CIAs
@@ -75,12 +75,8 @@ During this process, we also setup programs such as the following:
 
 ##### Section VI - CTRNAND Luma3DS
 
-1. Reboot holding (Start) during boot to launch the Luma3DS chainloader menu
-1. Launch GodMode9 by pressing (A)
-1. Navigate to `[0:] SDCARD` -> `luma` -> `payloads`
-1. Press (X) on `SafeB9SInstaller.bin` to delete it
-1. Press (A) to confirm
-1. Press (B) to return to `[0:] SDCARD`
+1. Reboot holding (Start) during boot to launch GodMode9
+1. Navigate to `[0:] SDCARD`
 1. Press (Y) on `boot.firm` to copy it
 1. Press (B) to return to the main menu
 1. Navigate to `[1:] SYSNAND CTRNAND`
@@ -88,14 +84,12 @@ During this process, we also setup programs such as the following:
 1. Select "Copy path(s)"
 1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
 1. Press (B) to return to the main menu
-1. Hold (R) and press (B) at the same time to eject your SD card
-1. Remove your SD card from your device
-1. Press (Start) to reboot your device with your SD card removed
-  + Booting your device at least once with your SD card removed will allow you to configure the CTRNAND based Luma3DS installation
-1. Use the (A) button and the D-Pad to turn on the following:    
-  + **"Show NAND or user string in System Settings"**
-1. Reinsert your SD card into your device
-1. Press (Start) to save and reboot
+1. Navigate to `[0:] SDCARD`
+1. Press (Y) on the `luma` folder to copy it
+1. Press (B) to return to the main menu
+1. Navigate to `[1:] SYSNAND CTRNAND` -> `rw`
+1. Press (Y) to paste a copy of the `luma` folder from your SD card
+1. Select "Copy path(s)"
 
 ##### Section V - NAND Backup
 
@@ -129,8 +123,9 @@ Note that this guide does not have Luma3DS updater anymore due to its incompatib
 {% capture notice-6 %}   
 You will now boot Luma3DS CFW SysNAND by default.    
 You can now hold (Select) on boot to launch the Luma3DS configuration menu.    
-You can now hold (Start) on boot to launch the Luma3DS chainloader menu (note that the Luma3DS chainloader menu is only displayed if there is more than one payload detected).
-You can now hold (Start) + (Select) + (X) on boot to dump the ARM11 bootrom (`boot11.bin`), the ARM9 bootrom (`boot9.bin`), and your console unique OTP (`OTP.bin`) to the `/boot9strap/` folder on your SD card.
+You can now hold (Start) on boot to launch the Luma3DS chainloader menu (note that the Luma3DS chainloader menu is only displayed if there is more than one payload detected).    
+You can now hold (Start) + (Select) + (X) on boot to dump the ARM11 bootrom (`boot11.bin`), the ARM9 bootrom (`boot9.bin`), and your console unique OTP (`OTP.bin`) to the `/boot9strap/` folder on your SD card (note that this will not have any kind of prompt or message).    
+You can now press (L) + (Down) + (Select) while the system is booted to open the Rosalina menu integrated into Luma3DS. For a full list of Rosalina features, please see the [Luma3DS v8.0 Release](https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0)
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>

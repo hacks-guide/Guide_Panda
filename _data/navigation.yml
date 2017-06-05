@@ -12,8 +12,11 @@ main:
   - title: "Credits"
     url: /credits
 
-  - title: "Updating to boot9strap"
-    url: /updating-to-boot9strap
+  - title: "Updating B9S"
+    url: /updating-b9s
+
+  - title: "A9LH to B9S"
+    url: /a9lh-to-b9s
 
   - title: "GodMode9 Usage"
     url: /godmode9-usage
