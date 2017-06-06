@@ -1,7 +1,6 @@
 ---
 title: "Site Navigation"
 permalink: /site-navigation.html
-layout: single-no-ads
 sitemap: false
 ---
 
