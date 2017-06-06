@@ -1,6 +1,5 @@
 ---
-title: "Troubleshooting" #
-lang: en
+title: "Troubleshooting"
 permalink: /troubleshooting.html
 ---
 

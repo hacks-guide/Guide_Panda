@@ -1,5 +1,6 @@
 ---
 title: "Updating B9S"
+permalink: /updating-b9s.html
 ---
 
 This page is for existing boot9strap users to update their installation of boot9strap to the latest version.

@@ -1,6 +1,5 @@
 ---
-title: "Finalizing Setup" #
-lang: en
+title: "Finalizing Setup"
 permalink: /finalizing-setup.html
 ---
 
@@ -17,8 +16,8 @@ In this case, we use Luma3DS by [AuroraWright](https://github.com/AuroraWright/)
 <br><br>
 During this process, we also setup programs such as the following:    
 
-+  **FBI** *(installs CIA formatted games and applications)*
 +  **Themely** *(installs custom themes)*
++  **Luma3DS Updater** *(updates your CFW installation easily)*
 +  **GodMode9** *(multipurpose tool which can do NAND and cartridge functions)*
 
 {% endcapture %}
@@ -27,39 +26,25 @@ During this process, we also setup programs such as the following:
 
 #### What you need
 
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
 * The latest release of [Themely](https://github.com/ErmanSayin/Themely/releases/latest) *(the `.cia` file)*
 * The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest)
+* The latest fork of [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(the `.cia` file)*
 
 #### Instructions
 
 ##### Section I - Prep Work
 
+1. Power off your device
 1. Insert your SD card into your computer
 1. Create a folder named `cias` on the root of your SD card if it does not already exist
-1. Create a folder named `hblauncherloader` on the root of your SD card if it does not already exist
-1. Copy `hblauncher_loader.cia` from the hblauncher_loader `.zip` to the `/cias/` folder on your SD card
-1. Copy `lumaupdater.cia` from the Luma3DS Updater `.zip` to the `/cias/` folder on your SD card
-1. Copy `FBI.cia` from the FBI `.zip` to the `/cias/` folder on your SD card
-1. Copy `DSP1.cia` to the `/cias/` folder on your SD card
+1. Copy `lumaupdater.cia` to the `/cias/` folder on your SD card
+1. Copy `FBI.cia` to the `/cias/` folder on your SD card
 1. Copy `Themely.cia` to the `/cias/` folder on your SD card
-1. Copy `boot.firm` from the Luma3DS `.7z` to the root of your SD card
-1. Create a folder named `luma` on the root of your SD card
 1. Create a folder named `payloads` in the `luma` folder on your SD card
 1. Copy `GodMode9.firm` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card
 1. Delete the 0.23.5 SystemUpdater folder from the root of your SD card
 1. Extract the 0.25.3 SystemUpdater `.zip` to the root of your SD card
 1. Reinsert your SD card into your device
-
-##### Section II - Configuring Luma3DS
-
-1. Boot your device to enter the Luma3DS configuration menu
-  + If you get a black screen, [follow this troubleshooting guide](troubleshooting#ts_sys_b9s)
-1. Use the (A) button and the D-Pad to turn on the following:    
-  + **"Show NAND or user string in System Settings"**
-1. Press (Start) to save and reboot
-  + If you get a black screen, just continue to the next section
 
 ##### Section III - Updating the System
 
