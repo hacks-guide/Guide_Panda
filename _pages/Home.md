@@ -42,7 +42,7 @@ This guide may be compatible with the following developer units, but this is unc
 
 {% endcapture %}
 
-<div class="notice--danger">{{ notice-home | markdownify }}</div>
+<div class="notice--primary">{{ notice-home | markdownify }}</div>
 
 This guide needs *your* help to seed [these](https://3ds.guide/rss.xml) torrents!
 {: .notice--info}
