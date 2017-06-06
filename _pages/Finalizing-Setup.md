@@ -48,15 +48,12 @@ During this process, we also setup programs such as the following:
 
 ##### Section III - Updating the System
 
-1. Using Dev Menu, navigate to the 0.25.3 SystemUpdater folder
-1. Press (L + R + A) to install all CIAs
-1. Navigate to the NATIVE_FIRM CIA
-  + Old 3DS PANDA / SNAKE: `0004013800000002.cia`
-  + New 3DS PANDA / SNAKE: `0004013820000002.cia`
-1. Update your PANDA / SNAKE's FIRM by pressing (Start + Y) while highlighting the NATIVE_FIRM CIA
-1. You can also update your PANDA / SNAKE using a CTR System Updater (CSU)
+This section is optional and requires both a CTR flash card and the development hardware to write a CSU to that CTR flash card.
+{: .notice--info}
+
+1. Update your PANDA unit by using the latest version CTR System Updater (CSU) available to you
   + **This is only safe for Luma3DS version 6.6 (commit 0b16d88) and above!**
-  + **Attempting to update your PANDA / SNAKE using a CSU on any lower Luma3DS version will BRICK your device!**
+  + **Attempting to update your PANDA using a CSU on any lower Luma3DS version will overwrite your B9S installation!**
 
 ##### Section VI - CTRNAND Luma3DS
 
@@ -96,8 +93,8 @@ During this process, we also setup programs such as the following:
 ___
 
 {% capture notice-11 %}
-**Updating your PANDA / SNAKE using a CSU is only safe for Luma3DS version 6.6 (commit 0b16d88) and above!**    
-**Attempting to update your PANDA / SNAKE using a CSU on any lower Luma3DS version will BRICK your device!**
+**Updating your PANDA using a CSU is only safe for Luma3DS version 6.6 (commit 0b16d88) and above!**    
+**Attempting to update your PANDA using a CSU on any lower Luma3DS version will overwrite your B9S installation!**
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-11 | markdownify }}</div>

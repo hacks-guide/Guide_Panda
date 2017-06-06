@@ -8,6 +8,8 @@ sitemap: false
 **All**
 
 + [0.23.5 Install](0.23.5-install)
++ [0.23.5 Install (CIAs)](0.23.5-install-(cias))
++ [0.23.5 Install (CSU)](0.23.5-install-(csu))
 + [A9LH to B9S](a9lh-to-b9s)
 + [Credits](credits)
 + [Donations](donations)
