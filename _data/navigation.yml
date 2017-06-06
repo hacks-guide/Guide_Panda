@@ -3,9 +3,6 @@ main:
   - title: "FAQ"
     url: /faq
 
-  - title: "Troubleshooting"
-    url: /troubleshooting
-
   - title: "Donations"
     url: /donations
 
@@ -17,6 +14,9 @@ main:
 
   - title: "A9LH to B9S"
     url: /a9lh-to-b9s
+
+  - title: "Troubleshooting"
+    url: /troubleshooting
 
   - title: "GodMode9 Usage"
     url: /godmode9-usage

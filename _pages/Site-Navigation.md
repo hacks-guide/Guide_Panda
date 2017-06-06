@@ -1,6 +1,5 @@
 ---
-title: "Site Navigation" #
-lang: en
+title: "Site Navigation"
 permalink: /site-navigation.html
 layout: single-no-ads
 sitemap: false
@@ -19,8 +18,7 @@ sitemap: false
 + [Get Started](get-started)
 + [H2testw (Windows)](h2testw-(windows))
 + [Home](/)
-+ [Installing arm9loaderhax](installing-arm9loaderhax)
-+ [SafeCTRTransfer (Browser)](safectrtransfer-(browser))
++ [Installing boot9strap (Browser)](installing-boot9strap-(browser))
 + [Troubleshooting](troubleshooting)
 + [Updating B9S](updating-b9s)
 {% endcapture %}
