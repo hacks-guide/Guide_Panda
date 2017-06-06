@@ -8,9 +8,9 @@ Before starting, you may want to check your SD card for errors using [H2testw (W
 
 #### Overview of steps
 
-- Install the 0.23.5 CIAs for your region / device
+- Install the version 0.23.5 for your region / device
 - Install boot9strap using CakeHax Browser
-- Install the 0.25.3 CIAs for your region / device
+- (Optionally) install the latest version for your region / device
 
 Continue to [0.23.5 Install](0.23.5-install)
 {: .notice--primary}

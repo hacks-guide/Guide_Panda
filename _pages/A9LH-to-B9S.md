@@ -17,10 +17,10 @@ To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on th
 
 #### What you need
 
-Note that the following required file named `secret_sector_dev.bin` is the same one that was found in `safea9lhinstaller_v2_panda.zip`. If you already have that file on your disk somewhere, you can use that one (renaming it) instead of downloading the one below.
+Note that the following required file named `secret_sector_dev.bin` is the same one that was found in `safea9lhinstaller_v2_panda.zip` with the name `secret_sector.bin`. If you already have that file on your disk somewhere, you can use that one (renaming it) instead of downloading the one below.
 {: .notice--info}
 
-Note that `secret_sector.bin` is needed to revert the arm9loaderhax exploit, which is why it is not needed for the installation of boot9strap on a stock console.
+Note that `secret_sector_dev.bin` is needed to revert the arm9loaderhax exploit, which is why it is not needed for the installation of boot9strap on a stock console.
 {: .notice--info}
 
 * <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [`secret_sector_dev.bin`](magnet:?xt=urn:btih:54d19b7fd5387f7d46cff86edbbb58737880993c&dn=secret_sector_dev.bin&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce)
@@ -101,8 +101,8 @@ You can now hold (Start) + (Select) + (X) on boot to dump the ARM11 bootrom (`bo
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
 
 {% capture notice-11 %}
-**Updating your PANDA / SNAKE using a CSU is only safe for Luma3DS version 6.6 (commit 0b16d88) and above!**    
-**Attempting to update your PANDA / SNAKE using a CSU on any lower Luma3DS version will BRICK your device!**
+**Updating your PANDA using a CSU is only safe for Luma3DS version 6.6 (commit 0b16d88) and above!**    
+**Attempting to update your PANDA using a CSU on any lower Luma3DS version will overwrite your B9S installation!**
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-11 | markdownify }}</div>

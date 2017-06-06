@@ -13,19 +13,44 @@ excerpt: 'A complete guide to developer 3DS custom firmware, <br /> from stock t
 ---
 
 {% capture notice-home %}
-**This guide is for developer ("PANDA" or "SNAKE") consoles _only_!    
-If you have a retail (consumer purchased; not from the Nintendo Developer Program) console, check out the [standard Guide](https://3ds.guide)**
+This guide is for developer ("PANDA") consoles *only*!    
+If you have a retail (consumer purchased; not from the Nintendo Developer Program) console, check out the [standard Guide](https://3ds.guide)
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-**This guide needs *your* help to seed [these](https://3ds.guide/rss.xml) torrents!**
+{% capture notice-home %}
+This guide is confirmed to be compatible with the following developer units:
+
++  CTR *(Old 3DS Test Unit)*
++  SPR *(Old 3DS XL Test Unit)*
++  FTR *(2DS Test Unit)*
++  SNAKE *(New 3DS Test Unit)*
++  CLOSER *(New 3DS XL Test Unit)*
++  PARTNER-CTR [Capture] [Debugger] [Capture Debugger] *(Old 3DS [Debugger] [Capture] [Capture with Debugger] Unit)*
++  IS-CTR-DEBUGGER [w/ SPR] *(Old 3DS Debugger [with SPR Handset] Unit)*
++  IS-SPR-DEBUGGER [w/ CAPTURE] *(Old 3DS XL Debugger [with Capture] Unit)*
++  IS-SNAKE-DevKit *(New 3DS DevKit)*
+
+This guide may be compatible with the following developer units, but this is unconfirmed:
+
++  JAN *(New 2DS XL Test Unit)*
++  IS-CTR-BOX [w/ Expansion Kit] *(CTR Flash Card Writer [with Debugger or Emulator expansion] Unit)*
++  IS-SNAKE-TESTER *(New 3DS Tester Kit)*
++  IS-SNAKE-BOX *(CTR Flash Card Writer with SNAKE Debugger and Emulator Unit)*
++  IS-RAY-DEBUGGER *(IS-SNAKE-BOX Prototype)*
+
+{% endcapture %}
+
+<div class="notice--danger">{{ notice-home | markdownify }}</div>
+
+This guide needs *your* help to seed [these](https://3ds.guide/rss.xml) torrents!
 {: .notice--info}
 
-**To use the [torrent](https://en.wikipedia.org/wiki/Torrent_file) files in this guide, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download)**
+To use the [torrent](https://en.wikipedia.org/wiki/Torrent_file) files in this guide, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download)
 {: .notice--info}
 
-**Read all of the introductory pages before proceeding.**
+Read all of the introductory pages before proceeding.
 {: .notice--warning}
 
 ## What is Homebrew?
@@ -70,7 +95,7 @@ For a list of each of the calculated sighax signatures (the platform boot9strap 
 ## What do I need to know before starting?
 
 + **Before beginning the guide, you must know the risks of 3DS hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
-+ This guide will work on New 3DS, Old 3DS, and 2DS in all regions on on all firmwares (except for Old 3DS JPN due to a missing 0.23.5 firmware pack).
++ This guide will work on New 3DS, Old 3DS, and 2DS in all regions on on all firmware versions
 + If everything goes according to plan, you will lose no data and end up with everything that you started with.
 + A large part of this guide is lengthy NAND dumps and downgrades, so the entire process can take *several* hours thanks to the 3DS's slow processor.
 + **Keep the device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!**
