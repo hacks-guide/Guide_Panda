@@ -12,7 +12,7 @@ permalink: /faq.html
 **A:** Use Luma3DS Updater
 <br><br>
 <a name="faq_gatewaysky" />**Q:** *I heard about this thing I have to pay for (Gateway, Sky3DS, etc), is that something I need?*    
-**A:** No. boot9strap is a superior method of loading hax that runs early in boot and opens up the opportunity for things such as true custom firmware.
+**A:** No. boot9strap is a superior method of loading hax that runs early in boot.
 <br><br>
 <a name="faq_need" />**Q:** *What do I need to do this guide?*    
 **A:** This guide can be completely done with free software and (if you have no browser) a compatible game   
