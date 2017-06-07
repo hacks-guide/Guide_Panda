@@ -1,6 +1,6 @@
 ---
 title: "A9LH to B9S"
-permalink: /a9lh-to-boot9strap.html
+permalink: /a9lh-to-b9s.html
 ---
 
 This page is for existing arm9loaderhax users to update their devices to boot9strap.
