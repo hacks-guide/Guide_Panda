@@ -38,6 +38,7 @@ Note that `secret_sector_dev.bin` is needed to revert the arm9loaderhax exploit,
 1. Create a folder named `boot9strap` on the root of your SD card
 1. Copy `boot.firm` from the Luma3DS `.7z` to the root of your SD card
 1. Copy `GodMode9.firm` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card
+1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card
   + Delete any existing `.bin` payloads in this folder as they will not be compatible with boot9strap compatible Luma3DS versions
 1. Copy `SafeB9SInstaller.bin` from the SafeB9SInstaller `.zip` to the `/luma/payloads/` folder on your SD card
 1. Copy `boot9strap_dev.firm` and `boot9strap_dev.firm.sha` from the boot9strap `.zip` to the `/boot9strap/` folder on your SD card
@@ -65,6 +66,7 @@ This section is only needed if you are prompted with the Luma3DS configuration m
 
 1. Reboot holding (Start) during boot to launch the Luma3DS chainloader menu
 1. Launch GodMode9 by pressing (A)
+1. If you are prompted to create an essential files backup, press (A) to do so, then press (A) to continue once it has completed
 1. Navigate to `[0:] SDCARD` -> `luma` -> `payloads`
 1. Press (X) on `SafeB9SInstaller.bin` to delete it
 1. Press (A) to confirm

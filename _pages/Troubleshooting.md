@@ -46,13 +46,6 @@ To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on th
 
 ## <a name="rm_nnid" />Removing an NNID without formatting your device
 
-#### What you need
-
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-
-#### Instructions
-
-1. Copy `GodMode9.bin` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card
 1. Launch GodMode9 by pressing (A)
 1. Navigate to `[1:] SYSNAND CTRNAND` -> `data` -> (32 Character ID) -> `sysdata` -> `00010038`
 1. Hold down the (R) trigger, then press (X) on `00000000` to rename this file
@@ -61,36 +54,6 @@ To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on th
 1. Press (A) to unlock SysNAND writing, then input the key combo given
 1. Navigate back to the Main Menu
 1. Press (Start) to reboot your device
-
-## <a name="gw_fbi" />Cannot inject H&S on Gateway downgraded device
-This is caused by Gateway implementing a very shoddy downgrade method, which leaves two versions of each app on the system. One of them is unused, but it confuses the H&S inject system, causing it to inject into the wrong one.
-
-Note that, on some versions of Luma3DS, the Luma3DS chainloader menu is only displayed if there is more than one payload detected. If there is only one payload detected, holding (Start) on boot will directly launch GodMode9.
-{: .notice--info}
-
-1. Boot your device while holding (Start) to launch the Luma3DS chainloader menu
-1. Launch GodMode9 by pressing (A)   
-1. Navigate to `[1:] SYSNAND CTRNAND` -> `title` -> `00040010`
-1. Navigate to the folder for your device and region:
-  + **Old 3DS EUR**: `00022300` -> `content`
-  + **Old 3DS JPN**: `00020300` -> `content`
-  + **Old 3DS USA**: `00021300` -> `content`
-  + **New 3DS EUR**: `20022300` -> `content`
-  + **New 3DS JPN**: `20020300` -> `content`
-  + **New 3DS USA**: `20021300` -> `content`
-1. Notice that there are two sets of app and tmd files, one set with uppercase extensions (`.TMD` and `.APP`), and one set with lowercase extensions (`.tmd` and `.app`)
-1. While holding the (R) trigger, press (Y) to create a new directory
-1. Press (A) to confirm the name `newdir` (it does not matter what the folder is called)
-1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
-1. Press the (L) trigger on each of the uppercase extension files (`.TMD` and `.APP`) to mark them
-1. Press (Y) to copy the files
-1. Navigate to `newdir`
-1. Press (Y) to paste the files
-1. Select "Move path(s)"
-1. The uppercase extension files will have been moved to the `newdir` directory
-1. Press (Start) to reboot your device
-1. Return to [Finalizing Setup](finalizing-setup) and retry the FBI injection
-1. If this still doesn't work, move the uppercase extension files back to the `content` folder, then move the lowercase extension files to the `newdir` folder, then return to [Finalizing Setup](finalizing-setup) and retry the FBI injection
 
 ## <a name="ts_browser" />A browser based exploit is not working
 Browser based exploits (such as browserhax or 2xrsa) are often unstable and crash frequently, but they can sometimes be fixed by doing the following steps
