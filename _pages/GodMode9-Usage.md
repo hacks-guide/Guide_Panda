@@ -22,15 +22,19 @@ The write permissions system protects you by providing warnings and forces you t
 1. Launch GodMode9 by pressing (A)
 1. Press (Home) to bring up the action menu
 1. Select "More..."
-1. Select "Backup NAND"
+1. Press (Home) to bring up the action menu
+1. Select "More..."
+1. Select "Scripts"
+1. Select "Backup SysNAND"
+1. Press (A) to confirm
+  + This process will take some time
 1. Press (A) to continue
 1. Hold (R) and press (B) at the same time to eject your SD card
 1. Insert your SD card into your computer
-1. Copy `nand.bin` from the `/gm9out/` folder on your SD card to a safe location on your computer
-  + If you previously used SafeCTRTransfer and have a NAND backup named `<serialnumber>_nand.bin`, replace it with this one (rename `nand.bin` to match `<serialnumber>_nand.bin`)
+1. Copy `<serialnumber>_nandmin_###.bin` from the `/gm9/out/` folder on your SD card to a safe location on your computer
   + Make backups in multiple locations (such as online file storage)
   + This backup will save you from a brick if anything goes wrong in the future
-1. Delete `nand.bin` from the `/gm9out/` folder on your SD card after copying it
+1. Delete `<serialnumber>_nandmin_###.bin` from the `/gm9/out/` folder on your SD card after copying it
 1. Reinsert your SD card into your device
 
 ## <a name="nand_restore" /> Restoring a NAND Backup
@@ -93,8 +97,8 @@ This will only work if the Health & Safety injection was performed by GodMode9 (
 1. Navigate to `[C:] GAMECART`
 1. Follow the steps applicable to your game cartridge:
   + **3DS Game Cartridge:** Press (A) on `[TitleID].trim.3ds` to select it, then select "NCSD image options...", then select "Build CIA from file"
-  + **NDS Game Cartridge:** Press (A) on `[TitleID].trim.nds` to select it, then select "Copy to 0:/gm9out"
-1. Your installable `.cia` or non-installable `.nds` formatted file will be outputted to the `/gm9out/` folder on your SD card
+  + **NDS Game Cartridge:** Press (A) on `[TitleID].trim.nds` to select it, then select "Copy to 0:/gm9/out"
+1. Your installable `.cia` or non-installable `.nds` formatted file will be outputted to the `/gm9/out/` folder on your SD card
 
 ## <a name="dump_title" /> Dumping a Title
 
@@ -116,7 +120,7 @@ Use the `Titles` menu in FBI to get the Title ID of the installed title you wish
 1. Ensure you have found the correct title
 1. Press (B) to exit the title info
 1. Press (A) on the `.tmd` file to select it, then select "TMD file options...", then select "Build CIA (standard)"
-1. Your installable `.cia` formatted file will be outputted to the `/gm9out/` folder on your SD card
+1. Your installable `.cia` formatted file will be outputted to the `/gm9/out/` folder on your SD card
 
 ## <a name="convert_3ds" /> Converting a .3DS to .CIA
 
@@ -131,7 +135,7 @@ Use the `Titles` menu in FBI to get the Title ID of the installed title you wish
 1. Launch GodMode9 by pressing (A)
 1. Navigate to `[0:] SDCARD` -> `cias`
 1. Press (A) on your `.3ds` file to select it, then select "NCSD image options...", then select "Build CIA from file"
-1. Your installable `.cia` formatted file will be outputted to the `/gm9out/` folder on your SD card
+1. Your installable `.cia` formatted file will be outputted to the `/gm9/out/` folder on your SD card
 
 ## <a name="backup_gba" /> Backup GBA VC Saves
 
@@ -219,8 +223,8 @@ Use the `Titles` menu in FBI to get the Title ID of the installed title you wish
 1. Navigate to `[0:] SDCARD` -> `cias`
 1. Press (A) on the `.cia` file to select it, then select "CIA image options..."
 1. Select the option to perform the desired function:
-    + **Encrypt to 0:/gm9out:** Create an encrypted copy of the selected `.cia` file in the `/gm9out/` folder on your SD card
-    + **Decrypt to 0:/gm9out:** Create a decrypted copy of the selected `.cia` file in the `/gm9out/` folder on your SD card
+    + **Encrypt to 0:/gm9/out:** Create an encrypted copy of the selected `.cia` file in the `/gm9/out/` folder on your SD card
+    + **Decrypt to 0:/gm9/out:** Create a decrypted copy of the selected `.cia` file in the `/gm9/out/` folder on your SD card
     + **Encrypt inplace:** Replace the selected `.cia` file with an encrypted version
     + **Decrypt inplace:** Replace the selected `.cia` file with a decrypted version
 1. Your encrypted / decrypted `.cia` will be outputted to the desired location

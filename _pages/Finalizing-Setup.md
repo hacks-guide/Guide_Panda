@@ -42,6 +42,7 @@ During this process, we also setup programs such as the following:
 1. Copy `Themely.cia` to the `/cias/` folder on your SD card
 1. Create a folder named `payloads` in the `luma` folder on your SD card
 1. Copy `GodMode9.firm` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card
+1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card
 1. Delete the 0.23.5 SystemUpdater folder from the root of your SD card
 1. Extract the 0.25.3 SystemUpdater `.zip` to the root of your SD card
 1. Reinsert your SD card into your device
@@ -77,16 +78,20 @@ This section is optional and requires both a CTR flash card and the development 
 
 1. Boot your device while holding (Start) to launch the Luma3DS chainloader menu
 1. Launch GodMode9 by pressing (A)
+1. When prompted to create an essential files backup, press (A) to do so, then press (A) to continue once it has completed
 1. Press (Home) to bring up the action menu
 1. Select "More..."
-1. Select "Backup NAND"
+1. Select "Scripts"
+1. Select "Backup SysNAND"
+1. Press (A) to confirm
+  + This process will take some time
 1. Press (A) to continue
 1. Hold (R) and press (B) at the same time to eject your SD card
 1. Insert your SD card into your computer
-1. Copy `nand.bin` from the `/gm9out/` folder on your SD card to a safe location on your computer
+1. Copy `<serialnumber>_nandmin_###.bin` from the `/gm9/out/` folder on your SD card to a safe location on your computer
   + Make backups in multiple locations (such as online file storage)
   + This backup will save you from a brick if anything goes wrong in the future
-1. Delete `nand.bin` from the `/gm9out/` folder on your SD card after copying it
+1. Delete `<serialnumber>_nandmin_###.bin` from the `/gm9/out/` folder on your SD card after copying it
 1. Reinsert your SD card into your device
 1. Press (Start) to save and reboot
 
