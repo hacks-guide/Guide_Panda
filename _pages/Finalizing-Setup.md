@@ -26,7 +26,7 @@ During this process, we also setup programs such as the following:
 
 #### What you need
 
-* The latest release of [Themely](https://github.com/ErmanSayin/Themely/releases/latest) *(the `.cia` file)*
+* The latest release of [Themely](https://github.com/ihaveamac/Themely/releases/latest) *(the `.cia` file)*
 * The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * The latest fork of [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(the `.cia` file)*
 
