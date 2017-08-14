@@ -2,11 +2,10 @@
 title: "0.23.5 Install (CIAs)"
 ---
 
+To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download)
+
 You MUST downgrade with the correct pack for your console/region!
 {: .notice--danger}
-
-To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download)
-{: .notice--info}
 
 #### What you need
 
@@ -21,13 +20,13 @@ To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on th
 #### Instructions
 
 1. Extract the 0.23.5 SystemUpdater `.zip` to the root of your SD card
-2. Reinsert your SD card into your PANDA
-3. Using Dev Menu, navigate to the 0.23.5 SystemUpdater folder
-4. Press (L + R + A) to install all CIAs
-3. Navigate to the NATIVE_FIRM CIA
+1. Reinsert your SD card into your PANDA
+1. Using Dev Menu, navigate to the 0.23.5 SystemUpdater folder
+1. Press (L + R + A) to install all CIAs
+1. Navigate to the NATIVE_FIRM CIA
   + CTR / SPR / FTR: `0004013800000002.cia`
   + SNAKE / CLOSER / JAN: `0004013820000002.cia`
-4. Update your PANDA's FIRM by pressing (Start + Y) while highlighting the NATIVE_FIRM CIA
+1. Update your PANDA's FIRM by pressing (Start + Y) while highlighting the NATIVE_FIRM CIA
 
 Continue to [Installing boot9strap (Browser)](installing-boot9strap-(browser))
 {: .notice--primary}

@@ -3,20 +3,17 @@ title: "0.23.5 Install"
 ---
 
 There are two different methods of installing the version 0.23.5 onto your PANDA unit.
-{: .notice--info}
 
 One method requires no external tools but only supports some regions and devices due to missing CIA packs for the remaining regions and devices.
-{: .notice--info}
 
 The other method supports all regions and devices, but requires a CTR flash card and the necessary development hardware to write a CSU to that CTR flash card.
-{: .notice--info}
 
 ___
 
 {% capture notice-1 %}
 
 [0.23.5 Install (CIAs)](0.23.5-install-(cias))
-<br><br>
+
 This method is compatible with the following devices 
 
 +  SNAKE / CLOSER / JAN
@@ -31,7 +28,7 @@ This method is compatible with the following devices
 {% capture notice-1 %}
 
 [0.23.5 Install (CSU)](0.23.5-install-(csu))
-<br><br>
+
 This method is compatible with the following devices 
 
 +  SNAKE / CLOSER / JAN
