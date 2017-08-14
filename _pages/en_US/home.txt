@@ -43,6 +43,9 @@ This guide may be compatible with the following developer units, but this is unc
 
 <div class="notice--primary">{{ notice-home | markdownify }}</div>
 
+This guide needs *your* help to [translate](https://translatedev.3ds.guide/) it to other languages!
+{: .notice--success}
+
 This guide needs *your* help to seed [these](https://3ds.guide/rss.xml) torrents!
 {: .notice--info}
 
