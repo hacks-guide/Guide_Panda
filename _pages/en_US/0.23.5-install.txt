@@ -1,6 +1,5 @@
 ---
 title: "0.23.5 Install"
-permalink: /0.23.5-install.html
 ---
 
 There are two different methods of installing the version 0.23.5 onto your PANDA unit.
