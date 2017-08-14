@@ -1,6 +1,7 @@
 ---
 title: "Installing boot9strap (Browser)"
 ---
+
 #### What you need
 
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
