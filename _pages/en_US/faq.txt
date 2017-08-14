@@ -1,6 +1,5 @@
 ---
 title: "FAQ"
-permalink: /faq.html
 ---
 
 {% capture notice-1 %}

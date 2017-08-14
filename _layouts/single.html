@@ -36,11 +36,22 @@ layout: default
       <section class="page__content" itemprop="text">
 
         <hr>
-        <div class ="notice">For support, ask for help at <a href="http://webchat.freenode.net?channels=%23Cakey&uio=d4">#Cakey on Freenode IRC</a>.</div>
-        <div class ="notice">If you appreciate this guide, I accept <a href="donations">Donations</a> through <a href="https://www.paypal.me/plailectguides/15">PayPal</a> or <a href="bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety">Bitcoin</a>.</div>
+        
+        {% assign split_path = page.path | split: "/" %}
+        {% assign locale = split_path[1] %}
+
+        {% for link in site.data.navigation[locale].bottom %}
+          {% if link.url contains 'http' %}
+            {% assign domain = '' %}
+          {% else %}
+            {% assign domain = site.url | append: site.baseurl %}
+          {% endif %}
+          <div class ="notice"><b>{{ link.title }}</b></div>
+        {% endfor %}
+
         <hr>
 
-        {{ content | remove: '<p>' | remove: '</p>' }}
+        {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
 
       </section>

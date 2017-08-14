@@ -1,6 +1,5 @@
 ---
 title: "F3 (Linux)"
-permalink: /f3-(linux).html
 ---
 
 This page will walk you through the process of checking your SD card for errors using F3.

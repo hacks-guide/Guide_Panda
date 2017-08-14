@@ -1,6 +1,5 @@
 ---
 title: "H2testw (Windows)"
-permalink: /h2testw-(windows).html
 ---
 
 This page will walk you through the process of checking your SD card for errors using h2testw.

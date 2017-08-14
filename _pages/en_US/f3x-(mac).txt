@@ -1,6 +1,5 @@
 ---
 title: "F3X (Mac)"
-permalink: /f3x-(mac).html
 ---
 
 This page will walk you through the process of checking your SD card for errors using F3X.

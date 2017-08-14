@@ -1,15 +1,14 @@
 ---
 layout: splash
-permalink: /index.html
-title: "3DS devGuide"
+title: "3DS devGuide" #
 header:
-  overlay_color: "#5e616c"
-  overlay_image: images/home-page-feature.jpg
+  overlay_color: "#5e616c" #
+  overlay_image: /images/home-page-feature.jpg
   overlay_filter: 0.5
-  cta_label: "Get Started"
-  cta_url: "/get-started"
+  cta_label: "Get Started" #
+  cta_url: "get-started" #
   caption:
-excerpt: 'A complete guide to developer 3DS custom firmware, <br /> from stock to boot9strap.<br />'
+excerpt: "A complete guide to 3DS custom firmware, <br /> from stock to boot9strap.<br />"
 ---
 
 {% capture notice-home %}
