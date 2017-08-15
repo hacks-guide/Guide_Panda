@@ -79,7 +79,7 @@ For a list of each of the calculated sighax signatures (the platform boot9strap 
 + If you need to format a brand new SD card, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
 + The 2DS is essentially identical to the Old 3DS in terms of software, and that any steps which say "Old 3DS" also apply to 2DS.
 
-## What devices is this guide compatible with?
+## ¿Con qué consolas es compatible esta guía?
 
 This guide is confirmed to be compatible with the following developer units:
 
