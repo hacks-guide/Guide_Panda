@@ -6,7 +6,7 @@ title: "Créditos"
 asombrosos!**
 {: .notice--primary}
 
-**Special thanks to all of [the translators](https://translatedev.3ds.guide/) for being awesome!**
+**¡Agradecimientos a todos [los traductores](https://translatedev.3ds.guide/) por ser asombrosos!**
 {: .notice--primary}
 
 Si te olvidé, puedes contactarme para añadir tu nombre.
