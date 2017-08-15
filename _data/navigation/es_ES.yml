@@ -1,0 +1,32 @@
+---
+main:
+  - 
+    title: devGuide
+  - 
+    title: FAQ
+  - 
+    title: Res. de problemas
+  - 
+    title: Donaciones
+  - 
+    title: Créditos
+  - 
+    title: A9LH a B9S
+  - 
+    title: Usos de GodMode9
+  - 
+    title: Navegación del sitio
+  - 
+    title: Actualizar B9S
+  - 
+    title: Desinstalar CFW
+bottom:
+  - 
+    title: 'Para soporte (en inglés), pide ayuda en <a href="http://webchat.freenode.net/?channels=%23Cakey&uio=d4">'
+  - 
+    title: 'Si aprecias esta guía, acepto <a href="donations">donaciones</a> a través de <a href="https://www.paypal.me/plailectguides/15">PayPal</a> o <a href="bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety">Bitcoin</a>.'
+footer:
+  - 
+    title: Código fuente
+  - 
+    title: Navegación del sitio
