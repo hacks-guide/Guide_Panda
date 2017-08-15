@@ -5,28 +5,28 @@ main:
   - 
     title: FAQ
   - 
-    title: Troubleshooting
+    title: Res. de problemas
   - 
-    title: Donations
+    title: Donaciones
   - 
-    title: Credits
+    title: Créditos
   - 
-    title: A9LH to B9S
+    title: A9LH a B9S
   - 
-    title: GodMode9 Usage
+    title: Usos de GodMode9
   - 
-    title: Site Navigation
+    title: Navegación del sitio
   - 
-    title: Updating B9S
+    title: Actualizar B9S
   - 
-    title: Uninstall CFW
+    title: Desinstalar CFW
 bottom:
   - 
-    title: 'For support in English, ask for help at <a href="http://webchat.freenode.net/?channels=%23Cakey&uio=d4">'
+    title: 'Para soporte (en inglés), pide ayuda en <a href="http://webchat.freenode.net/?channels=%23Cakey&uio=d4">'
   - 
-    title: 'If you appreciate this guide, I accept <a href="donations">Donations</a> through <a href="https://www.paypal.me/plailectguides/15">PayPal</a> or <a href="bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety">Bitcoin</a>.'
+    title: 'Si aprecias esta guía, acepto <a href="donations">donaciones</a> a través de <a href="https://www.paypal.me/plailectguides/15">PayPal</a> o <a href="bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety">Bitcoin</a>.'
 footer:
   - 
-    title: Source
+    title: Código fuente
   - 
-    title: Site Navigation
+    title: Navegación del sitio
