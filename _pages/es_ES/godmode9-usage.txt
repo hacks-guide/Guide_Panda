@@ -23,10 +23,10 @@ The write permissions system protects you by providing warnings and forces you t
 1. Select "More..."
 1. Select "Scripts..."
 1. Select "Backup SysNAND"
-1. Press (A) to confirm
+1. Presiona (A) para confirmar
   + This process will take some time
 1. Press (A) to continue
-1. Hold (R) and press (B) at the same time to eject your SD card
+1. Mantén (R) y presiona (B) al mismo tiempo para extraer la SD
 1. Inserta tu tarjeta SD en tu computadora
 1. Copy `<serialnumber>_nandmin_###.bin` from the `/gm9/out/` folder on your SD card to a safe location on your computer
   + Make backups in multiple locations (such as online file storage)
@@ -61,7 +61,7 @@ The write permissions system protects you by providing warnings and forces you t
 1. Navigate to `[0:] SDCARD` -> `cias`
 1. Press (A) on your `.cia` to select it, then select "CIA image options...", then select "Mount image to drive"
 1. Press (A) on the `.app` file, then select "NCCH image options", then select "Inject to H&S"
-1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
+1. Presiona (A) para desbloquear la escritura de SysNAND (lvl1) y después introduce la combinación de teclas mostrada
 1. Press (A) to continue
 1. Press (A) to relock write permissions if prompted
 
@@ -76,7 +76,7 @@ This will only work if the Health & Safety injection was performed by GodMode9 (
 1. Press (Home) to bring up the action menu
 1. Select "More..."
 1. Select "Restore H&S"
-1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
+1. Presiona (A) para desbloquear la escritura de SysNAND (lvl1) y después introduce la combinación de teclas mostrada
 1. Press (A) to relock write permissions if prompted
 
 ## <a name="dump_cart" /> Dumping a Game Cartridge
