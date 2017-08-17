@@ -1,8 +1,8 @@
 ---
-title: "Get Started"
+title: "Comencemos"
 ---
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+¡Antes de empezar, deberías comprobar si tu tarjeta SD tiene errores usando [H2testw (Windows)](h2testw-(windows)),[F3 (Linux)](f3-(linux)), o [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
 {% capture notice-1 %}
@@ -21,11 +21,11 @@ Ha habido muchos reportes de olas de baneos a usuarios de CFW por parte de Ninte
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-#### Overview of steps
+#### Resumen general de los pasos
 
-- Install the version 0.23.5 for your region / device
-- Install boot9strap using CakeHax Browser
-- (Optionally) install the latest version for your region / device
+- Instalar la versión 0.23.5 para tu consola / región
+- Instalar boot9strap usando CakeHax Browser
+- (Opcionalmente) Instalar la última versión para tu consola / región
 
-Continue to [0.23.5 Install](0.23.5-install)
+Continúa a [Instalar 0.23.5](0.23.5-install)
 {: .notice--primary}
