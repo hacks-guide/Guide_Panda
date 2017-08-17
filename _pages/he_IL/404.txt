@@ -1,8 +1,8 @@
 ---
-title: "Page Not Found" #
-excerpt: "Page not found. Your pixels are in another canvas." #
+title: "הדף לא נמצא" #
+excerpt: "עמוד לא נמצא. הפיקסלים שלך נמצאים בדף אחר." #
 sitemap: false
 ---
 
-Sorry, but the page you were trying to view does not exist.
+מצטער, אך הדף אשר אתם מנסים לראות אינו קיים.
 {: .notice--info}
