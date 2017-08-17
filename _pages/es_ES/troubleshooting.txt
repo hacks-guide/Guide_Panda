@@ -62,7 +62,7 @@ Browser based exploits (such as browserhax or 2xrsa) are often unstable and cras
 
 1. Try booting with your SD card out, and then reinserting it after booting
     1. Apaga tu consola
-    1. Remove your SD card from your device
+    1. Extrae tu tarjeta SD de tu consola
     1. Power on your device
     1. When the home menu appears, reinsert your SD card into your device
     1. If this worked, you should clear Home Menu's extdata by navigating to the following folder on your SD card: `/Nintendo 3DS/(32 Character ID)/(32 Character ID)/extdata/00000000/`
@@ -133,7 +133,7 @@ If an error occurs during the SafeB9SInstaller process, you will be prompted to 
 1. Press (B) twice to return to the main menu
 1. Navigate to `[S:] SYSNAND VIRTUAL`
 1. Press (Y) to paste the files
-1. Press (A) to confirm
+1. Presiona (A) para confirmar
 1. Press (A) to inject the files
 1. Press (A) to unlock SysNAND overwriting
 1. Input the key combo given to unlock SysNAND (lvl3) writing
