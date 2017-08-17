@@ -16,27 +16,27 @@ The write permissions system protects you by providing warnings and forces you t
 
 ## <a name="nand_backup" /> Creating a NAND Backup
 
-#### Instructions
+#### הוראות
 
 1. Launch GodMode9 by holding (Start) during boot
 1. Press (Home) to bring up the action menu
 1. Select "More..."
 1. Select "Scripts..."
 1. Select "Backup SysNAND"
-1. Press (A) to confirm
+1. תלחצו (A) כדי לאשר
   + This process will take some time
 1. Press (A) to continue
-1. Hold (R) and press (B) at the same time to eject your SD card
-1. Insert your SD card into your computer
+1. תחזיקו (R) ולחצו (B) באותו הזמן כדי להוציא את הSD
+1. תכניסו את כרטיס ה- SD שלכם אל המחשב
 1. Copy `<serialnumber>_nandmin_###.bin` from the `/gm9/out/` folder on your SD card to a safe location on your computer
   + Make backups in multiple locations (such as online file storage)
   + This backup will save you from a brick if anything goes wrong in the future
 1. Delete `<serialnumber>_nandmin_###.bin` from the `/gm9/out/` folder on your SD card after copying it
-1. Reinsert your SD card into your device
+1. תכניסו מחדש את כרטיס הSD שלכם לתוך המכשיר שלכם
 
 ## <a name="nand_restore" /> Restoring a NAND Backup
 
-#### Instructions
+#### הוראות
 
 1. Launch GodMode9 by holding (Start) during boot
 1. Navigate to `[0:] SDCARD`
@@ -55,13 +55,13 @@ The write permissions system protects you by providing warnings and forces you t
 + For organizational purposes, copy the `.cia` file you wish to inject to the `/cias/` folder on your SD card
     + Note that it is not possible to inject files into Health & Safety that are larger than it (including games and other large applications)
 
-#### Instructions
+#### הוראות
 
 1. Launch GodMode9 by holding (Start) during boot
 1. Navigate to `[0:] SDCARD` -> `cias`
 1. Press (A) on your `.cia` to select it, then select "CIA image options...", then select "Mount image to drive"
 1. Press (A) on the `.app` file, then select "NCCH image options", then select "Inject to H&S"
-1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
+1. לחצו (A) כדי לפתוח גישת כתיבת lvl1 לSysNAND, ואז תלחצו על המקשים בסדר הנכון
 1. Press (A) to continue
 1. Press (A) to relock write permissions if prompted
 
@@ -70,13 +70,13 @@ The write permissions system protects you by providing warnings and forces you t
 This will only work if the Health & Safety injection was performed by GodMode9 (not Decrypt9 or Hourglass9).
 {: .notice--info}
 
-#### Instructions
+#### הוראות
 
 1. Launch GodMode9 by holding (Start) during boot
 1. Press (Home) to bring up the action menu
 1. Select "More..."
 1. Select "Restore H&S"
-1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
+1. לחצו (A) כדי לפתוח גישת כתיבת lvl1 לSysNAND, ואז תלחצו על המקשים בסדר הנכון
 1. Press (A) to relock write permissions if prompted
 
 ## <a name="dump_cart" /> Dumping a Game Cartridge
@@ -87,7 +87,7 @@ This will only work if the Health & Safety injection was performed by GodMode9 (
     + 3DS game cartridges will be dumped to an installable `.cia` format
     + NDS game cartridges will be dumped to a non-installable `.nds` format compatible with flashcarts and emulators
 
-#### Instructions
+#### הוראות
 
 1. Launch GodMode9 by holding (Start) during boot
 1. Navigate to `[C:] GAMECART`
@@ -101,7 +101,7 @@ This will only work if the Health & Safety injection was performed by GodMode9 (
 Use the `Titles` menu in FBI to get the Title ID of the installed title you wish to dump
 {: .notice--info}
 
-#### Instructions
+#### הוראות
 
 1. Launch GodMode9 by holding (Start) during boot
 1. Navigate to the drive applicable to the type of title you wish to dump:
@@ -124,7 +124,7 @@ Use the `Titles` menu in FBI to get the Title ID of the installed title you wish
 + For organizational purposes, copy each `.3ds` file you wish to convert to the `/cias/` folder on your SD card
     + Note that if you wish to convert a `.3ds` file that is already on a flashcart, you should follow [Dumping a Game Cartridge](#dump_cart)
 
-#### Instructions
+#### הוראות
 
 1. Launch GodMode9 by holding (Start) during boot
 1. Navigate to `[0:] SDCARD` -> `cias`
@@ -133,12 +133,12 @@ Use the `Titles` menu in FBI to get the Title ID of the installed title you wish
 
 ## <a name="backup_gba" /> Backup GBA VC Saves
 
-#### Instructions
+#### הוראות
 
-1. Power off your device
-1. Insert your SD card into your computer
+1. תכבו את הקונסולה
+1. תכניסו את כרטיס ה- SD שלכם אל המחשב
 1. Create a folder in `/gm9/` for each GBA VC game that you want to backup the save for
-1. Reinsert your SD card into your device
+1. תכניסו מחדש את כרטיס הSD שלכם לתוך המכשיר שלכם
 1. Power on your device
 1. Do the following process for each GBA VC game that you want to backup the save for:
   + Launch the GBA VC game
@@ -155,7 +155,7 @@ Use the `Titles` menu in FBI to get the Title ID of the installed title you wish
 
 ## <a name="restore_gba" /> Restore GBA VC Saves
 
-#### Instructions
+#### הוראות
 
 1. Ensure you have a folder containing a save in `/gm9/` for each GBA VC game that you want to restore the save for
 1. Do the following process for each GBA VC game that you want to restore the save for:
@@ -177,7 +177,7 @@ Use the `Titles` menu in FBI to get the Title ID of the installed title you wish
 **Note that this will erase the contents of your SD card!**
 {: .notice--danger}
 
-#### Instructions
+#### הוראות
 
 1. Launch GodMode9 by holding (Start) during boot
 1. Press (Home) to bring up the action menu
@@ -196,7 +196,7 @@ Use the `Titles` menu in FBI to get the Title ID of the installed title you wish
 
 + For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt to the `/cias/` folder on your SD card
 
-#### Instructions
+#### הוראות
 
 1. Launch GodMode9 by holding (Start) during boot
 1. Navigate to `[0:] SDCARD` -> `cias`
