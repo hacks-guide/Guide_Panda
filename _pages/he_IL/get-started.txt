@@ -21,7 +21,7 @@ There have been reports of a wave of bans being handed out to CFW users by Ninte
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-#### Overview of steps
+#### מעבר על הצעדים
 
 - Install the version 0.23.5 for your region / device
 - Install boot9strap using CakeHax Browser
