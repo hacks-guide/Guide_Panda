@@ -1,20 +1,20 @@
 ---
-title: "0.23.5 Install"
+title: "Instalar 0.23.5"
 ---
 
-There are two different methods of installing the version 0.23.5 onto your PANDA unit.
+Existen dos diferentes métodos para instalar la versión 0.23.5 en tu unidad PANDA.
 
-One method requires no external tools but only supports some regions and devices due to missing CIA packs for the remaining regions and devices.
+Un método se puede realizar sin herramientas externas pero es sólo para algunas regiones y consolas debido a la falta de packs de CIAs para dichas regiones y consolas restantes.
 
-The other method supports all regions and devices, but requires a CTR flash card and the necessary development hardware to write a CSU to that CTR flash card.
+El otro método sirve para todas las regiones y consolas, pero requiere una flash card CTR y el equipamiento de desarrollo necesario para escribir un archivo CSU a dicha flash card CTR.
 
 ___
 
 {% capture notice-1 %}
 
-[0.23.5 Install (CIAs)](0.23.5-install-(cias))
+[Instalar 0.23.5 (CIAs)](0.23.5-install-(cias))
 
-This method is compatible with the following devices 
+Este método es compatible con las siguientes consolas 
 
 +  SNAKE / CLOSER / JAN
     + [EUR / JPN / USA]
@@ -27,9 +27,9 @@ This method is compatible with the following devices
 
 {% capture notice-1 %}
 
-[0.23.5 Install (CSU)](0.23.5-install-(csu))
+[Instalar 0.23.5 (CSU)](0.23.5-install-(csu))
 
-This method is compatible with the following devices 
+Este método es compatible con las siguientes consolas 
 
 +  SNAKE / CLOSER / JAN
    + [EUR / JPN / USA]
