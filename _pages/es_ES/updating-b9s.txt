@@ -72,7 +72,7 @@ For all steps in this section, overwrite any existing files on your SD card.
 
 1. Your device should have rebooted into the Luma3DS configuration menu
   + If you get a black screen, [follow this troubleshooting guide](troubleshooting#ts_sys_b9s)
-1. Use the (A) button and the D-Pad to turn on the following:    
+1. Utiliza el botón (A) y las flechas direccionales para activar lo siguiente:    
   + **"Show NAND or user string in System Settings"**
 1. Presiona (Start) para guardar y reiniciar
 
@@ -85,7 +85,7 @@ For all steps in this section, overwrite any existing files on your SD card.
 1. Select "Scripts..."
 1. Select "setup_ctrnand_luma3ds"
 1. When prompted, press (A) to proceed
-1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
+1. Presiona (A) para desbloquear la escritura de SysNAND (lvl1) y después introduce la combinación de teclas mostrada
 1. Press (A) to continue
 1. Press (A) to relock write permissions
 1. Press (Start) to reboot your device
