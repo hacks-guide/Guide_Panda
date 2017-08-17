@@ -88,36 +88,36 @@ Esta sección es sólo necesaria si se ha mostrado la configuración Luma3DS lue
 1. Presiona (Y) sobre `boot.firm` para copiarlo
 1. Presiona (B) para volver al menú principal
 1. Navegue hasta `[1:] SYSNAND CTRNAND`
-1. Press (Y) to paste a copy of `boot.firm`
-1. Select "Copy path(s)"
-1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
-1. Press (X) on `arm9loaderhax.bin` to delete it
+1. Presiona (Y) para pegar una copia de `boot.firm`
+1. Selecciona "Copy path(s)"
+1. Presiona (A) para desbloquear la escritura de SysNAND (lvl1) y después introduce la combinación de teclas mostrada
+1. Presiona (X) sobre `arm9loaderhax.bin` para eliminarlo
 1. Presiona (A) para confirmar
 1. Presiona (B) para volver al menú principal
-1. Hold (R) and press (B) at the same time to eject your SD card
-1. Remove your SD card from your device
-1. Press (Start) to reboot your device with your SD card removed
-  + Booting your device at least once with your SD card removed will allow you to configure the CTRNAND based Luma3DS installation
-1. Use the (A) button and the D-Pad to turn on the following:    
+1. Mantén (R) y presiona (B) al mismo tiempo para extraer la SD
+1. Extrae tu tarjeta SD de tu consola
+1. Presiona (Start) para reiniciar tu consola sin la tarjeta SD
+  + Encender tu consola sin la tarjeta SD al menos una vez te permitirá configurar la instalación de Luma3DS basada en CTRNAND
+1. Utiliza el botón (A) y las flechas direccionales para activar lo siguiente:    
   + **"Show NAND or user string in System Settings"**
 1. Reinserta la tarjeta SD en tu consola
 1. Presiona (Start) para guardar y reiniciar
 
 ___
 
-You can now remove any arm9loaderhax related files from your SD card, such as `arm9loaderhax.bin` on the root of your SD card and the `files9` folder on your SD card.
+Ahora puedes eliminar cualquier archivo relacionado con arm9loaderhax de tu tarjeta SD, como `arm9loaderhax.bin` en la raíz de tu tarjeta SD y la carpeta `files9` en tu tarjeta SD.
 {: .notice--info}
 
 {% capture notice-6 %}   
-You will now boot Luma3DS CFW SysNAND by default.    
+Ahora se iniciará el CFW Luma3DS en la SysNAND por defecto.    
 
-You can now hold (Select) on boot to launch the Luma3DS configuration menu.    
+Ahora puedes mantener pulsado (Select) mientras la consola arranca para acceder al menú de configuración de Luma3DS.    
 
-You can now hold (Start) on boot to launch the Luma3DS chainloader menu (note that the Luma3DS chainloader menu is only displayed if there is more than one payload detected).    
+Ahora puedes mantener (Start) al inicio para iniciar el menú de selección de payloads de Luma3DS (ten en cuenta que este menú sólo es mostrado cuando se detecta más de un payload).    
 
-You can now hold (Start) + (Select) + (X) on boot to dump the ARM11 bootrom (`boot11.bin`), the ARM9 bootrom (`boot9.bin`), and your console unique OTP (`OTP.bin`) to the `/boot9strap/` folder on your SD card (note that this will not have any kind of prompt or message).    
+Ahora puedes mantener (Start) + (Select) + (X) al inicio para volcar el bootrom ARM11 (`boot11.bin`), el bootrom ARM9 (`boot9.bin`) y el OTP (`OTP.bin`) único de tu consola a la carpeta `/boot9strap/` en tu tarjeta SD (ten en cuenta que esto no mostrará ningún tipo de mensaje).    
 
-You can now press (L) + (Down) + (Select) while the system is booted to open the Rosalina menu integrated into Luma3DS. For a full list of Rosalina features, please see the [Luma3DS v8.0 Release](https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0)
+Ahora puedes presionar (L) + (Abajo) + (Select) al encender la consola para abrir el menú de Rosalina integrado en Luma3DS. Para una lista completa de las características de Rosalina, por favor revisa [la publicación de Luma3DS v8.0] (https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0)
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
