@@ -4,21 +4,22 @@ title: "Installing boot9strap (Browser)"
 
 #### Qué necesitas
 
-* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(the `devkit` file, not the `ntr` file)*
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
+* La última versión de [SafeB9SInstaller]
+(https://github.com/d0k3/SafeB9SInstaller/releases/latest)
+* La última versión de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(el archivo `devkit`, no el archivo `ntr`)*
+* La última versión de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(el archivo`.7z`)*
 
 #### Instrucciones
 
-##### Section I - Prep Work
+##### Sección I - Preparativos
 
-1. Power off your device
-1. Insert your SD card into your computer
-1. Copy `boot.firm` from the Luma3DS `.7z` to the root of your SD card
-1. Create a folder named `boot9strap` on the root of your SD card
-1. Copy `boot9strap_dev.firm` and `boot9strap_dev.firm.sha` from the boot9strap `.zip` to the `/boot9strap/` folder on your SD card
+1. Apaga tu consola
+1. Inserta tu tarjeta SD en tu computadora
+1. Copia el archivo `boot.firm` desde el `.7z` de Luma3DS a la raíz de tu tarjeta SD
+1. Crea una carpeta llamada `boot9strap` en la raíz de tu tarjeta SD
+1. Copia `boot9strap_dev.firm` y `boot9strap_dev.firm.sha` desde el `.zip` de boot9strap a la carpeta `/boot9strap/` en tu tarjeta SD
 1. Copy `SafeB9SInstaller.dat` and `Launcher.dat` from the SafeB9SInstaller `.zip` to the root of your SD card
-1. Reinsert your SD card into your device
+1. Reinserta la tarjeta SD en tu consola
 1. Power on your device
 
 ##### Section II - Launching SafeB9SInstaller
@@ -30,8 +31,8 @@ title: "Installing boot9strap (Browser)"
 
 ##### Section III - Installing boot9strap
 
-1. Wait for all safety checks to complete
-1. When prompted, input the key combo given to install boot9strap
+1. Espera a que todas las verificaciones de seguridad se completen
+1. Cuando se solicite, introduce la combinación de botones mostrada para instalar boot9strap
 1. Once it has completed, press (A) to reboot your device
 
 ##### Section IV - Configuring Luma3DS
@@ -40,7 +41,7 @@ title: "Installing boot9strap (Browser)"
   + If you get a black screen, [follow this troubleshooting guide](troubleshooting#ts_sys_b9s)
 1. Use the (A) button and the D-Pad to turn on the following:    
   + **"Show NAND or user string in System Settings"**
-1. Press (Start) to save and reboot
+1. Presiona (Start) para guardar y reiniciar
   + If you get an error, just continue the next page
 
 ___
