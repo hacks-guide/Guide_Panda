@@ -1,20 +1,20 @@
 ---
-title: "0.23.5 Install"
+title: "התקנת 0.23.5"
 ---
 
-There are two different methods of installing the version 0.23.5 onto your PANDA unit.
+יש שתי דרכים שונות להתקין את גרסה 0.23.5 על יחידת הPANDA שלכם.
 
-One method requires no external tools but only supports some regions and devices due to missing CIA packs for the remaining regions and devices.
+דרך אחת לא דורשת כלים חיצוניים אבל תומכת רק בקונסולות אזורים מסויימים בגלל שאין חבילות CIA לאזורים ולקונסולות האחרות.
 
-The other method supports all regions and devices, but requires a CTR flash card and the necessary development hardware to write a CSU to that CTR flash card.
+הדרך השנייה תומכת בכל הגרסאות והקונסולות, אבל דורשת CTR flash card והחומרה הנדרשת לכתוב CSU אליו.
 
 ___
 
 {% capture notice-1 %}
 
-[0.23.5 Install (CIAs)](0.23.5-install-(cias))
+[0.23.5 התקנת (CIAs)](0.23.5-install-(cias))
 
-This method is compatible with the following devices 
+הדרך הזאת תומכת בקונסולות הבאות 
 
 +  SNAKE / CLOSER / JAN
     + [EUR / JPN / USA]
@@ -27,9 +27,9 @@ This method is compatible with the following devices
 
 {% capture notice-1 %}
 
-[0.23.5 Install (CSU)](0.23.5-install-(csu))
+[0.23.5 התקנת (CSU)](0.23.5-install-(csu))
 
-This method is compatible with the following devices 
+הדרך הזאת תומכת בקונסולות הבאות 
 
 +  SNAKE / CLOSER / JAN
    + [EUR / JPN / USA]

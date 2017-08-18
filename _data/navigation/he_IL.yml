@@ -3,30 +3,30 @@ main:
   - 
     title: devGuide
   - 
-    title: FAQ
+    title: שאלות ותשובות
   - 
-    title: Troubleshooting
+    title: פתרון בעיות
   - 
-    title: Donations
+    title: תרומות
   - 
-    title: Credits
+    title: תודות
   - 
-    title: A9LH to B9S
+    title: A9LH אל B9S
   - 
-    title: GodMode9 Usage
+    title: שימוש בGodMode9
   - 
-    title: Site Navigation
+    title: ניווט האתר
   - 
-    title: Updating B9S
+    title: עדכון B9S
   - 
-    title: Uninstall CFW
+    title: הסרת CFW
 bottom:
   - 
-    title: 'For support in English, ask for help at <a href="http://webchat.freenode.net/?channels=%23Cakey&uio=d4">'
+    title: 'לתמיכה באנגלית, תבקשו עזרה ב <a href="http://webchat.freenode.net/?channels=%23Cakey&uio=d4">'
   - 
-    title: 'If you appreciate this guide, I accept <a href="donations">Donations</a> through <a href="https://www.paypal.me/plailectguides/15">PayPal</a> or <a href="bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety">Bitcoin</a>.'
+    title: 'אם אתם מעריכים את המדריך הזה, אני מקבל <a href="donations"> תרומות</a> דרך <a href="https://www.paypal.me/plailectguides/15">PayPal</a> או דרך <a href="bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety">Bitcoin</a>.'
 footer:
   - 
-    title: Source
+    title: מקור
   - 
-    title: Site Navigation
+    title: ניווט האתר

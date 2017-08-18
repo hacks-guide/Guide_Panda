@@ -1,106 +1,102 @@
 ---
 layout: splash
-title: "3DS devGuide" #
+title: "Guía de Dev3DS" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
   overlay_filter: 0.5
-  cta_label: "Get Started" #
+  cta_label: "Comencemos" #
   cta_url: "get-started" #
   caption:
-excerpt: "A complete guide to 3DS custom firmware, <br /> from stock to boot9strap.<br />"
+excerpt: "Una guía completa de custom firmware para las 3DS de desarrollo, <br /> desde stock a boot9strap.<br />"
 ---
 
 {% capture notice-home %}
-This guide is for developer ("PANDA") consoles *only*!    
-If you have a retail (consumer purchased; not from the Nintendo Developer Program) console, check out the [standard Guide](https://3ds.guide)
+¡Esta guía es *sólo* para consolas de desarrollador ("PANDA")!    
+Si tienes una consola retail (comprada por consumidores; no las del Nintendo Developer Program), revisa la [Guía normal](https://3ds.guide)
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-{% capture notice-home %}
-This guide is confirmed to be compatible with the following developer units:
-
-+  CTR *(Old 3DS Test Unit)*
-+  SPR *(Old 3DS XL Test Unit)*
-+  FTR *(2DS Test Unit)*
-+  SNAKE *(New 3DS Test Unit)*
-+  CLOSER *(New 3DS XL Test Unit)*
-+  PARTNER-CTR [Capture] [Debugger] [Capture Debugger] *(Old 3DS [Debugger] [Capture] [Capture with Debugger] Unit)*
-+  IS-CTR-DEBUGGER [w/ SPR] *(Old 3DS Debugger [with SPR Handset] Unit)*
-+  IS-SPR-DEBUGGER [w/ CAPTURE] *(Old 3DS XL Debugger [with Capture] Unit)*
-+  IS-SNAKE-DevKit *(New 3DS DevKit)*
-
-This guide may be compatible with the following developer units, but this is unconfirmed:
-
-+  JAN *(New 2DS XL Test Unit)*
-+  IS-CTR-BOX [w/ Expansion Kit] *(CTR Flash Card Writer [with Debugger or Emulator expansion] Unit)*
-+  IS-SNAKE-TESTER *(New 3DS Tester Kit)*
-+  IS-SNAKE-BOX *(CTR Flash Card Writer with SNAKE Debugger and Emulator Unit)*
-+  IS-RAY-DEBUGGER *(IS-SNAKE-BOX Prototype)*
-
-{% endcapture %}
-
-<div class="notice--primary">{{ notice-home | markdownify }}</div>
-
-This guide needs *your* help to [translate](https://translatedev.3ds.guide/) it to other languages!
+¡Esta guía necesita *tu* ayuda para [traducirla](https://translatedev.3ds.guide/) a otros idiomas!
 {: .notice--success}
 
-This guide needs *your* help to seed [these](https://3ds.guide/rss.xml) torrents!
+¡Esta guía necesita *tu* ayuda para compartir [estos](https://3ds.guide/rss.xml) torrents!
 {: .notice--info}
 
-To use the [torrent](https://en.wikipedia.org/wiki/Torrent_file) files in this guide, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download)
+Para usar los archivos [torrent](https://en.wikipedia.org/wiki/Torrent_file) de esta guía, necesitarás un cliente torrent como [Deluge](http://dev.deluge-torrent.org/wiki/Download)
 {: .notice--info}
 
-Read all of the introductory pages before proceeding.
+Lee todas las páginas introductorias antes de continuar.
 {: .notice--warning}
 
-## What is Homebrew?
+## ¿Qué es Homebrew?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
+[**Homebrew**](https://es.wikipedia.org/wiki/Homebrew) suele referirse a software no autorizado por Nintendo. Esto te permite ejecutar varios juegos caseros, herramientas para editar y respaldar partidas y emuladores de varios sistemas antiguos.
 
-In most cases, running homebrew on your console is 100% free using just the browser.
+En la mayoría de los casos, correr homebrew en tu consola es 100% gratis tan sólo usando el navegador.
 
-## What is Custom Firmware?
+## ¿Qué es Custom Firmware?
 
-**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do. For instance, signature patches let you install unsigned titles that appear right on your HOME Menu.
+**Custom Firmware** ("CFW") te permite utilizar hacks más avanzados que el homebrew en el espacio del usuario no pueden utilizar fácilmente. Por ejemplo, los parches de firmas digitales te permiten instalar títulos no firmados que aparecen directamente en el Menú HOME.
 
-CFW can be easily set up on any dev console version
+Un CFW puede ser configurado fácilmente en cualquier consola de desarrollo
 
-## What does this guide install?
+## ¿Qué se instalará con esta guía?
 
-This guide has the end goal of taking a completely unmodified 3DS from stock
-firmware to boot9strap powered Custom Firmware. On some versions, it utilizes homebrew as a stepping off point, but Custom Firmware is still the goal.
+El propósito final de esta guía es tomar una 3DS sin ninguna modificación, desde el firmware original
+a un Custom Firmware potenciado por boot9strap. En algunas versiones, se utiliza homebrew como un punto de apoyo, pero el Custom Firmware continúa siendo la meta a alcanzar.
 
-boot9strap is the newest and best method of launching Custom Firmware that gives us nearly full control of the system only milliseconds into boot, which is similar to the effect of BootMii for the Wii. It gives us even earlier control than arm9loaderhax did, and, unlike standard sighax, boot9strap uses an NDMA overwrite exploit in order to gain Boot9 code execution. This means that any console running boot9strap is capable of dumping the console unique OTP (`OTP.bin`), the ARM11 bootrom (`boot11.bin`), and the ARM9 bootrom (`boot9.bin`).
+boot9strap es el mejor y más nuevo método para instalar Custom Firmware, proceso que te otorga un control casi absoluto de tu consola milisegundos después de encenderla, de manera similar a BootMii en la Wii. Otorga control incluso antes de lo que arm9loaderhax fue capaz, y, a diferencia de sighax como tal, boot9strap utiliza un exploit de sobreescritura de NDMA para conseguir ejecución de código en Boot9. Esto significa que cualquier consola que ejecute boot9strap puede volcar el OTP (`OTP.bin`), la bootrom de ARM11 (`boot11.bin`) y la bootrom de ARM9 (`boot9.bin`) únicos de la consola.
 
-The benefits of boot9strap over other Custom Firmware launch methods are numerous, and as such it is recommended to use this guide over any other that relies on outdated software (such as menuhax + rxTools, arm9loaderhax, or even normal sighax).
+Los beneficios de boot9strap por sobre otros métodos de ejecución de Custom Firmware son numerosos, por lo cual se recomienda emplear esta guía en lugar de otras guías que utilicen software desactualizado (tales como menuhax + rxTools, arm9loaderhax, o incluso sighax normal).
 
-For information on how boot9strap works, please see [this presentation](https://sciresm.github.io/33-and-a-half-c3/) by [SciresM](https://github.com/SciresM/).
+Para información sobre cómo funciona boot9strap, por favor echa un vistazo a [esta presentación](https://sciresm.github.io/33-and-a-half-c3/) hecha por [SciresM](https://github.com/SciresM/).
 
-For a list of each of the calculated sighax signatures (the platform boot9strap is built on), see [this gist](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52).
+Para una lista de cada una de las firmas calculadas de sighax (la plataforma en la que boot9strap está diseñado), echa un vistazo a [este gist](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52).
 
-## What can I do with Custom Firmware?
+## ¿Qué puedo hacer con Custom Firmware?
 
-+ Play all game cards and eShop games, regardless of region
-+ Customize your HOME Menu with user-created [themes](https://3dsthem.es/), [badges](https://badges.3dsthem.es/), and [splash screens](https://splash.3dsthem.es/)
-+ Use "ROM hacks" for games that you own
-+ Take gameplay and application screenshots
-+ [Backup, edit, and restore](https://gbatemp.net/threads/413143/) saves for many games
-+ Play games for older systems with various emulators, using RetroArch or other standalone emulators. (Works best with a New Nintendo 3DS)
-+ Install homebrew titles to your system, and have them appear on your HOME Menu
-+ Dump your game cards to a format you can install, and play them without needing the card
-+ New 3DS only: stream live gameplay to your PC wirelessly with NTR CFW
-+ Run many old Nintendo DS flash carts that were blocked long ago or never worked on Nintendo 3DS
-+ Safely update to the latest system version without fear of losing access to homebrew
++ Jugar a todos los juegos disponibles, en formato físico o de la eShop, independiente de su región
++ Personalizar el Menú HOME con [temas](https://3dsthem.es/), [insignias](https://badges.3dsthem.es/), y [pantallas splash](https://splash.3dsthem.es/) creados por los usuarios
++ Utilizar "Hack ROMs" de juegos que ya posees
++ Realizar capturas de pantalla de juegos y aplicaciones
++ [Respaldar, editar y restaurar](https://gbatemp.net/threads/413143/) datos de guardado de muchos juegos
++ Emular juegos de sistemas antiguos con varios emuladores, mediante RetroArch u otros emuladores independientes. (Funciona mejor con una New Nintendo 3DS)
++ Instalar títulos homebrew a tu sistema y hacer que aparezcan en el Menú HOME
++ Respaldar tus juegos en formato físico a un formato que puedas instalar y jugar sin necesidad del mismo
++ Sólo New 3DS: hacer stream directo de las pantallas de tu consola a tu PC sin cables con NTR CFW
++ Ejecutar varias flashcards de Nintendo DS que fueron bloqueadas hace mucho tiempo o que nunca funcionaron en Nintendo 3DS
++ Actualizar de forma segura a la última versión del sistema sin miedo a perder acceso a homebrew
 
-## What do I need to know before starting?
+## ¿Qué necesito saber antes de empezar?
 
-+ **Before beginning the guide, you must know the risks of 3DS hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
-+ This guide will work on New 3DS, Old 3DS, and 2DS in all regions on on all firmware versions
-+ If everything goes according to plan, you will lose no data and end up with everything that you started with.
-+ A large part of this guide is lengthy NAND dumps and downgrades, so the entire process can take *several* hours thanks to the 3DS's slow processor.
-+ **Keep the device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!**
-+ Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/) (the SD card that comes with the device will be MBR by default).
-+ If you need to format a brand new SD card, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
-+ The 2DS is essentially identical to the Old 3DS in terms of software, and that any steps which say "Old 3DS" also apply to 2DS.
++ **Antes de comenzar la guía, debes conocer los riesgos de hackear la 3DS: CADA VEZ que modificas tu sistema, siempre existe la posibilidad de que tu consola quede inutilizable de forma IRRECUPERABLE. Es algo raro, pero la posibilidad está ahí, así que asegúrate de seguir TODAS las instrucciones AL PIE DE LA LETRA.**
++ Esta guía funcionará en consolas New 3DS, Old 3DS y 2DS de todas las regiones en todas las versiones de firmware
++ Si todo va según el plan, no perderás datos y terminarás con todo lo que tenías anteriormente.
++ **¡Mantén la consola conectada al cargador a lo largo de todo el proceso para evitar pérdida de datos o daños por un apagado inesperado!**
++ Tu tarjeta SD debe ser [MBR, no GPT](http://www.howtogeek.com/245610/) (la tarjeta SD que viene con la consola será MBR por defecto).
++ Si necesitas formatear una tarjeta SD nueva, puedes usar [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) y ajustar el tamaño de unidad de asignación a 32K.
++ La 2DS es esencialmente idéntica a la Old 3DS en términos de software, y cualquiera de los pasos donde aparece "Old 3DS" también se aplican a 2DS.
+
+## ¿Con qué consolas es compatible esta guía?
+
+Esta guía está confirmada para ser compatible con las siguientes unidades de desarrollo:
+
++  CTR *(Unidad de prueba de Old 3DS)*
++  SPR *(Unidad de prueba de Old 3DS XL)*
++  FTR *(Unidad de prueba de 2DS)*
++  SNAKE *(Unidad de prueba de New 3DS)*
++  CLOSER *(Unidad de prueba de New 3DS XL)*
++  PARTNER-CTR [Captura] [Depuradora] [Depuradora Capturadora] *(Unidad Old 3DS [Depuradora] [Captura] [Capturadora con Depuradora])*
++  IS-CTR-DEBUGGER [w/ SPR] *(Unidad Depuradora Old 3DS [con Handset SPR])*
++  IS-SPR-DEBUGGER [w/ CAPTURE] *(Unidad Depuradora Old 3DS XL [con Capturadora])*
++  IS-SNAKE-DevKit *(New 3DS DevKit)*
+
+Esta guía podría ser compatible con las siguientes unidades de desarrollo, pero no está confirmado:
+
++  JAN *(Unidad de prueba de New 2DS XL)*
++  IS-CTR-BOX [w/ Expansion Kit] *(Unidad Escritora de Flash Card CTR [con Depurador o expansión de Emulador])*
++  IS-SNAKE-TESTER *(Kit de prueba de New 3DS)*
++  IS-SNAKE-BOX *(Unidad Escritora de Flash Card CTR con Depuradora SNAKE y Emulador)*
++  IS-RAY-DEBUGGER *(Prototipo de IS-SNAKE-BOX)*

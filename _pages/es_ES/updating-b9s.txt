@@ -1,98 +1,99 @@
 ---
-title: "Updating B9S"
+title: "Actualizar B9S" #
 ---
 
-This page is for existing boot9strap users to update their installation of boot9strap to the latest version.
+Esta página es para ayudar a los usuarios actuales de boot9strap a actualizar su instalación a la última versión.
 
-Note that the recent major release of Luma3DS is *not* compatible with boot9strap version 1.0. It *requires* you to update your boot9strap installation to version 1.2 by following the instructions on this page.
+Ten en cuenta que la última gran actualización de Luma3DS *no* es compatible con la versión 1.0 de boot9strap. *Debes* actualizar tu instalación de boot9strap a la versión 1.2 siguiendo las instrucciones de esta página.
 
 {% capture notice-1 %}
-There have been reports of a wave of bans being handed out to CFW users by Nintendo. To protect yourself, please do the following steps before starting this guide:
+Ha habido muchos reportes de olas de baneos a usuarios de CFW por parte de Nintendo. Para protegerte, puedes realizar los siguientes pasos antes de seguir esta guía:
 
-1. Go to System Settings, then "Internet Settings", then "SpotPass", then "Sending of System Information"
-1. Disable the "Sending of System Information" option
-1. Exit the System Settings
-1. Go to your Friend's List (the Face Icon in the top row of your Home Menu)
-  + If you receive an error and are kicked out of the menu, the Friend's List setting is already disabled
-1. Go to the Friend's List settings, then "Friend Notification Settings", then "Show friends what you're playing"
-1. Disable the "Show friends what you're playing" option
-1. Exit your Friend's List
+1. Ve a Configuración de la consola, luego a "Configuración de internet", luego "Envío de información sobre la consola"
+1. Desactiva la opción "Envío de información sobre la consola"
+1. Sal de la Configuración de la consola
+1. Ve a tu Lista de amigos (el ícono de la cara en la fila superior del Menú HOME)
+  + Si recibes un error y el menú se cierra, la opción de la Lista de amigos ya está desactivada
+1. Ve a la configuración de la Lista de amigos, luego a "Notificaciones entre amigos", y luego "Mostrar qué estás jugando"
+1. Desactiva la opción "Mostrar qué estás jugando"
+1. Sal de tu Lista de amigos
 
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-#### What you need
+#### Qué necesitas
 
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
-* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
+* La última versión de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(el archivo`.7z`)*
+* La última versión de [SafeB9SInstaller]
+(https://github.com/d0k3/SafeB9SInstaller/releases/latest)
+* La última versión de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(el archivo `devkit`, no el archivo `ntr`)*
+* La ultima versión de [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* El [Homebrew Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
 * [`setup_ctrnand_luma3ds.gm9`]({{ base_path }}/gm9_scripts/setup_ctrnand_luma3ds.gm9)
 
-#### Instructions
+#### Instrucciones
 
-##### Section I - Prep Work
+##### Sección I - Preparativos
 
-For all steps in this section, overwrite any existing files on your SD card.
+Para todos los pasos en esta sección, sobreescribe cualquier archivo existente en tu tarjeta SD.
 {: .notice--info}
 
-1. Power off your device
-1. Insert your SD card into your computer
-1. **Leave the old (v7.1) version of Luma3DS (`boot.firm`) as it is. You will update this later.**
-1. Copy _the contents of_ `starter.zip` to the root of your SD card
-1. Create a folder named `boot9strap` on the root of your SD card
-1. Copy `GodMode9.firm` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card
-1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card
-1. Copy `setup_ctrnand_luma3ds.gm9` to the `/gm9/scripts/` folder on your SD card
-1. Copy `SafeB9SInstaller.firm` from the SafeB9SInstaller `.zip` to the `/luma/payloads/` folder on your SD card
-1. Copy `boot9strap.firm` and `boot9strap.firm.sha` from the boot9strap `.zip` to the `/boot9strap/` folder on your SD card
-1. Reinsert your SD card into your device
+1. Apaga tu consola
+1. Inserta tu tarjeta SD en tu computadora
+1. **Deja la versión anterior (v7.1) de Luma3DS (`boot.firm`) tal cual. La actualizarás luego.**
+1. Copia _el contenido de_ `starter.zip` a la raíz de tu tarjeta SD
+1. Crea una carpeta llamada `boot9strap` en la raíz de tu tarjeta SD
+1. Copia el archivo `GodMode9.firm` desde el `.zip` de GodMode9 a la carpeta `/luma/payloads/` de tu tarjeta SD
+1. Copia la carpeta `gm9`contenida en el `.zip`de GodMode9 al directorio raíz de tu tarjeta SD
+1. Copia `setup_ctrnand_luma3ds.gm9` a la carpeta `/gm9/scripts/` en tu tarjeta SD
+1. Copia `SafeB9SInstaller.firm` desde el `.zip` de SafeB9SInstaller a la carpeta `/luma/payloads/` en tu tarjeta SD
+1. Copia `boot9strap.firm` y `boot9strap.firm.sha` desde el `.zip` de boot9strap a la carpeta `/boot9strap/` en tu tarjeta SD
+1. Reinserta la tarjeta SD en tu consola
 
-##### Section II - Installing boot9strap
+##### Sección II - Instalar boot9strap
 
-1. Reboot holding (Start) during boot to launch the Luma3DS chainloader menu
-1. Launch SafeB9SInstaller by pressing (A)
-1. Wait for all safety checks to complete
-1. When prompted, input the key combo given to install boot9strap
-1. Once it has completed, press (A) to reboot your device.
-1. Power off your device
-  + Note that you will receive the error `Unsupported launcher (argc = 0)` until you follow the rest of the instructions on this page
+1. Reinicia manteniendo (Start) presionado al encender la consola para iniciar el menú de selección de payloads de Luma3DS
+1. Inicia SafeB9SInstaller presionando (A)
+1. Espera a que todas las verificaciones de seguridad se completen
+1. Cuando se solicite, introduce la combinación de botones mostrada para instalar boot9strap
+1. Una vez se haya completado, presiona (A) para reiniciar tu consola.
+1. Apaga tu consola
+  + Ten en cuenta que tendrás el error `Unsupported launcher (argc = 0)` hasta que sigas el resto de instrucciones en esta página
 
-##### Section III - Updating Luma3DS
+##### Section III - Actualizar Luma3DS
 
-1. Insert your SD card into your computer
-1. Delete the existing `boot.firm` from the root of your SD card
-1. Copy `boot.firm` from the Luma3DS `.7z` to the root of your SD card
-1. Reinsert your SD card into your device
+1. Inserta tu tarjeta SD en tu computadora
+1. Elimina el `boot.firm` existente desde la raíz de tu tarjeta SD
+1. Copia el archivo `boot.firm` desde el `.7z` de Luma3DS a la raíz de tu tarjeta SD
+1. Reinserta la tarjeta SD en tu consola
 
-##### Section IV - Configuring Luma3DS
+##### Sección IV - Configurar Luma3DS
 
-1. Your device should have rebooted into the Luma3DS configuration menu
-  + If you get a black screen, [follow this troubleshooting guide](troubleshooting#ts_sys_b9s)
-1. Use the (A) button and the D-Pad to turn on the following:    
+1. Tu consola debería haber reiniciado en el menú de configuración de Luma3DS
+  + Si obtienes una pantalla negra, [sigue esta guía de solución de problemas](troubleshooting#ts_sys_b9s)
+1. Utiliza el botón (A) y las flechas direccionales para activar lo siguiente:    
   + **"Show NAND or user string in System Settings"**
-1. Press (Start) to save and reboot
+1. Presiona (Start) para guardar y reiniciar
 
-##### Section V - CTRNAND Luma3DS
+##### Sección V - CTRNAND Luma3DS
 
-1. Launch GodMode9 by holding (Start) during boot
-1. If you are prompted to create an essential files backup, press (A) to do so, then press (A) to continue once it has completed
-1. Press (Home) to bring up the action menu
-1. Select "More..."
-1. Select "Scripts..."
-1. Select "setup_ctrnand_luma3ds"
-1. When prompted, press (A) to proceed
-1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
-1. Press (A) to continue
-1. Press (A) to relock write permissions
-1. Press (Start) to reboot your device
+1. Inicia GodMode9 manteniendo presionado (Start) mientras enciendes la consola
+1. Si se te pide crear copias de seguridad de archivos esenciales, presiona (A) para hacerlo y luego presiona (A) para continuar una vez que haya terminado
+1. Presiona el botón (Home) para abrir el menú de acción
+1. Selecciona "More..."
+1. Selecciona "Scripts..."
+1. Selecciona "setup_ctrnand_luma3ds"
+1. Presiona (A) para continuar cuando se te pida
+1. Presiona (A) para desbloquear la escritura de SysNAND (lvl1) y después introduce la combinación de teclas mostrada
+1. Presiona (A) para continuar
+1. Presiona (A) para volver a bloquear los permisos de escritura
+1. Presiona (Start) para reiniciar tu consola
 
 ___
 
-Note that the `.bak` files in the `/boot9strap/` folder on your SD card are only needed in the event of a failed boot9strap install. Once you have installed successfully, you can delete the entire `boot9strap` folder.
+Ten en cuenta que los archivos `.bak` en la carpeta `/boot9strap/` en tu tarjeta SD sólo son necesarios en el caso de que la instalacíon de boot9strap haya fallado. Una vez que hayas realizado la instalación correctamente, puedes borrar la carpeta `boot9strap`.
 {: .notice--info}
 
-You can now press (L) + (Down) + (Select) while the system is booted to open the Rosalina menu integrated into Luma3DS. For a full list of Rosalina features, please see the [Luma3DS v8.0 Release](https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0)
+Ahora puedes presionar (L) + (Abajo) + (Select) al encender la consola para abrir el menú de Rosalina integrado en Luma3DS. Para una lista completa de las características de Rosalina, por favor revisa [la publicación de Luma3DS v8.0] (https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0)
 {: .notice--info}

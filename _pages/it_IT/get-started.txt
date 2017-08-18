@@ -1,31 +1,31 @@
 ---
-title: "Get Started"
+title: "Cominciamo!"
 ---
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di errori usando [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)) o [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
 {% capture notice-1 %}
-There have been reports of a wave of bans being handed out to CFW users by Nintendo. To protect yourself, please do the following steps before starting this guide:
+È stata segnalata recentemente un'ondata di ban da parte di Nintendo riscontrata da utenti con CFW. Per ridurre il rischio che capiti anche a te, esegui i seguenti passaggi prima di iniziare questa guida:
 
-1. Go to System Settings, then "Internet Settings", then "SpotPass", then "Sending of System Information"
-1. Disable the "Sending of System Information" option
-1. Exit the System Settings
-1. Go to your Friend's List (the Face Icon in the top row of your Home Menu)
-  + If you receive an error and are kicked out of the menu, the Friend's List setting is already disabled
-1. Go to the Friend's List settings, then "Friend Notification Settings", then "Show friends what you're playing"
-1. Disable the "Show friends what you're playing" option
-1. Exit your Friend's List
+1. Entra nelle Impostazioni della Console, quindi in "Impostazioni Internet", poi "SpotPass" ed infine "Invio informazioni della console"
+1. Disabilita l'impostazione "Invio informazioni della console"
+1. Esci dalle Impostazioni della Console
+1. Entra nella tua lista di amici (l'icona con la faccina nella barra superiore del menu HOME)
+  + Se ricevi un errore e vieni fatto uscire al menu, l'impostazione nella lista di amici è stata già disabilitata
+1. Vai nelle impostazioni della lista di amici, quindi "Imposta notifiche amici" ed infine "Vuoi mostrare il software in uso?"
+1. Disabilita l'impostazione "Vuoi mostrare il software in uso?"
+1. Esci dalla lista di amici
 
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-#### Overview of steps
+#### Panoramica
 
-- Install the version 0.23.5 for your region / device
-- Install boot9strap using CakeHax Browser
-- (Optionally) install the latest version for your region / device
+- Installazione della versione di sistema 0.23.5 per la tua regione / console
+- Installazione di boot9strap tramite Cakehax Browser
+- (Facoltativo) Installazione dell'ultima versione software per la tua regione / console
 
-Continue to [0.23.5 Install](0.23.5-install)
+Prosegui con l'[Installazione 0.23.5](0.23.5-install)
 {: .notice--primary}
