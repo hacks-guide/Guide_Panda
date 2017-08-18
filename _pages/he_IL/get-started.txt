@@ -1,31 +1,31 @@
 ---
-title: "Get Started"
+title: "צעדים ראשונים"
 ---
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+לפני שאתם מתחילים, כדאי לבדוק את כרטיס הזכרון עבור שגיאות באמצעות [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), או [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
 {% capture notice-1 %}
-There have been reports of a wave of bans being handed out to CFW users by Nintendo. To protect yourself, please do the following steps before starting this guide:
+היו דיווחים על גל של באנים שנינטנדו נתנו למי שפרץ. כדי להגן על עצמכם, תעשו את השלבים הבאים לפני שאתם מתחילים את המדריך:
 
-1. Go to System Settings, then "Internet Settings", then "SpotPass", then "Sending of System Information"
-1. Disable the "Sending of System Information" option
-1. Exit the System Settings
-1. Go to your Friend's List (the Face Icon in the top row of your Home Menu)
-  + If you receive an error and are kicked out of the menu, the Friend's List setting is already disabled
-1. Go to the Friend's List settings, then "Friend Notification Settings", then "Show friends what you're playing"
-1. Disable the "Show friends what you're playing" option
-1. Exit your Friend's List
+1. לכו להגדרות, שם אל "Internet Settings", שם "SpotPass", ולבסוף אל "Sending of System Information"
+1. תבטלו את הגדרת "Sending of System Information"
+1. תצאו מהגדרות המערכת
+1. לכו לרשימת החברים שלכם (הפרצוף בחלק העליון של תפריט הבית)
+  + אם אתם מקבלים שגיאה וזה מוציא אתכם מהתפריט, ההגדרה כבר מבוטלת
+1. לכו להגדרות רשימת החברים, שם אל "Friend Notification Settings", ולבסוף אל "Show friends what you're playing"
+1. תבטלו את האפשרות "Show friends what you're playing"
+1. תצאו מרשימת החברים
 
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-#### Overview of steps
+#### מעבר על הצעדים
 
-- Install the version 0.23.5 for your region / device
-- Install boot9strap using CakeHax Browser
-- (Optionally) install the latest version for your region / device
+- התקנת גרסה 0.23.5 בשביל הקונסולה \ אזור שלכם
+-התקנת boot9strap באמצעות CakeHax
+- (אופציונלי) התקנת הגירסה העדכנית ביותר עבור האזור \ קונסולה שלכם
 
-Continue to [0.23.5 Install](0.23.5-install)
+תמשיכו אל [התקנת 0.23.5](0.23.5-install)
 {: .notice--primary}

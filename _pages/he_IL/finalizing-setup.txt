@@ -1,133 +1,133 @@
 ---
-title: "Finalizing Setup"
+title: "סיום התהליך"
 ---
 
-#### Overview of steps
+#### מעבר על הצעדים
 
-The file `boot.firm` is what is launched by boot9strap itself after it finishes loading off of NAND, and can be any valid arm9 payload in the FIRM format. This file can be replaced at any time, although Luma3DS allows for the launch of other arm9 payloads in the FIRM format using the Luma3DS chainloader.
+הקובץ `boot.firm` הוא מה שמופעל בעת ההדלקה של המכשיר על ידי boot9strap עצמו לאחר שהוא נטען מה-NAND, והוא כל payload של arm9 בפורמט של הFIRM. את הקובץ עצמו אפשר להחליף תמיד, למרות שLuma3DS מאפשר הרצת payload של arm9 בפורמט הFIRM באמצעות הטעינת שרשרת של Luma3DS.
 
-In this case, we use Luma3DS by [AuroraWright](https://github.com/AuroraWright/) to boot a patched SysNAND directly, allowing us to completely bypass the need for any kind of EmuNAND, vastly simplifying the usage of a hacked 3DS in addition to saving SD card space.
+לכן, נשתמש ב-Luma3DS מאת [AuroraWright](https://github.com/AuroraWright/) על מנת לעשות בוט לתוך SysNAND מותאם ישירות, דבר אשר מאפשר לנו לעקוף לחלוטין כל צורך של EmuNAND ובכך לפשט את השימוש ב-3DS פרוץ במקביל לחסכון בנפח ה-SD.
 
-During this process, we also setup programs such as the following:    
+בתהליך זה, גם נתקין את התוכנות הבאות:    
 
-+  **FBI** *(installs CIA formatted games and applications)*
-+  **Themely** *(installs custom themes)*
-+  **Luma3DS Updater** *(updates your CFW installation easily)*
-+  **GodMode9** *(multipurpose tool which can do NAND and cartridge functions)*
++ **FBI** *(התקנת משחקים ותוכנות בפורמט CIA)*
++  **Themely** *(מתקין ערכות נושא מותאמות אישית)*
++ **Luma3DS Updater** *(עדכון לCFW בקלות)*
++ **GodMode9** *(כלי רב שימושי אשר מסוגל לבצע פונקציות הקשורות ל-NAND ולקלטות משחק)*
 
-#### What you need
+#### מה שאתם צריכים
 
-* The latest release of [Themely](https://github.com/ihaveamac/Themely/releases/latest) *(the `.cia` file)*
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest) *(the `.cia` and `.3dsx` files)*
-* The latest fork of [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(the `.cia` file)*
+* את הגרסה העדכנית של [Themely](https://github.com/ihaveamac/Themely/releases/latest) *(יש להוריד את קובץ ה-`.cia`)*
+* הגרסה העדכנית של [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* את הגרסה העדכנית של [FBI](https://github.com/Steveice10/FBI/releases/latest) *(יש להוריד את קובץ ה- `.cia` ואת קובץ ה`.3dsx)*
+* הפורק העדכני של [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(יש להוריד את קובץ ה- `.cia`)*
 * [`setup_ctrnand_luma3ds.gm9`]({{ base_path }}/gm9_scripts/setup_ctrnand_luma3ds.gm9)
 * [`cleanup_sd_card.gm9`]({{ base_path }}/gm9_scripts/cleanup_sd_card.gm9)
 
-#### Instructions
+#### הוראות
 
-##### Section I - Prep Work
+##### חלק I - הכנות
 
-1. Power off your device
-1. Insert your SD card into your computer
-1. Create a folder named `cias` on the root of your SD card if it does not already exist
-1. Copy `lumaupdater.cia` to the `/cias/` folder on your SD card
-1. Copy `FBI.cia` to the `/cias/` folder on your SD card
-1. Copy `Themely.cia` to the `/cias/` folder on your SD card
-1. Create a folder named `payloads` in the `luma` folder on your SD card
-1. Copy `GodMode9.firm` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card
-1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card
-1. Copy `setup_ctrnand_luma3ds.gm9` to the `/gm9/scripts/` folder on your SD card
-1. Copy `cleanup_sd_card.gm9` to the `/gm9/scripts/` folder on your SD card
-1. Reinsert your SD card into your device
+1. תכבו את הקונסולה
+1. תכניסו את כרטיס ה- SD שלכם אל המחשב
+1. צרו תיקייה בשם `cias` בתיקיית האם של כרטיס ה- SD שלכם אם לא קיימת תיקייה כזו
+1. תעתיקו את הקובץ `lumaupdater.cia` לתוך התיקייה `/cias/` שב-SD שלכם
+1. תעתיקו את הקובץ `FBI.cia` לתוך התיקייה `/cias/` שב-SD שלכם
+1. תעתיקו את הקובץ `Themely.cia` לתוך התיקייה `/cias/` שב-SD שלכם
+1. תצרו תיקייה חדשה בשם `payloads` בתוך התיקייה `luma` שהרגע יצרנו
+1. העתיקו את `GodMode9.firm` מהזיפ של GodMode9 אל תיקיית /luma/payloads/ ב- SD שלכם
+1. תעתיקו את התיקייה `gm9` מתוך ה`.zip` של GodMode9 ל-SD שלכם
+1. תעתיקו את `setup_ctrnand_luma3ds.gm9` אל תיקיית`/gm9/scripts/` על כרטיס הSD שלכם
+1. תעתיקו את `cleanup_sd_card.gm9` אל תיקיית`/gm9/scripts/` על כרטיס הSD שלכם
+1. תכניסו מחדש את כרטיס הSD שלכם לתוך המכשיר שלכם
 
-##### Section II - Updating the System
+##### חלק II - עדכון המערכת
 
-This section is optional and requires both a CTR flash card and the development hardware to write a CSU to that CTR flash card.
+סעיף זה אופטימלי ודורש גם CTR flash card והחומרה הנדרשת לכתוב CSU אל הCTR flash card הזה.
 {: .notice--info}
 
-1. Update your PANDA unit by using the latest version CTR System Updater (CSU) available to you
+1. תעדכנו את יחידת הPANDA שלכם בעזרת הCTR System Updater (CSU) העדכני ביותר שיש לכם
 
-##### Section III - Installing CIAs
+##### חלק III - התקנת CIA
 
-1. Using Dev Menu, navigate to the `cias` folder
-1. Press (L + R + A) to install all CIAs
-1. Exit Dev Menu
+1. בעזרת Dev Menu, תנווטו אל תיקיית `cias`
+1. תלחצו(L + R + A) כדי להתקין את כל ה CIAים
+1. תצאו מDev Menu
 
-##### Section IV - CTRNAND Luma3DS
+##### חלק IV - Luma3DS על ה- CTRNAND
 
-1. Launch GodMode9 by holding (Start) during boot
-1. If you are prompted to create an essential files backup, press (A) to do so, then press (A) to continue once it has completed
-1. Press (Home) to bring up the action menu
-1. Select "More..."
-1. Select "Scripts..."
-1. Select "setup_ctrnand_luma3ds"
-1. When prompted, press (A) to proceed
-1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
-1. Press (A) to continue
-1. Press (A) to relock write permissions
+1. תפתחו את GodMode9 על ידי החזקה של המקש (Start) בעת ההדלקה
+1. אם תתבקשו לעשות גיבוי של קבצים חיוניים, תלחצו (A) כדי לעשות זאת, ואז תלחצו (A) כדי להמשיך אחרי שזה סיים
+1. תלחצו על (Home) כדי להראות את תפריט הפעולה
+1. תבחרו ב"More..."
+1. תבחרו "Scripts..."
+1. תבחרו ב "setup_ctrnand_luma3ds"
+1. כשתתבקשו, תלחצו (A) כדי להמשיך
+1. לחצו (A) כדי לפתוח גישת כתיבת lvl1 לSysNAND, ואז תלחצו על המקשים בסדר הנכון
+1. תלחצו (A) כדי להמשיך
+1. תלחצו (A) כדי לנעול הרשאות כתיבה
 
-##### Section V - Backup SysNAND
+##### חלק V - גיבוי SysNAND
 
-1. Press (Home) to bring up the action menu
-1. Select "More..."
-1. Select "Scripts..."
-1. Select "Backup SysNAND"
-1. Press (A) to confirm
-  + This process will take some time
-1. Press (A) to continue
-1. Hold (R) and press (B) at the same time to eject your SD card
-1. Insert your SD card into your computer
-1. Copy `<serialnumber>_nandmin_###.bin` from the `/gm9/out/` folder on your SD card to a safe location on your computer
-  + Make backups in multiple locations (such as online file storage)
-  + This backup will save you from a brick if anything goes wrong in the future
-1. Delete `<serialnumber>_nandmin_###.bin` from the `/gm9/out/` folder on your SD card after copying it
-1. Reinsert your SD card into your device
+1. תלחצו על (Home) כדי להראות את תפריט הפעולה
+1. תבחרו ב"More..."
+1. תבחרו "Scripts..."
+1. תבחרו ב "Backup SysNAND"
+1. תלחצו (A) כדי לאשר
+  + זה ייקח קצת זמן
+1. תלחצו (A) כדי להמשיך
+1. תחזיקו (R) ולחצו (B) באותו הזמן כדי להוציא את הSD
+1. תכניסו את כרטיס ה- SD שלכם אל המחשב
+1. תעתיקו את `<serialnumber>_nandmin_###.bin` מתיקיית `/gm9/out/` על הכרטיס זכרון אל מקום בטוח במחשב שלכם
+  + תיצרו גיבויים במקומות שונים (כמו אחסון בענן)
+  + הגיבוי הזה ישמור עליכם מבריק אם משהו ישתבש בעתיד
+1. תמחקו את `<serialnumber>_nandmin_###.bin` בתיקיה `/gm9/out/` על הSD לאחר שהעתקתם אותו
+1. תכניסו מחדש את כרטיס הSD שלכם לתוך המכשיר שלכם
 
-##### Section VI - Cleanup SD Card
+##### חלק VI - ניקוי ה SD
 
-1. Press (Home) to bring up the action menu
-1. Select "More..."
-1. Select "Scripts..."
-1. Select "cleanup_sd_card"
-1. When prompted, press (A) to proceed
-1. Press (A) to continue
-1. Press (Start) to reboot
+1. תלחצו על (Home) כדי להראות את תפריט הפעולה
+1. תבחרו ב"More..."
+1. תבחרו "Scripts..."
+1. תבחרו ב"cleanup_sd_card"
+1. כשתתבקשו, תלחצו (A) כדי להמשיך
+1. תלחצו (A) כדי להמשיך
+1. לחצו על (Start) על מנת להפעיל מחדש
 
 ___
 
 {% capture notice-10 %}
-You can now use Luma3DS Updater to update your Luma3DS to the latest version just by opening it and pressing (A).
+אתם כעת יכולים להשתמש ב-Luma3DS Updater על מנת לעדכן את Luma3DS המותקן לקונסולה שלכם בכך שפשוט תפתחו אותו ולחצו על (A).
 
-This is not the same thing as a System Update; it just downloads and extracts the newest Luma3DS files.
+זה לא אותו דבר כמו עדכון מערכת; זה רק מוריד ומחלץ את הקבצים העדכניים של Luma3DS.
 
-This will only update the Luma3DS files on your SD card. If you boot your device without an SD card, it will use the version you placed in CTRNAND.    
+זה יעדכן רק את הקבצים של Luma3DS בכרטיס SD. אם תדליקו את הקונסולה ללא SD, זה יפעיל את הגרסה אשר העתקתם לתוך מחיצת הCTRNAND.    
 {% endcapture %}
 
 <div class="notice--info">{{ notice-10 | markdownify }}</div>
 
 {% capture notice-6 %}   
-You will now boot Luma3DS CFW SysNAND by default.    
+אתם עכשיו תפעילו את Luma3DS CFW כברירת מחדל.    
 
-You can now hold (Select) on boot to launch the Luma3DS configuration menu.    
+אתם יכולים להחזיק את (Select) בזמן הדלקה על מנת להפעיל את תפריט ההגדרות של Luma3DS.    
 
-You can now hold (Start) on boot to launch the Luma3DS chainloader menu (note that the Luma3DS chainloader menu is only displayed if there is more than one payload detected).    
+אתם יכולים עכשיו להחזיק (Start) בהפעלה כדי להפעיל את תפריט ההפעלה של Luma3DS (שימו לב שהוא יופיע רק אם יש לכם יותר מתוכנה אחת שזוהתה).    
 
-You can now hold (Start) + (Select) + (X) on boot to dump the ARM11 bootrom (`boot11.bin`), the ARM9 bootrom (`boot9.bin`), and your console unique OTP (`OTP.bin`) to the `/boot9strap/` folder on your SD card (note that this will not have any kind of prompt or message).    
+אתם יכולים עכשיו להחזיק (Start) + (Select) + (X) בהפעלה כדי להשיג את הOTP המיוחד לכל קונסולה (שהוא`OTP.bin`), הbootrom של ה ARM11 (שהוא`boot11.bin`), והbootrom של ה ARM9 (שהוא `boot9.bin`), בתיקיית `/boot9strap/` על כרטיס הSD שלכם (שימו לב שלא תהיה שום הודעה או סימן).    
 
-You can now press (L) + (Down) + (Select) while the system is booted to open the Rosalina menu integrated into Luma3DS. For a full list of Rosalina features, please see the [Luma3DS v8.0 Release](https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0)
+אתם יכולים עכשיו ללחוץ על (L) + (Down) + (Select) בזמן שהקונסולה פועלת כדי לפתוח את התפריט Rosalina שנמצא בתוך Luma3DS. לרשימה מלאה של הפיצ'רים של Rosalina בבקשה תראו את ה [שחרור של Luma3DS v8.0](https://github.com/AuroraWright/Luma3DS/releases/tag/v8.0)
 {% endcapture %}
 
 <div class="notice--info">{{ notice-6 | markdownify }}</div>
 
-To use [NTR CFW](https://github.com/44670/BootNTR/), install [BootNTR Selector](https://gbatemp.net/threads/432911/).
+כדי להשתמש ב [NTR CFW](https://github.com/44670/BootNTR/), תתקינו את [BootNTR Selector](https://gbatemp.net/threads/432911/).
 {: .notice--info}
 
-For information on using GodMode9's various features, check out the [GodMode9 Usage](godmode9-usage) page.
+לקבלת מידע על שימוש באפשרויות השונות של GodMode9, תבדקו את עמוד [השימוש בGodMode9](godmode9-usage).
 {: .notice--success}
 
-For information on using Luma3DS's various features, check out [its wiki](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).
+על מנת לקבל מידע על שימוש ב-Luma3DS ובפונקציות השונות שלו, עברו [לעמוד הויקי שלו](https://github.com/AuroraWright/Luma3DS/wiki/Options-and-usage).
 {: .notice--success}
 
-For information on installing custom themes, badges, and splash screens, check out [3dsthem.es](https://3dsthem.es/about.php).
+לקבלת מידע אודות התקנת ערכות נושא מותאמות אישית, תגים ומסכי פתיחה, תלכו אל [3dsthem.es](https://3dsthem.es/about.php).
 {: .notice--success}

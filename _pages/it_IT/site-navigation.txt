@@ -1,25 +1,25 @@
 ---
-title: "Site Navigation" #
+title: "Mappa del sito" #
 sitemap: false
 ---
 
 {% capture notice-2 %}
 **All**
 
-+ [0.23.5 Install](0.23.5-install)
-+ [0.23.5 Install (CIAs)](0.23.5-install-(cias))
-+ [0.23.5 Install (CSU)](0.23.5-install-(csu))
-+ [A9LH to B9S](a9lh-to-b9s)
-+ [Credits](credits)
-+ [Donations](donations)
++ [Installazione 0.23.5](0.23.5-install)
++ [Installazione 0.23.5 (CIA)](0.23.5-install-(cias))
++ [Installazione 0.23.5 (CSU)](0.23.5-install-(csu))
++ [Da A9LH a B9S](a9lh-to-b9s)
++ [Riconoscimenti](credits)
++ [Donazioni](donations)
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
 + [FAQ](faq)
-+ [Get Started](get-started)
++ [Cominciamo!](get-started)
 + [H2testw (Windows)](h2testw-(windows))
-+ [Home](/)
-+ [Installing boot9strap (Browser)](installing-boot9strap-(browser))
-+ [Troubleshooting](troubleshooting)
-+ [Updating B9S](updating-b9s)
++ [Pagina iniziale](/)
++ [Installazione di boot9strap (Browser)](installing-boot9strap-(browser))
++ [Risoluzione dei problemi](troubleshooting)
++ [Aggiornare B9S](updating-b9s)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
