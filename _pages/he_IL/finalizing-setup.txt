@@ -11,13 +11,13 @@ title: "סיום התהליך"
 בתהליך זה, גם נתקין את התוכנות הבאות:    
 
 + **FBI** *(התקנת משחקים ותוכנות בפורמט CIA)*
-+  **Themely** *(מתקין ערכות נושא מותאמות אישית)*
++  **Anemone3DS** *(מתקין ערכות נושא מותאמות אישית)*
 + **Luma3DS Updater** *(עדכון לCFW בקלות)*
 + **GodMode9** *(כלי רב שימושי אשר מסוגל לבצע פונקציות הקשורות ל-NAND ולקלטות משחק)*
 
 #### מה שאתם צריכים
 
-* את הגרסה העדכנית של [Themely](https://github.com/ihaveamac/Themely/releases/latest) *(יש להוריד את קובץ ה-`.cia`)*
+* את הגרסה העדכנית של [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(יש להוריד את קובץ ה-`.cia`)*
 * הגרסה העדכנית של [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * את הגרסה העדכנית של [FBI](https://github.com/Steveice10/FBI/releases/latest) *(יש להוריד את קובץ ה- `.cia` ואת קובץ ה`.3dsx)*
 * הפורק העדכני של [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(יש להוריד את קובץ ה- `.cia`)*
@@ -33,7 +33,7 @@ title: "סיום התהליך"
 1. צרו תיקייה בשם `cias` בתיקיית האם של כרטיס ה- SD שלכם אם לא קיימת תיקייה כזו
 1. תעתיקו את הקובץ `lumaupdater.cia` לתוך התיקייה `/cias/` שב-SD שלכם
 1. תעתיקו את הקובץ `FBI.cia` לתוך התיקייה `/cias/` שב-SD שלכם
-1. תעתיקו את הקובץ `Themely.cia` לתוך התיקייה `/cias/` שב-SD שלכם
+1. תעתיקו את הקובץ `Anemone3DS.cia` לתוך התיקייה `/cias/` שב-SD שלכם
 1. תצרו תיקייה חדשה בשם `payloads` בתוך התיקייה `luma` שהרגע יצרנו
 1. העתיקו את `GodMode9.firm` מהזיפ של GodMode9 אל תיקיית /luma/payloads/ ב- SD שלכם
 1. תעתיקו את התיקייה `gm9` מתוך ה`.zip` של GodMode9 ל-SD שלכם
