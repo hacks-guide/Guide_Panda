@@ -11,13 +11,13 @@ In questo caso, useremo Luma3DS di [AuroraWright](https://github.com/AuroraWrigh
 Durante la guida verranno anche configurate le seguenti applicazioni:    
 
 +  **FBI** *(installa i giochi e le applicazioni in formato CIA)*
-+  **Anemone3DS** *(installs custom themes)*
++ **Anemone3DS** *(installa temi personalizzati)*
 +  **Luma3DS Updater** *(aggiorna facilmente il CFW)*
 +  **GodMode9** *(applicazione multifunzione per gestire NAND e schede di gioco)*
 
 #### Quello che ti serve
 
-* The latest release of [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(the `.cia` file)*
+* L'ultima versione di [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(il file `.cia`)*
 * L'ultima release di [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * L'ultima versione di [FBI](https://github.com/Steveice10/FBI/releases/latest) *(i file `.cia` e `.3dsx`)*
 * L'ultima fork di [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(il file `.cia`)*
@@ -33,7 +33,7 @@ Durante la guida verranno anche configurate le seguenti applicazioni:
 1. Se non è già presente, crea una cartella chiamata `cias` nella directory principale della tua scheda SD
 1. Copia il file `lumaupdater.cia` nella cartella `/cias/` della tua scheda SD
 1. Copia il file `FBI.cia` nella cartella `/cias/` della tua scheda SD
-1. Copy `Anemone3DS.cia` to the `/cias/` folder on your SD card
+1. Copia il file `Anemone3DS.cia` nella cartella `/cias/` della tua scheda SD
 1. Crea una cartella chiamata `payloads` nella cartella `luma` della tua scheda SD
 1. Copia il file `GodMode9.firm` dall'archivio `.zip` di GodMode9 dentro la cartella `/luma/payloads/` della tua scheda SD
 1. Copia la cartella `gm9` presente nell'archivio `.zip` di GodMode9 nella directory principale della tua scheda SD
