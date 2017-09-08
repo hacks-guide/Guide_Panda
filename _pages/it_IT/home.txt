@@ -58,7 +58,7 @@ Per una lista di tutte le firme di sighax (la piattaforma su cui si basa boot9st
 ## Cosa posso fare con un Custom Firmware?
 
 + Giocare tutte le schede di gioco e tutti titoli dell'eShop, indipendentemente dalla regionalità
-+ Personalizza il tuo menu HOME con [temi](https://3dsthem.es/), [medaglie](https://badges.3dsthem.es/), e [splash screen](https://splash.3dsthem.es/) creati dagli utenti
++ Customize your HOME Menu with user-created [themes and splash screens](https://themeplaza.eu/)
 + Applicare "ROMhack" a giochi posseduti
 + Catturare screenshot di applicazioni e giochi
 + [Salva, modifica e ripristina](https://gbatemp.net/threads/413143/) salvataggi per molti giochi
