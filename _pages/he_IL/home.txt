@@ -58,7 +58,7 @@ boot9strap היא השיטה הטובה ביותר והעדכנית של הפע�
 ## מה אני יכול לעשות עם קושחה מותאמת אישית?
 
 + לשחק כל את כל המשחקים הפיזים ומה- eShop, ללא קשר לאזור המכשיר
-+ Customize your HOME Menu with user-created [themes and splash screens](https://themeplaza.eu/)
++ התאמה אישית של תפריט הבית עם [ערכות נושא ומסכי עלייה](https://themeplaza.eu/) שהוכנו על ידי משתמשים
 + לשחק ב- "ROM hacks" עבור משחקים שיש לכם
 + לצלם מסך
 + [גיבוי, עריכה ושחזור](https://gbatemp.net/threads/413143/) של שמירות של הרבה משחקים
