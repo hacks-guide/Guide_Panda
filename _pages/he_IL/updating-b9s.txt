@@ -23,7 +23,7 @@ title: "עדכון B9S"
 #### מה שאתם צריכים
 
 * הגרסה העדכנית של [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
+* הגרסא העדכנית של [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *( boot9strap רגיל; לא קובץ ה `devkit`, ולא קובץ ה`ntr`)*
 * [`cleanup_sd_card.gm9`]({{ base_path }}/gm9_scripts/cleanup_sd_card.gm9)
 
 #### הוראות
@@ -47,9 +47,9 @@ title: "עדכון B9S"
 1. תפעילו את SafeB9SInstaller על ידי לחיצת (A)
 1. תחכו שכל בדיקות הבטיחות יסתיימו
 1. כאשר תתבקשו, תלחצו על הכפתורים שנתונים לכם כדי להתקין את boot9strap
-1. Once it has completed, hold (Start) while pressing (A) to reboot your device to the Luma3DS chainloader
+1. אחרי שזה סיים, תחזיקו (Start) בזמן שאתם לוחצים (A) כדי לאתחל את הקונסולה אל תפריט הטעינה שלLuma3DS
 
-##### Section III - Cleanup SD Card
+##### חלק III - ניקוי ה SD
 
 1. תפתחו את GodMode9 על ידי החזקה של המקש (Start) בעת ההדלקה
 1. אם תתבקשו לעשות גיבוי של קבצים חיוניים, תלחצו (A) כדי לעשות זאת, ואז תלחצו (A) כדי להמשיך אחרי שזה סיים
@@ -63,5 +63,5 @@ title: "עדכון B9S"
 
 ___
 
-It is recommended that you use Luma3DS Updater to update your Luma3DS installation after you have completed the boot9strap update.
+זה מומלץ להשתמש בLuma3DS Updater כדי לעדכן את התקנת Luma3DS שלכם אחרי שסיימתם את העדכון של boot9strap.
 {: .notice--info}
