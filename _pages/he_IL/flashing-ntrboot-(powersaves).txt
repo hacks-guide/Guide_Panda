@@ -1,7 +1,7 @@
 ---
-title: "Flashing ntrboot (Powersaves)"
+title: "צריבת ntrboot (Powersaves)"
 ---
 
-This method is not yet complete, and as such is just a placeholder page.
+הדרך הזאת לא הושלמה, ולכן זה רק עמוד ריק.
 
-This method, once ready, will require temporary access to a [Powersaves](https://amzn.to/2fb3VY7). This method is not yet complete, and as such is just a placeholder page.
+הדרך הזאת, כשתיהיה מוכנה, תדרוש גישה זמנית ל[Powersaves](https://amzn.to/2fb3VY7). הדרך הזאת לא הושלמה, ולכן זה רק עמוד ריק.
