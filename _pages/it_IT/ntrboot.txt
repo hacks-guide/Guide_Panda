@@ -2,12 +2,12 @@
 title: "ntrboot"
 ---
 
-If you already flashed ntrboot to your flashcart, you can follow [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot)) for instructions on how to use it.
+Se hai già installato ntrboot nella tua flashcart, troverai i passi successivi alla pagina [Installazione di boot9strap (ntrboot)](installing-boot9strap-(ntrboot)).
 {: .notice--success}
 
-Installing boot9strap with ntrboot requires a compatible DS / DSi flashcart to flash ntrboot to.
+L'installazione di boot9strap tramite ntrboot richiede una flashcart DS / DSi compatibile.
 
-The ntrboot exploit itself is compatible with the following flashcarts:
+L'exploit ntrboot è compatibile con le seguenti flashcart:
 
   + [R4i Gold 3DS (RTS)](http://www.nds-card.com/ProShow.asp?ProID=149)
   + [Acekard 2i](http://www.nds-card.com/ProShow.asp?ProID=160)
@@ -15,32 +15,32 @@ The ntrboot exploit itself is compatible with the following flashcarts:
   + R4i Ultra
   + R4 3D Revolution
   + Infinity 3 R4i
-  + DSTT ([some flash chips only!](https://gist.github.com/Hikari-chin/6b48f1bb8dd15136403c15c39fafdb42))
+  + DSTT ([solo su determinati flash chip!](https://gist.github.com/Hikari-chin/6b48f1bb8dd15136403c15c39fafdb42))
 
   ![]({{ base_path }}/images/screenshots/ntrboot-flashcarts.png)
   {: .notice--info}
 
-Note that specific methods may have additional compatibility information.
+Tieni presente che i metodi specifici forniscono ulteriori informazioni sulla compatibilità.
 
-The usage of this exploit, regardless of flashing method, requires access to a small magnet if the target device is of a folding style (any 3DS family system that is not the old 2DS with a sleep switch). This is because the exploit requires your device to enter sleep mode while still having access to the buttons.
+Questo exploit, a prescindere dal metodo di flashing, richiede l'uso di un piccolo magnete se la console di destinazione è a chiusura (ovvero qualsiasi modello della famiglia 3DS che non sia l'Old 2DS con la levetta per la modalità riposo). in quanto la console deve essere in modalità riposo ma al contempo i pulsanti devono rimanere accessibili.
 
-To test if a magnet will work, hold it on or around the (A)(B)(X)(Y) buttons while the device is powered on to see if it triggers sleep mode. If it does, both displays will go black as long as the magnet is held in that spot.
+Per testare il funzionamento del magnete, appoggialo vicino ai pulsanti (A)(B)(X)(Y) mentre la console è accesa per verificare l'attivazione della modalità riposo. In tal caso, entrambi gli schermi si spegneranno finché il magnete rimane in questa posizione.
 {: .notice--info}
 
-Note that the flashcart will not be able to be used for its standard functions while the ntrboot exploit is installed on it (except for in the case of the Acekard 2i, which remains functional *on 3DS systems with custom firmware installed only*). There are optional steps at the end of the ntrboot flashing instructions to remove it from your flashcart when you are done.
+Tieni presente che la flashcart non potrà più essere utilizzata per le sue funzioni normali finché l'exploit ntrboot sarà installato su di essa (fatta eccezione per la Acekard 2i che funzionerà comunque solo su *console 3DS con un custom firmware installato*). Ci sono alcuni passaggi opzionali alla fine delle istruzioni per rimuovere ntrboot dalla tua flashcart, una volta che hai finito l'installazione.
 
-Note that in some rare circumstances, it may be possible for the flashing process to **brick** a counterfeit flashcart and render it permanently unusable. This is unlikely, but nevertheless only original listed flashcarts are supported. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](http://www.nds-card.com/))
+Nota bene che in alcune rare circostanze, è possibile **brickare** una flashcart contraffatta durante il processo di installazione e renderla così permanentemente inutilizzabile. È improbabile, tuttavia sono supportate soltanto le flashcart originali qui indicate. Per ridurre il rischio di ottenere una flashcart contraffatta, si raccomanda di comprarne una solo da siti affidabili (come [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
 
 ___
 
 {% capture notice-1 %}
 
-[Flashing ntrboot (3DS Single System)](flashing-ntrboot-(3ds-single-system))
+[Flash di ntrboot (Singolo 3DS)](flashing-ntrboot-(3ds-single-system))
 
-This method requires nothing more than your stock unhacked 3DS and a compatible flashcart.
+Questo metodo richiede soltanto un 3DS non ancora modificato e una flashcart compatibile.
 
-Note that more recent 3DS versions have blocked access to some flashcarts, and some flashcarts have always been blocked on the 3DS. This leaves them unable to launch the flasher `.nds` file on some (or all) versions. The ntrboot compatible flashcarts are able to launch `.nds` files on the 3DS (under the listed versions):
+Tieni presente che le più recenti versioni del software del 3DS hanno bloccato l'accesso ad alcune flashcart, mentre altre sono sempre state inutilizzabili su 3DS. Su di esse non è possibile avviare il flasher in formato `.nds` su alcune (o tutte) le versioni del software. Le flashcart compatibili possono eseguire su 3DS i file in formato `.nds` (solo nelle seguenti versioni del software):
 
   + [R4i Gold 3DS (RTS)](http://www.nds-card.com/ProShow.asp?ProID=149) : <= 11.5.0
   + [Acekard 2i](http://www.nds-card.com/ProShow.asp?ProID=160) : <= 4.3.0
@@ -54,19 +54,9 @@ Note that more recent 3DS versions have blocked access to some flashcarts, and s
 
 {% capture notice-1 %}
 
-[Flashing ntrboot (3DS Multi System)](flashing-ntrboot-(3ds-multi-system))
+[Flash di ntrboot (Con più 3DS)](flashing-ntrboot-(3ds-multi-system))
 
-This method requires temporary access to a second 3DS family device that is already running some kind of custom firmware (such as boot9strap or arm9loaderhax).
-
-{% endcapture %}
-
-<div class="notice--primary">{{ notice-1 | markdownify }}</div>
-
-{% capture notice-1 %}
-
-[Flashing ntrboot (NDS)](flashing-ntrboot-(nds))
-
-This method requires temporary access to a Nintendo DS or Nintendo DS Lite that is compatible with your flashcart.
+Questo metodo richiede temporaneamente l'utilizzo di un'altra console con già installato un custom firmware (come boot9strap o arm9loaderhax).
 
 {% endcapture %}
 
@@ -74,11 +64,21 @@ This method requires temporary access to a Nintendo DS or Nintendo DS Lite that 
 
 {% capture notice-1 %}
 
-[Flashing ntrboot (DSi)](flashing-ntrboot-(dsi))
+[Flash di ntrboot (NDS)](flashing-ntrboot-(nds))
 
-This method requires temporary access to a Nintendo DSi that is compatible with your flashcart.
+Questo metodo richiede momentaneamente l'utilizzo di un Nintendo DS o DS Lite compatibile con la tua flashcart.
 
-Note that more recent DSi versions have blocked access to some flashcarts. This leaves them unable to launch the flasher `.nds` file on newer versions. The ntrboot compatible flashcarts are able to launch `.nds` files under the following versions:
+{% endcapture %}
+
+<div class="notice--primary">{{ notice-1 | markdownify }}</div>
+
+{% capture notice-1 %}
+
+[Flash di ntrboot (DSi)](flashing-ntrboot-(dsi))
+
+Questo metodo richiede momentaneamente l'utilizzo di un Nintendo DSi compatibile con la tua flashcart.
+
+Tieni presente che versioni del software del DSi più recenti hanno bloccato l'accesso ad alcune flashcart. In parole povere, non è possibile avviare il flasher `.nds` sulle versioni più recenti. Le flashcart compatibili possono eseguire i file in formato `.nds` solo nelle seguenti versioni del software:
 
   + [R4i Gold 3DS RTS](http://www.nds-card.com/ProShow.asp?ProID=149) : <= 1.4.5
   + [Acekard 2i](http://www.nds-card.com/ProShow.asp?ProID=160) : <= 1.4.4
@@ -92,9 +92,9 @@ Note that more recent DSi versions have blocked access to some flashcarts. This 
 
 {% capture notice-1 %}
 
-[Flashing ntrboot (Powersaves)](flashing-ntrboot-(powersaves))
+[Flash di ntrboot (Powersaves)](flashing-ntrboot-(powersaves))
 
-This method, once ready, will require temporary access to a [Powersaves](https://amzn.to/2fb3VY7). This method is not yet complete, and as such is just a placeholder page.
+Quando disponibile, questo metodo richiederà temporaneamente l'utilizzo di un [Powersaves](https://www.amazon.it/Action-Replay-PowerSaves-2016-Nintendo/dp/B01EOMFY3C/). Non è ancora pronto, al suo posto è presente solo una pagina temporanea.
 
 {% endcapture %}
 
