@@ -25,7 +25,7 @@ There have been reports of a wave of bans being handed out to CFW users by Ninte
 
 [0.23.5 Install](0.23.5-install)
 
-This method involves downgrading to an older firmware version to utilize a browser-based exploit. It is *not* compatible with JAN (New 2DS XL) units.
+This method involves downgrading to an older firmware version to utilize a browser-based exploit. It is *not* compatible with JAN (New 2DS XL) units because they cannot downgrade below 0.25.5.
 
 {% endcapture %}
 
