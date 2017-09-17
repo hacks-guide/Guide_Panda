@@ -23,9 +23,9 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 
 {% capture notice-1 %}
 
-[0.23.5 Install](0.23.5-install)
+[Installazione 0.23.5](0.23.5-install)
 
-This method involves downgrading to an older firmware version to utilize a browser-based exploit. It is *not* compatible with JAN (New 2DS XL) units because they cannot downgrade below 0.25.5.
+Questo metodo consiste nell'effettuare un downgrade ad una vecchia versione del firmware per poter utilizzare un exploit basato sul browser internet. Questo metodo *non* è compatibile con le unità JAN (New 2DS XL) perché esse non possono effettuare un downgrade al di sotto della 0.25.5.
 
 {% endcapture %}
 
@@ -35,7 +35,7 @@ This method involves downgrading to an older firmware version to utilize a brows
 
 [ntrboot](ntrboot)
 
-This method flashes a commercial flashcart with the ntrboot exploit then boots it on your PANDA. It is compatible with all models and versions (including JAN).
+Questo metodo consiste nel flashare l'exploit ntrboot su una flashcart commerciale per poi avviarlo sulla tua unità PANDA. È compatibile con tutti i modelli e versioni (tra cui JAN).
 
 {% endcapture %}
 
