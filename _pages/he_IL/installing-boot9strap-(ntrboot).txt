@@ -17,7 +17,7 @@ title: "Installing boot9strap (ntrboot)"
 1. תכבו את הקונסולה
 1. תכניסו את כרטיס ה- SD שלכם אל המחשב
 1. Copy `boot.3dsx` (OCS) to the root of your SD card
-1. Copy `SafeB9SInstaller.firm` to the root of your SD card and rename it to `boot.firm`
+1. תעתיקו את `SafeB9SInstaller.firm` אל שורש כרטיס ה SD שלכם ותשכתבו אותו אל `boot.firm`
 1. תצרו ב-SD שלכם תיקייה חדשה בשם `boot9strap`
 1. תעתיקו את`boot9strap_dev.firm` ואת `boot9strap_dev.firm.sha` מה `.zip` של boot9strap אל תיקיית `/boot9strap/`על כרטיס הSD שלכם
 1. תכניסו מחדש את כרטיס הSD שלכם לתוך המכשיר שלכם
@@ -94,7 +94,7 @@ Do not follow this section until you have completed the rest of the instructions
 1. תצרו תיקייה חדשה בשם `payloads` בתוך התיקייה `luma` שהרגע יצרנו 
 1. Copy `ntrboot_flasher.firm` from the ntrboot_flasher `.zip` to the `/luma/payloads` folder on **the source 3DS**'s SD card
 1. Reinsert your SD card back into your device
-1. Insert your ntrboot compatible DS / DSi flashcart into your device
+1. תכניסו את כרטיס הפריצה של DS \ DSi שתואם ntrboot אל הקונסולה שלכם
 1. Launch ntrboot_flasher by holding (Start) during boot
 1. Read the red screen warning
 1. תלחצו (A) כדי להמשיך
