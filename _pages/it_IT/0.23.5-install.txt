@@ -4,9 +4,9 @@ title: "Installazione 0.23.5"
 
 #### Panoramica
 
-- Install the version 0.23.5 for your region / device
-- Install boot9strap using CakeHax Browser
-- (Optionally) install the latest version for your region / device
+- Installazione della versione di sistema 0.23.5 per la tua regione / console
+- Installazione di boot9strap tramite Cakehax Browser
+- (Facoltativo) Installazione dell'ultima versione software per la tua regione / console
 
 ___
 
