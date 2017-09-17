@@ -5,8 +5,6 @@ header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
   overlay_filter: 0.5
-  cta_label: "Get Started" #
-  cta_url: "get-started" #
   caption:
 excerpt: "A complete guide to 3DS custom firmware, <br /> from stock to boot9strap.<br />"
 ---
@@ -100,3 +98,8 @@ This guide may be compatible with the following developer units, but this is unc
 +  IS-SNAKE-TESTER *(New 3DS Tester Kit)*
 +  IS-SNAKE-BOX *(CTR Flash Card Writer with SNAKE Debugger and Emulator Unit)*
 +  IS-RAY-DEBUGGER *(IS-SNAKE-BOX Prototype)*
+
+___
+
+Continue to [Get Started](get-started)
+{: .notice--primary}
