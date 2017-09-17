@@ -2,6 +2,14 @@
 title: "התקנת 0.23.5"
 ---
 
+#### מעבר על הצעדים
+
+- Install the version 0.23.5 for your region / device
+- Install boot9strap using CakeHax Browser
+- (Optionally) install the latest version for your region / device
+
+___
+
 יש שתי דרכים שונות להתקין את גרסה 0.23.5 על יחידת הPANDA שלכם.
 
 דרך אחת לא דורשת כלים חיצוניים אבל תומכת רק בקונסולות אזורים מסויימים בגלל שאין חבילות CIA לאזורים ולקונסולות האחרות.
