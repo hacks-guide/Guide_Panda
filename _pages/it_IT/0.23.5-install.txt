@@ -2,6 +2,14 @@
 title: "Installazione 0.23.5"
 ---
 
+#### Panoramica
+
+- Install the version 0.23.5 for your region / device
+- Install boot9strap using CakeHax Browser
+- (Optionally) install the latest version for your region / device
+
+___
+
 Ci sono due metodi differenti per installare la versione di sistemi 0.23.5 sulla tua unità PANDA.
 
 Un metodo non richiede strumenti esterni ma supporta solo alcune regioni e console data l'assenza dei pacchetti CIA per le regioni e le console rimanenti.
