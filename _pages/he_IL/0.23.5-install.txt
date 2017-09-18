@@ -4,9 +4,9 @@ title: "התקנת 0.23.5"
 
 #### מעבר על הצעדים
 
-- Install the version 0.23.5 for your region / device
-- Install boot9strap using CakeHax Browser
-- (Optionally) install the latest version for your region / device
+- התקנת גרסה 0.23.5 בשביל הקונסולה \ אזור שלכם
+-התקנת boot9strap באמצעות CakeHax
+- (אופציונלי) התקנת הגירסה העדכנית ביותר עבור האזור \ קונסולה שלכם
 
 ___
 
