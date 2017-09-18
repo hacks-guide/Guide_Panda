@@ -43,19 +43,19 @@ title: "צריבת ntrboot (NDS)"
 
 1. תפעילו את `ak2i_ntrcardhax_flasher.nds` על **NDS / NDSL המקור** בעזרת כרטיס הפריצה שלכם
 1. תלחצו (A) כדי להמשיך
-1. Use (Up) and (Down) to select your flashcart
+1. תשתמשו ב (Up) וב(Down) כדי לבחור את הכרטיס פריצה שלכם
 1. תלחצו (A) כדי להמשיך
-1. Press (X) to "load flashrom"
+1. תלחצו (X) בשביל "load flashrom"
 1. תלחצו (A) כדי להמשיך
 1. תוציאו את כרטיס הפריצה שלכם מ**NDS / NDSL המקור**
-1. Eject the SD card from your flashcart
-1. Reinsert your flashcart into **the source NDS / NDSL** with the SD card removed
+1. תוציאו את הSD שלכם מכרטיס הפריצה
+1. תכניסו בחזרה את כרטיס הפריצה אל **NDS / NDSL המקור** בלי כרטיס הSD
 1. תלחצו (A) כדי להמשיך
-1. Press (A) to "inject ntrboothax"
-1. Press (X) to select "DEVKIT"
+1. תלחצו (A) בשביל "inject ntrboothax"
+1. תלחצו (X) כדי לבחור ב"DEVKIT"
 1. תוציאו את כרטיס הפריצה שלכם מ**NDS / NDSL המקור**
 
 ___
 
-Continue to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
+תמשיכו ל [התקנת boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
 {: .notice--primary}
