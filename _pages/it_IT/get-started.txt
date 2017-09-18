@@ -21,11 +21,22 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-#### Panoramica
+{% capture notice-1 %}
 
-- Installazione della versione di sistema 0.23.5 per la tua regione / console
-- Installazione di boot9strap tramite Cakehax Browser
-- (Facoltativo) Installazione dell'ultima versione software per la tua regione / console
+[Installazione 0.23.5](0.23.5-install)
 
-Prosegui con l'[Installazione 0.23.5](0.23.5-install)
-{: .notice--primary}
+Questo metodo consiste nell'effettuare un downgrade ad una vecchia versione del firmware per poter utilizzare un exploit basato sul browser internet. Questo metodo *non* è compatibile con le unità JAN (New 2DS XL) perché esse non possono effettuare un downgrade al di sotto della 0.25.5.
+
+{% endcapture %}
+
+<div class="notice--primary">{{ notice-1 | markdownify }}</div>
+
+{% capture notice-1 %}
+
+[ntrboot](ntrboot)
+
+Questo metodo consiste nel flashare l'exploit ntrboot su una flashcart commerciale per poi avviarlo sulla tua unità PANDA. È compatibile con tutti i modelli e versioni (tra cui JAN).
+
+{% endcapture %}
+
+<div class="notice--primary">{{ notice-1 | markdownify }}</div>

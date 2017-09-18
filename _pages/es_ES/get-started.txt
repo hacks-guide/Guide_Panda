@@ -21,11 +21,22 @@ Ha habido muchos reportes de olas de baneos a usuarios de CFW por parte de Ninte
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-#### Resumen general de los pasos
+{% capture notice-1 %}
 
-- Instalar la versión 0.23.5 para tu consola / región
-- Instalar boot9strap usando CakeHax Browser
-- (Opcionalmente) Instalar la última versión para tu consola / región
+[0.23.5 Install](0.23.5-install)
 
-Continúa a [Instalar 0.23.5](0.23.5-install)
-{: .notice--primary}
+This method involves downgrading to an older firmware version to utilize a browser-based exploit. It is *not* compatible with JAN (New 2DS XL) units because they cannot downgrade below 0.25.5.
+
+{% endcapture %}
+
+<div class="notice--primary">{{ notice-1 | markdownify }}</div>
+
+{% capture notice-1 %}
+
+[ntrboot](ntrboot)
+
+This method flashes a commercial flashcart with the ntrboot exploit then boots it on your PANDA. It is compatible with all models and versions (including JAN).
+
+{% endcapture %}
+
+<div class="notice--primary">{{ notice-1 | markdownify }}</div>

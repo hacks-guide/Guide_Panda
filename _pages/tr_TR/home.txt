@@ -5,11 +5,12 @@ header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
   overlay_filter: 0.5
-  cta_label: "Get Started" #
-  cta_url: "get-started" #
   caption:
 excerpt: "A complete guide to 3DS custom firmware, <br /> from stock to boot9strap.<br />"
 ---
+
+Thoroughly read all of the introductory pages (including this one!) before proceeding.
+{: .notice--warning}
 
 {% capture notice-home %}
 This guide is for developer ("PANDA") consoles *only*!    
@@ -26,9 +27,6 @@ This guide needs *your* help to seed [these](https://3ds.guide/rss.xml) torrents
 
 To use the [torrent](https://en.wikipedia.org/wiki/Torrent_file) files in this guide, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download)
 {: .notice--info}
-
-Read all of the introductory pages before proceeding.
-{: .notice--warning}
 
 ## What is Homebrew?
 
@@ -100,3 +98,8 @@ This guide may be compatible with the following developer units, but this is unc
 +  IS-SNAKE-TESTER *(New 3DS Tester Kit)*
 +  IS-SNAKE-BOX *(CTR Flash Card Writer with SNAKE Debugger and Emulator Unit)*
 +  IS-RAY-DEBUGGER *(IS-SNAKE-BOX Prototype)*
+
+___
+
+Continue to [Get Started](get-started)
+{: .notice--primary}

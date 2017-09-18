@@ -33,15 +33,15 @@ Se Luma3DS è configurato con un PIN di accesso, SafeB9SInstaller ti darà l'err
 Tieni presente che il file `secret_sector_dev.bin` qui richiesto è lo stesso che si trova nell'archivio `safea9lhinstaller_v2_panda.zip` con il nome `secret_sector.bin`. Se hai ancora quel file da qualche parte nell'hard disk, puoi utilizzarlo (rinominandolo) al posto di quello richiesto da scaricare in questa sezione.
 {: .notice--info}
 
-Note that, only on New 3DS, `secret_sector_dev.bin` is needed to revert the arm9loaderhax exploit, which is why it is not needed for the installation of boot9strap on a stock console.
+Solo su New 3DS, il file `secret_sector_dev.bin` è necessario per ripristinare le modifiche fatte dall'exploit di arm9loaderhax. Per questo motivo non è richiesto per l'installazione di boot9strap su una console senza arm9loaderhax.
 {: .notice--info}
 
-* <i class="fa fa-magnet" aria-hidden="true" title="Questo è un link magnet. Use a torrent client to download the file."></i> - **New 3DS Users Only:** [`secret_sector_dev.bin`](magnet:?xt=urn:btih:54d19b7fd5387f7d46cff86edbbb58737880993c&dn=secret_sector_dev.bin&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce)
+* <i class="fa fa-magnet" aria-hidden="true" title="Questo è un link magnet. Usa un client per i torrent per scaricare questo file."></i> - **Solo utenti New 3DS:** [`secret_sector_dev.bin`](magnet:?xt=urn:btih:54d19b7fd5387f7d46cff86edbbb58737880993c&dn=secret_sector_dev.bin&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce)
 * L'ultima versione di [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(il file `.7z`)*
 * L'ultima versione di [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * L'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(il file `devkit`; non il file `ntr`)*
 * L'ultima release di [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* The latest fork of [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest)
+* L'ultima fork di [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest)
 * [`setup_ctrnand_luma3ds.gm9`]({{ base_path }}/gm9_scripts/setup_ctrnand_luma3ds.gm9)
 
 #### Istruzioni
@@ -53,11 +53,11 @@ Note that, only on New 3DS, `secret_sector_dev.bin` is needed to revert the arm9
 1. Crea una cartella chiamata `boot9strap` nella directory principale della tua scheda SD
 1. Copia il file `boot.firm` dall'archivio `.7z` di Luma3DS nella directory principale della tua scheda SD
 1. Copia il file `GodMode9.firm` dall'archivio `.zip` di GodMode9 dentro la cartella `/luma/payloads/` della tua scheda SD
-1. Delete any existing `.bin` payloads in this folder as they will not be compatible with boot9strap compatible Luma3DS versions
+1. Elimina qualunque payload `.bin` presente in questa cartella in quanto non è utilizzabile con le versioni di boot9strap compatibili con Luma3DS
 1. Copia la cartella `gm9` presente nell'archivio `.zip` di GodMode9 nella directory principale della tua scheda SD
 1. Copia il file `setup_ctrnand_luma3ds.gm9` nella cartella `/gm9/scripts/` della tua scheda SD
 1. Copia il file `cleanup_sd_card.gm9` nella cartella `/gm9/scripts/` della tua scheda SD
-1. Delete any existing `.bin` payloads in this folder as they will not be compatible with boot9strap compatible Luma3DS versions
+1. Elimina qualunque payload `.bin` presente in questa cartella in quanto non è utilizzabile con le versioni di boot9strap compatibili con Luma3DS
 1. Copia il file `SafeB9SInstaller.bin` dall'archivio `.zip` di SafeB9SInstaller nella cartella `/luma/payloads/` della tua scheda SD
 1. Copia i file `boot9strap_dev.firm` e `boot9strap_dev.firm.sha` dall'archivio `.zip` di boot9strap nella cartella `/boot9strap/` della tua scheda SD
 1. Copia il file `secret_sector_dev.bin`nella cartella `/boot9strap/` della scheda SD
@@ -80,20 +80,20 @@ Questa sezione è necessaria solo se ti viene presentato il menu di configurazio
   + **"Show NAND or user string in System Settings"**
 1. Premi (Start) per salvare e riavviare il 3DS
 
-##### Section IV - Updating the System
+##### Sezione IV - Aggiornare il Sistema
 
 Questa sezione è opzionale e richiede sia una Flash Card CTR che l'hardware di sviluppo necessario per scrivere un CSU su una Flash Card CTR.
 {: .notice--info}
 
 1. Aggiorna la tua console PANDA utilizzando l'ultimo CTR System Updater (CSU) disponibile
 
-##### Section V - Installing Luma3DS Updater
+##### Sezione V - Installazione di Luma3DS Updater
 
 1. Utilizzando il Dev Menu, entra nella cartella `cias`
-1. Install `lumaupdater.cia`
+1. Installa`lumaupdater.cia`
 1. Esci dal Dev Menu
 
-##### Section VI - CTRNAND Luma3DS
+##### Sezione VI - CTRNAND Luma3DS
 
 1. Avvia GodMode9 tenendo premuto (Start) durante l'accensione della console
 1. Se ti viene richiesto di creare un backup dei file essenziali, premi (A) per accettare, e al termine di nuovo (A) per proseguire
@@ -106,7 +106,7 @@ Questa sezione è opzionale e richiede sia una Flash Card CTR che l'hardware di 
 1. Premi il pulsante (A) per continuare
 1. Premi (A) per ritirare le autorizzazioni di scrittura
 
-##### Section VII - Backup SysNAND
+##### Sezione VII - Backup della SysNAND
 
 1. Premi il pulsante (Home) per far apparire il menu delle azioni
 1. Seleziona "More..."
@@ -120,11 +120,11 @@ Questa sezione è opzionale e richiede sia una Flash Card CTR che l'hardware di 
 1. Copia il file `<codiceseriale>_nandmin_###.bin` dalla cartella `/gm9/out/` della tua scheda SD in una posizione sicura sul tuo computer
   + Crea dei backup in più posti (come ad esempio un servizio di storage dei file online)
   + Questi backup ti salveranno da un brick nel caso dovesse accadere qualcosa in futuro
-  + Replace your old arm9loaderhax NAND backup with this new boot9strap one
+  + Sostituisci il backup della NAND fatto con arm9loaderhax con questo più recente, fatto con boot9strap
 1. Cancella il file `<codiceseriale>_nandmin_###.bin` dalla cartella `/gm9/out/` della tua scheda SD dopo averne salvato il backup
 1. Reinserisci la scheda SD nella tua console
 
-##### Section VIII - Cleanup SD Card
+##### Sezione VIII - Pulizia della scheda SD
 
 1. Premi il pulsante (Home) per far apparire il menu delle azioni
 1. Seleziona "More..."
@@ -136,7 +136,7 @@ Questa sezione è opzionale e richiede sia una Flash Card CTR che l'hardware di 
 
 ___
 
-This fork of Luma3DS Updater allows for boot9strap compatibility by downloading and extracting the latest Luma3DS `boot.firm` for you.
+Questa versione di Luma3DS Updater aggiunge la compatibilità con boot9strap scaricando ed estraendo autonomamente l'ultima versione del file `boot.firm` di Luma3DS.
 {: .notice--info}
 
 {% capture notice-6 %}   

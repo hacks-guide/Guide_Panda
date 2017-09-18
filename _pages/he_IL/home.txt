@@ -5,11 +5,12 @@ header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
   overlay_filter: 0.5
-  cta_label: "צעדים ראשונים" #
-  cta_url: "get-started" #
   caption:
 excerpt: "מדריך שלם לפריצת 3DS, <br /> מהחנות עד ל boot9strap.<br />"
 ---
+
+Thoroughly read all of the introductory pages (including this one!) before proceeding.
+{: .notice--warning}
 
 {% capture notice-home %}
 המדריך הזה הוא *רק* בשביל קונסולת מפתח ("PANDA")!    
@@ -26,9 +27,6 @@ excerpt: "מדריך שלם לפריצת 3DS, <br /> מהחנות עד ל boot9s
 
 כדי להשתמש בקבצי ה [טורנט](https://en.wikipedia.org/wiki/Torrent_file) במדריך הזה, תצטרכו כלי טורנט כמו [Deluge](http://dev.deluge-torrent.org/wiki/Download)
 {: .notice--info}
-
-תקראו את כל הדפים המקדימים לפני שאתם ממשיכים.
-{: .notice--warning}
 
 ## מה זה Homebrew?
 
@@ -100,3 +98,8 @@ boot9strap היא השיטה הטובה ביותר והעדכנית של הפע�
 +  IS-SNAKE-TESTER *(New 3DS Tester Kit)*
 +  IS-SNAKE-BOX *(CTR Flash Card Writer with SNAKE Debugger and Emulator Unit)*
 +  IS-RAY-DEBUGGER *(IS-SNAKE-BOX Prototype)*
+
+___
+
+Continue to [Get Started](get-started)
+{: .notice--primary}

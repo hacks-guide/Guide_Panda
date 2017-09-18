@@ -5,11 +5,12 @@ header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
   overlay_filter: 0.5
-  cta_label: "Cominciamo!" #
-  cta_url: "get-started" #
   caption:
 excerpt: "La guida omnicomprensiva per installare un custom firmware su 3DS, <br /> da zero a boot9strap.<br />"
 ---
+
+Leggi attentamente tutte le pagine introduttive (compresa questa!) prima di continuare.
+{: .notice--warning}
 
 {% capture notice-home %}
 Questa guida è *solo* per console per sviluppatori ("PANDA")!    
@@ -26,9 +27,6 @@ La guida ha bisogno di *te* per il seeding di [questi](https://3ds.guide/rss.xml
 
 Per usare i file [torrent](https://en.wikipedia.org/wiki/Torrent_file) di questa guida avrai bisogno di un client Torrent come [Deluge](http://dev.deluge-torrent.org/wiki/Download)
 {: .notice--info}
-
-Assicurati di leggere tutte le sezioni introduttive prima di proseguire.
-{: .notice--warning}
 
 ## Cosa vuol dire Homebrew?
 
@@ -58,7 +56,7 @@ Per una lista di tutte le firme di sighax (la piattaforma su cui si basa boot9st
 ## Cosa posso fare con un Custom Firmware?
 
 + Giocare tutte le schede di gioco e tutti titoli dell'eShop, indipendentemente dalla regionalità
-+ Customize your HOME Menu with user-created [themes and splash screens](https://themeplaza.eu/)
++ Personalizza il tuo Menu HOME con [temi e splash screen](https://themeplaza.eu/) creati dagli utenti
 + Applicare "ROMhack" a giochi posseduti
 + Catturare screenshot di applicazioni e giochi
 + [Salva, modifica e ripristina](https://gbatemp.net/threads/413143/) salvataggi per molti giochi
@@ -100,3 +98,8 @@ Questa guida potrebbe essere compatibile con le seguenti unità di sviluppo, ma 
 +  IS-SNAKE-TESTER *(Kit per i Tester del New 3DS)*
 +  IS-SNAKE-BOX *(Unità per la scrittura su Flash Card CTR con Debugger SNAKE e Emulatore)*
 +  IS-RAY-DEBUGGER *(Prototipo IS-SNAKE-BOX)*
+
+___
+
+Prosegui con [Cominciamo!](get-started)
+{: .notice--primary}
