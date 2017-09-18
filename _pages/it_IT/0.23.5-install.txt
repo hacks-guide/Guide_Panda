@@ -2,6 +2,14 @@
 title: "Installazione 0.23.5"
 ---
 
+#### Panoramica
+
+- Installazione della versione di sistema 0.23.5 per la tua regione / console
+- Installazione di boot9strap tramite Cakehax Browser
+- (Facoltativo) Installazione dell'ultima versione software per la tua regione / console
+
+___
+
 Ci sono due metodi differenti per installare la versione di sistemi 0.23.5 sulla tua unità PANDA.
 
 Un metodo non richiede strumenti esterni ma supporta solo alcune regioni e console data l'assenza dei pacchetti CIA per le regioni e le console rimanenti.
