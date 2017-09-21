@@ -22,7 +22,7 @@ Ensure your flashcart is able to launch correctly before starting. Be sure to ha
 #### מה שאתם צריכים
 
 * כרטיס הפריצה שתומך בntrboot שלכם
-* The latest release of [ak2i_ntrcardhax_flasher](https://github.com/d3m3vilurr/ak2i_ntrcardhax_flasher/releases/latest) *(`dsi` flasher; not the standard flasher)*
+* הגרסה העדכנית של [ak2i_ntrcardhax_flasher](https://github.com/d3m3vilurr/ak2i_ntrcardhax_flasher/releases/latest) *(צורב ה`dsi`; לא הצורב הסטנדרטי)*
 
 #### הוראות
 
@@ -38,12 +38,12 @@ Ensure your flashcart is able to launch correctly before starting. Be sure to ha
 
 1. תפעילו את `ak2i_ntrcardhax_flasher_dsi.nds` על הקונסולה שלכם בעזרת כרטיס הפריצה שלכם
 1. תלחצו (A) כדי להמשיך
-1. Use (Up) and (Down) to select your flashcart
+1. תשתמשו ב (Up) וב(Down) כדי לבחור את הכרטיס פריצה שלכם
 1. תלחצו (A) כדי להמשיך
-1. Press (A) to "inject ntrboothax"
-1. Press (X) to select "DEVKIT"
+1. תלחצו (A) בשביל "inject ntrboothax"
+1. תלחצו (X) כדי לבחור ב"DEVKIT"
 1. תלחצו (A) כדי להמשיך
-1. Select "EXIT"
+1. תבחרו ב"EXIT"
 
 ___
 

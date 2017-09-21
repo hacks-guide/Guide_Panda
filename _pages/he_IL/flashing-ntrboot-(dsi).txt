@@ -21,32 +21,32 @@ title: "Flashing ntrboot (DSi)"
 
 * כרטיס הפריצה שתומך בntrboot שלכם
 * Two devices 
-  + **The source DSi**: the Nintendo DSi which is compatible with your flashcart
-  + **The target 3DS**: the 3DS family device on stock firmware
-* The latest release of [ak2i_ntrcardhax_flasher](https://github.com/d3m3vilurr/ak2i_ntrcardhax_flasher/releases/latest) *(`dsi` flasher; not the standard flasher)*
+  + **DSi המקור**: הNintendo DSi שנתמך על ידי הכרטיס פריצה שלכם
+  + **3DS היעד**: הקונסולה ממשפחת ה3DS על הקושחה המקורית
+* הגרסה העדכנית של [ak2i_ntrcardhax_flasher](https://github.com/d3m3vilurr/ak2i_ntrcardhax_flasher/releases/latest) *(צורב ה`dsi`; לא הצורב הסטנדרטי)*
 
 #### הוראות
 
 ##### חלק I - הכנות
 
-1. Power off **the source DSi**
+1. תכבו את **DSi המקור**
 1. תכניסו את כרטיס ה- SD של כרטיס הפריצה שלכם אל המחשב
 1. תעתיקו את `ak2i_ntrcardhax_flasher_dsi.nds` אל כרטיס הSD של כרטיס הפריצה שלכם
 1. תכניסו בחזרה את כרטיס ה- SD של כרטיס הפריצה שלכם אל כרטיס הפריצה
-1. Insert your ntrboot compatible DS / DSi flashcart into **the source DSi**
+1. תכניסו את כרטיס הפריצה של DS \ DSi שתואם ntrboot אל **DSi המקור**
 
 ##### חלק II - צריבת ntrboot
 
-1. Launch `ak2i_ntrcardhax_flasher_dsi.nds` on **the source DSi** using your flashcart
+1. תפעילו את `ak2i_ntrcardhax_flasher_dsi.nds` על **DSi המקור** בעזרת כרטיס הפריצה שלכם
 1. תלחצו (A) כדי להמשיך
-1. Use (Up) and (Down) to select your flashcart
+1. תשתמשו ב (Up) וב(Down) כדי לבחור את הכרטיס פריצה שלכם
 1. תלחצו (A) כדי להמשיך
-1. Press (A) to "inject ntrboothax"
-1. Press (X) to select "DEVKIT"
+1. תלחצו (A) בשביל "inject ntrboothax"
+1. תלחצו (X) כדי לבחור ב"DEVKIT"
 1. תלחצו (A) כדי להמשיך
-1. Select "EXIT"
+1. תבחרו ב"EXIT"
 
 ___
 
-Continue to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
+תמשיכו ל [התקנת boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
 {: .notice--primary}
