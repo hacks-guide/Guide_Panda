@@ -1,5 +1,5 @@
 ---
-title: "Flashing ntrboot (DSi)"
+title: "צריבת ntrboot (DSi)"
 ---
 
 לפני שאתם ממשיכים, שימו לב שקראתם את כל המידע ב [ntrboot](ntrboot)
@@ -20,7 +20,7 @@ title: "Flashing ntrboot (DSi)"
 #### מה שאתם צריכים
 
 * כרטיס הפריצה שתומך בntrboot שלכם
-* Two devices 
+* שתי קונסולות 
   + **DSi המקור**: הNintendo DSi שנתמך על ידי הכרטיס פריצה שלכם
   + **3DS היעד**: הקונסולה ממשפחת ה3DS על הקושחה המקורית
 * הגרסה העדכנית של [ak2i_ntrcardhax_flasher](https://github.com/d3m3vilurr/ak2i_ntrcardhax_flasher/releases/latest) *(צורב ה`dsi`; לא הצורב הסטנדרטי)*
