@@ -2,24 +2,34 @@
 main:
   - 
     title: devGuide
+    url: /
   - 
     title: שאלות ותשובות
+    url: faq
   - 
-    title: פתרון בעיות
+    title: Donations
+    url: donations
   - 
-    title: תרומות
+    title: Credits
+    url: credits
   - 
-    title: תודות
+    title: Updating B9S
+    url: updating-b9s
   - 
     title: A9LH אל B9S
+    url: a9lh-to-b9s
   - 
-    title: שימוש בGodMode9
+    title: Troubleshooting
+    url: troubleshooting
+  - 
+    title: GodMode9 Usage
+    url: godmode9-usage
   - 
     title: ניווט האתר
-  - 
-    title: עדכון B9S
+    url: site-navigation
   - 
     title: הסרת CFW
+    url: uninstall-cfw
 bottom:
   - 
     title: 'לתמיכה באנגלית, תבקשו עזרה ב <a href="http://webchat.freenode.net/?channels=%23Cakey&uio=d4">'
@@ -30,3 +40,49 @@ footer:
     title: מקור
   - 
     title: ניווט האתר
+sidebar_title:
+  - 
+    title: Overall Progress
+sidebar_pages:
+  - 
+    title: Home
+    url: /
+  - 
+    title: Get Started
+    url: get-started
+  - 
+    title: 0.23.5 Install
+    url: 0.23.5-install
+  - 
+    title: 0.23.5 Install (CIAs)
+    url: 0.23.5-install-(cias)
+  - 
+    title: 0.23.5 Install (CSU)
+    url: 0.23.5-install-(csu)
+  - 
+    title: ntrboot
+    url: ntrboot
+  - 
+    title: Flashing ntrboot (3DS Single System)
+    url: flashing-ntrboot-(3ds-single-system)
+  - 
+    title: Flashing ntrboot (3DS Multi System)
+    url: flashing-ntrboot-(3ds-multi-system)
+  - 
+    title: Flashing ntrboot (DSi)
+    url: flashing-ntrboot-(dsi)
+  - 
+    title: Flashing ntrboot (NDS)
+    url: flashing-ntrboot-(nds)
+  - 
+    title: Flashing ntrboot (Powersaves)
+    url: flashing-ntrboot-(powersaves)
+  - 
+    title: Installing boot9strap (Browser)
+    url: installing-boot9strap-(browser)
+  - 
+    title: Installing boot9strap (ntrboot)
+    url: installing-boot9strap-(ntrboot)
+  - 
+    title: Finalizing Setup
+    url: finalizing-setup

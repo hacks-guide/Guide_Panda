@@ -2,7 +2,9 @@
 title: "סיום התהליך"
 ---
 
-#### מעבר על הצעדים
+{% include toc title="Table of Contents" %}
+
+### Overview of steps
 
 הקובץ `boot.firm` הוא מה שמופעל בעת ההדלקה של המכשיר על ידי boot9strap עצמו לאחר שהוא נטען מה-NAND, והוא כל payload של arm9 בפורמט של הFIRM. את הקובץ עצמו אפשר להחליף תמיד, למרות שLuma3DS מאפשר הרצת payload של arm9 בפורמט הFIRM באמצעות הטעינת שרשרת של Luma3DS.
 
@@ -15,18 +17,18 @@ title: "סיום התהליך"
 + **Luma3DS Updater** *(עדכון לCFW בקלות)*
 + **GodMode9** *(כלי רב שימושי אשר מסוגל לבצע פונקציות הקשורות ל-NAND ולקלטות משחק)*
 
-#### מה שאתם צריכים
+### What you need
 
 * את הגרסה העדכנית של [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(יש להוריד את קובץ ה-`.cia`)*
 * הגרסה העדכנית של [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * את הגרסה העדכנית של [FBI](https://github.com/Steveice10/FBI/releases/latest) *(יש להוריד את קובץ ה- `.cia` ואת קובץ ה`.3dsx)*
 * הפורק העדכני של [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(יש להוריד את קובץ ה- `.cia`)*
-* [`setup_ctrnand_luma3ds.gm9`]({{ base_path }}/gm9_scripts/setup_ctrnand_luma3ds.gm9)
-* [`cleanup_sd_card.gm9`]({{ base_path }}/gm9_scripts/cleanup_sd_card.gm9)
+* [`setup_ctrnand_luma3ds.gm9`]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }})
+* [`cleanup_sd_card.gm9`]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }})
 
-#### הוראות
+### Instructions
 
-##### חלק I - הכנות
+#### Section I - Prep Work
 
 1. תכבו את הקונסולה
 1. תכניסו את כרטיס ה- SD שלכם אל המחשב
@@ -41,20 +43,20 @@ title: "סיום התהליך"
 1. תעתיקו את `cleanup_sd_card.gm9` אל תיקיית`/gm9/scripts/` על כרטיס הSD שלכם
 1. תכניסו מחדש את כרטיס הSD שלכם לתוך המכשיר שלכם
 
-##### חלק II - עדכון המערכת
+#### Section II - Updating the System
 
 סעיף זה אופטימלי ודורש גם CTR flash card והחומרה הנדרשת לכתוב CSU אל הCTR flash card הזה.
 {: .notice--info}
 
 1. תעדכנו את יחידת הPANDA שלכם בעזרת הCTR System Updater (CSU) העדכני ביותר שיש לכם
 
-##### חלק III - התקנת CIA
+#### Section III - Installing CIAs
 
 1. בעזרת Dev Menu, תנווטו אל תיקיית `cias`
 1. תלחצו(L + R + A) כדי להתקין את כל ה CIAים
 1. תצאו מDev Menu
 
-##### חלק IV - Luma3DS על ה- CTRNAND
+#### Section IV - CTRNAND Luma3DS
 
 1. תפתחו את GodMode9 על ידי החזקה של המקש (Start) בעת ההדלקה
 1. אם תתבקשו לעשות גיבוי של קבצים חיוניים, תלחצו (A) כדי לעשות זאת, ואז תלחצו (A) כדי להמשיך אחרי שזה סיים
@@ -67,7 +69,7 @@ title: "סיום התהליך"
 1. תלחצו (A) כדי להמשיך
 1. תלחצו (A) כדי לנעול הרשאות כתיבה
 
-##### חלק V - גיבוי SysNAND
+#### Section V - Backup SysNAND
 
 1. תלחצו על (Home) כדי להראות את תפריט הפעולה
 1. תבחרו ב"More..."
@@ -84,7 +86,7 @@ title: "סיום התהליך"
 1. תמחקו את `<serialnumber>_nandmin_###.bin` בתיקיה `/gm9/out/` על הSD לאחר שהעתקתם אותו
 1. תכניסו מחדש את כרטיס הSD שלכם לתוך המכשיר שלכם
 
-##### חלק VI - ניקוי ה SD
+#### Section VI - Cleanup SD Card
 
 1. תלחצו על (Home) כדי להראות את תפריט הפעולה
 1. תבחרו ב"More..."

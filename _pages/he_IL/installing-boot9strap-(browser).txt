@@ -2,15 +2,17 @@
 title: "התקנת boot9strap (דפדפן)"
 ---
 
-#### מה שאתם צריכים
+{% include toc title="Table of Contents" %}
+
+### What you need
 
 * הגרסה העדכנית של [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * הגרסא העדכנית של [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(קובץ ה`devkit`, לא קובץ ה `ntr`)*
 * את הגרסה העדכנית של [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(יש להוריד את קובץ ה-`.7z`)*
 
-#### הוראות
+### Instructions
 
-##### חלק I - הכנות
+#### Section I - Prep Work
 
 1. תכבו את הקונסולה
 1. תכניסו את כרטיס ה- SD שלכם אל המחשב
@@ -21,20 +23,20 @@ title: "התקנת boot9strap (דפדפן)"
 1. תכניסו מחדש את כרטיס הSD שלכם לתוך המכשיר שלכם
 1. תפעילו את המכשיר
 
-##### חלק II - הפעלת SafeB9SInstaller
+#### Section II - Launching SafeB9SInstaller
 
 1. תפתחו את הדפדפן ולכו לכתובת האינטרנט הבאה במכשיר שלכם
   + `https://dukesrg.github.io/?SafeB9SInstaller.dat`
   + אם אתם מקבלים שגיאה, [עקבו אחרי המדריך הבא](troubleshooting#ts_browser)
 1. כעת אתם אמורים להיכנס לתוך SafeB9SInstaller
 
-#### חלק III - התקנת boot9strap
+#### Section III - Installing boot9strap
 
 1. תחכו שכל בדיקות הבטיחות יסתיימו
 1. כאשר תתבקשו, תלחצו על הכפתורים שנתונים לכם כדי להתקין את boot9strap
 1. כשזה סיים, לחצו על (A) כדי לאתחל את הקונסולה
 
-##### חלק IV - הגדרת Luma3DS
+#### Section IV - Configuring Luma3DS
 
 1. הקןנסולה שלכם צריכה לאתחל לתפריט ההגדרות של Luma3DS
   + אם אתם מקבלים מסך שחור, [עקבו אחרי המדריך הבא](troubleshooting#ts_sys_b9s)

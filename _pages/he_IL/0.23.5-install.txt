@@ -2,13 +2,15 @@
 title: "התקנת 0.23.5"
 ---
 
-#### מעבר על הצעדים
+{% include toc title="Table of Contents" %}
+
+### Overview of steps
 
 - התקנת גרסה 0.23.5 בשביל הקונסולה \ אזור שלכם
 -התקנת boot9strap באמצעות CakeHax
 - (אופציונלי) התקנת הגירסה העדכנית ביותר עבור האזור \ קונסולה שלכם
 
-___
+### Required Reading
 
 יש שתי דרכים שונות להתקין את גרסה 0.23.5 על יחידת הPANDA שלכם.
 
@@ -17,10 +19,11 @@ ___
 הדרך השנייה תומכת בכל הגרסאות והקונסולות, אבל דורשת CTR flash card והחומרה הנדרשת לכתוב CSU אליו.
 
 ___
+### Methods
 
-{% capture notice-1 %}
+___
 
-[0.23.5 התקנת (CIAs)](0.23.5-install-(cias))
+#### 0.23.5 Install (CIAs)
 
 הדרך הזאת תומכת בקונסולות הבאות 
 
@@ -29,13 +32,12 @@ ___
 +  CTR / SPR / FTR
    + [EUR / USA]
 
-{% endcapture %}
+Continue to [0.23.5 Install (CIAs)](0.23.5-install-(cias))
+{: .notice--primary}
 
-<div class="notice--primary">{{ notice-1 | markdownify }}</div>
+___
 
-{% capture notice-1 %}
-
-[0.23.5 התקנת (CSU)](0.23.5-install-(csu))
+#### 0.23.5 Install (CSU)
 
 הדרך הזאת תומכת בקונסולות הבאות 
 
@@ -44,6 +46,5 @@ ___
 +  CTR / SPR / FTR
    + [CHN / EUR / JPN / KOR / TWN / USA]
 
-{% endcapture %}
-
-<div class="notice--primary">{{ notice-1 | markdownify }}</div>
+Continue to [0.23.5 Install (CSU)](0.23.5-install-(csu))
+{: .notice--primary}

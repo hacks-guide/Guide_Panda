@@ -8,11 +8,11 @@ title: "F3X (Mac)"
 
 עמוד זה נועד רק עבור משתמשי Mac. אם אתם לא ב- Mac, תבדקו את העמודים [H2testw (windows)](h2testw-(windows)) או [F3 ( Linux)](f3-(linux)).
 
-#### מה שאתם צריכים
+### What you need
 
 * הגרסה העדכנית של [F3X] (https://github.com/insidegui/F3X/releases)
 
-#### הוראות
+### Instructions
 
 1. תחלצו את קובץ הזיפ של F3X
 2. תכניסו את כרטיס ה- SD שלכם אל המחשב

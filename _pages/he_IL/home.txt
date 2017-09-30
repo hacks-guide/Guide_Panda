@@ -9,7 +9,7 @@ header:
 excerpt: "מדריך שלם לפריצת 3DS, <br /> מהחנות עד ל boot9strap.<br />"
 ---
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+תקראו ביסודיות את כל הדפים המקדימים (כולל את זה!) לפני שאתם ממשיכים.
 {: .notice--warning}
 
 {% capture notice-home %}
@@ -19,14 +19,11 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-המדריך הזה צריך את העזרה *שלכם* כדי [לתרגם](https://translatedev.3ds.guide/)אותו לשפות אחרות!
+This guide needs *your* help to [translate](https://translate.3ds.guide/) it to other languages!
 {: .notice--success}
 
 המדריך הזה צריך את העזרה *שלכם* בשביל סיד ל[טורנטים הבאים](https://3ds.guide/rss.xml)!
-{: .notice--info}
-
-כדי להשתמש בקבצי ה [טורנט](https://en.wikipedia.org/wiki/Torrent_file) במדריך הזה, תצטרכו כלי טורנט כמו [Deluge](http://dev.deluge-torrent.org/wiki/Download)
-{: .notice--info}
+{: .notice--success}
 
 ## מה זה Homebrew?
 
@@ -72,7 +69,7 @@ boot9strap היא השיטה הטובה ביותר והעדכנית של הפע�
 + **לפני תחילת המדריך, אתם חייבים לדעת את הסיכונים של פריצת 3DS: בכל פעם שתשנו את המערכת שלכם, תמיד יש הפוטנציאל** לבריק בלתי הפיך. הם נדירים, אבל עדיין אפשרות לקבל אותם אז תקפידו לעקוב אחרי השלבים במדיוק.**
 + המדריך הזה יעבוד על כל New 3DS, Old 3DS ו- 2DS בכל האזורים על כל הגרסאות
 + אם הכול ילך לפי התוכנית, לא תאבדו נתונים ותסיימו עם כל מה שהתחלתם.
-+ ** תשמרו על הקונסולה מחוברת לחשמל וטעונה לאורך כל התהליך כדי למנוע אובדן נתונים או נזק מכיבוי בלתי צפוי! **
++ Keep the device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!
 + ה- SD שלכם צריך להיות [MBR, לא GPT] (http://www.howtogeek.com/245610/) (כרטיס ה- SD שמגיע עם הקונסולה יהיה MBR כברירת מחדל).
 + אם אתם צריכים לפרמט כרטיס SD חדש, תשתמשו ב ['guiformat'](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) ותגדירו Allocation unit size של 32K.
 + ה2DS זהה במהותו לOld 3DS מבחינת תוכנה, כל הצעדים שאומרים "Old 3DS" מתקיימים גם ב2DS. עם זאת, ישנן הערות ספציפיות ל2DS.
@@ -101,5 +98,5 @@ boot9strap היא השיטה הטובה ביותר והעדכנית של הפע�
 
 ___
 
-Continue to [Get Started](get-started)
+תמשיכו אל [Get Started](get-started)
 {: .notice--primary}
