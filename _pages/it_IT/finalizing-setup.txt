@@ -2,7 +2,9 @@
 title: "Completamento dell'installazione"
 ---
 
-#### Panoramica
+{% include toc title="Table of Contents" %}
+
+### Overview of steps
 
 Il file `boot.firm` viene lanciato da boot9strap stesso al termine del caricamento dalla NAND, e può essere un qualunque payload arm9 valido in formato FIRM. Questo file può essere sostituito in qualunque momento, tuttavia Luma3DS permette il lancio di diversi payload arm9 in formato FIRM grazie al chainloader di Luma3DS.
 
@@ -15,18 +17,18 @@ Durante la guida verranno anche configurate le seguenti applicazioni:
 +  **Luma3DS Updater** *(aggiorna facilmente il CFW)*
 +  **GodMode9** *(applicazione multifunzione per gestire NAND e schede di gioco)*
 
-#### Quello che ti serve
+### What you need
 
 * L'ultima versione di [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(il file `.cia`)*
 * L'ultima release di [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * L'ultima versione di [FBI](https://github.com/Steveice10/FBI/releases/latest) *(i file `.cia` e `.3dsx`)*
 * L'ultima fork di [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(il file `.cia`)*
-* [`setup_ctrnand_luma3ds.gm9`]({{ base_path }}/gm9_scripts/setup_ctrnand_luma3ds.gm9)
-* [`cleanup_sd_card.gm9`]({{ base_path }}/gm9_scripts/cleanup_sd_card.gm9)
+* [`setup_ctrnand_luma3ds.gm9`]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }})
+* [`cleanup_sd_card.gm9`]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }})
 
-#### Istruzioni
+### Instructions
 
-##### Sezione I - Preparazione
+#### Section I - Prep Work
 
 1. Spegni la tua console
 1. Inserisci la scheda SD nel tuo computer
@@ -41,20 +43,20 @@ Durante la guida verranno anche configurate le seguenti applicazioni:
 1. Copia il file `cleanup_sd_card.gm9` nella cartella `/gm9/scripts/` della tua scheda SD
 1. Reinserisci la scheda SD nella tua console
 
-##### Sezione II - Aggiornare il Sistema
+#### Section II - Updating the System
 
 Questa sezione è opzionale e richiede sia una Flash Card CTR che l'hardware di sviluppo necessario per scrivere un CSU su una Flash Card CTR.
 {: .notice--info}
 
 1. Aggiorna la tua console PANDA utilizzando l'ultimo CTR System Updater (CSU) disponibile
 
-##### Sezione III - Installazione dei CIA
+#### Section III - Installing CIAs
 
 1. Utilizzando il Dev Menu, entra nella cartella `cias`
 1. Premi insieme (L + R + A) per installare tutti i file CIA
 1. Esci dal Dev Menu
 
-##### Sezione IV - CTRNAND Luma3DS
+#### Section IV - CTRNAND Luma3DS
 
 1. Avvia GodMode9 tenendo premuto (Start) durante l'accensione della console
 1. Se ti viene richiesto di creare un backup dei file essenziali, premi (A) per accettare, e al termine di nuovo (A) per proseguire
@@ -67,7 +69,7 @@ Questa sezione è opzionale e richiede sia una Flash Card CTR che l'hardware di 
 1. Premi il pulsante (A) per continuare
 1. Premi (A) per ritirare le autorizzazioni di scrittura
 
-##### Sezione V - Backup della SysNAND
+#### Section V - Backup SysNAND
 
 1. Premi il pulsante (Home) per far apparire il menu delle azioni
 1. Seleziona "More..."
@@ -84,7 +86,7 @@ Questa sezione è opzionale e richiede sia una Flash Card CTR che l'hardware di 
 1. Cancella il file `<codiceseriale>_nandmin_###.bin` dalla cartella `/gm9/out/` della tua scheda SD dopo averne salvato il backup
 1. Reinserisci la scheda SD nella tua console
 
-##### Sezione VI - Pulizia della scheda SD
+#### Section VI - Cleanup SD Card
 
 1. Premi il pulsante (Home) per far apparire il menu delle azioni
 1. Seleziona "More..."
