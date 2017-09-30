@@ -2,16 +2,17 @@
 title: "Risoluzione dei problemi"
 ---
 
-Se non riesci ad avviare la tua console, consulta la sezione relativa al tuo problema e segui le istruzioni. Una volta risolto il problema, puoi proseguire con la guida principale
-(Questa sezione è piuttosto lunga; puoi cercare il tuo problema più velocemente con Ctrl+F)
+{% include toc title="Table of Contents" %}
+
+If you are unable to boot your device, please look for the section relevant to you and follow the instructions.
 
 Se comunque non riesci a risolvere il tuo problema e hai bisogno di aiuto, incolla il contenuto dei file .log rilevanti dalla directory principale della tua scheda SD in un [Gist](https://gist.github.com/), successivamente fornisci una descrizione dettagliata del tuo problema e delle eventuali operazioni che hai fatto per provare a risolverlo.
 
-**Per usare i link [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) di questa guida avrai bisogno di un client torrent come [Deluge](http://dev.deluge-torrent.org/wiki/Download)**
+To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 
-## <a name="twl_broken" />Le funzionalità DSi/DS non funzionano dopo aver completato la guida
+## DSi / DS functionality is broken after completing the guide
 
-#### Quello che ti serve
+### What you need
 
 * Il file `.cia` del TWL_FIRM per la tua console
     + <i class="fa fa-magnet" aria-hidden="true" title="Questo è un link magnet. Usa un client per i torrent per scaricare questo file."></i> - [`New_3DS TWL_FIRM - v9936.cia`](magnet:?xt=urn:btih:eab8558c97b18b1f329a2bfcc3c899b84c082a27&dn=New%5F3DS%20TWL%5FFIRM%20-%20v9936.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
@@ -21,9 +22,9 @@ Se comunque non riesci a risolvere il tuo problema e hai bisogno di aiuto, incol
 * <i class="fa fa-magnet" aria-hidden="true" title="Questo è un link magnet. Usa un client per i torrent per scaricare questo file."></i> - [`DS Download Play - v1024.cia`](magnet:?xt=urn:btih:b581d3c5d98f5e621fddfc1ce5704bb45bf05a8c&dn=DS%20Download%20Play%20-%20v1024.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
 * <i class="fa fa-magnet" aria-hidden="true" title="Questo è un link magnet. Usa un client per i torrent per scaricare questo file."></i> - [`Nintendo DS Cart Whitelist - v11264.cia`](magnet:?xt=urn:btih:7b90d506ad032a581a00035616eaa17a68c48eff&dn=Nintendo%20DS%20Cart%20Whitelist%20-%20v11264.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
 
-#### Istruzioni
+### Instructions
 
-##### Sezione I - Preparazione
+#### Section I - Prep Work
 
 1. Se non è già presente, crea una cartella chiamata `cias` nella directory principale della tua scheda SD
 1. Copia il file `TWL Version Data - v0.cia` nella cartella `/cias/` della tua scheda SD
@@ -32,7 +33,7 @@ Se comunque non riesci a risolvere il tuo problema e hai bisogno di aiuto, incol
 1. Copia il file `Nintendo DS Cart Whitelist - v11264.cia` nella cartella `/cias/` della tua scheda SD
 1. Copia a seconda della tua console il file corretto tra `New_3DS TWL_FIRM - v9936.cia` e `Old_3DS TWL_FIRM - v8817.cia` nella cartella `/cias/` della tua scheda SD
 
-##### Sezione II - Installazione dei titoli
+#### Section II - Installing titles
 
 1. Avvia FBI
 1. Entra nella cartella `SD` -> `cias`
@@ -40,9 +41,12 @@ Se comunque non riesci a risolvere il tuo problema e hai bisogno di aiuto, incol
 1. Seleziona "Install and delete all CIAs"
 1. Premi il pulsante HOME per uscire da FBI
 
-## <a name="rm_nnid" />Rimuovere un NNID senza formattare la console
+## Removing an NNID without formatting your device
 
-1. Avvia GodMode9 premendo (A)
+Tieni presente che se hai altri file payload oltre a `GodMode9.firm` nella cartella `/luma/payloads/` della tua scheda SD, per seguire le istruzioni riportate dovrai avviare la console tenendo (Start); apparirà un "menu chainloader" dove dovrai selezionare "GodMode9" tramite il D-Pad e il pulsante (A). 
+{: .notice--info}
+
+1. Avvia GodMode9 tenendo premuto (Start) durante l'accensione della console
 1. Entra nella cartella `[1:] SYSNAND CTRNAND` -> `data` -> (ID a 32 caratteri) -> `sysdata` -> `00010038`
 1. Tieni premuto il pulsante (R), quindi premi (X) su `00000000` per rinominare il file
 1. Premi (Su) una volta per cambiare il nome in `10000000`
@@ -51,14 +55,15 @@ Se comunque non riesci a risolvere il tuo problema e hai bisogno di aiuto, incol
 1. Ritorna al menu principale
 1. Premi (Start) per riavviare la console
 
-## <a name="ts_browser" />Un exploit basato sul browser non funziona
-Gli exploit basati sul browser (come browserhax o 2xrsa) sono instabili e crashano spesso, ma seguendo i seguenti passaggi, i problemi potrebbero venire risolti
+## A browser based exploit is not working
+
+Browser based exploits (such as browserhax or 2xrsa) are often unstable and crash frequently, but they can sometimes be fixed by doing the following steps.
 
 1. Avvia il browser internet, quindi apri le sue impostazioni
 1. Clicca sul pulsante "Elimina tutti i dati salvati"
 1. Riprova ad eseguire l'exploit
 
-## <a name="ts_sys_down" />Schermo nero all'avvio della SysNAND
+## Black screen on SysNAND boot
 
 1. Prova ad accendere la console senza la scheda SD inserita, quindi reinserisci la scheda dopo l'avvio
     1. Spegni la tua console
@@ -74,18 +79,16 @@ Gli exploit basati sul browser (come browserhax o 2xrsa) sono instabili e crasha
         + Regione TWN: Elimina `000000B1`
 1. Prova ad avviare la console senza schede di gioco inserite (flashcard incluse)
 1. Se hai un'hardmod e un backup della NAND, ripristina il backup nella SysNAND
-1. Prova ad avviare la modalità di ripristino, quindi aggiorna la console    
-    *Probabilmente non funzionerà su un Old 3DS downgradato alla versione di sistema 2.1.0*    
-    **Questo processo BRICKERÀ un New 3DS downgradato alla versione di sistema 2.1.0**
+1. Prova ad avviare la modalità di ripristino, quindi aggiorna la console
     1. Spegni la tua console
     1. Tieni premuto (L) + (R) + (A) + (Su)
     1. Accendi la console
-    1. Se sei entrato nella modalità di ripristino, aggiorna la tua console *solo se hai un punto di accesso per l'ultima versione del firmware ed è quindi possibile effettuare il downgrade*, quindi prova ad effettuare di nuovo il downgrade.
+    1. If you enter safe mode, update your device
 1. La console potrebbe essere brickata. Se hai bisogno di aiuto, chiedi pure su [Nintendo Homebrew su Discord](https://discord.gg/MWxPgEp) (in inglese)
 
-## <a name="ts_sys_b9s" />Schermo nero all'avvio della SysNAND dopo l'installazione di boot9strap
+## Black screen on SysNAND boot after Installing boot9strap
 
-1. Assicurati che il payload funzioni.
+1. Ensure you have a working payload
     1. Verifica l'esistenza del file `boot.firm` nella directory principale della tua scheda SD.
 1. Prova a cancellare la configurazione di Luma e a ripristinare le impostazioni corrette
     1. Cancella il file `/luma/config.bin` dalla tua scheda SD
@@ -101,47 +104,18 @@ Gli exploit basati sul browser (come browserhax o 2xrsa) sono instabili e crasha
         + Regione KOR: Elimina `000000A9`
         + Regione TWN: Elimina `000000B1`
 1. Prova ad avviare la console senza schede di gioco inserite (flashcard incluse)
-1. Se in precedenza hai effettuato un downgrade tramite Gateway, assicurati di stare utilizzando l'ultima versione di Luma3DS (almeno v6.2.3)
+1. If you previously downgraded with Gateway, ensure that you are using the latest Luma3DS version (v6.2.3 or higher)
 1. Se la versione di sistema della tua NAND è compresa tra 3.0.0 e 4.5.0, devi seguire i seguenti passaggi:
-    + Assicurati di stare utilizzando l'ultima versione di Luma3DS (almeno v6.6)
-    + Scarica [questo file](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000056) e rinominalo `firmware.bin`
+    + Ensure that you are using the latest Luma3DS version (v6.6 or higher)
+    + Download [this file](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000056) and rename it to `native.firm`
     + Scarica [questo file](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk)
-    + Copia i file `firmware.bin` e `cetk` nella cartella `/luma/` della tua scheda SD
+    + Copy `native.firm` and `cetk` to the `/luma/` folder on your SD card
+    + If you have Luma3DS version 7.1 or lower, rename `native.firm` to `firmware.bin`
     + Elimina entrambi i file dopo aver aggiornato la tua console
-1. Prova ad eseguire un [CTRTransfer 9.2.0](9.2.0-ctrtransfer)
+1. Try following [CTRTransfer](ctrtransfer)
 1. Chiedi aiuto su [Nintendo Homebrew su Discord](https://discord.gg/MWxPgEp) (in inglese).
 
-## <a name="ts_transfer" />Errore durante l'uso di SafeB9SInstaller
-
-Se durante l'esecuzione di SafeB9SInstaller avviene un errore, dovrai avviare un payload esterno per ripristinare la tua console.
-
-#### Quello che ti serve
-
-* L'ultima versione di [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-
-#### Istruzioni
-
-1. Seleziona "Unmount SD card"
-1. Inserisci la scheda SD nel tuo computer
-1. Copia il file `GodMode9.bin` dall'archivio `.zip` di GodMode9 nella cartella `/boot9strap/` presente nella scheda SD e rinomina il file `GodMode9.bin` appena copiato in `payload.bin`
-1. Reinserisci la scheda SD nella tua console
-1. Seleziona "Run 0:/CTRTransfer/payload.bin"
-1. Se tutto è andato a buon fine, sarai dentro GodMode9
-1. Entra nella cartella `[0:] SDCARD` -> `boot9strap`
-1. Premi il pulsante (L) sui file `firm0firm1.bak` e `sector0x96.bak` per evidenziarli
-1. Premi (Y) per copiare i file
-1. Premi (B) due volte per ritornare al menu principale
-1. Entra nella cartella `[S:] SYSNAND VIRTUAL`
-1. Premi (Y) per incollare i file
-1. Premi il pulsante (A) per confermare
-1. Premi (A) per effettuare l'inject dei file
-1. Premi (A) per sbloccare la sovrascrittura della SysNAND
-1. Inserisci la combinazione di tasti richiesta a schermo per sbloccare i permessi di scrittura di terzo livello su SysNAND
-1. Una volta completato, premi (A) per proseguire
-1. Premi (Start) per riavviare la console
-1. Segnala il problema sulla [pagina dedicata](https://github.com/d0k3/SafeB9SInstaller/issues)
-
-## <a name="ts_sys_blue" />Schermata blu all'avvio (errore bootrom)
+## Blue screen on boot (bootrom error)
 
 1. La tua console è brickata
 1. Avrai bisogno di un'[hardmod](https://gbatemp.net/threads/414498/) o di riparare / sostituire la tua console
