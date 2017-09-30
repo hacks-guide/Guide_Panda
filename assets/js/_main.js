@@ -161,7 +161,10 @@ $(document).ready(function(){
       ol.children().each(function(idx, li) {
         var link = $(li).find("a").attr('href');
         var name = $(li).attr('data-name');
-        if(window.location.href.indexOf(link) > -1 && name !== "home"){
+        if((window.location.href.endsWith(link) || 
+            window.location.href.endsWith(link + "/") || 
+            window.location.href.indexOf(link + "#") > -1) 
+            && name !== "home"){
           $(li).addClass("active");
           return false;
         }
