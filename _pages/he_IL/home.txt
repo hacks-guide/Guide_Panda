@@ -9,7 +9,7 @@ header:
 excerpt: "מדריך שלם לפריצת 3DS, <br /> מהחנות עד ל boot9strap.<br />"
 ---
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+תקראו ביסודיות את כל הדפים המקדימים (כולל את זה!) לפני שאתם ממשיכים.
 {: .notice--warning}
 
 {% capture notice-home %}
@@ -101,5 +101,5 @@ boot9strap היא השיטה הטובה ביותר והעדכנית של הפע�
 
 ___
 
-Continue to [Get Started](get-started)
+תמשיכו אל [Get Started](get-started)
 {: .notice--primary}
