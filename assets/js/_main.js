@@ -140,10 +140,10 @@ $(document).ready(function(){
   if(sidebar_shown){
     var unhide = [];
     var route = {
-      "0": ["0.23.5-install"],
+      "0": ["0.23.5-install", "multiple-options", "installing-boot9strap-(browser)", "finalizing-setup"],
       "1": ["0.23.5-install", "0.23.5-install-(cias)", "installing-boot9strap-(browser)", "finalizing-setup"],
       "2": ["0.23.5-install", "0.23.5-install-(csu)", "installing-boot9strap-(browser)", "finalizing-setup"],
-      "3": ["ntrboot", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
+      "3": ["ntrboot", "multiple-options", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
       "4": ["ntrboot", "flashing-ntrboot-(3ds-single-system)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
       "5": ["ntrboot", "flashing-ntrboot-(3ds-multi-system)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
       "6": ["ntrboot", "flashing-ntrboot-(dsi)", "installing-boot9strap-(ntrboot)", "finalizing-setup"],
