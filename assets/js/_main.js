@@ -163,7 +163,8 @@ $(document).ready(function(){
         var name = $(li).attr('data-name');
         if((window.location.href.endsWith(link) || 
             window.location.href.endsWith(link + "/") || 
-            window.location.href.indexOf(link + "#") > -1) 
+            window.location.href.indexOf(link + "#") > -1 || 
+            window.location.href.indexOf(link + ".html") > -1) 
             && name !== "home"){
           $(li).addClass("active");
           return false;
