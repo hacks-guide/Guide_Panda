@@ -2,6 +2,10 @@
 title: "צעדים ראשונים"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 לפני שאתם מתחילים, כדאי לבדוק את כרטיס הזכרון עבור שגיאות באמצעות [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), או [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
@@ -21,22 +25,23 @@ title: "צעדים ראשונים"
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-{% capture notice-1 %}
+___
+### Methods
 
-[0.23.5 Install](0.23.5-install)
+___
+
+#### 0.23.5 Install
 
 שיטה דורשת שנמוך לגרסה ישנה כדי להשתמש בפירצה מבוססת דפדפן. היא *לא* תומכת במכשירי JAN (New 2DS XL) בגלל שאי אפשר לשנמך אותם מתחת ל0.25.5.
 
-{% endcapture %}
+Continue to [0.23.5 Install](0.23.5-install)
+{: .notice--primary}
 
-<div class="notice--primary">{{ notice-1 | markdownify }}</div>
+___
 
-{% capture notice-1 %}
-
-[ntrboot](ntrboot)
+#### ntrboot
 
 דרך זו צורבת כרטיס פריצה עם פירצת ntrboot ואז היא מפעילה אותו על הPANDA שלכם. היא תומכת בכל סוגי הגרסאות והמודלים (כולל JAN).
 
-{% endcapture %}
-
-<div class="notice--primary">{{ notice-1 | markdownify }}</div>
+Continue to [ntrboot](ntrboot)
+{: .notice--primary}
