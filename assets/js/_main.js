@@ -170,7 +170,9 @@ $(document).ready(function(){
         }
         $(li).addClass("completed");
       });
-      $('.sidebar.sticky').css("display", "inherit");
+      if (ol.children(".active").css("display") != "none"){
+        $('.sidebar.sticky').css("display", "inherit");
+      }
     }
   }
 });
