@@ -20,6 +20,8 @@
         {% for link in site.data.navigation[locale].sidebar_pages %}
           {% if link.url == "/" %}
             <li style="display: none;" data-name="home"><a href='{{ domain }}{{ locale_var }}'>{{ link.title }}</a></li>
+          {% elsif link.url == "multiple-options" %}
+            <li style="display: none;" data-name="multiple-options"><i>({{ link.title }})</i></li>
           {% else %}
             <li style="display: none;" data-name="{{ site.data.navigation.en_US.sidebar_pages[forloop.index0].url }}"><a href='{{ domain }}{{ locale_var }}{{ link.url }}'>{{ link.title }}</a></li>
           {% endif %}
