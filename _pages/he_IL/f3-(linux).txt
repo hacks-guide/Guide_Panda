@@ -2,6 +2,10 @@
 title: "F3 (Linux)"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 זוהי הרחבה עבור בדיקת כרטיס הSD שלכם עבור שגיאות באמצעות F3.
 
 תלוי בגודל של הSD ובמהירות של המחשב, תהליך זה יכול לקחת מספר שעות!
