@@ -102,7 +102,7 @@ $(document).ready(function(){
   }
 
   var sidebar_shown = true;
-  var sidebar_hidden_pages = ["a9lh-to-b9s", "credits", "donations", "f3-(linux)", "f3x-(mac)",  
+  var sidebar_hidden_pages = ["404", "a9lh-to-b9s", "credits", "donations", "f3-(linux)", "f3x-(mac)",  
                               "faq", "file-extensions-(windows)", "get-started", "h2testw-(windows)", 
                               "site-navigation", "troubleshooting", "uninstall-cfw", "updating-b9s", 
                               "why-ads"];
