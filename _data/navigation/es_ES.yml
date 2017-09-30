@@ -1,7 +1,7 @@
 ---
 main:
   - 
-    title: devGuide
+    title: 3DS devGuide
     url: /
   - 
     title: FAQ
@@ -54,14 +54,17 @@ sidebar_pages:
     title: 0.23.5 Install
     url: 0.23.5-install
   - 
+    title: ntrboot
+    url: ntrboot
+  - 
+    title: Multiple Options
+    url: multiple-options
+  - 
     title: 0.23.5 Install (CIAs)
     url: 0.23.5-install-(cias)
   - 
     title: 0.23.5 Install (CSU)
     url: 0.23.5-install-(csu)
-  - 
-    title: ntrboot
-    url: ntrboot
   - 
     title: Flashing ntrboot (3DS Single System)
     url: flashing-ntrboot-(3ds-single-system)

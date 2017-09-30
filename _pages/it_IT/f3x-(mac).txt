@@ -2,6 +2,10 @@
 title: "F3X (Mac)"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 In questa sezione aggiuntiva verrà spiegato come verificare la presenza di errori nella tua scheda SD utilizzando F3X.
 
 A seconda della dimensione della tua scheda SD e della velocità del tuo computer, questo procedimento può durare diverse ore!
