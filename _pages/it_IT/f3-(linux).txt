@@ -2,6 +2,10 @@
 title: "F3 (Linux)"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 In questa sezione aggiuntiva verrà spiegato come verificare la presenza di errori nella tua scheda SD utilizzando F3.
 
 A seconda della dimensione della tua scheda SD e della velocità del tuo computer, questo procedimento può durare diverse ore!
