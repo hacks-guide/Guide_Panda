@@ -19,14 +19,11 @@ If you have a retail (consumer purchased; not from the Nintendo Developer Progra
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-This guide needs *your* help to [translate](https://translatedev.3ds.guide/) it to other languages!
+This guide needs *your* help to [translate](https://translate.3ds.guide/) it to other languages!
 {: .notice--success}
 
 This guide needs *your* help to seed [these](https://3ds.guide/rss.xml) torrents!
-{: .notice--info}
-
-To use the [torrent](https://en.wikipedia.org/wiki/Torrent_file) files in this guide, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download)
-{: .notice--info}
+{: .notice--success}
 
 ## What is Homebrew?
 
@@ -72,7 +69,7 @@ For a list of each of the calculated sighax signatures (the platform boot9strap 
 + **Before beginning the guide, you must know the risks of 3DS hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
 + This guide will work on New 3DS, Old 3DS, and 2DS in all regions on on all firmware versions
 + If everything goes according to plan, you will lose no data and end up with everything that you started with.
-+ **Keep the device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!**
++ Keep the device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!
 + Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/) (the SD card that comes with the device will be MBR by default).
 + If you need to format a brand new SD card, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
 + The 2DS is essentially identical to the Old 3DS in terms of software, and that any steps which say "Old 3DS" also apply to 2DS.

@@ -19,14 +19,11 @@ Si tienes una consola retail (comprada por consumidores; no las del Nintendo Dev
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-¡Esta guía necesita *tu* ayuda para [traducirla](https://translatedev.3ds.guide/) a otros idiomas!
+This guide needs *your* help to [translate](https://translate.3ds.guide/) it to other languages!
 {: .notice--success}
 
 ¡Esta guía necesita *tu* ayuda para compartir [estos](https://3ds.guide/rss.xml) torrents!
-{: .notice--info}
-
-Para usar los archivos [torrent](https://en.wikipedia.org/wiki/Torrent_file) de esta guía, necesitarás un cliente torrent como [Deluge](http://dev.deluge-torrent.org/wiki/Download)
-{: .notice--info}
+{: .notice--success}
 
 ## ¿Qué es Homebrew?
 
@@ -72,7 +69,7 @@ Para una lista de cada una de las firmas calculadas de sighax (la plataforma en 
 + **Antes de comenzar la guía, debes conocer los riesgos de hackear la 3DS: CADA VEZ que modificas tu sistema, siempre existe la posibilidad de que tu consola quede inutilizable de forma IRRECUPERABLE. Es algo raro, pero la posibilidad está ahí, así que asegúrate de seguir TODAS las instrucciones AL PIE DE LA LETRA.**
 + Esta guía funcionará en consolas New 3DS, Old 3DS y 2DS de todas las regiones en todas las versiones de firmware
 + Si todo va según el plan, no perderás datos y terminarás con todo lo que tenías anteriormente.
-+ **¡Mantén la consola conectada al cargador a lo largo de todo el proceso para evitar pérdida de datos o daños por un apagado inesperado!**
++ Keep the device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!
 + Tu tarjeta SD debe ser [MBR, no GPT](http://www.howtogeek.com/245610/) (la tarjeta SD que viene con la consola será MBR por defecto).
 + Si necesitas formatear una tarjeta SD nueva, puedes usar [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) y ajustar el tamaño de unidad de asignación a 32K.
 + La 2DS es esencialmente idéntica a la Old 3DS en términos de software, y cualquiera de los pasos donde aparece "Old 3DS" también se aplican a 2DS.

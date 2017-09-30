@@ -2,6 +2,8 @@
 title: "Actualizar B9S" #
 ---
 
+{% include toc title="Table of Contents" %}
+
 Esta página es para ayudar a los usuarios actuales de boot9strap a actualizar su instalación a la última versión.
 
 {% capture notice-1 %}
@@ -20,16 +22,16 @@ Ha habido muchos reportes de olas de baneos a usuarios de CFW por parte de Ninte
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-#### Qué necesitas
+### What you need
 
 * La última versión de [SafeB9SInstaller]
 (https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* La última versión de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(boot9strap normal; no el archivo `devkit` ni el archivo `ntr`)*
-* [`cleanup_sd_card.gm9`]({{ base_path }}/gm9_scripts/cleanup_sd_card.gm9)
+* La última versión de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(el archivo `devkit`, no el archivo `ntr`)*
+* [`cleanup_sd_card.gm9`]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }})
 
-#### Instrucciones
+### Instructions
 
-##### Sección I - Preparativos
+#### Section I - Prep Work
 
 Para todos los pasos en esta sección, sobreescribe cualquier archivo existente en tu tarjeta SD.
 {: .notice--info}
@@ -39,10 +41,10 @@ Para todos los pasos en esta sección, sobreescribe cualquier archivo existente 
 1. Crea una carpeta llamada `boot9strap` en la raíz de tu tarjeta SD
 1. Copia `cleanup_sd_card.gm9` a la carpeta `/gm9/scripts/` en tu tarjeta SD
 1. Copia `SafeB9SInstaller.firm` desde el `.zip` de SafeB9SInstaller a la carpeta `/luma/payloads/` en tu tarjeta SD
-1. Copia `boot9strap.firm` y `boot9strap.firm.sha` desde el `.zip` de boot9strap a la carpeta `/boot9strap/` en tu tarjeta SD
+1. Copia `boot9strap_dev.firm` y `boot9strap_dev.firm.sha` desde el `.zip` de boot9strap a la carpeta `/boot9strap/` en tu tarjeta SD
 1. Reinserta la tarjeta SD en tu consola
 
-##### Sección II - Instalar boot9strap
+#### Section II - Installing boot9strap
 
 1. Reinicia manteniendo (Start) presionado al encender la consola para iniciar el menú de selección de payloads de Luma3DS
 1. Inicia SafeB9SInstaller presionando (A)
@@ -50,7 +52,7 @@ Para todos los pasos en esta sección, sobreescribe cualquier archivo existente 
 1. Cuando se solicite, introduce la combinación de botones mostrada para instalar boot9strap
 1. Una vez que se haya completado, mantén presionado (Start) mientras pulsas (A) para reiniciar tu consola en el selector de payloads de Luma3DS
 
-##### Sección III - Limpiar tarjeta SD
+#### Section III - Cleanup SD Card
 
 1. Inicia GodMode9 manteniendo presionado (Start) mientras enciendes la consola
 1. Si se te pide crear copias de seguridad de archivos esenciales, presiona (A) para hacerlo y luego presiona (A) para continuar una vez que haya terminado
