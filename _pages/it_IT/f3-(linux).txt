@@ -2,9 +2,9 @@
 title: "F3 (Linux)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Indice" %}
 
-### Required Reading
+### Lettura necessaria
 
 In questa sezione aggiuntiva verrà spiegato come verificare la presenza di errori nella tua scheda SD utilizzando F3.
 
@@ -12,11 +12,11 @@ A seconda della dimensione della tua scheda SD e della velocità del tuo compute
 
 Questa pagina è solo per utenti Linux. Se non sei su Linux, usa [H2testw (windows)](h2testw-(windows)) o [F3X (mac)](f3x-(mac)).
 
-### What you need
+### Quello che ti serve
 
 * L'ultima versione di [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
 
-### Instructions
+### Istruzioni
 
 1. Estrai l'archivio `.zip` di F3
 2. Entra nella cartella di F3 tramite il comando `cd`
