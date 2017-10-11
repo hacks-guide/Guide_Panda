@@ -2,9 +2,9 @@
 title: "Cominciamo!"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Indice" %}
 
-### Required Reading
+### Lettura necessaria
 
 Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di errori usando [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)) o [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
@@ -26,15 +26,15 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
 ___
-### Methods
+### Metodi
 
 ___
 
-#### 0.23.5 Install
+#### Installazione 0.23.5
 
 Questo metodo consiste nell'effettuare un downgrade ad una vecchia versione del firmware per poter utilizzare un exploit basato sul browser internet. Questo metodo *non* è compatibile con le unità JAN (New 2DS XL) perché esse non possono effettuare un downgrade al di sotto della 0.25.5.
 
-Continue to [0.23.5 Install](0.23.5-install)
+Prosegui con l'[Installazione 0.23.5](0.23.5-install)
 {: .notice--primary}
 
 ___
@@ -43,5 +43,5 @@ ___
 
 Questo metodo consiste nel flashare l'exploit ntrboot su una flashcart commerciale per poi avviarlo sulla tua unità PANDA. È compatibile con tutti i modelli e versioni (tra cui JAN).
 
-Continue to [ntrboot](ntrboot)
+Prosegui con [ntrboot](ntrboot)
 {: .notice--primary}

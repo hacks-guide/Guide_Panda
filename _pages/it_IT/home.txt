@@ -19,7 +19,7 @@ Se hai una console normale (comprata in negozio; non derivata dal Programma Nint
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-This guide needs *your* help to [translate](https://translate.3ds.guide/) it to other languages!
+La guida ha bisogno di *te* per [essere tradotta](https://translate.3ds.guide/) in altre lingue!
 {: .notice--success}
 
 La guida ha bisogno di *te* per il seeding di [questi](https://3ds.guide/rss.xml) torrent!
@@ -69,7 +69,7 @@ Per una lista di tutte le firme di sighax (la piattaforma su cui si basa boot9st
 + **Prima di seguire la guida, è necessario che tu conosca il rischio dell'hacking di un 3DS: OGNI volta che si modifica il sistema c'è sempre il rischio di un brick IRREVERSIBILE. È raro ma può sempre capitare, quindi assicurati di seguire ESATTAMENTE OGNI SINGOLO PASSAGGIO.**
 + Questa guida è applicabile a New 3DS, Old 3DS e 2DS di ogni regione e con qualunque versione del software
 + Seguendo correttamente la guida non perderai alcun dato e manterrai tutto ciò che era installato nella console.
-+ Keep the device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!
++ Mantieni sempre la console in carica per evitare la perdita di dati o danni derivanti dall'improvviso spegnimento della console!
 + La tua scheda SD dovrebbe essere [MBR e non GPT](http://www.howtogeek.com/245610/) (la scheda SD preconfezionata con la console è MBR di default).
 + Se devi formattare una nuova scheda SD, puoi usare [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) e impostare Allocation Unit Size a 32K.
 + Il 2DS è essenzialmente identico a un Old 3DS in termini di software, per cui tutti i passi della guida che fanno riferimento a un "Old 3DS" si applicano anche ai 2DS.

@@ -1,28 +1,28 @@
 ---
 main:
   - 
-    title: 3DS devGuide
+    title: Guida Sviluppatori 3DS
     url: /
   - 
     title: FAQ
     url: faq
   - 
-    title: Donations
+    title: Donazioni
     url: donations
   - 
-    title: Credits
+    title: Riconoscimenti
     url: credits
   - 
-    title: Updating B9S
+    title: Aggiornare B9S
     url: updating-b9s
   - 
     title: Da A9LH a B9S
     url: a9lh-to-b9s
   - 
-    title: Troubleshooting
+    title: Risoluzione dei problemi
     url: troubleshooting
   - 
-    title: GodMode9 Usage
+    title: Utilizzare GodMode9
     url: godmode9-usage
   - 
     title: Mappa del sito
@@ -42,50 +42,50 @@ footer:
     title: Mappa del sito
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Avanzamento
 sidebar_pages:
   - 
     title: Home
     url: /
   - 
-    title: Get Started
+    title: Cominciamo!
     url: get-started
   - 
-    title: 0.23.5 Install
+    title: Installazione 0.23.5
     url: 0.23.5-install
   - 
     title: ntrboot
     url: ntrboot
   - 
-    title: Multiple Options
+    title: Più Opzioni
     url: multiple-options
   - 
-    title: 0.23.5 Install (CIAs)
+    title: Installazione 0.23.5 (CIA)
     url: 0.23.5-install-(cias)
   - 
-    title: 0.23.5 Install (CSU)
+    title: Installazione 0.23.5 (CSU)
     url: 0.23.5-install-(csu)
   - 
-    title: Flashing ntrboot (3DS Single System)
+    title: Flash di ntrboot (Singolo 3DS)
     url: flashing-ntrboot-(3ds-single-system)
   - 
-    title: Flashing ntrboot (3DS Multi System)
+    title: Flash di ntrboot (Con più 3DS)
     url: flashing-ntrboot-(3ds-multi-system)
   - 
-    title: Flashing ntrboot (DSi)
+    title: Flash di ntrboot (DSi)
     url: flashing-ntrboot-(dsi)
   - 
-    title: Flashing ntrboot (NDS)
+    title: Flash di ntrboot (NDS)
     url: flashing-ntrboot-(nds)
   - 
-    title: Flashing ntrboot (Powersaves)
+    title: Flash di ntrboot (Powersaves)
     url: flashing-ntrboot-(powersaves)
   - 
-    title: Installing boot9strap (Browser)
+    title: Installazione di boot9strap (Browser)
     url: installing-boot9strap-(browser)
   - 
-    title: Installing boot9strap (ntrboot)
+    title: Installazione di boot9strap (ntrboot)
     url: installing-boot9strap-(ntrboot)
   - 
-    title: Finalizing Setup
+    title: Completamento dell'installazione
     url: finalizing-setup

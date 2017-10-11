@@ -2,15 +2,15 @@
 title: "Installazione 0.23.5"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Indice" %}
 
-### Overview of steps
+### Panoramica
 
 - Installazione della versione di sistema 0.23.5 per la tua regione / console
 - Installazione di boot9strap tramite Cakehax Browser
 - (Facoltativo) Installazione dell'ultima versione software per la tua regione / console
 
-### Required Reading
+### Lettura necessaria
 
 Ci sono due metodi differenti per installare la versione di sistemi 0.23.5 sulla tua unità PANDA.
 
@@ -19,11 +19,11 @@ Un metodo non richiede strumenti esterni ma supporta solo alcune regioni e conso
 L'altro metodo supporta tutte le regioni e le console, ma richiede una flash card CTR e l'hardware di sviluppo necessario per scrivere un CSU su quella flash card CTR.
 
 ___
-### Methods
+### Metodi
 
 ___
 
-#### 0.23.5 Install (CIAs)
+#### Installazione 0.23.5 (CIA)
 
 Questo metodo è compatibile con le seguenti console 
 
@@ -32,12 +32,12 @@ Questo metodo è compatibile con le seguenti console
 +  CTR / SPR / FTR
    + [EUR / USA]
 
-Continue to [0.23.5 Install (CIAs)](0.23.5-install-(cias))
+Prosegui con l'[Installazione 0.23.5 (CIA)](0.23.5-install-(cias))
 {: .notice--primary}
 
 ___
 
-#### 0.23.5 Install (CSU)
+#### Installazione 0.23.5 (CSU)
 
 Questo metodo è compatibile con le seguenti console 
 
@@ -46,5 +46,5 @@ Questo metodo è compatibile con le seguenti console
 +  CTR / SPR / FTR
    + [CHN / EUR / JPN / KOR / TWN / USA]
 
-Continue to [0.23.5 Install (CSU)](0.23.5-install-(csu))
+Prosegui con l'[Installazione 0.23.5 (CSU)](0.23.5-install-(csu))
 {: .notice--primary}
