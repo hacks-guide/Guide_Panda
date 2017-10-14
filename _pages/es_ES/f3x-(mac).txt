@@ -2,9 +2,9 @@
 title: "F3X (Mac)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabla de contenidos" %}
 
-### Required Reading
+### Lectura requerida
 
 Esta es una sección adicional para revisar tu tarjeta SD en busca de errores usando F3X.
 
@@ -12,11 +12,11 @@ Dependiendo del tamaño tu tarjeta SD y la velocidad de tu computadora, ¡este p
 
 Esta página es sólo para usuarios de Mac. Si no estás en Mac, revisa las páginas [H2testw (windows)](h2testw-(windows)) o [F3 (Linux)](f3-(linux)).
 
-### What you need
+### Qué necesitas
 
 * La última versión de [F3X](https://github.com/insidegui/F3X/releases)
 
-### Instructions
+### Instrucciones
 
 1. Descomprime el archivo F3X `.zip`
 2. Inserta tu tarjeta SD en tu computadora
