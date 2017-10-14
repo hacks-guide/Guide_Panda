@@ -2,15 +2,15 @@
 title: "Instalar 0.23.5"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabla de contenidos" %}
 
-### Overview of steps
+### Resumen de los pasos
 
-- Install the version 0.23.5 for your region / device
-- Install boot9strap using CakeHax Browser
-- (Optionally) install the latest version for your region / device
+- Instalar la versión 0.23.5 para tu consola / región
+- Instalar boot9strap usando CakeHax Browser
+- (Opcional) Instalar la última versión para tu consola / región
 
-### Required Reading
+### Lectura requerida
 
 Existen dos diferentes métodos para instalar la versión 0.23.5 en tu unidad PANDA.
 
@@ -19,11 +19,11 @@ Un método se puede realizar sin herramientas externas pero es sólo para alguna
 El otro método sirve para todas las regiones y consolas, pero requiere una flash card CTR y el equipamiento de desarrollo necesario para escribir un archivo CSU a dicha flash card CTR.
 
 ___
-### Methods
+### Métodos
 
 ___
 
-#### 0.23.5 Install (CIAs)
+#### Instalar 0.23.5 (CIAs)
 
 Este método es compatible con las siguientes consolas 
 
@@ -32,12 +32,12 @@ Este método es compatible con las siguientes consolas
 +  CTR / SPR / FTR
    + [EUR / USA]
 
-Continue to [0.23.5 Install (CIAs)](0.23.5-install-(cias))
+Continúa a [Instalar 0.23.5 (CIAs)](0.23.5-install-(cias))
 {: .notice--primary}
 
 ___
 
-#### 0.23.5 Install (CSU)
+#### Instalar 0.23.5 (CSU)
 
 Este método es compatible con las siguientes consolas 
 
@@ -46,5 +46,5 @@ Este método es compatible con las siguientes consolas
 +  CTR / SPR / FTR
    + [CHN / EUR / JPN / KOR / TWN / USA]
 
-Continue to [0.23.5 Install (CSU)](0.23.5-install-(csu))
+Continúa a [Instalar 0.23.5 (CSU)](0.23.5-install-(csu))
 {: .notice--primary}

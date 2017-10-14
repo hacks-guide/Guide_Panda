@@ -2,7 +2,7 @@
 title: "Flashing ntrboot (3DS Multi System)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabla de contenidos" %}
 
 Before proceeding, ensure you have read all of the information on [ntrboot](ntrboot)
 
@@ -18,7 +18,7 @@ This method requires temporary access to a second 3DS family device that is alre
 Note that in some rare circumstances, it may be possible for the flashing process to **brick** a counterfeit flashcart and render it permanently unusable. This is unlikely, but nevertheless only original listed flashcarts are supported. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
 
-### What you need
+### Qué necesitas
 
 * Your ntrboot compatible flashcart
 * Two 3DS family devices 
@@ -27,9 +27,9 @@ Note that in some rare circumstances, it may be possible for the flashing proces
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(the `ntr-devkit` file)*
 * The latest release of [ntrboot_flasher](https://github.com/kitling/ntrboot_flasher/releases/latest)
 
-### Instructions
+### Instrucciones
 
-#### Section I - Prep Work
+#### Sección I - Preparativos
 
 1. Power off **the source 3DS**
 1. Insert **the source 3DS**'s SD card into your computer

@@ -2,9 +2,9 @@
 title: "Comencemos"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabla de contenidos" %}
 
-### Required Reading
+### Lectura requerida
 
 ¡Antes de empezar, deberías comprobar si tu tarjeta SD tiene errores usando [H2testw (Windows)](h2testw-(windows)),[F3 (Linux)](f3-(linux)), o [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
@@ -26,7 +26,7 @@ Ha habido muchos reportes de olas de baneos a usuarios de CFW por parte de Ninte
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
 ___
-### Methods
+### Métodos
 
 ___
 

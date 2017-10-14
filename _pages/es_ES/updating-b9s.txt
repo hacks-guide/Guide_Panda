@@ -2,7 +2,7 @@
 title: "Actualizar B9S" #
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabla de contenidos" %}
 
 Esta página es para ayudar a los usuarios actuales de boot9strap a actualizar su instalación a la última versión.
 
@@ -22,16 +22,16 @@ Ha habido muchos reportes de olas de baneos a usuarios de CFW por parte de Ninte
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### What you need
+### Qué necesitas
 
 * La última versión de [SafeB9SInstaller]
 (https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * La última versión de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(el archivo `devkit`, no el archivo `ntr`)*
 * [`cleanup_sd_card.gm9`]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }})
 
-### Instructions
+### Instrucciones
 
-#### Section I - Prep Work
+#### Sección I - Preparativos
 
 Para todos los pasos en esta sección, sobreescribe cualquier archivo existente en tu tarjeta SD.
 {: .notice--info}
@@ -44,7 +44,7 @@ Para todos los pasos en esta sección, sobreescribe cualquier archivo existente 
 1. Copia `boot9strap_dev.firm` y `boot9strap_dev.firm.sha` desde el `.zip` de boot9strap a la carpeta `/boot9strap/` en tu tarjeta SD
 1. Reinserta la tarjeta SD en tu consola
 
-#### Section II - Installing boot9strap
+#### Sección II - Instalar boot9strap
 
 1. Reinicia manteniendo (Start) presionado al encender la consola para iniciar el menú de selección de payloads de Luma3DS
 1. Inicia SafeB9SInstaller presionando (A)

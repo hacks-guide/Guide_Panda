@@ -2,12 +2,12 @@
 title: "ntrboot"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabla de contenidos" %}
 
 If you already flashed ntrboot to your flashcart, you can follow [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot)) for instructions on how to use it.
 {: .notice--success}
 
-### Required Reading
+### Lectura requerida
 
 Installing boot9strap with ntrboot requires a compatible DS / DSi flashcart to flash ntrboot to.
 
@@ -37,7 +37,7 @@ Note that in some rare circumstances, it may be possible for the flashing proces
 {: .notice--danger}
 
 ___
-### Methods
+### Métodos
 
 ___
 

@@ -2,9 +2,9 @@
 title: "Installing boot9strap (ntrboot)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabla de contenidos" %}
 
-### What you need
+### Qué necesitas
 
 * A magnet that triggers the sleep mode of your device (if using a folding style device)
 * Your ntrboot flashed flashcart
@@ -13,9 +13,9 @@ title: "Installing boot9strap (ntrboot)"
 * La última versión de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(el archivo `devkit`, no el archivo `ntr`)*
 * La última versión de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(el archivo`.7z`)*
 
-### Instructions
+### Instrucciones
 
-#### Section I - Prep Work
+#### Sección I - Preparativos
 
 1. Apaga tu consola
 1. Inserta tu tarjeta SD en tu computadora

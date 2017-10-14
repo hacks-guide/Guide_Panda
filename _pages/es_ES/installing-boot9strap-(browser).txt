@@ -2,18 +2,18 @@
 title: "Instalar boot9strap (navegador)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Tabla de contenidos" %}
 
-### What you need
+### Qué necesitas
 
 * La última versión de [SafeB9SInstaller]
 (https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * La última versión de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(el archivo `devkit`, no el archivo `ntr`)*
 * La última versión de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(el archivo`.7z`)*
 
-### Instructions
+### Instrucciones
 
-#### Section I - Prep Work
+#### Sección I - Preparativos
 
 1. Apaga tu consola
 1. Inserta tu tarjeta SD en tu computadora
