@@ -55,9 +55,3 @@ rm -o -s 0:/arm9loaderhax.bin
 rm -o -s 0:/files9/aeskeydb.bin
  
 set ERRORMSG "Cleanup completed successfully"
-
-#GodMode9's out folder
-# Edited by Plailect--
-# I don't believe a prompt is needed for this since the instructions already told them to make a copy of their NAND backup
-#ask "Do you want to delete GM9's out folder, including\nyour NAND backups, from your SD?"
-rm -o -s $[GM9OUT]
