@@ -98,5 +98,5 @@ Esta guía podría ser compatible con las siguientes unidades de desarrollo, per
 
 ___
 
-Continue to [Get Started](get-started)
+Continúa en [Comencemos](get-started)
 {: .notice--primary}
