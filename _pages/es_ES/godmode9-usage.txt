@@ -139,7 +139,7 @@ Esto sólo funcionará si la inyección sobre Salud y Seguridad fue realizada co
 El juego será almacenado en la carpeta `/gm9/out/` de tu tarjeta SD con el nombre `<TitleID>.gbavc.sav`.
 {: .notice--info}
 
-To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of all games on the system and their corresponding Title IDs by hovering over `[A:] SYSNAND SD`, holding (R) and pressing (A) at the same time, then selecting "Search for titles".
+Para identificar el ID de título de un archivo `<TitleID>.gbavc.sav`, puedes obtener una lista de todos los juegos en el sistema y sus correspondientes IDs de titulo marcando `[A:] SYSNAND SD`, sosteniendo (R) y presionando (A) al mismo tiempo, y luego seleccionando "Search for titles".
 {: .notice--info}
 
 1. Haz lo siguiente por cada juego de Consola Virtual de GBA del cual quieras respaldar sus datos de guardado:
@@ -156,7 +156,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 
 ## Restaurar datos de guardado de la Consola Virtual de GBA
 
-To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of all games on the system and their corresponding Title IDs by hovering over `[A:] SYSNAND SD`, holding (R) and pressing (A) at the same time, then selecting "Search for titles".
+Para identificar el ID de título de un archivo `<TitleID>.gbavc.sav`, puedes obtener una lista de todos los juegos en el sistema y sus correspondientes IDs de titulo marcando `[A:] SYSNAND SD`, sosteniendo (R) y presionando (A) al mismo tiempo, y luego seleccionando "Search for titles".
 {: .notice--info}
 
 1. Haz lo siguiente por cada juego de Consola Virtual de GBA del cual quieras restaurar sus datos de guardado:
@@ -192,7 +192,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
   + Opcionalmente, puedes ingresar un nombre personalizado para la tarjeta SD
 1. Cuando se te pida, introduce la combinación de teclas mostrada para confirmar
 
-## Encrypting / Decrypting a .CIA file
+## Cifrar / descifrar un archivo .CIA
 
 #### Preparativos
 
@@ -209,7 +209,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
     + **Decrypt inplace:** Reemplaza el archivo `.cia` seleccionado con uno descifrada
 1. Tu `.cia` cifrado / descifrado será guardado en la ubicación seleccionada
 
-## Removing an NNID without formatting your device
+## Remover un NNID sin formatear tu consola
 
 1. Inicia GodMode9 manteniendo presionado (Start) mientras enciendes la consola
 1. Ve a `[1:] SYSNAND CTRNAND` -> `data` -> (ID de 32 caracteres) -> `sysdata` -> `00010038`
