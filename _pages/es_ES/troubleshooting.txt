@@ -107,12 +107,12 @@ Browser based exploits (such as browserhax or 2xrsa) are often unstable and cras
 1. If you previously downgraded with Gateway, ensure that you are using the latest Luma3DS version (v6.2.3 or higher)
 1. Si tu NAND es de una versión entre 3.0.0 y 4.5.0, realiza lo siguiente:
     + Ensure that you are using the latest Luma3DS version (v6.6 or higher)
-    + Download [this file](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000056) and rename it to `native.firm`
+    + Descarga [este archivo](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000056) y cambia su nombre a `native.firm`
     + Descarga [este archivo](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk)
     + Copy `native.firm` and `cetk` to the `/luma/` folder on your SD card
     + If you have Luma3DS version 7.1 or lower, rename `native.firm` to `firmware.bin`
     + Elimina ambos archivos después de actualizar tu consola
-1. Try following [CTRTransfer](ctrtransfer)
+1. Prueba siguiendo [CTRTransfer](ctrtransfer)
 1. Pide ayuda (*en inglés*) en el [Discord de Nintendo Homebrew](https://discord.gg/MWxPgEp)
 
 ## Blue screen on boot (bootrom error)
