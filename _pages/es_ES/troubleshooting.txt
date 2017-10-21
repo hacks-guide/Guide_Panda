@@ -41,7 +41,7 @@ To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on th
 1. Selecciona "Install and delete all CIAs"
 1. Presiona (Home) para salir de FBI
 
-## Removing an NNID without formatting your device
+## Remover un NNID sin formatear tu consola
 
 Ten en cuenta que si tienes archivos de payloads distintos de `GodMode9.firm` en la carpeta `/luma/payloads/` en tu tarjeta SD, al mantener (Start) al inicio se desplegará un "chainloader menu" donde tendrás que usar el D-Pad y pulsar (A) para seleccionar "GodMode9", para esas instrucciones. 
 {: .notice--info}
