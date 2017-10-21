@@ -148,13 +148,13 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
   + Enciende tu consola manteniendo (Start) presionado para ingresar al menú de selección de payloads de Luma3DS
   + Inicia GodMode9 presionando (A)
   + Ve a`[S:] SYSNAND VIRTUAL`
-  + Press (A) on `agbsave.bin` to select it
-  + Select "AGBSAVE options..."
-  + Select "Dump GBA VC save"
-  + Press (A) to continue
+  + Presiona (A) en `agbsave.bin` para seleccionarlo
+  + Selecciona "AGBSAVE options..."
+  + Selecciona "Dump GBA VC save"
+  + Presiona (A) para continuar
   + Presiona (Start) para reiniciar tu consola
 
-## Restore GBA VC Saves
+## Restaurar datos de guardado de la Consola Virtual de GBA
 
 To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of all games on the system and their corresponding Title IDs by hovering over `[A:] SYSNAND SD`, holding (R) and pressing (A) at the same time, then selecting "Search for titles".
 {: .notice--info}
@@ -168,15 +168,15 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
   + Press (Y) on the `<TitleID>.gbavc.sav` file you wish to restore to copy it
   + Presiona (B) para regresar al menú principal
   + Ve a`[S:] SYSNAND VIRTUAL`
-  + Press (A) on `agbsave.bin` to select it
-  + Select "AGBSAVE options..."
-  + Select "Inject GBA VC save"
-  + Press (A) to continue
+  + Presiona (A) en `agbsave.bin` para seleccionarlo
+  + Selecciona "AGBSAVE options..."
+  + Selecciona "Inject GBA VC save"
+  + Presiona (A) para continuar
   + Presiona (Start) para reiniciar tu consola
   + Inicia el juego de Consola Virtual de GBA
   + Sal del juego GBA VC
 
-## Format an SD card
+## Formatear una tarjeta SD
 
 **¡Ten en cuenta que esto eliminará el contenido de tu tarjeta SD!**
 {: .notice--danger}
