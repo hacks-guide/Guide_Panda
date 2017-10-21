@@ -165,7 +165,7 @@ Para identificar el ID de título de un archivo `<TitleID>.gbavc.sav`, puedes ob
   + Enciende tu consola manteniendo (Start) presionado para ingresar al menú de selección de payloads de Luma3DS
   + Inicia GodMode9 presionando (A)
   + Ve a `[0:] SDCARD` -> `gm9`
-  + Press (Y) on the `<TitleID>.gbavc.sav` file you wish to restore to copy it
+  + Presiona (Y) en el archivo `<TitleID>.gbavc.sav` que deseas restaurar para copiarlo
   + Presiona (B) para regresar al menú principal
   + Ve a`[S:] SYSNAND VIRTUAL`
   + Presiona (A) en `agbsave.bin` para seleccionarlo
