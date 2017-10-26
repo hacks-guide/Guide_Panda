@@ -1,30 +1,30 @@
 ---
-title: "Flashing ntrboot (3DS Multi System)"
+title: "Flashear ntrboot (Dos consolas 3DS)"
 ---
 
 {% include toc title="Tabla de contenidos" %}
 
-Before proceeding, ensure you have read all of the information on [ntrboot](ntrboot)
+Antes de continuar, asegúrate de haber leído toda la información en [ntrboot](ntrboot)
 
-Note that R4i Gold 3DS RTS flashcarts will not be able to be used for their standard functions (such as launching `.nds` files) while the ntrboot exploit is installed on it. This does not apply to the Acekard 2i.
+Ten en cuenta que las flashcarts R4i Gold 3DS RTS no podrán ser utilizadas para sus funciones por defecto (tales como ejecutar archivos `.nds`) mientras el exploit de ntrboot esté instalado en ellas. Esto no aplica a la flashcart Acekard 2i.
 
-There are optional steps at the end of the ntrboot boot9strap installation instructions to remove the ntrboot exploit from your flashcart when you are done.
+Hay pasos opcionales al final de las instrucciones de instalación de boot9strap con ntrboot para eliminarlo del flashcart cuando termines.
 
-This method requires temporary access to a second 3DS family device that is already running some kind of custom firmware (such as boot9strap or arm9loaderhax). It is compatible with the following flashcarts:
+Éste método requiere acceso temporal a una segunda consola que ya tenga algún custom firmware (como boot9strap o arm9loaderhax). Es compatible con las siguientes flashcarts:
 
   + [Acekard 2i](http://www.nds-card.com/ProShow.asp?ProID=160)
   + [R4i Gold 3DS RTS](http://www.nds-card.com/ProShow.asp?ProID=149)
 
-Note that in some rare circumstances, it may be possible for the flashing process to **brick** a counterfeit flashcart and render it permanently unusable. This is unlikely, but nevertheless only original listed flashcarts are supported. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](http://www.nds-card.com/))
+Ten en cuenta que en raras ocasiones, es posible que realizar el proceso de flasheo en un clon de flashcart podría dejarla **permanentemente inutilizable**. Esto es poco probable, pero sin embargo, sólo las flashcarts originales mencionadas son compatibles. Para reducir la posibilidad de recibir un clon, se recomienda utilizar un sitio de confianza para comprar una flashcart (como [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
 
 ### Qué necesitas
 
-* Your ntrboot compatible flashcart
-* Two 3DS family devices 
-  + **The source 3DS**: the 3DS family device that is already running some kind of custom firmware (such as boot9strap)
-  + **The target 3DS**: the device on stock firmware
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(the `ntr-devkit` file)*
+* Tu flashcart compatible con ntrboot
+* Dos consolas de la familia 3DS 
+  + **3DS de origen**: la consola de la familia 3DS que ya tenga algún custom firmware (como boot9strap)
+  + **3DS de destino**: la consola sin modificar
+* La última versión de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(el archivo `ntr-devkit`)*
 * The latest release of [ntrboot_flasher](https://github.com/kitling/ntrboot_flasher/releases/latest)
 
 ### Instrucciones
