@@ -4,7 +4,7 @@ title: "Flashing ntrboot (DSi)"
 
 {% include toc title="Tabla de contenidos" %}
 
-Before proceeding, ensure you have read all of the information on [ntrboot](ntrboot)
+Antes de continuar, asegúrate de haber leído toda la información en [ntrboot](ntrboot)
 
 This method requires temporary access to a Nintendo DSi that is compatible with your flashcart.
 
@@ -16,12 +16,12 @@ Note that more recent DSi versions have blocked access to some flashcarts. This 
   + R4i Ultra : <= 1.4.1
   + Infinity 3 R4i : <= 1.4.5
 
-Note that in some rare circumstances, it may be possible for the flashing process to **brick** a counterfeit flashcart and render it permanently unusable. This is unlikely, but nevertheless only original listed flashcarts are supported. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](http://www.nds-card.com/))
+Ten en cuenta que en raras ocasiones, es posible que realizar el proceso de flasheo en un clon de flashcart podría dejarla **permanentemente inutilizable**. Esto es poco probable, pero sin embargo, sólo las flashcarts originales mencionadas son compatibles. Para reducir la posibilidad de recibir un clon, se recomienda utilizar un sitio de confianza para comprar una flashcart (como [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
 
 ### Qué necesitas
 
-* Your ntrboot compatible flashcart
+* Tu flashcart compatible con ntrboot
 * Two devices 
   + **The source DSi**: the Nintendo DSi which is compatible with your flashcart
   + **The target 3DS**: the 3DS family device on stock firmware
