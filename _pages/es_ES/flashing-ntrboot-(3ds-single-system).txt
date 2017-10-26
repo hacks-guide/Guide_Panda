@@ -4,7 +4,7 @@ title: "Flashing ntrboot (3DS Single System)"
 
 {% include toc title="Tabla de contenidos" %}
 
-Before proceeding, ensure you have read all of the information on [ntrboot](ntrboot)
+Antes de continuar, asegúrate de haber leído toda la información en [ntrboot](ntrboot)
 
 This method requires nothing more than your stock unhacked 3DS and a compatible flashcart.
 
@@ -18,12 +18,12 @@ Note that more recent 3DS versions have blocked access to some flashcarts, and s
 
 Ensure your flashcart is able to launch correctly before starting. Be sure to have any required kernel or firmware files copied to your flashcart's SD card. Consult your specific flashcart's instructions for more information.
 
-Note that in some rare circumstances, it may be possible for the flashing process to **brick** a counterfeit flashcart and render it permanently unusable. This is unlikely, but nevertheless only original listed flashcarts are supported. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](http://www.nds-card.com/))
+Ten en cuenta que en raras ocasiones, es posible que realizar el proceso de flasheo en un clon de flashcart podría dejarla **permanentemente inutilizable**. Esto es poco probable, pero sin embargo, sólo las flashcarts originales mencionadas son compatibles. Para reducir la posibilidad de recibir un clon, se recomienda utilizar un sitio de confianza para comprar una flashcart (como [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
 
 ### Qué necesitas
 
-* Your ntrboot compatible flashcart
+* Tu flashcart compatible con ntrboot
 * The latest release of [ak2i_ntrcardhax_flasher](https://github.com/d3m3vilurr/ak2i_ntrcardhax_flasher/releases/latest) *(`dsi` flasher; not the standard flasher)*
 
 ### Instrucciones
