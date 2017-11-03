@@ -50,14 +50,14 @@ Ten en cuenta que en raras ocasiones, es posible que realizar el proceso de flas
 1. Selecciona "Dump Flash"
 1. Espera hasta que se complete el proceso
 1. Presiona (A) para continuar
-1. Press (A) to return to the main menu
-1. Select "Inject Ntrboot"
-1. Press (Y) for developer unit ntrboot
+1. Presiona (A) para regresar al menú principal
+1. Selecciona "Inject Ntrboot"
+1. Presiona (Y) para seleccionar "developer unit ntrboot"
 1. Espera hasta que se complete el proceso
-1. Press (A) to return to the main menu
-1. Select "Exit" to power off **the source 3DS**
+1. Presiona (A) para regresar al menú principal
+1. Selecciona "Exit" para apagar **la 3DS de origen**
 
 ___
 
-Continue to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
+Continúa a [Instalar boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
 {: .notice--primary}
