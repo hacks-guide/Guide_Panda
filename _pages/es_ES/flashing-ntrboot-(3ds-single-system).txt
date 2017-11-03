@@ -16,7 +16,7 @@ Ten en cuenta que versiones más recientes del firmware de 3DS han bloqueado el 
   + R4i Ultra : <= 4.3.0
   + Infinity 3 R4i : <= 11.6.0
 
-Asegúrate de que tu flashcart inicia correctamente antes de comenzar. Asegúrate de tener cualquier archivo de kernel o firmware necesario copiado en la tarjeta SD de tu flashcart. Consult your specific flashcart's instructions for more information.
+Asegúrate de que tu flashcart inicia correctamente antes de comenzar. Asegúrate de tener cualquier archivo de kernel o firmware necesario copiado en la tarjeta SD de tu flashcart. Para más información, revisa las instrucciones específicas para tu flashcart.
 
 Ten en cuenta que en raras ocasiones, es posible que realizar el proceso de flasheo en un clon de flashcart podría dejarla **permanentemente inutilizable**. Esto es poco probable, pero sin embargo, sólo las flashcarts originales mencionadas son compatibles. Para reducir la posibilidad de recibir un clon, se recomienda utilizar un sitio de confianza para comprar una flashcart (como [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
@@ -24,16 +24,16 @@ Ten en cuenta que en raras ocasiones, es posible que realizar el proceso de flas
 ### Qué necesitas
 
 * Tu flashcart compatible con ntrboot
-* The latest release of [ak2i_ntrcardhax_flasher](https://github.com/d3m3vilurr/ak2i_ntrcardhax_flasher/releases/latest) *(`dsi` flasher; not the standard flasher)*
+* La última versión de [ak2i_ntrcardhax_flasher](https://github.com/d3m3vilurr/ak2i_ntrcardhax_flasher/releases/latest) *(la versión `dsi`; no la normal)*
 
 ### Instrucciones
 
 #### Sección I - Preparativos
 
 1. Apaga tu consola
-1. Insert your flashcart's SD card into your computer
-1. Copy `ak2i_ntrcardhax_flasher_dsi.nds` to your flashcart's SD card
-1. Reinsert your flashcart's SD card back into your flashcart
+1. Inserta la tarjeta SD de tu flashcart en tu computadora
+1. Copia `ak2i_ntrcardhax_flasher_dsi.nds` a la tarjeta SD de tu flashcart
+1. Reinserta la tarjeta SD de tu flashcart de regreso a ella
 1. Insert your ntrboot compatible DS / DSi flashcart into your device
 
 #### Section II - Flashing ntrboot
