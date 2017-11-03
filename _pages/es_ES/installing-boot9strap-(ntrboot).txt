@@ -108,5 +108,5 @@ Do not follow this section until you have completed the rest of the instructions
 1. Select "Restore Flash"
 1. Press (A) to proceed
 1. Espera hasta que se complete el proceso
-1. Press (A) to return to the main menu
+1. Presiona (A) para regresar al menú principal
 1. Select "Exit" to power off your device
