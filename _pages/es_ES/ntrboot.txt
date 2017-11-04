@@ -69,7 +69,7 @@ ___
 
 #### Flashing ntrboot (NDS)
 
-This method requires temporary access to a Nintendo DS or Nintendo DS Lite that is compatible with your flashcart.
+Este método requiere de acceso tempral a una consola Nintendo DS o Nintendo DS Lite que sea compatible con el flashcart a utilizar.
 
 Continue to [Flashing ntrboot (NDS)](flashing-ntrboot-(nds))
 {: .notice--primary}
@@ -78,9 +78,9 @@ ___
 
 #### Flashing ntrboot (DSi)
 
-This method requires temporary access to a Nintendo DSi that is compatible with your flashcart.
+Este método requiere de acceso tempral a una consola Nintendo DSi que sea compatible con el flashcart a utilizar.
 
-Note that more recent DSi versions have blocked access to some flashcarts. This leaves them unable to launch the flasher `.nds` file on newer versions. The ntrboot compatible flashcarts are able to launch `.nds` files under the following versions:
+Ten en cuenta que las versiones más recientes del firmware de DSi han bloqueado el acceso a algunos flashcarts. Esto las deja incapaces para ejecutar el archivo `.nds` flasheador en la última versión. Las flashcarts compatibles con ntrboot son capaces de ejecutar archivos `.nds` estando el firmware de la consola en las siguientes versiones:
 
   + [R4i Gold 3DS RTS](http://www.nds-card.com/ProShow.asp?ProID=149) : <= 1.4.5
   + [Acekard 2i](http://www.nds-card.com/ProShow.asp?ProID=160) : <= 1.4.4
@@ -95,7 +95,7 @@ ___
 
 #### Flashing ntrboot (Powersaves)
 
-This method, once ready, will require temporary access to a [Powersaves](https://amzn.to/2fb3VY7). This method is not yet complete, and as such is just a placeholder page.
+Éste método, una vez esté completo, requerirá acceso temporal a un [Powersaves](https://amzn.to/2fb3VY7). Este método aún no ha sido completado, por lo que ésta es sólo una página de relleno.
 
 Continue to [Flashing ntrboot (Powersaves)](flashing-ntrboot-(powersaves))
 {: .notice--primary}
