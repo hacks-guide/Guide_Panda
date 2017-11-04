@@ -1,14 +1,14 @@
 ---
-title: "Flashing ntrboot (DSi)"
+title: "Flashear ntrboot (DSi)"
 ---
 
 {% include toc title="Tabla de contenidos" %}
 
 Antes de continuar, asegúrate de haber leído toda la información en [ntrboot](ntrboot)
 
-This method requires temporary access to a Nintendo DSi that is compatible with your flashcart.
+Este método requiere de acceso tempral a una consola Nintendo DSi que sea compatible con el flashcart a utilizar.
 
-Note that more recent DSi versions have blocked access to some flashcarts. This leaves them unable to launch the flasher `.nds` file on newer versions. The ntrboot compatible flashcarts are able to launch `.nds` files under the following versions:
+Ten en cuenta que las versiones más recientes del firmware de DSi han bloqueado el acceso a algunos flashcarts. Esto las deja incapaces para ejecutar el archivo `.nds` flasheador en la última versión. Las flashcarts compatibles con ntrboot son capaces de ejecutar archivos `.nds` estando el firmware de la consola en las siguientes versiones:
 
   + [R4i Gold 3DS RTS](http://www.nds-card.com/ProShow.asp?ProID=149) : <= 1.4.5
   + [Acekard 2i](http://www.nds-card.com/ProShow.asp?ProID=160) : <= 1.4.4
@@ -22,31 +22,31 @@ Ten en cuenta que en raras ocasiones, es posible que realizar el proceso de flas
 ### Qué necesitas
 
 * Tu flashcart compatible con ntrboot
-* Two devices 
-  + **The source DSi**: the Nintendo DSi which is compatible with your flashcart
-  + **The target 3DS**: the 3DS family device on stock firmware
-* The latest release of [ak2i_ntrcardhax_flasher](https://github.com/d3m3vilurr/ak2i_ntrcardhax_flasher/releases/latest) *(`dsi` flasher; not the standard flasher)*
+* Dos consolas 
+  + **La DSi de origen**: la consola Nintendo DSi que es compatible con tu flashcart
+  + **3DS de destino**: la consola de la familia 3DS sin modificar
+* La última versión de [ak2i_ntrcardhax_flasher](https://github.com/d3m3vilurr/ak2i_ntrcardhax_flasher/releases/latest) *(la versión `dsi`; no la normal)*
 
 ### Instrucciones
 
 #### Sección I - Preparativos
 
-1. Power off **the source DSi**
+1. Apaga **la DSi de origen**
 1. Inserta la tarjeta SD de tu flashcart en tu computadora
 1. Copia `ak2i_ntrcardhax_flasher_dsi.nds` a la tarjeta SD de tu flashcart
 1. Reinserta la tarjeta SD de tu flashcart de regreso a ella
-1. Insert your ntrboot compatible DS / DSi flashcart into **the source DSi**
+1. Inserta tu flashcart de DS / DSi compatible con ntrboot en la **DSi de origen**
 
-#### Section II - Flashing ntrboot
+#### Sección II - Flashear ntrboot
 
-1. Launch `ak2i_ntrcardhax_flasher_dsi.nds` on **the source DSi** using your flashcart
+1. Inicia `ak2i_ntrcardhax_flasher_dsi.nds` en **la DSi de origen** usando tu flashcart
 1. Presiona (A) para continuar
-1. Use (Up) and (Down) to select your flashcart
+1. Usa (Arriba) y (Abajo) en el D-Pad para seleccionar tu flashcart
 1. Presiona (A) para continuar
-1. Press (A) to "inject ntrboothax"
-1. Press (X) to select "DEVKIT"
+1. Presiona (A) para ejecutar la acción "inject ntrboothax"
+1. Presiona (X) para seleccionar "DEVKIT"
 1. Presiona (A) para continuar
-1. Select "EXIT"
+1. Selecciona "EXIT"
 
 ___
 
