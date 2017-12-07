@@ -32,9 +32,9 @@ main:
     url: uninstall-cfw
 bottom:
   - 
-    title: 'Se hai bisogno di aiuto, chiedi pure su <a href="http://webchat.freenode.net/?channels=%23Cakey&uio=d4"> (in inglese)'
+    title: Se hai bisogno di aiuto, chiedi pure su <a href="http://webchat.freenode.net/?channels=%23Cakey&uio=d4"> (in inglese)
   - 
-    title: 'Se hai apprezzato questa guida, accetto <a href="donations">donazioni</a> attraverso <a href="https://www.paypal.me/plailectguides/15">PayPal</a> o <a href="bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety">Bitcoin</a>.'
+    title: Se hai apprezzato questa guida, accetto <a href="donations">donazioni</a> attraverso <a href="https://www.paypal.me/plailectguides/15">PayPal</a> o <a href="bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety">Bitcoin</a>.
 footer:
   - 
     title: Codice Sorgente
