@@ -43,20 +43,20 @@ Durante este proceso, también instalaremos programas como los siguientes:
 1. Copia `cleanup_sd_card.gm9` a la carpeta `/gm9/scripts/` en tu tarjeta SD
 1. Reinserta la tarjeta SD en tu consola
 
-#### Section II - Updating the System
+#### Sección II - Actualizar el sistema
 
 Esta sección es opcional y requiere una flash card CTR y el equpo de desarrollo para escribir un archivo CSU a dicha flash card CTR.
 {: .notice--info}
 
 1. Actualiza tu unidad PANDA usando la última versión de CTR System Updater (CSU) disponible
 
-#### Section III - Installing CIAs
+#### Sección III - Instalar CIAs
 
 1. Usando el Dev Menu, ve a la carpeta `cias`
 1. Presiona (L + R + A) para instalar todos los CIAs
 1. Sal del Dev Menu
 
-#### Section IV - CTRNAND Luma3DS
+#### Sección IV - CTRNAND Luma3DS
 
 1. Inicia GodMode9 manteniendo presionado (Start) mientras enciendes la consola
 1. Si se te pide crear copias de seguridad de archivos esenciales, presiona (A) para hacerlo y luego presiona (A) para continuar una vez que haya terminado
@@ -69,7 +69,7 @@ Esta sección es opcional y requiere una flash card CTR y el equpo de desarrollo
 1. Presiona (A) para continuar
 1. Presiona (A) para volver a bloquear los permisos de escritura
 
-#### Section V - Backup SysNAND
+#### Sección V - Copia de seguridad de la SysNAND
 
 1. Presiona el botón (Home) para abrir el menú de acción
 1. Selecciona "More..."
@@ -86,7 +86,7 @@ Esta sección es opcional y requiere una flash card CTR y el equpo de desarrollo
 1. Elimina el archivo `<númerodeserie>_nandmin_###.bin` de la carpeta `/gm9/out/` de tu tarjeta SD después de haberlo copiado
 1. Reinserta la tarjeta SD en tu consola
 
-#### Section VI - Cleanup SD Card
+#### Sección VI - Limpiar tarjeta SD
 
 1. Presiona el botón (Home) para abrir el menú de acción
 1. Selecciona "More..."
