@@ -4,13 +4,13 @@ title: "Resolución de Problemas"
 
 {% include toc title="Tabla de contenidos" %}
 
-If you are unable to boot your device, please look for the section relevant to you and follow the instructions.
+Si no puedes encender tu consola, por favor, busca la sección correspondiente a tu problema y sigue las instrucciones.
 
 Si aún no eres capaz de resolver el problema y necesitas ayuda, por favor, pega el contenido de todos los archivos .log que haya en la raíz de tu tarjeta SD en un [Gist](https://gist.github.com/) y regresa con una descripción detallada de tu problema y de lo que has intentado.
 
-To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download).
+Para utilizar los enlaces [magnet](https://es.wikipedia.org/wiki/Magnet) de esta página, vas a necesitar un cliente torrent como [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 
-## DSi / DS functionality is broken after completing the guide
+## La funcionalidad de DSi/DS se ha roto tras completar la guía
 
 ### Qué necesitas
 
@@ -33,7 +33,7 @@ To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on th
 1. Copia `Nintendo DS Cart Whitelist - v11264.cia` a la carpeta `/cias/` en tu tarjeta SD
 1. Copia según corresponda `New_3DS TWL_FIRM - v9936.cia`  u `Old_3DS TWL_FIRM - v8817.cia` a la carpeta `/cias/` en tu tarjeta SD
 
-#### Section II - Installing titles
+#### Sección II - Instalar títulos
 
 1. Inicia FBI
 1. Ve a `SD` -> `cias`
@@ -41,7 +41,7 @@ To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on th
 1. Selecciona "Install and delete all CIAs"
 1. Presiona (Home) para salir de FBI
 
-## Removing an NNID without formatting your device
+## Remover un NNID sin formatear tu consola
 
 Ten en cuenta que si tienes archivos de payloads distintos de `GodMode9.firm` en la carpeta `/luma/payloads/` en tu tarjeta SD, al mantener (Start) al inicio se desplegará un "chainloader menu" donde tendrás que usar el D-Pad y pulsar (A) para seleccionar "GodMode9", para esas instrucciones. 
 {: .notice--info}
@@ -55,15 +55,15 @@ Ten en cuenta que si tienes archivos de payloads distintos de `GodMode9.firm` en
 1. Vuelve al menú principal
 1. Presiona (Start) para reiniciar tu consola
 
-## A browser based exploit is not working
+## Un exploit basado en el navegador no funciona
 
-Browser based exploits (such as browserhax or 2xrsa) are often unstable and crash frequently, but they can sometimes be fixed by doing the following steps.
+Los exploits basados en navegador (como browserhax o 2xrsa) son a menudo inestables y fallan con frecuencia, pero pueden arreglarse realizando los siguientes pasos.
 
 1. Inicia el navegador y luego abre los ajustes del navegador
 1. Desplázate hasta el fondo y selecciona Inicializar datos guardados (también podría llamarse Borrar datos guardados)
 1. Prueba el exploit otra vez
 
-## Black screen on SysNAND boot
+## Pantalla negra al iniciar la SysNAND
 
 1. Intenta iniciar sin la tarjeta SD, y reinsértala después del arranque
     1. Apaga tu consola
@@ -83,12 +83,12 @@ Browser based exploits (such as browserhax or 2xrsa) are often unstable and cras
     1. Apaga tu consola
     1. Mantén pulsados (L) + (R) + (A) + (Up)
     1. Enciende tu consola
-    1. If you enter safe mode, update your device
+    1. Si entras al modo seguro, actualiza tu consola
 1. Tu consola podría estar brickeada. Para soporte, puedes pedir ayuda (*en inglés*) en el [Discord de Nintendo Homebrew](https://discord.gg/MWxPgEp)
 
-## Black screen on SysNAND boot after Installing boot9strap
+## Pantalla negra al iniciar la SysNAND luego de instalar boot9strap
 
-1. Ensure you have a working payload
+1. Asegúrate de tener un payload funcional
     1. Comprueba que existe el archivo `boot.firm` en la raíz de tu tarjeta SD.
 1. Intenta reiniciar la configuración de Luma y arregla sus opciones
     1. Elimina `/luma/config.bin` de tu tarjeta SD
@@ -104,18 +104,18 @@ Browser based exploits (such as browserhax or 2xrsa) are often unstable and cras
         + Región KOR: Elimina `000000A9`
         + Región TWN: Elimina `000000B1`
 1. Trata de arrancar sin cartuchos insertados (incluyendo flashcards)
-1. If you previously downgraded with Gateway, ensure that you are using the latest Luma3DS version (v6.2.3 or higher)
+1. Si previamente hiciste un downgrade con Gateway, asegúrate que la versión de Luma3DS que estés utilizando sea reciente (v6.2.3 o superior)
 1. Si tu NAND es de una versión entre 3.0.0 y 4.5.0, realiza lo siguiente:
-    + Ensure that you are using the latest Luma3DS version (v6.6 or higher)
-    + Download [this file](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000056) and rename it to `native.firm`
+    + Asegúrate de estar usando la versión más reciente de Luma3DS (v6.6 o superior)
+    + Descarga [este archivo](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000056) y cambia su nombre a `native.firm`
     + Descarga [este archivo](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk)
-    + Copy `native.firm` and `cetk` to the `/luma/` folder on your SD card
-    + If you have Luma3DS version 7.1 or lower, rename `native.firm` to `firmware.bin`
+    + Copia `native.firm` y `cetk` a la carpeta `/luma/` en tu tarjeta SD
+    + Si tienes una versión de Luma3DS 7.1 o inferior, renombra `native.firm` a `firmware.bin`
     + Elimina ambos archivos después de actualizar tu consola
-1. Try following [CTRTransfer](ctrtransfer)
+1. Prueba siguiendo [CTRTransfer](ctrtransfer)
 1. Pide ayuda (*en inglés*) en el [Discord de Nintendo Homebrew](https://discord.gg/MWxPgEp)
 
-## Blue screen on boot (bootrom error)
+## Pantalla azul al encender (error de bootrom)
 
 1. Tu consola está brickeada
 1. Vas a necesitar hacer un [hardmod](https://gbatemp.net/threads/414498/) (*en inglés*) o reparar/reemplazar tu consola

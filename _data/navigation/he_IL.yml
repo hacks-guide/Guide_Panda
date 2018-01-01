@@ -32,9 +32,9 @@ main:
     url: uninstall-cfw
 bottom:
   - 
-    title: 'לתמיכה באנגלית, תבקשו עזרה ב <a href="http://webchat.freenode.net/?channels=%23Cakey&uio=d4">'
+    title: לתמיכה באנגלית, תבקשו עזרה ב <a href="http://webchat.freenode.net/?channels=%23Cakey&uio=d4">
   - 
-    title: 'אם אתם מעריכים את המדריך הזה, אני מקבל <a href="donations"> תרומות</a> דרך <a href="https://www.paypal.me/plailectguides/15">PayPal</a> או דרך <a href="bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety">Bitcoin</a>.'
+    title: אם אתם מעריכים את המדריך הזה, אני מקבל <a href="donations"> תרומות</a> דרך <a href="https://www.paypal.me/plailectguides/15">PayPal</a> או דרך <a href="bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety">Bitcoin</a>.
 footer:
   - 
     title: מקור

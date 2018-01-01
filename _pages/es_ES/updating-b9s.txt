@@ -52,7 +52,7 @@ Para todos los pasos en esta sección, sobreescribe cualquier archivo existente 
 1. Cuando se solicite, introduce la combinación de botones mostrada para instalar boot9strap
 1. Una vez que se haya completado, mantén presionado (Start) mientras pulsas (A) para reiniciar tu consola en el selector de payloads de Luma3DS
 
-#### Section III - Cleanup SD Card
+#### Sección III - Limpiar tarjeta SD
 
 1. Inicia GodMode9 manteniendo presionado (Start) mientras enciendes la consola
 1. Si se te pide crear copias de seguridad de archivos esenciales, presiona (A) para hacerlo y luego presiona (A) para continuar una vez que haya terminado
