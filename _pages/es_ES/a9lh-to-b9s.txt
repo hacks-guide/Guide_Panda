@@ -89,9 +89,9 @@ Para todos los pasos en esta sección, sobreescribe cualquier archivo existente 
   + Si tienes el error "OTP Crypto Fail", descarga <i class="fa fa-magnet" aria-hidden="true" title="Esto es un enlace magnético. Usa un cliente torrent para descargar el archivo."></i> - [`aeskeydb.bin`](magnet:?xt=urn:btih:d25dab06a7e127922d70ddaa4fe896709dc99a1e&dn=aeskeydb.bin&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce), luego colócalo en la carpeta `/boot9strap/` de tu tarjeta SD y vuelve a intentarlo
 1. Cuando se solicite, introduce la combinación de botones mostrada para instalar boot9strap
 1. Una vez se haya completado, presiona (A) para reiniciar tu consola.
-  + If your device shuts down on boot, ensure that you have copied `boot.firm` from the Luma3DS `.7z` to the root of your SD card
+  + Si tu consola se apaga al iniciar, asegúrate de haber copiado el `boot.firm` desde el `.7z` de Luma3DS a la raíz de tu tarjeta SD
 
-#### Section III - Configuring Luma3DS
+#### Sección III - Configuración de Luma3DS
 
 Esta sección es sólo necesaria si se ha mostrado la configuración Luma3DS luego de reiniciar.
 {: .notice--info}
@@ -100,25 +100,25 @@ Esta sección es sólo necesaria si se ha mostrado la configuración Luma3DS lue
   + **"Show NAND or user string in System Settings"**
 1. Presiona (Start) para guardar y reiniciar
 
-#### Section IV - Updating the System
+#### Sección IV - Actualizar el sistema
 
 Esta sección es opcional y requiere una flash card CTR y el equpo de desarrollo para escribir un archivo CSU a dicha flash card CTR.
 {: .notice--info}
 
 1. Actualiza tu unidad PANDA usando la última versión de CTR System Updater (CSU) disponible
 
-#### Section V - Installing Luma3DS Updater
+#### Sección V - Instalar Luma3DS Updater
 
 1. Usando el Dev Menu, ve a la carpeta `cias`
 1. Instala `lumaupdater.cia`
 1. Sal del Dev Menu
 
-#### Section VI - CTRNAND Luma3DS
+#### Sección VI - CTRNAND Luma3DS
 
 1. Inicia GodMode9 manteniendo presionado (Start) mientras enciendes la consola
 1. Si se te pide crear copias de seguridad de archivos esenciales, presiona (A) para hacerlo y luego presiona (A) para continuar una vez que haya terminado
-1. If you are prompted to fix the RTC date&time, press (A) to do so, then set the date and time, then press (A) to continue
-  + Note that, if you had to fix the RTC date and time, you will have to fix the time in the System Settings as well after this guide
+1. Si se te pide fijar la fecha y hora RTC, presiona (A) para hacerlo, luego define la fecha y la hora, y después presiona (A) para continuar
+  + Ten en cuenta que, si tuviste que cambiar la fecha y hora RTC, también deberás cambiar la hora en la Configuración de la consola después de hacer esta guía
 1. Presiona el botón (Home) para abrir el menú de acción
 1. Selecciona "Scripts..."
 1. Selecciona "setup_ctrnand_luma3ds"
@@ -127,7 +127,7 @@ Esta sección es opcional y requiere una flash card CTR y el equpo de desarrollo
 1. Presiona (A) para continuar
 1. Presiona (A) para volver a bloquear los permisos de escritura
 
-#### Section VII - Backup SysNAND
+#### Sección VII - Copia de seguridad de la SysNAND
 
 1. Presiona el botón (Home) para abrir el menú de acción
 1. Selecciona "Scripts..."
@@ -137,16 +137,16 @@ Esta sección es opcional y requiere una flash card CTR y el equpo de desarrollo
 1. Presiona (A) para continuar
 1. Mantén (R) y presiona (B) al mismo tiempo para extraer la SD
 1. Inserta tu tarjeta SD en tu computadora
-1. Copy `<date>_<serialnumber>_sysnand_###.bin` from the `/gm9/out/` folder on your SD card to a safe location on your computer
+1. Copia `<fecha>_<númerodeserie>_sysnand###.bin` desde la carpeta `/gm9/out/` en tu tarjeta SD a una ubicación segura en tu computadora
   + Haz copias de seguridad en múltiples sitios (como por ejemplo, en un pendrive o almacenamiento online)
   + Esta copia de seguridad puede salvarte de un fallo grave si algo sale mal en el futuro
   + Reemplaza tu antiguo respaldo NAND con arm9loaderhax con este nuevo con boot9strap
-1. Delete `<date>_<serialnumber>_sysnand_###.bin` from the `/gm9/out/` folder on your SD card after copying it
+1. Elimina el archivo `<fecha>_<númerodeserie>_sysnand_###.bin` de la carpeta `/gm9/out/` de tu tarjeta SD después de haberlo copiado
 1. Reinserta la tarjeta SD en tu consola
 
-#### Section VIII - Cleanup SD Card
+#### Sección VIII - Limpiar tarjeta SD
 
-Note that this script will remove the `/boot9strap/` and `/cias/` folders from your SD card!
+¡Ten en cuenta que este script eliminará las carpetas `/boot9strap/` y`/cias/` de tu tarjeta SD!
 {: .notice--danger}
 
 1. Presiona el botón (Home) para abrir el menú de acción
