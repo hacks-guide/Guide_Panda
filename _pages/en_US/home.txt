@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "3DS devGuide" #
+title: "3DS Dev Guide" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
@@ -19,7 +19,7 @@ If you have a retail (consumer purchased; not from the Nintendo Developer Progra
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-This guide needs *your* help to [translate](https://translate.3ds.guide/) it to other languages!
+This guide needs *your* help to [translate](https://crowdin.com/profile/Plailect) it to other languages!
 {: .notice--success}
 
 This guide needs *your* help to seed [these](https://3ds.guide/rss.xml) torrents!
