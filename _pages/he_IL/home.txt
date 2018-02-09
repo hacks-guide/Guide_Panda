@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "3DS Dev Guide" #
+title: "Dev 3DS Guide" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
@@ -19,7 +19,7 @@ excerpt: "מדריך שלם לפריצת 3DS, <br /> מהחנות עד ל boot9s
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-This guide needs *your* help to [translate](https://crowdin.com/profile/Plailect) it to other languages!
+This guide needs *your* help to [translate](https://crowdin.com/project/3ds-devguide) it to other languages!
 {: .notice--success}
 
 המדריך הזה צריך את העזרה *שלכם* בשביל סיד ל[טורנטים הבאים](https://3ds.guide/rss.xml)!
