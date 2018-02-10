@@ -16,7 +16,7 @@ description              : "Full sighax CFW Guide"
 url                      : "https://dev3ds.hacks.guide" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 enforce_ssl              : "dev3ds.hacks.guide"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "Plailect/devGuide" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "Plailect/Guide_Dev3DS" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
