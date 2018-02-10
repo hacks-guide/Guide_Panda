@@ -21,7 +21,7 @@ If you have a retail (consumer purchased; not from the Nintendo Developer Progra
 
 {% capture notice-1 %}
 This guide is available in other languages!    
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.
+Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
 Alternatively, click [here](https://crowdin.com/project/3ds-devguide) to help to keep these translations up to date.
 {% endcapture %}
 
