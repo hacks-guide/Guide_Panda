@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "מדריך לערכת פיתוח של 3DS" #
+title: "Dev 3DS Hacks Guide" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
@@ -14,16 +14,21 @@ excerpt: "מדריך שלם לפריצת 3DS, <br /> מהחנות עד ל boot9s
 
 {% capture notice-home %}
 המדריך הזה הוא *רק* בשביל קונסולת מפתח ("PANDA")!    
-אם יש לכם קונסולה קמעונית (נרכשה על ידי צרכן; לא מתוכנית המפתח של נינטנדו) תבדקו את ה[מדריך הרגיל](https://3ds.guide)
+If you have a retail (consumer purchased; not from the Nintendo Developer Program) console, check out the [retail 3DS Hacks Guide](https://3ds.guide)
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-This guide needs *your* help to [translate](https://translate.3ds.guide/) it to other languages!
-{: .notice--success}
+{% capture notice-1 %}
+This guide is available in other languages!    
+Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.
+Alternatively, click [here](https://crowdin.com/project/3ds-devguide) to help to keep these translations up to date.
+{% endcapture %}
+
+<div class="notice--success">{{ notice-1 | markdownify }}</div>
 
 המדריך הזה צריך את העזרה *שלכם* בשביל סיד ל[טורנטים הבאים](https://3ds.guide/rss.xml)!
-{: .notice--success}
+{: .notice--primary}
 
 ## מה זה Homebrew?
 
@@ -46,9 +51,9 @@ boot9strap היא השיטה הטובה ביותר והעדכנית של הפע�
 
 היתרונות של bootrom מול כל שיטות ההפעלה האחרות של קושחות מותאמות אישית הן רבות, ובגלל זה מומלץ להשתמש במדריך זה על פני אחרים שמסתמכים על תוכנה מיושנת (כגון menuhax + rxTools, arm9loaderhax, או אפילו sighax סטנדרטי).
 
-למידע על איך boot9strap עובד, בבקשה תראו את [המצגת הבאה](https://sciresm.github.io/33-and-a-half-c3/) על ידי [SciresM](https://github.com/SciresM/).
+For information on how boot9strap works, please see [this paper](https://arxiv.org/abs/1802.00359).
 
-לרשימת כל החתימות של sighax (הפלטפורמה שboot9strap בנוי עליה), תראו [את הgist הבא](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52).
+For a list of each of the calculated sighax signatures, see [this gist](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52).
 
 ## מה אני יכול לעשות עם קושחה מותאמת אישית?
 

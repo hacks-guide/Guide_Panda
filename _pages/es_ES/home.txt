@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Guía de Dev3DS" #
+title: "Dev 3DS Hacks Guide" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
@@ -14,16 +14,21 @@ Lee detenidamente todas las páginas de introducción (incluyendo ésta) antes d
 
 {% capture notice-home %}
 ¡Esta guía es *sólo* para consolas de desarrollador ("PANDA")!    
-Si tienes una consola retail (comprada por consumidores; no las del Nintendo Developer Program), revisa la [Guía normal](https://3ds.guide)
+If you have a retail (consumer purchased; not from the Nintendo Developer Program) console, check out the [retail 3DS Hacks Guide](https://3ds.guide)
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-¡Esta guía necesita *tu* ayuda para [traducirla](https://translate.3ds.guide/) a otros idiomas!
-{: .notice--success}
+{% capture notice-1 %}
+This guide is available in other languages!    
+Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.
+Alternatively, click [here](https://crowdin.com/project/3ds-devguide) to help to keep these translations up to date.
+{% endcapture %}
+
+<div class="notice--success">{{ notice-1 | markdownify }}</div>
 
 ¡Esta guía necesita *tu* ayuda para compartir [estos](https://3ds.guide/rss.xml) torrents!
-{: .notice--success}
+{: .notice--primary}
 
 ## ¿Qué es Homebrew?
 
@@ -46,9 +51,9 @@ boot9strap es el mejor y más nuevo método para instalar Custom Firmware, proce
 
 Los beneficios de boot9strap por sobre otros métodos de ejecución de Custom Firmware son numerosos, por lo cual se recomienda emplear esta guía en lugar de otras guías que utilicen software desactualizado (tales como menuhax + rxTools, arm9loaderhax, o incluso sighax normal).
 
-Para información sobre cómo funciona boot9strap, por favor echa un vistazo a [esta presentación](https://sciresm.github.io/33-and-a-half-c3/) hecha por [SciresM](https://github.com/SciresM/).
+For information on how boot9strap works, please see [this paper](https://arxiv.org/abs/1802.00359).
 
-Para una lista de cada una de las firmas calculadas de sighax (la plataforma en la que boot9strap está diseñado), echa un vistazo a [este gist](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52).
+For a list of each of the calculated sighax signatures, see [this gist](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52).
 
 ## ¿Qué puedo hacer con Custom Firmware?
 
