@@ -1,14 +1,14 @@
 ---
-title: "A9LH to B9S"
+title: "A9LH den B9S 'e"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçindekiler" %}
 
 This page is for existing arm9loaderhax users to update their devices to boot9strap.
 
 All future releases of Luma3DS will only be made in the `.firm` format, which will only be compatible with boot9strap and sighax. This means that to continue receiving the latest updates of Luma3DS, you should use this page to update your installation.
 
-To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download)
+Bu sayfadaki [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) bağlantılarını kullanabilmek için, [Deluge](http://dev.deluge-torrent.org/wiki/Download) gibi bir torrent programına ihtiyacınız olacak
 
 If you have a PIN enabled on Luma3DS, SafeB9SInstaller will give you an "OTP Crypto Fail" error unless you temporarily disable your PIN (you can re-enable the PIN after the update).
 {: .notice--warning}
@@ -18,18 +18,18 @@ There have been reports of a wave of bans being handed out to CFW users by Ninte
 
 1. Go to System Settings, then "Internet Settings", then "SpotPass", then "Sending of System Information"
 1. Disable the "Sending of System Information" option
-1. Exit the System Settings
+1. Sistem Ayarlarından çıkın
 1. Go to your Friend's List (the Face Icon in the top row of your Home Menu)
   + If you receive an error and are kicked out of the menu, the Friend's List setting is already disabled
 1. Go to the Friend's List settings, then "Friend Notification Settings", then "Show friends what you're playing"
 1. Disable the "Show friends what you're playing" option
-1. Exit your Friend's List
+1. Arkadaş Listenizden çıkın
 
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### What you need
+### İhtiyacınız olanlar
 
 Note that the following required file named `secret_sector_dev.bin` is the same one that was found in `safea9lhinstaller_v2_panda.zip` with the name `secret_sector.bin`. If you already have that file on your disk somewhere, you can use that one (renaming it) instead of downloading the one below.
 {: .notice--info}
@@ -47,14 +47,14 @@ Note that, only on New 3DS, `secret_sector_dev.bin` is needed to revert the arm9
 * [`setup_ctrnand_luma3ds.gm9`]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }})
 * [`cleanup_sd_card.gm9`]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }})
 
-### Instructions
+### Talimatlar
 
-#### Section I - Prep Work
+#### Bölüm I - Hazırlık
 
 For all steps in this section, overwrite any existing files on your SD card.
 {: .notice--info}
 
-1. Power off your device
+1. Cihazınızı kapatın
 1. Insert your SD card into your computer
 1. Copy _the contents of_ `starter.zip` to the root of your SD card
 1. Copy `boot.firm` from the latest version Luma3DS `.7z` to the root of your SD card
@@ -97,7 +97,7 @@ This section is only needed if you are prompted with the Luma3DS configuration m
 
 1. In the Luma3DS configuration menu, use the (A) button and the D-Pad to turn on the following:    
   + **"Show NAND or user string in System Settings"**
-1. Press (Start) to save and reboot
+1. Kaydedip yeniden başlatmak için (Start)'a basın
 
 #### Section IV - Updating the System
 
@@ -109,31 +109,31 @@ This section is optional and requires both a CTR flash card and the development 
 #### Section V - Installing Luma3DS Updater
 
 1. Using Dev Menu, navigate to the `cias` folder
-1. Install `lumaupdater.cia`
-1. Exit Dev Menu
+1. `lumaupdater.cia`'yı yükleyin
+1. Dev Menuden çıkınız
 
-#### Section VI - CTRNAND Luma3DS
+#### Bölüm VI - CTRNAND Luma3DS
 
 1. Launch GodMode9 by holding (Start) during boot
 1. If you are prompted to create an essential files backup, press (A) to do so, then press (A) to continue once it has completed
 1. If you are prompted to fix the RTC date&time, press (A) to do so, then set the date and time, then press (A) to continue
   + Note that, if you had to fix the RTC date and time, you will have to fix the time in the System Settings as well after this guide
 1. Press (Home) to bring up the action menu
-1. Select "Scripts..."
-1. Select "setup_ctrnand_luma3ds"
+1. "Scripts..." seçeneğini seçin
+1. "setup_ctrnand_luma3ds" seçin
 1. When prompted, press (A) to proceed
 1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
-1. Press (A) to continue
+1. Devam etmek için (A)'ya basın
 1. Press (A) to relock write permissions
 
-#### Section VII - Backup SysNAND
+#### Bölüm VII - SysNAND Yedeklemesi
 
 1. Press (Home) to bring up the action menu
-1. Select "Scripts..."
-1. Select "Backup SysNAND"
-1. Press (A) to confirm
-  + This process will take some time
-1. Press (A) to continue
+1. "Scripts..." seçeneğini seçin
+1. "Backup SysNAND" seçeneğini seçin
+1. Onaylamak için (A) ya basın
+  + Bu işlem biraz zaman alabilir
+1. Devam etmek için (A)'ya basın
 1. Hold (R) and press (B) at the same time to eject your SD card
 1. Insert your SD card into your computer
 1. Copy `<date>_<serialnumber>_sysnand_###.bin` from the `/gm9/out/` folder on your SD card to a safe location on your computer
@@ -149,11 +149,11 @@ Note that this script will remove the `/boot9strap/` and `/cias/` folders from y
 {: .notice--danger}
 
 1. Press (Home) to bring up the action menu
-1. Select "Scripts..."
-1. Select "cleanup_sd_card"
+1. "Scripts..." seçeneğini seçin
+1. "cleanup_sd_card" seçeneğini seçin
 1. When prompted, press (A) to proceed
-1. Press (A) to continue
-1. Press (Start) to reboot
+1. Devam etmek için (A)'ya basın
+1. Yeniden başlatmak için (A)'ya basın
 
 ___
 
