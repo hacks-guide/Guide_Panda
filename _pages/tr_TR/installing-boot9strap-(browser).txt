@@ -2,26 +2,26 @@
 title: "Installing boot9strap (Browser)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçindekiler" %}
 
-### What you need
+### İhtiyacınız olanlar
 
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(the `devkit` file, not the `ntr` file)*
 * The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
 
-### Instructions
+### Talimatlar
 
-#### Section I - Prep Work
+#### Bölüm I - Hazırlık
 
-1. Power off your device
+1. Cihazınızı kapatın
 1. Insert your SD card into your computer
 1. Copy `boot.firm` from the Luma3DS `.7z` to the root of your SD card
 1. Create a folder named `boot9strap` on the root of your SD card
 1. Copy `boot9strap_dev.firm` and `boot9strap_dev.firm.sha` from the boot9strap `.zip` to the `/boot9strap/` folder on your SD card
 1. Copy `SafeB9SInstaller.dat` and `Launcher.dat` from the SafeB9SInstaller `.zip` to the root of your SD card
 1. Reinsert your SD card into your device
-1. Power on your device
+1. Cihazınızı açın
 
 #### Section II - Launching SafeB9SInstaller
 
@@ -42,7 +42,7 @@ title: "Installing boot9strap (Browser)"
   + If you get a black screen, [follow this troubleshooting guide](troubleshooting#ts_sys_b9s)
 1. Use the (A) button and the D-Pad to turn on the following:    
   + **"Show NAND or user string in System Settings"**
-1. Press (Start) to save and reboot
+1. Kaydedip yeniden başlatmak için (Start)'a basın
   + If you get an error, just continue the next page
 
 ___
