@@ -8,21 +8,21 @@ title: "Installing boot9strap (ntrboot)"
 
 * A magnet that triggers the sleep mode of your device (if using a folding style device)
 * ntrboot yüklü flash kartınız
-* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
+* [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest) 'in en son sürümü
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(the `devkit` file, not the `ntr` file)*
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
+[Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest)'nin en son sürümü *(`.7z` dosyası)*
 
 ### Talimatlar
 
 #### Bölüm I - Hazırlık
 
 1. Cihazınızı kapatın
-1. Insert your SD card into your computer
+1. Hafıza kartınızı bilgisayarınıza takın
 1. Copy `boot.3dsx` (OCS) to the root of your SD card
 1. Copy `SafeB9SInstaller.firm` to the root of your SD card and rename it to `boot.firm`
-1. Create a folder named `boot9strap` on the root of your SD card
+1. Hafıza kartınızın kök dizininde `boot9strap` adlı bir klasör oluşturun
 1. Copy `boot9strap_dev.firm` and `boot9strap_dev.firm.sha` from the boot9strap `.zip` to the `/boot9strap/` folder on your SD card
-1. Reinsert your SD card into your device
+1. Hafıza kartınızı aygıtınıza yeniden takın
 1. Cihazınızı açın
 
 #### Bölüm II - ntrboot
@@ -39,24 +39,24 @@ title: "Installing boot9strap (ntrboot)"
 
 #### Section III - Installing boot9strap
 
-1. Wait for all safety checks to complete
+1. Tüm güvenlik denetimlerinin bitmesini bekleyin
 1. Remove the magnet from your device
   + On old 2DS, you should instead disable the sleep mode switch
-1. When prompted, input the key combo given to install boot9strap
+1. İstendiğinde boot9strap için verilen anahtarı girin
 1. Once it has completed, force your device to power off by holding down the power button
   + Your device will only boot to the SafeB9SInstaller screen until the next section is completed
 
 #### Section IV - Configuring Luma3DS
 
-1. Insert your SD card into your computer
+1. Hafıza kartınızı bilgisayarınıza takın
 1. Delete `boot.firm` from the root of your SD card
 1. Copy `boot.firm` from the Luma3DS `.7z` to the root of your SD card
-1. Reinsert your SD card into your device
+1. Hafıza kartınızı aygıtınıza yeniden takın
 1. Cihazınızı açın
 1. Your device should have booted into the Luma3DS configuration menu
   + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
 1. Use the (A) button and the D-Pad to turn on the following:    
-  + **"Show NAND or user string in System Settings"**
+  + **"Sistem Ayarlarında NAND veya kullanıcı dizesini göster"**
 1. Kaydedip yeniden başlatmak için (Start)'a basın
   + If you get an error, just continue the next page
 
@@ -92,7 +92,7 @@ Do not follow this section until you have completed the rest of the instructions
 ##### Talimatlar
 
 1. Cihazınızı kapatın
-1. Insert your SD card into your computer
+1. Hafıza kartınızı bilgisayarınıza takın
 1. Create a folder named `ntrboot` on the root of your SD card
 1. Copy `backup.bin` from your flashrom backup `.zip` to the `/ntrboot/` folder on the root of your SD card
 1. Create a folder named `payloads` in the `luma` folder on your SD card 
