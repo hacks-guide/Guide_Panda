@@ -24,7 +24,7 @@ There have been reports of a wave of bans being handed out to CFW users by Ninte
 
 ### İhtiyacınız olanlar
 
-* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
+* [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest) 'in en son sürümü
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(the `devkit` file, not the `ntr` file)*
 * [`cleanup_sd_card.gm9`]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }})
 
@@ -36,19 +36,19 @@ For all steps in this section, overwrite any existing files on your SD card.
 {: .notice--info}
 
 1. Cihazınızı kapatın
-1. Insert your SD card into your computer
-1. Create a folder named `boot9strap` on the root of your SD card
+1. Hafıza kartınızı bilgisayarınıza takın
+1. Hafıza kartınızın kök dizininde `boot9strap` adlı bir klasör oluşturun
 1. Copy `cleanup_sd_card.gm9` to the `/gm9/scripts/` folder on your SD card
 1. Copy `SafeB9SInstaller.firm` from the SafeB9SInstaller `.zip` to the `/luma/payloads/` folder on your SD card
 1. Copy `boot9strap_dev.firm` and `boot9strap_dev.firm.sha` from the boot9strap `.zip` to the `/boot9strap/` folder on your SD card
-1. Reinsert your SD card into your device
+1. Hafıza kartınızı aygıtınıza yeniden takın
 
-#### Section II - Installing boot9strap
+#### Bölüm II - boot9strap Kurulumu
 
 1. Reboot holding (Start) during boot to launch the Luma3DS chainloader menu
 1. Launch SafeB9SInstaller by pressing (A)
-1. Wait for all safety checks to complete
-1. When prompted, input the key combo given to install boot9strap
+1. Tüm güvenlik denetimlerinin bitmesini bekleyin
+1. İstendiğinde boot9strap için verilen anahtarı girin
 1. Once it has completed, hold (Start) while pressing (A) to reboot your device to the Luma3DS chainloader
 
 #### Section III - Cleanup SD Card
