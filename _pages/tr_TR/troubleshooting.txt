@@ -1,8 +1,8 @@
 ---
-title: "Troubleshooting"
+title: "Sorun Giderme"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçindekiler" %}
 
 If you are unable to boot your device, please look for the section relevant to you and follow the instructions.
 
@@ -12,7 +12,7 @@ To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on th
 
 ## DSi / DS functionality is broken after completing the guide
 
-### What you need
+### İhtiyacınız olanlar
 
 * The TWL_FIRM `.cia` for your device
     + <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [`New_3DS TWL_FIRM - v9936.cia`](magnet:?xt=urn:btih:eab8558c97b18b1f329a2bfcc3c899b84c082a27&dn=New%5F3DS%20TWL%5FFIRM%20-%20v9936.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
@@ -22,9 +22,9 @@ To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on th
 * <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [`DS Download Play - v1024.cia`](magnet:?xt=urn:btih:b581d3c5d98f5e621fddfc1ce5704bb45bf05a8c&dn=DS%20Download%20Play%20-%20v1024.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
 * <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [`Nintendo DS Cart Whitelist - v11264.cia`](magnet:?xt=urn:btih:7b90d506ad032a581a00035616eaa17a68c48eff&dn=Nintendo%20DS%20Cart%20Whitelist%20-%20v11264.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
 
-### Instructions
+### Talimatlar
 
-#### Section I - Prep Work
+#### Bölüm I - Hazırlık
 
 1. Create a folder named `cias` on the root of your SD card if it does not already exist
 1. Copy `TWL Version Data - v0.cia` to the `/cias/` folder on your SD card
@@ -35,11 +35,11 @@ To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on th
 
 #### Section II - Installing titles
 
-1. Launch FBI
-1. Navigate to `SD` -> `cias`
-1. Select "\<current directory>"
+1. FBI'yı başlatın
+1. Gidiniz `SD` -> `cias`
+1. "\<current directory>" 'i seçin
 1. Select "Install and delete all CIAs"
-1. Press (Home) to exit FBI
+1. FBI'dan çıkmak için (Home) tuşuna basın
 
 ## Removing an NNID without formatting your device
 
@@ -50,9 +50,9 @@ Note that if you have any payload files other than `GodMode9.firm` in the `/luma
 1. Navigate to `[1:] SYSNAND CTRNAND` -> `data` -> (32 Character ID) -> `sysdata` -> `00010038`
 1. Hold down the (R) trigger, then press (X) on `00000000` to rename this file
 1. Press (Up) once to change the name to `10000000`
-1. Press (A) to save changes
+1. Değişiklikleri kaydetmek için (A)'ya basın
 1. Press (A) to unlock SysNAND writing, then input the key combo given
-1. Navigate back to the Main Menu
+1. Ana menüye geri dönün
 1. Press (Start) to reboot your device
 
 ## A browser based exploit is not working
@@ -61,48 +61,48 @@ Browser based exploits (such as browserhax or 2xrsa) are often unstable and cras
 
 1. Launch the browser, then launch the browser settings
 1. Scroll to the bottom and Initialize Savedata (it also may be called Clear All Save Data)
-1. Try the exploit again
+1. Exploit i tekrar deneyin
 
-## Black screen on SysNAND boot
+## SysNAND açılırken siyah ekran
 
 1. Try booting with your SD card out, and then reinserting it after booting
-    1. Power off your device
+    1. Cihazınızı kapatın
     1. Remove your SD card from your device
-    1. Power on your device
+    1. Cihazınızı açın
     1. When the home menu appears, reinsert your SD card into your device
     1. If this worked, you should clear Home Menu's extdata by navigating to the following folder on your SD card: `/Nintendo 3DS/(32 Character ID)/(32 Character ID)/extdata/00000000/`
-        + EUR Region: Delete `00000098`
-        + JPN Region: Delete `00000082`
-        + USA Region: Delete `0000008f`
-        + CHN Region: Delete `000000A1`
-        + KOR Region: Delete `000000A9`
-        + TWN Region: Delete `000000B1`
+        + EUR Bölgesi: Sil `00000098`
+        + JPN Bölgesi: Sil `00000082`
+        + USA Bölgesi: Sil `0000008f`
+        + CHN Bölgesi: Sil `000000A1`
+        + KOR Bölgesi: Sil `000000A9`
+        + TWN Bölgesi: Sil `000000B1`
 1. Try booting without any cartridges inserted (including flashcarts)
 1. If you have a hardmod and a NAND backup, flash the backup back to SysNAND
 1. Try booting into recovery mode and updating your system
-    1. Power off your device
-    1. Hold (L) + (R) + (A) + (Up)
-    1. Power on your device
+    1. Cihazınızı kapatın
+    1. Basılı tutun (L) + (R) + (A) + (Up)
+    1. Cihazınızı açın
     1. If you enter safe mode, update your device
-1. Your device may be bricked. For support, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
+1. Cihazınız brick olmuş olabilir. For support, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
 
 ## Black screen on SysNAND boot after Installing boot9strap
 
-1. Ensure you have a working payload
+1. Çalışan bir yararlı yükünüz olduğuna emin olun
     1. Check for the existence of `boot.firm` in the root of your SD card.
 1. Try resetting Luma's config and fix options
     1. Delete `/luma/config.bin` from your SD card
-    1. Set your options when it boots
-1. Test booting GodMode9
-    1. On Luma3DS, hold (Start) on boot
-1. Try deleting home menu's extdata
+    1. Seçeneklerinizi açılışta ayarlayın
+1. GodMode9 önyüklemesini test edin
+    1. Luma3DS 'teyken açılışta (Start) a basılı tutun
+1. Ana menüye ait extdata'yı silmeyi deneyin
     1. Clear Home Menu's extdata by navigating to the following folder on your SD card: `/Nintendo 3DS/(32 Character ID)/(32 Character ID)/extdata/00000000/`
-        + EUR Region: Delete `00000098`
-        + JPN Region: Delete `00000082`
-        + USA Region: Delete `0000008f`
-        + CHN Region: Delete `000000A1`
-        + KOR Region: Delete `000000A9`
-        + TWN Region: Delete `000000B1`
+        + EUR Bölgesi: Sil `00000098`
+        + JPN Bölgesi: Sil `00000082`
+        + USA Bölgesi: Sil `0000008f`
+        + CHN Bölgesi: Sil `000000A1`
+        + KOR Bölgesi: Sil `000000A9`
+        + TWN Bölgesi: Sil `000000B1`
 1. Try booting without any cartridges inserted (including flashcarts)
 1. If you previously downgraded with Gateway, ensure that you are using the latest Luma3DS version (v6.2.3 or higher)
 1. If your NAND is of a version between 3.0.0 and 4.5.0, do the following:
@@ -117,5 +117,5 @@ Browser based exploits (such as browserhax or 2xrsa) are often unstable and cras
 
 ## Blue screen on boot (bootrom error)
 
-1. Your device is bricked
+1. Cihazınız brick oldu
 1. You will need to get a [hardmod](https://gbatemp.net/threads/414498/) or repair / replace your device
