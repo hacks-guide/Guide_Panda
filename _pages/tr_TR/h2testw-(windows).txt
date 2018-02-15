@@ -19,7 +19,7 @@ This page is for Windows users only. If you are not on windows, check out the [F
 ### Talimatlar
 
 1. Copy `h2testw.exe` from the h2testw `.zip` to your desktop
-2. Insert your SD card into your computer
+2. Hafıza kartınızı bilgisayarınıza takın
 3. Çalıştır `h2testw.exe`
 4. "English" Seçin
 5. "Select target" 'a tıklayın
