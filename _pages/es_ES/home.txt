@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Dev 3DS Hacks Guide" #
+title: "Guía de hackeo para 3DS de desarrollador" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
