@@ -38,12 +38,12 @@ Note that, only on New 3DS, `secret_sector_dev.bin` is needed to revert the arm9
 {: .notice--info}
 
 * <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - **New 3DS Users Only:** [`secret_sector_dev.bin`](magnet:?xt=urn:btih:54d19b7fd5387f7d46cff86edbbb58737880993c&dn=secret_sector_dev.bin&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce)
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
-* The v7.0.5 release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/tag/v7.0.5) *(the `.7z` file)*
-* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(the `devkit` file, not the `ntr` file)*
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-* The latest fork of [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest)
+[Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest)'nin en son sürümü *(`.7z` dosyası)*
+[Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/tag/v7.0.5)'nin v7.0.5 sürümü *(`.7z` dosyası)*
+* [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest) 'in en son sürümü
+* [boot9strap](https://github.com/SciresM/boot9strap/releases/latest)'in en son sürümü *(`devkit` dosyası, `ntr` değil)*
+* [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)'un en son sürümü
+* [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest)'in son ayrışması (fork)
 * [`setup_ctrnand_luma3ds.gm9`]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }})
 * [`cleanup_sd_card.gm9`]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }})
 
@@ -51,52 +51,52 @@ Note that, only on New 3DS, `secret_sector_dev.bin` is needed to revert the arm9
 
 #### Bölüm I - Hazırlık
 
-For all steps in this section, overwrite any existing files on your SD card.
+Bu bölümdeki bütün adımlar için hafıza kartınızdaki mevcut dosyaların üzerine yazın.
 {: .notice--info}
 
 1. Cihazınızı kapatın
-1. Insert your SD card into your computer
-1. Copy _the contents of_ `starter.zip` to the root of your SD card
-1. Copy `boot.firm` from the latest version Luma3DS `.7z` to the root of your SD card
-1. Copy `arm9loaderhax.bin` from the v7.0.5 Luma3DS `.7z` to the root of your SD card
+1. Hafıza kartınızı bilgisayarınıza takın
+1. `starter.zip` dosyasını _iceriğini_ hafıza kartınızın kök dizinine kopyalayın
+1. Luma3DS'nin son versiyonu `.7z`uzantılı dosyadan `boot.firm` dosyasını hafıza kartınızın kök dizinine kopyalayın
+1. Luma3DS'nin v7.0.5 versiyonu `.7z`uzantılı dosyadan `arm9loaderhax.bin` dosyasını hafıza kartınızın kök dizinine kopyalayın
 1. Create a folder named `cias` on the root of your SD card if it does not already exist
-1. Copy `lumaupdater.cia` to the `/cias/` folder on your SD card
-1. Create a folder named `boot9strap` on the root of your SD card
-1. Delete any existing `.bin` payloads in the `/luma/payloads/` folder on your SD card as they will not be compatible with boot9strap compatible Luma3DS versions
-1. Copy `GodMode9.firm` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card
-1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card
-1. Copy `setup_ctrnand_luma3ds.gm9` to the `/gm9/scripts/` folder on your SD card
-1. Copy `cleanup_sd_card.gm9` to the `/gm9/scripts/` folder on your SD card
-1. Copy `SafeB9SInstaller.bin` from the SafeB9SInstaller `.zip` to the `/luma/payloads/` folder on your SD card
-1. Rename `SafeB9SInstaller.bin` in the `/luma/payloads/` folder on your SD card to `start_SafeB9SInstaller.bin`
-1. Copy `boot9strap.firm` and `boot9strap.firm.sha` from the boot9strap `.zip` to the `/boot9strap/` folder on your SD card
-1. **New 3DS Users Only:** Copy `secret_sector.bin` to the `/boot9strap/` folder on your SD card
+1. Hafıza kartınızın `/cias/` klasörüne `lumaupdater.cia`dosyasını kopyalayın
+1. Hafıza kartınızın kök dizininde `boot9strap` adlı bir klasör oluşturun
+1. Hafıza kartınızın `/luma/payloads/` klasöründe bulunan bütün `.bin` payloadları silin, boot9stap ile uyumlu Luma3DS sürümlerine uyumlu olmayacaklardır
+1. GodMode9 '.zip' dosyasındaki `GodMode9.firm` dosyasını hafıza kartınızdaki `/luma/payloads/` klasörüne kopyalayın
+1. GodMode9`.zip` dosyasındaki `Gm9` klasörünü hafıza kartınızın kök dizinine kopyalayın
+1. `setup_ctrnand_luma3ds.gm9`dosyasını hafıza kartınızdaki `/gm9/scripts/` klasörüne kopyalayın
+1. `Cleanup_sd_card.gm9` dosyasını hafıza kartınızdaki `/ gm9 / scripts /`klasörüne kopyalayın
+1. SafeB9SInstaller `.zip`dosyasından `SafeB9SInstaller.bin`dosyasını hafıza kartınızın `/luma/payloads/` klasörüne kopyalayın
+1. Hafıza kartınızın `/luma/payloads/` klasörü içindeki `SafeB9SInstaller.bin` dosyasının adını `start_SafeB9SInstaller.bin` olarak değiştirin
+1. Boot9strap `.zip` dosyasından `boot9strap.firm` ve `boot9strap.firm.sha` dosyalarını hafıza kartınızın `/boot9strap/` klasörüne kopyalayın
+1. ** Sadece New 3DS kullanıcıları için** `secret_sector.bin`dosyasını SD kartınızın `/boot9strap/` klasörüne kopyalayın
 
     ![]({{ "/images/screenshots/a9lh-to-b9s-file-layout.png" | absolute_url }})
     {: .notice--info}
 
-1. Reinsert your SD card into your device
+1. Hafıza kartınızı aygıtınıza yeniden takın
 
-#### Section II - Installing boot9strap
+#### Bölüm II - boot9strap Kurulumu
 
-1. Boot your device while holding (Start) to launch the Luma3DS chainloader menu
-  + Some versions of Luma3DS will just directly start whichever payload begins with `start_`
-  + If your version does this, just proceed with the instructions
-1. Launch SafeB9SInstaller by pressing (A) on it
-  + If this gives you an error, try either using a new SD card, or formatting your current SD card (backup existing files first)
-1. Wait for all safety checks to complete
-  + If you get an "OTP Crypto Fail" error, download <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [`aeskeydb.bin`](magnet:?xt=urn:btih:d25dab06a7e127922d70ddaa4fe896709dc99a1e&dn=aeskeydb.bin&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce), then put it in the `/boot9strap/` folder on your SD card and try again
-1. When prompted, input the key combo given to install boot9strap
-1. Once it has completed, press (A) to reboot your device.
-  + If your device shuts down on boot, ensure that you have copied `boot.firm` from the Luma3DS `.7z` to the root of your SD card
+1. Luma3DS Chainloader menüsünü açmak için cihazınızı (Start)'a basılı tutarak başlatın
+  + Luma3DS'in bazı sürümleri doğrudan 'start_' ile başlayan herhangi bir yük ile başlar
+  + Sürümünüz bunu yaparsa, talimatları uygulamanıza devam edin
+1. SafeB9SInstaller programını, (A) tuşuna basarak başlatın
+  +Eğer bu bir hata veriyorsa, yeni bir hafıza kartla tekrar deneyin ya da var olan hafıza kartınızı (önce içindeki dosyaları yedekleyip) tekrar biçimlendirin
+1. Tüm güvenlik denetimlerinin bitmesini bekleyin
+  + Eğer "OTP Crypto Fail" hata mesajını alıyorsanız şu dosyayı indirin: <i class="fa fa-magnet" aria-hidden="true" title="bu bir magnet linki. Dosyayı indirmek için torrent programını kullanın."></i> - [`aeskeydb.bin`](magnet:?xt=urn:btih:d25dab06a7e127922d70ddaa4fe896709dc99a1e&dn=aeskeydb.bin&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce), sonra hafıza kartınızda `/boot9strap/` klasörüne ekleyin ve tekrar deneyin
+1. İstendiğinde boot9strap için verilen anahtarı girin
+1. Tamamlandığında, (A) ya basarak 3DSinizi yeniden başlatın.
+  + Eğer cihazınız açılıs sırasında kapanıyorsa, hafıza kartınızın kök dizinine Luma3DS `.7z` dosyasindan `boot.firm` dosyasını kopyaladığınıza emin olun
 
-#### Section III - Configuring Luma3DS
+#### Bölüm III - Luma3DS'in yapılandırılması
 
-This section is only needed if you are prompted with the Luma3DS configuration menu after the reboot.
+Bu bölüm sadece yeniden başlatmadan sonra Luma3DS configuration menu'yü görenler için gereklidir.
 {: .notice--info}
 
-1. In the Luma3DS configuration menu, use the (A) button and the D-Pad to turn on the following:    
-  + **"Show NAND or user string in System Settings"**
+1. Luma3DS yapılandırma menüsünde, (A) tuşu ve D-Pad kullanarak şunları yapın:    
+  + **"Sistem Ayarlarında NAND veya kullanıcı dizesini göster"**
 1. Kaydedip yeniden başlatmak için (Start)'a basın
 
 #### Section IV - Updating the System
@@ -135,7 +135,7 @@ This section is optional and requires both a CTR flash card and the development 
   + Bu işlem biraz zaman alabilir
 1. Devam etmek için (A)'ya basın
 1. Hold (R) and press (B) at the same time to eject your SD card
-1. Insert your SD card into your computer
+1. Hafıza kartınızı bilgisayarınıza takın
 1. Copy `<date>_<serialnumber>_sysnand_###.bin` from the `/gm9/out/` folder on your SD card to a safe location on your computer
   + Make backups in multiple locations (such as online file storage)
   + This backup will save you from a brick if anything goes wrong in the future
