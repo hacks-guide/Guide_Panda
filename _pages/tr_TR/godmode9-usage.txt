@@ -17,15 +17,15 @@ Some of the instructions below are only applicable to the latest version of GodM
 
 ### İhtiyacınız olanlar
 
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)'un en son sürümü
 
 ### Talimatlar
 
 1. Cihazınızı kapatın
-1. Insert your SD card into your computer
-1. Copy `GodMode9.firm` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card
-1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card
-1. Reinsert your SD card into your device
+1. Hafıza kartınızı bilgisayarınıza takın
+1. GodMode9 '.zip' dosyasındaki `GodMode9.firm` dosyasını hafıza kartınızdaki `/luma/payloads/` klasörüne kopyalayın
+1. GodMode9`.zip` dosyasındaki `Gm9` klasörünü hafıza kartınızın kök dizinine kopyalayın
+1. Hafıza kartınızı aygıtınıza yeniden takın
 
 ## NAND Yedek Oluşturulması
 
@@ -37,20 +37,20 @@ Some of the instructions below are only applicable to the latest version of GodM
   + Bu işlem biraz zaman alabilir
 1. Devam etmek için (A)'ya basın
 1. Hold (R) and press (B) at the same time to eject your SD card
-1. Insert your SD card into your computer
+1. Hafıza kartınızı bilgisayarınıza takın
 1. Copy `<date>_<serialnumber>_sysnand_###.bin` from the `/gm9/out/` folder on your SD card to a safe location on your computer
   + Make backups in multiple locations (such as online file storage)
   + This backup will save you from a brick if anything goes wrong in the future
 1. Delete `<date>_<serialnumber>_sysnand_###.bin` from the `/gm9/out/` folder on your SD card after copying it
-1. Reinsert your SD card into your device
+1. Hafıza kartınızı aygıtınıza yeniden takın
 
 ## NAND yedeğini geri yükleme
 
 1. Launch GodMode9 by holding (Start) during boot
 1. Hold (R) and press (B) at the same time to eject your SD card
-1. Insert your SD card into your computer
+1. Hafıza kartınızı bilgisayarınıza takın
 1. Copy `<date>_<serialnumber>_sysnand_###.bin` from your computer to the `/gm9/out/` folder on your SD card if you deleted it after backing it up
-1. Reinsert your SD card into your device
+1. Hafıza kartınızı aygıtınıza yeniden takın
 1. Press (Home) to bring up the action menu
 1. "Scripts..." i seçin
 1. "Restore SysNAND (Safe)" seçin
