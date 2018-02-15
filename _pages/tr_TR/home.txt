@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Dev 3DS Hacks Guide" #
+title: "Dev 3DS Hacks Kılavuzu" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
@@ -20,9 +20,9 @@ If you have a retail (consumer purchased; not from the Nintendo Developer Progra
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
 {% capture notice-1 %}
-This guide is available in other languages!    
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
-Alternatively, click [here](https://crowdin.com/project/3ds-devguide) to help to keep these translations up to date.
+Bu kılavuz diğer dillerde de mevcut!    
+Dili değiştirmek için sayfanın sağ üst köşesindeki <i class="fa fa-language" aria-hidden="true"></i> simgesini tıklayın.    
+Alternatif olarak, bu tercümeleri güncel tutmaya yardımcı olmak için buraya [here](https://crowdin.com/project/3ds-devguide) tıklayın.
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
@@ -51,9 +51,9 @@ boot9strap is the newest and best method of launching Custom Firmware that gives
 
 The benefits of boot9strap over other Custom Firmware launch methods are numerous, and as such it is recommended to use this guide over any other that relies on outdated software (such as menuhax + rxTools, arm9loaderhax, or even normal sighax).
 
-For information on how boot9strap works, please see [this paper](https://arxiv.org/abs/1802.00359).
+Boot9strap'ın nasıl çalıştığı hakkında bilgi için, lütfen [bu yazıya](https://arxiv.org/abs/1802.00359) bakınız.
 
-For a list of each of the calculated sighax signatures, see [this gist](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52).
+Sighax'ın hesaplanan imzalardan her birinin bir listesi için, [bu özet](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52)'e bakın.
 
 ## What can I do with Custom Firmware?
 
