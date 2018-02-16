@@ -2,34 +2,34 @@
 title: "Installing boot9strap (ntrboot)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçindekiler" %}
 
-### What you need
+### İhtiyacınız olanlar
 
 * A magnet that triggers the sleep mode of your device (if using a folding style device)
-* Your ntrboot flashed flashcart
-* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
+* ntrboot yüklü flash kartınız
+* [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest) 'in en son sürümü
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(the `devkit` file, not the `ntr` file)*
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
+[Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest)'nin en son sürümü *(`.7z` dosyası)*
 
-### Instructions
+### Talimatlar
 
-#### Section I - Prep Work
+#### Bölüm I - Hazırlık
 
-1. Power off your device
-1. Insert your SD card into your computer
+1. Cihazınızı kapatın
+1. Hafıza kartınızı bilgisayarınıza takın
 1. Copy `boot.3dsx` (OCS) to the root of your SD card
 1. Copy `SafeB9SInstaller.firm` to the root of your SD card and rename it to `boot.firm`
-1. Create a folder named `boot9strap` on the root of your SD card
+1. Hafıza kartınızın kök dizininde `boot9strap` adlı bir klasör oluşturun
 1. Copy `boot9strap_dev.firm` and `boot9strap_dev.firm.sha` from the boot9strap `.zip` to the `/boot9strap/` folder on your SD card
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Hafıza kartınızı aygıtınıza yeniden takın
+1. Cihazınızı açın
 
-#### Section II - ntrboot
+#### Bölüm II - ntrboot
 
 1. Use the magnet to find the spot on your device where the sleep sensor is triggered
   + This step is not needed on the old 2DS (which has a sleep mode switch)
-1. Power off your device
+1. Cihazınızı kapatın
 1. Insert your flashcart into your device
 1. Place the magnet on your device to trigger the sleep sensor
   + On old 2DS, you should instead enable the sleep mode switch
@@ -39,25 +39,25 @@ title: "Installing boot9strap (ntrboot)"
 
 #### Section III - Installing boot9strap
 
-1. Wait for all safety checks to complete
+1. Tüm güvenlik denetimlerinin bitmesini bekleyin
 1. Remove the magnet from your device
   + On old 2DS, you should instead disable the sleep mode switch
-1. When prompted, input the key combo given to install boot9strap
+1. İstendiğinde boot9strap için verilen anahtarı girin
 1. Once it has completed, force your device to power off by holding down the power button
   + Your device will only boot to the SafeB9SInstaller screen until the next section is completed
 
 #### Section IV - Configuring Luma3DS
 
-1. Insert your SD card into your computer
+1. Hafıza kartınızı bilgisayarınıza takın
 1. Delete `boot.firm` from the root of your SD card
 1. Copy `boot.firm` from the Luma3DS `.7z` to the root of your SD card
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Hafıza kartınızı aygıtınıza yeniden takın
+1. Cihazınızı açın
 1. Your device should have booted into the Luma3DS configuration menu
   + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
 1. Use the (A) button and the D-Pad to turn on the following:    
-  + **"Show NAND or user string in System Settings"**
-1. Press (Start) to save and reboot
+  + **"Sistem Ayarlarında NAND veya kullanıcı dizesini göster"**
+1. Kaydedip yeniden başlatmak için (Start)'a basın
   + If you get an error, just continue the next page
 
 ___
@@ -73,9 +73,9 @@ Note that the Acekard 2i retains its ability to launch `.nds` files while having
 
 Do not follow this section until you have completed the rest of the instructions on this page.
 
-#### Section V - Removing ntrboot
+#### Bölüm V - ntrboot'u Kaldırma
 
-##### What you need
+##### İhtiyacınız olanlar
 
 * The latest release of [ntrboot_flasher](https://github.com/kitling/ntrboot_flasher/releases/latest)
 * The flashrom backup corresponding to your flashcart    
@@ -89,10 +89,10 @@ Do not follow this section until you have completed the rest of the instructions
   + <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [`Acekard_2i_(HW_44)-Flashrom.zip`](magnet:?xt=urn:btih:d12b46b1bfadc6b03ff260ab90dcb136d890fd39&dn=Acekard_2i_%28HW_44%29-Flashrom.zip&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce)
   + <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [`R4i_Ultra-Flashrom.zip`](magnet:?xt=urn:btih:614e9951a6c26145e68de34ed8c23a44bf190728&dn=R4i_Ultra-Flashrom.zip&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce)
 
-##### Instructions
+##### Talimatlar
 
-1. Power off your device
-1. Insert your SD card into your computer
+1. Cihazınızı kapatın
+1. Hafıza kartınızı bilgisayarınıza takın
 1. Create a folder named `ntrboot` on the root of your SD card
 1. Copy `backup.bin` from your flashrom backup `.zip` to the `/ntrboot/` folder on the root of your SD card
 1. Create a folder named `payloads` in the `luma` folder on your SD card 
@@ -100,12 +100,12 @@ Do not follow this section until you have completed the rest of the instructions
 1. Reinsert your SD card back into your device
 1. Insert your ntrboot compatible DS / DSi flashcart into your device
 1. Launch ntrboot_flasher by holding (Start) during boot
-1. Read the red screen warning
-1. Press (A) to continue
-1. Select your flashcart
+1. Kırmızı ekran uyarısını okuyun
+1. Devam etmek için (A)'ya basın
+1. Flash kartınızı seçiniz
   + If you do not see your flashcart in the list at the top, read the bottom screen for more info on each option
-1. Select "Restore Flash"
-1. Press (A) to proceed
+1. "Restore Flash" seçin
+1. (A) ya basarak onay verin
 1. Wait until the process is completed
 1. Press (A) to return to the main menu
 1. Select "Exit" to power off your device

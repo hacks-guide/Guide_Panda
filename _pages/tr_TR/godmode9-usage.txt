@@ -1,8 +1,8 @@
 ---
-title: "GodMode9 Usage"
+title: "GodMode9 Kullanımı"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçindekiler" %}
 
 GodMode9 is a full access file browser for the Nintendo 3DS console, giving you access to your SD card, the FAT partitions inside your SysNAND and EmuNAND, and basically anything else. Among other functionality, you can copy, delete, rename files, and create folders.
 
@@ -10,52 +10,52 @@ Note that if you have any payload files other than `GodMode9.firm` in the `/luma
 
 GodMode9 is powerful software that has the capability to modify essentially anything on your console. Though many of these modifications are locked behind a permissions system, and it is impossible to accidentally perform dangerous actions without deliberately unlocking permissions, you should still follow instructions carefully and keep backups just in case.
 
-## Updating GodMode9
+## GodMode9 Güncellemesi
 
-Some of the instructions below are only applicable to the latest version of GodMode9, and as such you should follow this section to update your copy before continuing. Overwrite any existing files.
+Some of the instructions below are only applicable to the latest version of GodMode9, and as such you should follow this section to update your copy before continuing. Var olan herhangi bir dosyanın üzerine yazın.
 {: .notice--info}
 
-### What you need
+### İhtiyacınız olanlar
 
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)'un en son sürümü
 
-### Instructions
+### Talimatlar
 
-1. Power off your device
-1. Insert your SD card into your computer
-1. Copy `GodMode9.firm` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card
-1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card
-1. Reinsert your SD card into your device
+1. Cihazınızı kapatın
+1. Hafıza kartınızı bilgisayarınıza takın
+1. GodMode9 '.zip' dosyasındaki `GodMode9.firm` dosyasını hafıza kartınızdaki `/luma/payloads/` klasörüne kopyalayın
+1. GodMode9`.zip` dosyasındaki `Gm9` klasörünü hafıza kartınızın kök dizinine kopyalayın
+1. Hafıza kartınızı aygıtınıza yeniden takın
 
-## Creating a NAND Backup
+## NAND Yedek Oluşturulması
 
 1. Launch GodMode9 by holding (Start) during boot
 1. Press (Home) to bring up the action menu
-1. Select "Scripts..."
-1. Select "Backup SysNAND"
-1. Press (A) to confirm
-  + This process will take some time
-1. Press (A) to continue
+1. "Scripts..." i seçin
+1. "Backup SysNAND" seçin
+1. Onaylamak için (A) ya basın
+  + Bu işlem biraz zaman alabilir
+1. Devam etmek için (A)'ya basın
 1. Hold (R) and press (B) at the same time to eject your SD card
-1. Insert your SD card into your computer
+1. Hafıza kartınızı bilgisayarınıza takın
 1. Copy `<date>_<serialnumber>_sysnand_###.bin` from the `/gm9/out/` folder on your SD card to a safe location on your computer
   + Make backups in multiple locations (such as online file storage)
   + This backup will save you from a brick if anything goes wrong in the future
 1. Delete `<date>_<serialnumber>_sysnand_###.bin` from the `/gm9/out/` folder on your SD card after copying it
-1. Reinsert your SD card into your device
+1. Hafıza kartınızı aygıtınıza yeniden takın
 
-## Restoring a NAND Backup
+## NAND yedeğini geri yükleme
 
 1. Launch GodMode9 by holding (Start) during boot
 1. Hold (R) and press (B) at the same time to eject your SD card
-1. Insert your SD card into your computer
+1. Hafıza kartınızı bilgisayarınıza takın
 1. Copy `<date>_<serialnumber>_sysnand_###.bin` from your computer to the `/gm9/out/` folder on your SD card if you deleted it after backing it up
-1. Reinsert your SD card into your device
+1. Hafıza kartınızı aygıtınıza yeniden takın
 1. Press (Home) to bring up the action menu
-1. Select "Scripts..."
-1. Select "Restore SysNAND (Safe)"
-1. Select your NAND backup
-1. Press (A) to continue
+1. "Scripts..." i seçin
+1. "Restore SysNAND (Safe)" seçin
+1. NAND backup dosyanızı seçin
+1. Devam etmek için (A)'ya basın
 1. Press (A) to unlock SysNAND (lvl2) writing, then input the key combo given
   + This will not overwrite your boot9strap installation
 1. Once it has completed, press (A) to continue
@@ -74,7 +74,7 @@ Note that it is not possible to inject files into Health & Safety that are large
 1. Press (A) on your `.cia` to select it, then select "CIA image options...", then select "Mount image to drive"
 1. Press (A) on the `.app` file, then select "NCCH image options", then select "Inject to H&S"
 1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
-1. Press (A) to continue
+1. Devam etmek için (A)'ya basın
 1. Press (A) to relock write permissions if prompted
 
 ## Restoring Health & Safety after injecting a .CIA app
@@ -84,14 +84,14 @@ This will only work if the Health & Safety injection was performed by GodMode9 (
 
 1. Launch GodMode9 by holding (Start) during boot
 1. Press (Home) to bring up the action menu
-1. Select "More..."
-1. Select "Restore H&S"
+1. "More..." u seçin
+1. "Restore H&S" seçin
 1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
 1. Press (A) to relock write permissions if prompted
 
-## Dumping a Game Cartridge
+## Oyun Kartuşunu Boşaltma
 
-#### Prep Work
+#### Hazırlık
 
 {% capture notice %}
 + Insert the game cartridge you intend to dump into your device
@@ -102,25 +102,25 @@ This will only work if the Health & Safety injection was performed by GodMode9 (
 <div class="notice--info">{{ notice | markdownify }}</div>
 
 1. Launch GodMode9 by holding (Start) during boot
-1. Navigate to `[C:] GAMECART`
+1. `[C:] GAMECART` a gidin
 1. Follow the steps applicable to your game cartridge:
   + **3DS Game Cartridge:** Press (A) on `[TitleID].trim.3ds` to select it, then select "NCSD image options...", then select "Build CIA from file"
   + **NDS Game Cartridge:** Press (A) on `[TitleID].trim.nds` to select it, then select "Copy to 0:/gm9/out"
 1. Your installable `.cia` or non-installable `.nds` formatted file will be outputted to the `/gm9/out/` folder on your SD card
 
-## Dumping a Title
+## Başlık Aktarma
 
 1. Launch GodMode9 by holding (Start) during boot
 1. Hover over the drive applicable to the type of title you wish to dump:
   + **User Installed Title**: Navigate to `[A:] SYSNAND SD`
   + **System Title**: Navigate to `[1:] SYSNAND CTRNAND`
 1. Hold (R) and press (A) at the same time to open the drive options
-1. Select "Search for titles"
-1. Press (A) to continue
+1. "Search for titles" i seçin
+1. Devam etmek için (A)'ya basın
 1. Press (A) on the `.tmd` file to select it, then select "TMD file options...", then select "Build CIA (standard)"
 1. Your installable `.cia` formatted file will be outputted to the `/gm9/out/` folder on your SD card
 
-## Converting a .3DS to .CIA
+## .3DS i .CIA 'ya dönüştürmek
 
 {% capture notice %}
 + For organizational purposes, copy each `.3ds` file you wish to convert to the `/cias/` folder on your SD card
@@ -134,7 +134,7 @@ This will only work if the Health & Safety injection was performed by GodMode9 (
 1. Press (A) on your `.3ds` file to select it, then select "NCSD image options...", then select "Build CIA from file"
 1. Your installable `.cia` formatted file will be outputted to the `/gm9/out/` folder on your SD card
 
-## Backup GBA VC Saves
+## GBA VC (sanal konsol) 'den kayıtlı verileri Yedekleme
 
 The game will be outputted to the `/gm9/out/` folder on your SD card with the name `<TitleID>.gbavc.sav`.
 {: .notice--info}
@@ -143,58 +143,58 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 {: .notice--info}
 
 1. Do the following process for each GBA VC game that you want to backup the save for:
-  + Launch the GBA VC game
-  + Exit the GBA VC game
+  + GBA VC oyununu başlatın
+  + GBA VC oyunundan çıkın
   + Boot your device while holding (Start) to launch the Luma3DS chainloader menu
-  + Launch GodMode9 by pressing (A)
+  + (A)'ya basarak GodMode9'u başlatın
   + Navigate to `[S:] SYSNAND VIRTUAL`
   + Press (A) on `agbsave.bin` to select it
-  + Select "AGBSAVE options..."
-  + Select "Dump GBA VC save"
-  + Press (A) to continue
+  "AGBSAVE options..." i seçin
+  + "Dump GBA VC save" seçin
+  + Devam etmek için (A)'ya basın
   + Press (Start) to reboot your device
 
-## Restore GBA VC Saves
+## GBA VC kayıtlı veri yedeklerini geri yükleme
 
 To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of all games on the system and their corresponding Title IDs by hovering over `[A:] SYSNAND SD`, holding (R) and pressing (A) at the same time, then selecting "Search for titles".
 {: .notice--info}
 
 1. Do the following process for each GBA VC game that you want to restore the save for:
-  + Launch the GBA VC game
-  + Exit the GBA VC game
+  + GBA VC oyununu başlatın
+  + GBA VC oyunundan çıkın
   + Boot your device while holding (Start) to launch the Luma3DS chainloader menu
-  + Launch GodMode9 by pressing (A)
+  + (A)'ya basarak GodMode9'u başlatın
   + Navigate to `[0:] SDCARD` -> `gm9`
   + Press (Y) on the `<TitleID>.gbavc.sav` file you wish to restore to copy it
   + Press (B) to return to the main menu
   + Navigate to `[S:] SYSNAND VIRTUAL`
   + Press (A) on `agbsave.bin` to select it
-  + Select "AGBSAVE options..."
-  + Select "Inject GBA VC save"
-  + Press (A) to continue
+  "AGBSAVE options..." i seçin
+  + "Inject GBA VC save" seçin
+  + Devam etmek için (A)'ya basın
   + Press (Start) to reboot your device
-  + Launch the GBA VC game
-  + Exit the GBA VC game
+  + GBA VC oyununu başlatın
+  + GBA VC oyunundan çıkın
 
-## Format an SD card
+## Bir hafıza kartını biçimlendirme
 
 **Note that this will erase the contents of your SD card!**
 {: .notice--danger}
 
 1. Launch GodMode9 by holding (Start) during boot
 1. Press (Home) to bring up the action menu
-1. Select "More..."
-1. Select "SD format menu"
+1. "More..." u seçin
+1. "SD format menu" seçin
 1. Select any EmuNAND options you wish to use
   + Most users will want to select "No EmuNAND"
-1. Select "Auto"
+1. "Auto" seçiniz
 1. Press (A) to accept the label `GM9SD`
   + Optionally, you may input a custom name for the SD card
 1. When prompted, input the key combo given to confirm
 
 ## Encrypting / Decrypting a .CIA file
 
-#### Prep Work
+#### Hazırlık
 
 + For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt to the `/cias/` folder on your SD card
 {: .notice--info}
@@ -215,7 +215,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 1. Navigate to `[1:] SYSNAND CTRNAND` -> `data` -> (32 Character ID) -> `sysdata` -> `00010038`
 1. Hold down the (R) trigger, then press (X) on `00000000` to rename this file
 1. Press (Up) once to change the name to `10000000`
-1. Press (A) to save changes
+1. Değişiklikleri kaydetmek için (A)'ya basın
 1. Press (A) to unlock SysNAND writing, then input the key combo given
-1. Navigate back to the Main Menu
+1. Ana menüye geri dönün
 1. Press (Start) to reboot your device

@@ -32,7 +32,7 @@ main:
     url: uninstall-cfw
 bottom:
   - 
-    title: Se hai bisogno di aiuto, chiedi pure su <a href="http://webchat.freenode.net/?channels=%23Cakey&uio=d4"> (in inglese)
+    title: For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
   - 
     title: If you appreciate this guide, I accept <a href="donations">Donations</a>.
 footer:
