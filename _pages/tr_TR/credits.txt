@@ -1,11 +1,11 @@
 ---
-title: "Credits"
+title: "Hazırlayanlar"
 ---
 
 **Special thanks to all of [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) for being awesome!**
 {: .notice--primary}
 
-**Special thanks to all of [the translators](https://crowdin.com/project/3ds-devguide/) for being awesome!**
+**Tüm [çevirmenlere](https://crowdin.com/project/3ds-devguide/) emekleri için özellikle teşekkürler!**
 {: .notice--primary}
 
 If I forgot you here, contact me and I'll add your name.

@@ -1,10 +1,10 @@
 ---
-title: "Finalizing Setup"
+title: "Kurulumu Tamamlama"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="İçindekiler" %}
 
-### Overview of steps
+### Adımlara genel bakış
 
 The file `boot.firm` is what is launched by boot9strap itself after it finishes loading off of NAND, and can be any valid arm9 payload in the FIRM format. This file can be replaced at any time, although Luma3DS allows for the launch of other arm9 payloads in the FIRM format using the Luma3DS chainloader.
 
@@ -17,31 +17,31 @@ During this process, we also setup programs such as the following:
 +  **Luma3DS Updater** *(updates your CFW installation easily)*
 +  **GodMode9** *(multipurpose tool which can do NAND and cartridge functions)*
 
-### What you need
+### İhtiyacınız olanlar
 
 * The latest release of [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(the `.cia` file)*
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)'un en son sürümü
 * The latest release of [FBI](https://github.com/Steveice10/FBI/releases/latest) *(the `.cia` and `.3dsx` files)*
 * The latest fork of [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(the `.cia` file)*
 * [`setup_ctrnand_luma3ds.gm9`]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }})
 * [`cleanup_sd_card.gm9`]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }})
 
-### Instructions
+### Talimatlar
 
-#### Section I - Prep Work
+#### Bölüm I - Hazırlık
 
-1. Power off your device
-1. Insert your SD card into your computer
+1. Cihazınızı kapatın
+1. Hafıza kartınızı bilgisayarınıza takın
 1. Create a folder named `cias` on the root of your SD card if it does not already exist
 1. Copy `lumaupdater.cia` to the `/cias/` folder on your SD card
 1. Copy `FBI.cia` to the `/cias/` folder on your SD card
 1. Copy `Anemone3DS.cia` to the `/cias/` folder on your SD card
 1. Create a folder named `payloads` in the `luma` folder on your SD card
-1. Copy `GodMode9.firm` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card
-1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card
+1. GodMode9 '.zip' dosyasındaki `GodMode9.firm` dosyasını hafıza kartınızdaki `/luma/payloads/` klasörüne kopyalayın
+1. GodMode9`.zip` dosyasındaki `Gm9` klasörünü hafıza kartınızın kök dizinine kopyalayın
 1. Copy `setup_ctrnand_luma3ds.gm9` to the `/gm9/scripts/` folder on your SD card
 1. Copy `cleanup_sd_card.gm9` to the `/gm9/scripts/` folder on your SD card
-1. Reinsert your SD card into your device
+1. Hafıza kartınızı aygıtınıza yeniden takın
 
 #### Section II - Updating the System
 
@@ -50,51 +50,51 @@ This section is optional and requires both a CTR flash card and the development 
 
 1. Update your PANDA unit by using the latest version CTR System Updater (CSU) available to you
 
-#### Section III - Installing CIAs
+#### Bölüm III - CIAs Kurulumu
 
 1. Using Dev Menu, navigate to the `cias` folder
 1. Press (L + R + A) to install all CIAs
-1. Exit Dev Menu
+1. Dev Menuden çıkınız
 
-#### Section IV - CTRNAND Luma3DS
+#### Bölüm IV - CTRNAND Luma3DS
 
 1. Launch GodMode9 by holding (Start) during boot
 1. If you are prompted to create an essential files backup, press (A) to do so, then press (A) to continue once it has completed
 1. Press (Home) to bring up the action menu
-1. Select "More..."
-1. Select "Scripts..."
-1. Select "setup_ctrnand_luma3ds"
+1. "More..." u seçin
+1. "Scripts..." i seçin
+1. "setup_ctrnand_luma3ds" i seçin
 1. When prompted, press (A) to proceed
 1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
-1. Press (A) to continue
+1. Devam etmek için (A)'ya basın
 1. Press (A) to relock write permissions
 
-#### Section V - Backup SysNAND
+#### Bölüm V - SysNAND Yedeklemesi
 
 1. Press (Home) to bring up the action menu
-1. Select "More..."
-1. Select "Scripts..."
-1. Select "Backup SysNAND"
-1. Press (A) to confirm
-  + This process will take some time
-1. Press (A) to continue
+1. "More..." u seçin
+1. "Scripts..." i seçin
+1. Select "Backup SysNAND" seçeneğini seçin
+1. Onaylamak için (A) ya basın
+  + Bu işlem biraz zaman alabilir
+1. Devam etmek için (A)'ya basın
 1. Hold (R) and press (B) at the same time to eject your SD card
-1. Insert your SD card into your computer
+1. Hafıza kartınızı bilgisayarınıza takın
 1. Copy `<serialnumber>_nandmin_###.bin` from the `/gm9/out/` folder on your SD card to a safe location on your computer
   + Make backups in multiple locations (such as online file storage)
   + This backup will save you from a brick if anything goes wrong in the future
 1. Delete `<serialnumber>_nandmin_###.bin` from the `/gm9/out/` folder on your SD card after copying it
-1. Reinsert your SD card into your device
+1. Hafıza kartınızı aygıtınıza yeniden takın
 
-#### Section VI - Cleanup SD Card
+#### Bölüm VI - Hafıza Kartını Temizleme
 
 1. Press (Home) to bring up the action menu
-1. Select "More..."
-1. Select "Scripts..."
-1. Select "cleanup_sd_card"
+1. "More..." u seçin
+1. "Scripts..." i seçin
+1. "cleanup_sd_card" 'i seçin
 1. When prompted, press (A) to proceed
-1. Press (A) to continue
-1. Press (Start) to reboot
+1. Devam etmek için (A)'ya basın
+1. (Start)'a basarak yeniden başlatın
 
 ___
 
