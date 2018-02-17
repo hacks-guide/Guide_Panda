@@ -4,6 +4,8 @@ title: "Flash di ntrboot (Singolo 3DS)"
 
 {% include toc title="Indice" %}
 
+### Lettura necessaria
+
 Prima di procedere, assicurati di aver letto tutte le informazioni presenti alla pagina [ntrboot](ntrboot)
 
 Questo metodo richiede soltanto un 3DS non ancora modificato e una flashcart compatibile.
