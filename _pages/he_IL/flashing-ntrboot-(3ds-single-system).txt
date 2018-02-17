@@ -4,6 +4,8 @@ title: "צריבת ntrboot (מערכת 3DS אחת)"
 
 {% include toc title="Table of Contents" %}
 
+### Required Reading
+
 לפני שאתם ממשיכים, שימו לב שקראתם את כל המידע ב [ntrboot](ntrboot)
 
 שיטה זו דורשת כלום חוץ מה3DS הלא פרוץ שלכם וכרטיס פריצה תואם.
