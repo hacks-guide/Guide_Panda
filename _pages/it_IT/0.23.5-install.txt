@@ -4,7 +4,9 @@ title: "Installazione 0.23.5"
 
 {% include toc title="Indice" %}
 
-### Panoramica
+### Lettura necessaria
+
+This guide will: 
 
 - Installazione della versione di sistema 0.23.5 per la tua regione / console
 - Installazione di boot9strap tramite Cakehax Browser
