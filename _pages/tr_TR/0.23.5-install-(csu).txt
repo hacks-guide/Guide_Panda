@@ -4,6 +4,8 @@ title: "0.23.5 (CSU) Kurulumu"
 
 {% include toc title="İçindekiler" %}
 
+### Okumanız Gerekli
+
 Bu sayfadaki [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) bağlantılarını kullanabilmek için, [Deluge](http://dev.deluge-torrent.org/wiki/Download) gibi bir torrent programına ihtiyacınız olacak
 
 ### İhtiyacınız olanlar
