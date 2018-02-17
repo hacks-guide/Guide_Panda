@@ -31,7 +31,7 @@ title: "A9LH אל B9S"
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### What you need
+### What You Need
 
 שימו לב שהקובץ הדרוש הנקרא `secret_sector_dev.bin` הוא אותו אחד שנמצא בקובץ `safea9lhinstaller_v2_panda.zip` עם השם `secret_sector.bin`. אם יש לכם את הקובץ הזה איפושהו, אתם יכולים להשתמש בו (לשנות לו שם) במקום להוריד את האחד למטה.
 {: .notice--info}
