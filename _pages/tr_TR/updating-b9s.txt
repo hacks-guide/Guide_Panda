@@ -4,6 +4,8 @@ title: "B9S Güncelleme"
 
 {% include toc title="İçindekiler" %}
 
+### Okumanız Gerekli
+
 This page is for existing boot9strap users to update their installation of boot9strap to the latest version.
 
 {% capture notice-1 %}
