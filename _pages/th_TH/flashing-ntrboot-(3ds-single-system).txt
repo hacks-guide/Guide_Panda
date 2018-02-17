@@ -4,6 +4,8 @@ title: "Flashing ntrboot (3DS Single System)"
 
 {% include toc title="Table of Contents" %}
 
+### Required Reading
+
 Before proceeding, ensure you have read all of the information on [ntrboot](ntrboot)
 
 This method requires nothing more than your stock unhacked 3DS and a compatible flashcart.
