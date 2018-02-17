@@ -4,6 +4,8 @@ title: "צריבת ntrboot (NDS)"
 
 {% include toc title="Table of Contents" %}
 
+### Required Reading
+
 לפני שאתם ממשיכים, שימו לב שקראתם את כל המידע ב [ntrboot](ntrboot)
 
 שימו לב שכרטסי הפריצה מסוג R4i Gold 3DS RTS לא יוכלו להשתמש בפונקציות הרגילות שלהם (כמו הפעלת קבצי `.nds`) בזמן שפריצת ntrboot מותקנת עליהם. זה לא חל על הAceKard 2i.
