@@ -4,7 +4,9 @@ title: "0.23.5 Install"
 
 {% include toc title="Table of Contents" %}
 
-### Overview of steps
+### Required Reading
+
+This guide will: 
 
 - Install the version 0.23.5 for your region / device
 - Install boot9strap using CakeHax Browser
