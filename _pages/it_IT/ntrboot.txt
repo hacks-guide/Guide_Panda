@@ -4,6 +4,8 @@ title: "ntrboot"
 
 {% include toc title="Indice" %}
 
+### Lettura necessaria
+
 Se hai già installato ntrboot nella tua flashcart, troverai i passi successivi alla pagina [Installazione di boot9strap (ntrboot)](installing-boot9strap-(ntrboot)).
 {: .notice--success}
 
