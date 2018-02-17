@@ -4,6 +4,8 @@ title: "Flash di ntrboot (Con più 3DS)"
 
 {% include toc title="Indice" %}
 
+### Lettura necessaria
+
 Prima di procedere, assicurati di aver letto tutte le informazioni presenti alla pagina [ntrboot](ntrboot)
 
 Tieni presente che la flashcart R4i Gold 3DS RTS non potrà essere usata per le funzionalità standard (come l'avvio di file `.nds`) finché vi è installato l'exploit. Questo discorso non conta per la Acekard 2i.
