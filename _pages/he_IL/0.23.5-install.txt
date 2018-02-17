@@ -4,7 +4,9 @@ title: "התקנת 0.23.5"
 
 {% include toc title="Table of Contents" %}
 
-### Overview of steps
+### Required Reading
+
+This guide will: 
 
 - התקנת גרסה 0.23.5 בשביל הקונסולה \ אזור שלכם
 -התקנת boot9strap באמצעות CakeHax
