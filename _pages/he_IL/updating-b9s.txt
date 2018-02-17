@@ -4,6 +4,8 @@ title: "עדכון B9S"
 
 {% include toc title="Table of Contents" %}
 
+### Required Reading
+
 העמוד הזה קיים בשביל משתמשי boot9strap קיימים כדי לעדכן את ההתקנה שלהם לגרסה הכי חדשה.
 
 {% capture notice-1 %}
