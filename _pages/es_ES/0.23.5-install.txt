@@ -4,7 +4,9 @@ title: "Instalar 0.23.5"
 
 {% include toc title="Tabla de contenidos" %}
 
-### Resumen de los pasos
+### Lectura requerida
+
+This guide will: 
 
 - Instalar la versión 0.23.5 para tu consola / región
 - Instalar boot9strap usando CakeHax Browser
