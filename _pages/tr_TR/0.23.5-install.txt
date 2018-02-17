@@ -4,7 +4,9 @@ title: "0.23.5 Kurulumu"
 
 {% include toc title="İçindekiler" %}
 
-### Adımlara genel bakış
+### Okumanız Gerekli
+
+This guide will: 
 
 - Install the version 0.23.5 for your region / device
 - Install boot9strap using CakeHax Browser
