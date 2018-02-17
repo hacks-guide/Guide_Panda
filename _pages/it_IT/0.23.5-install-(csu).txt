@@ -8,7 +8,7 @@ title: "Installazione 0.23.5 (CSU)"
 
 Per usare i link [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) di questa guida avrai bisogno di un client torrent come [Deluge](http://dev.deluge-torrent.org/wiki/Download)
 
-### Quello che ti serve
+### What You Need
 
 * Una Flash Card CTR
 * L'hardware da sviluppo necessario per scrivere un CSU su una Flash Card CTR
