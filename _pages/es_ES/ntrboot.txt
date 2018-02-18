@@ -55,7 +55,7 @@ Ten en cuenta que las versiones más recientes del firmware de 3DS han bloqueado
   + R4i Ultra : <= 4.3.0
   + Infinity 3 R4i : <= 11.6.0
 
-### Continue to [Flashing ntrboot (3DS Single System)](flashing-ntrboot-(3ds-single-system))
+Continue to [Flashing ntrboot (3DS Single System)](flashing-ntrboot-(3ds-single-system))
 {: .notice--primary}
 
 ___
@@ -64,7 +64,7 @@ ___
 
 Este método requiere acceso temporal a una segunda consola de la familia 3DS que ya tenga boot9strap instalado.
 
-### Continue to [Flashing ntrboot (3DS Multi System)](flashing-ntrboot-(3ds-multi-system))
+Continue to [Flashing ntrboot (3DS Multi System)](flashing-ntrboot-(3ds-multi-system))
 {: .notice--primary}
 
 ___
@@ -73,7 +73,7 @@ ___
 
 Este método requiere de acceso tempral a una consola Nintendo DS o Nintendo DS Lite que sea compatible con el flashcart a utilizar.
 
-### Continue to [Flashing ntrboot (NDS)](flashing-ntrboot-(nds))
+Continue to [Flashing ntrboot (NDS)](flashing-ntrboot-(nds))
 {: .notice--primary}
 
 ___
@@ -90,7 +90,7 @@ Ten en cuenta que las versiones más recientes del firmware de DSi han bloqueado
   + R4i Ultra : <= 1.4.1
   + Infinity 3 R4i : <= 1.4.5
 
-### Continue to [Flashing ntrboot (DSi)](flashing-ntrboot-(dsi))
+Continue to [Flashing ntrboot (DSi)](flashing-ntrboot-(dsi))
 {: .notice--primary}
 
 ___
@@ -99,5 +99,5 @@ ___
 
 Éste método, una vez esté completo, requerirá acceso temporal a un [Powersaves](https://amzn.to/2fb3VY7). Este método aún no ha sido completado, por lo que ésta es sólo una página de relleno.
 
-### Continue to [Flashing ntrboot (Powersaves)](flashing-ntrboot-(powersaves))
+Continue to [Flashing ntrboot (Powersaves)](flashing-ntrboot-(powersaves))
 {: .notice--primary}
