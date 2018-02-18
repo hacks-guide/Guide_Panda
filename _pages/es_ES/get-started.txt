@@ -34,7 +34,7 @@ ___
 
 Este método consiste en bajar de versión a un firmware más antiguo para utilizar un exploit de navegador. El mismo *no* es compatible con unidades JAN (New 2DS XL) porque no es posible bajar a versiones del sistema por debajo de 0.25.5.
 
-### Continue to [0.23.5 Install](0.23.5-install)
+### Continúa en [Instalar 0.23.5](0.23.5-install)
 {: .notice--primary}
 
 ___
@@ -43,5 +43,5 @@ ___
 
 Este método introduce el exploit de ntrboot en un flashcart comercial y luego lo ejecuta en tu PANDA. Es compatible con todos los modelos y versiones (incluyendo las versiones JAN).
 
-### Continue to [ntrboot](ntrboot)
+### Continúa en [ntrboot](ntrboot)
 {: .notice--primary}
