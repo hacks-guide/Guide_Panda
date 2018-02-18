@@ -34,5 +34,5 @@ Se il test mostra come risultato "Test finished without errors", la tua scheda S
 Se il test mostra qualunque altro risultato, la tua scheda SD potrebbe essere corrotta o danneggiata e potresti doverla sostituire!
 {: .notice--danger}
 
-Ritorna a [Cominciamo!](Get-Started)
+### Return to [Get Started](Get-Started)
 {: .notice--primary}
