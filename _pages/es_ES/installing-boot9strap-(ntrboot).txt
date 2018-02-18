@@ -63,7 +63,7 @@ title: "Instalar boot9strap (ntrboot)"
 
 ___
 
-Continúa en [Finalizar instalación](finalizing-setup)
+### Continue to [Finalizing Setup](finalizing-setup)
 {: .notice--primary}
 
 ___
