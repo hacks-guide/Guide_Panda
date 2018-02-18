@@ -34,5 +34,5 @@ Si la comprobación muestra el resultado `Test finished without errors`, tu tarj
 Si la comprobación muestra otro tipo de resultado, ¡tu tarjeta SD puede estar corrupta o dañada y tendrás que reemplazarla!
 {: .notice--danger}
 
-### Return to [Get Started](Get-Started)
+### Regresa a [Comencemos](get-started)
 {: .notice--primary}
