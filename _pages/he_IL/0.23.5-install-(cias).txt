@@ -32,5 +32,5 @@ title: "התקנת 0.23.5 (CIAs)"
   + SNAKE / CLOSER / JAN: `0004013820000002.cia`
 1. תעדכנו את הFIRM של הPANDA שלכם באמצעות לחיצת (Start + Y) בזמן שאתם מסמנים את הCIA של NATIVE_FIRM
 
-תמשיכו אל [התקנת boot9strap (Browser)](installing-boot9strap-(browser))
+### Continue to [Installing boot9strap (Browser)](installing-boot9strap-(browser))
 {: .notice--primary}
