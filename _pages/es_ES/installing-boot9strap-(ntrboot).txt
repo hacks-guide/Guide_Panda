@@ -4,7 +4,7 @@ title: "Instalar boot9strap (ntrboot)"
 
 {% include toc title="Tabla de contenidos" %}
 
-### What You Need
+### Qué necesitas
 
 * Un imán que active el modo de espera de tu consola (si usas una consola con tapa)
 * Tu flashcart con ntrboot instalado
@@ -63,7 +63,7 @@ title: "Instalar boot9strap (ntrboot)"
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Continúa en [Finalizar instalación](finalizing-setup)
 {: .notice--primary}
 
 ___
@@ -76,7 +76,7 @@ No sigas esta sección mientras no hayas completado el resto de instrucciones de
 
 #### Sección V - Quitar ntrboot
 
-##### What You Need
+##### Qué necesitas
 
 * La última versión de [ntrboot_flasher](https://github.com/kitling/ntrboot_flasher/releases/latest)
 * El respaldo de flashrom correspondiente a tu flashcart    
