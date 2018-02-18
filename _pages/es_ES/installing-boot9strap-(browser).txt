@@ -4,7 +4,7 @@ title: "Instalar boot9strap (navegador)"
 
 {% include toc title="Tabla de contenidos" %}
 
-### What You Need
+### Qué necesitas
 
 * La última versión de [SafeB9SInstaller]
 (https://github.com/d0k3/SafeB9SInstaller/releases/latest)
@@ -48,5 +48,5 @@ title: "Instalar boot9strap (navegador)"
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Continúa en [Finalizar instalación](finalizing-setup)
 {: .notice--primary}
