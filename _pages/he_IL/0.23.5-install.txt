@@ -34,7 +34,7 @@ ___
 +  CTR / SPR / FTR
    + [EUR / USA]
 
-Continue to [0.23.5 Install (CIAs)](0.23.5-install-(cias))
+### Continue to [0.23.5 Install (CIAs)](0.23.5-install-(cias))
 {: .notice--primary}
 
 ___
@@ -48,5 +48,5 @@ ___
 +  CTR / SPR / FTR
    + [CHN / EUR / JPN / KOR / TWN / USA]
 
-Continue to [0.23.5 Install (CSU)](0.23.5-install-(csu))
+### Continue to [0.23.5 Install (CSU)](0.23.5-install-(csu))
 {: .notice--primary}
