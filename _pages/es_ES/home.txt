@@ -103,5 +103,5 @@ Esta guía podría ser compatible con las siguientes unidades de desarrollo, per
 
 ___
 
-Continúa en [Comencemos](get-started)
+### Continue to [Get Started](get-started)
 {: .notice--primary}
