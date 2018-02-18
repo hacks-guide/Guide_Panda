@@ -12,7 +12,7 @@ title: "H2testw (Windows)"
 
 הדף הזה הוא למשתמשי Windows בלבד. אם אתם לא על Windows, תבדקו את העמודים [F3 (linux)](f3-(linux)) או [F3X (mac)](f3x-(mac)).
 
-### What you need
+### What You Need
 
 * הגירסה האחרונה של [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
@@ -34,5 +34,5 @@ title: "H2testw (Windows)"
 אם הבדיקה מראה תוצאות אחרות, הכרטיס שלכם עשוי להיות פגום וייתכן שיהיה עליכם להחליף אותו!
 {: .notice--danger}
 
-תחזרו אל [צעדים ראשונים](get-started)
+### Return to [Get Started](Get-Started)
 {: .notice--primary}

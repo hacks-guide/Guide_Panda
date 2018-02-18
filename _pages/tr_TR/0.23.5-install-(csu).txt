@@ -4,9 +4,11 @@ title: "0.23.5 (CSU) Kurulumu"
 
 {% include toc title="İçindekiler" %}
 
+### Okumanız Gerekli
+
 Bu sayfadaki [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) bağlantılarını kullanabilmek için, [Deluge](http://dev.deluge-torrent.org/wiki/Download) gibi bir torrent programına ihtiyacınız olacak
 
-### İhtiyacınız olanlar
+### What You Need
 
 * CTR hafıza kartı
 * Development hardware to write a CSU to a CTR flash card
@@ -26,5 +28,5 @@ Bu sayfadaki [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) bağlant�
 
 1. Follow the instructions contained within the official <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [System Updater Operations Manual](magnet:?xt=urn:btih:a8f4aebe74a565d1d8e42a38240cc284d900b5ab&dn=SystemUpdater_Manual.pdf&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce) using the downloaded 0.23.5 PANDA CSU for your device and region.
 
-Continue to [Installing boot9strap (Browser)](installing-boot9strap-(browser))
+### Continue to [Installing boot9strap (Browser)](installing-boot9strap-(browser))
 {: .notice--primary}

@@ -4,6 +4,8 @@ title: "צריבת ntrboot (NDS)"
 
 {% include toc title="Table of Contents" %}
 
+### Required Reading
+
 לפני שאתם ממשיכים, שימו לב שקראתם את כל המידע ב [ntrboot](ntrboot)
 
 שימו לב שכרטסי הפריצה מסוג R4i Gold 3DS RTS לא יוכלו להשתמש בפונקציות הרגילות שלהם (כמו הפעלת קבצי `.nds`) בזמן שפריצת ntrboot מותקנת עליהם. זה לא חל על הAceKard 2i.
@@ -23,7 +25,7 @@ title: "צריבת ntrboot (NDS)"
 שימו לב שבמקרים נדירים, יתכן שתהליך הצריבה **ישבור** כרטיס פריצה מזוייף ויגרום לו לא לעבוד. זה לא סביר שייקרה, אבל בכל זאת רק כרטיסי פריצה מקוריים שמפורטים נתמכים. כדי להוריד את הסיכויים של להשיג כרטיס פריצה מזוייף, מומלץ להשתמש באתר אמין כדי לקנות את הכרטיס (כמו [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
 
-### What you need
+### What You Need
 
 * כרטיס הפריצה שתומך בntrboot שלכם
 * שתי קונסולות 
@@ -59,5 +61,5 @@ title: "צריבת ntrboot (NDS)"
 
 ___
 
-תמשיכו ל [התקנת boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
+### Continue to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
 {: .notice--primary}

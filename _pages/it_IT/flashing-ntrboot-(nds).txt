@@ -4,6 +4,8 @@ title: "Flash di ntrboot (NDS)"
 
 {% include toc title="Indice" %}
 
+### Lettura necessaria
+
 Prima di procedere, assicurati di aver letto tutte le informazioni presenti alla pagina [ntrboot](ntrboot)
 
 Tieni presente che la flashcart R4i Gold 3DS RTS non potrà essere usata per le funzionalità standard (come l'avvio di file `.nds`) finché vi è installato l'exploit. Questo discorso non conta per la Acekard 2i.
@@ -23,7 +25,7 @@ Questo metodo richiede momentaneamente l'utilizzo di un Nintendo DS o DS Lite co
 Nota bene che in alcune rare circostanze, è possibile **brickare** una flashcart contraffatta durante il processo di installazione e renderla così permanentemente inutilizzabile. È improbabile, tuttavia sono supportate soltanto le flashcart originali qui indicate. Per ridurre il rischio di ottenere una flashcart contraffatta, si raccomanda di comprarne una solo da siti affidabili (come [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
 
-### Quello che ti serve
+### What You Need
 
 * La flashcart compatibile con ntrboot
 * Due console 
@@ -59,5 +61,5 @@ Nota bene che in alcune rare circostanze, è possibile **brickare** una flashcar
 
 ___
 
-Prosegui con l'[Installazione di boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
+### Continue to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
 {: .notice--primary}

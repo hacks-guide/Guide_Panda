@@ -4,6 +4,8 @@ title: "Flashear ntrboot (Dos consolas 3DS)"
 
 {% include toc title="Tabla de contenidos" %}
 
+### Lectura requerida
+
 Antes de continuar, asegúrate de haber leído toda la información en [ntrboot](ntrboot)
 
 Ten en cuenta que las flashcarts R4i Gold 3DS RTS no podrán ser utilizadas para sus funciones por defecto (tales como ejecutar archivos `.nds`) mientras el exploit de ntrboot esté instalado en ellas. Esto no aplica a la flashcart Acekard 2i.
@@ -59,5 +61,5 @@ Ten en cuenta que en raras ocasiones, es posible que realizar el proceso de flas
 
 ___
 
-Continúa a [Instalar boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
+### Continúa a [Instalar boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
 {: .notice--primary}

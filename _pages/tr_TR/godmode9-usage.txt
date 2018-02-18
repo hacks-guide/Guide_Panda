@@ -15,7 +15,7 @@ GodMode9 is powerful software that has the capability to modify essentially anyt
 Some of the instructions below are only applicable to the latest version of GodMode9, and as such you should follow this section to update your copy before continuing. Var olan herhangi bir dosyanın üzerine yazın.
 {: .notice--info}
 
-### İhtiyacınız olanlar
+### What You Need
 
 * [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)'un en son sürümü
 

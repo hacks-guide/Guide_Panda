@@ -4,7 +4,7 @@ title: "התקנת boot9strap (ntrboot)"
 
 {% include toc title="Table of Contents" %}
 
-### What you need
+### What You Need
 
 * מגנט שמפעיל את מצב שינה בקונסולה שלכם (אם יש לכם קונסולה מתקפלת)
 * כרטיס הפריצה הצרוב שלכם
@@ -62,7 +62,7 @@ title: "התקנת boot9strap (ntrboot)"
 
 ___
 
-תמשיכו ל[סיום התהליך](finalizing-setup)
+### Continue to [Finalizing Setup](finalizing-setup)
 {: .notice--primary}
 
 ___
@@ -75,7 +75,7 @@ ___
 
 #### Section V - Removing ntrboot
 
-##### What you need
+##### What You Need
 
 * הגרסא העדכנית של [ntrboot_flasher](https://github.com/kitling/ntrboot_flasher/releases/latest)
 * גיבוי הflashrom המתאים לכרטיס שלכם    

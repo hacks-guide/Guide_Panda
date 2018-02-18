@@ -4,6 +4,8 @@ title: "Da A9LH a B9S"
 
 {% include toc title="Indice" %}
 
+### Lettura necessaria
+
 Questa sezione serve agli utenti di arm9loaderhax che vogliono aggiornare le proprie console a boot9strap.
 
 Tutte le future versioni di Luma3DS verranno rilasciate in formato `.firm`, compatibile soltanto con boot9strap e sighax. Quindi, per poter ricevere gli aggiornamenti di Luma3DS dovresti seguire le istruzioni indicate in questa sezione per aggiornare la tua installazione.
@@ -29,7 +31,7 @@ Se Luma3DS è configurato con un PIN di accesso, SafeB9SInstaller ti darà l'err
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### Quello che ti serve
+### What You Need
 
 Tieni presente che il file `secret_sector_dev.bin` qui richiesto è lo stesso che si trova nell'archivio `safea9lhinstaller_v2_panda.zip` con il nome `secret_sector.bin`. Se hai ancora quel file da qualche parte nell'hard disk, puoi utilizzarlo (rinominandolo) al posto di quello richiesto da scaricare in questa sezione.
 {: .notice--info}

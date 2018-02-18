@@ -48,5 +48,5 @@ title: "Instalar boot9strap (navegador)"
 
 ___
 
-Continúa en [Finalizar instalación](finalizing-setup)
+### Continúa en [Finalizar instalación](finalizing-setup)
 {: .notice--primary}

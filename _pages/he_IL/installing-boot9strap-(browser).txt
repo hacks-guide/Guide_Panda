@@ -4,7 +4,7 @@ title: "התקנת boot9strap (דפדפן)"
 
 {% include toc title="Table of Contents" %}
 
-### What you need
+### What You Need
 
 * הגרסה העדכנית של [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * הגרסא העדכנית של [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(קובץ ה`devkit`, לא קובץ ה `ntr`)*
@@ -47,5 +47,5 @@ title: "התקנת boot9strap (דפדפן)"
 
 ___
 
-תמשיכו ל[סיום התהליך](finalizing-setup)
+### Continue to [Finalizing Setup](finalizing-setup)
 {: .notice--primary}

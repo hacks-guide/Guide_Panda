@@ -4,6 +4,8 @@ title: "Flashear ntrboot (DSi)"
 
 {% include toc title="Tabla de contenidos" %}
 
+### Lectura requerida
+
 Antes de continuar, asegúrate de haber leído toda la información en [ntrboot](ntrboot)
 
 Este método requiere de acceso tempral a una consola Nintendo DSi que sea compatible con el flashcart a utilizar.
@@ -50,5 +52,5 @@ Ten en cuenta que en raras ocasiones, es posible que realizar el proceso de flas
 
 ___
 
-Continúa a [Instalar boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
+### Continúa a [Instalar boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
 {: .notice--primary}

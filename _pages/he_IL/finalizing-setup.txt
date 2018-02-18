@@ -4,7 +4,7 @@ title: "סיום התהליך"
 
 {% include toc title="Table of Contents" %}
 
-### Overview of steps
+### Required Reading
 
 הקובץ `boot.firm` הוא מה שמופעל בעת ההדלקה של המכשיר על ידי boot9strap עצמו לאחר שהוא נטען מה-NAND, והוא כל payload של arm9 בפורמט של הFIRM. את הקובץ עצמו אפשר להחליף תמיד, למרות שLuma3DS מאפשר הרצת payload של arm9 בפורמט הFIRM באמצעות הטעינת שרשרת של Luma3DS.
 
@@ -17,7 +17,7 @@ title: "סיום התהליך"
 + **Luma3DS Updater** *(עדכון לCFW בקלות)*
 + **GodMode9** *(כלי רב שימושי אשר מסוגל לבצע פונקציות הקשורות ל-NAND ולקלטות משחק)*
 
-### What you need
+### What You Need
 
 * את הגרסה העדכנית של [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(יש להוריד את קובץ ה-`.cia`)*
 * הגרסה העדכנית של [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
