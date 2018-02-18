@@ -11,7 +11,7 @@ Para utilizar los enlaces [magnet](https://es.wikipedia.org/wiki/Magnet) de esta
 ¡DEBES hacer downgrade con el pack adecuado para tu consola/región!
 {: .notice--danger}
 
-### What You Need
+### Qué necesitas
 
 * El archivo `.zip` de CIAs 0.23.5 PANDA para tu consola y región:
   + <i class="fa fa-magnet" aria-hidden="true" title="Este es un enlace magnético. Usa un cliente torrent para descargar el archivo."></i> - [SNAKE / CLOSER / JAN - CIAs - 0.23.5 - EUR](magnet:?xt=urn:btih:753b24d1c18c749997a455731c4138bc0db25835&dn=SystemUpdater%5FSNAKE-0%5F23%5F5-EU%5Fcias.zip&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)    
@@ -32,5 +32,5 @@ Para utilizar los enlaces [magnet](https://es.wikipedia.org/wiki/Magnet) de esta
   + SNAKE / CLOSER / JAN: `0004013820000002.cia`
 1. Actualiza el FIRM de tu PANDA presionando (Start + Y) mientras tienes seleccionado el CIA del NATIVE_FIRM
 
-### Continue to [Installing boot9strap (Browser)](installing-boot9strap-(browser))
+### Continúa a [Instalar boot9strap (Navegador)](installing-boot9strap-(browser))
 {: .notice--primary}
