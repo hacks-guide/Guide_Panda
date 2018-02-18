@@ -32,5 +32,5 @@ You MUST downgrade with the correct pack for your console/region!
   + SNAKE / CLOSER / JAN: `0004013820000002.cia`
 1. Update your PANDA's FIRM by pressing (Start + Y) while highlighting the NATIVE_FIRM CIA
 
-Continue to [Installing boot9strap (Browser)](installing-boot9strap-(browser))
+### Continue to [Installing boot9strap (Browser)](installing-boot9strap-(browser))
 {: .notice--primary}
