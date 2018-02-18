@@ -103,5 +103,5 @@ This guide may be compatible with the following developer units, but this is unc
 
 ___
 
-Continue to [Get Started](get-started)
+### Continue to [Get Started](get-started)
 {: .notice--primary}
