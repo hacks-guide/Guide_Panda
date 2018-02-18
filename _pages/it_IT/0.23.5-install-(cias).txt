@@ -32,5 +32,5 @@ DEVI effettuare il downgrade con il pacchetto corretto per la tua console/region
   + SNAKE / CLOSER / JAN: `0004013820000002.cia`
 1. Aggiorna la FIRM della console PANDA tenendo premuto (Start + Y) mentre è selezionato il file NATIVE_FIRM CIA
 
-Prosegui con l'[Installazione di boot9strap (Browser)](installing-boot9strap-(browser))
+### Continue to [Installing boot9strap (Browser)](installing-boot9strap-(browser))
 {: .notice--primary}
