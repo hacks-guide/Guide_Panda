@@ -55,7 +55,7 @@ Tieni presente che le più recenti versioni del software del 3DS hanno bloccato 
   + R4i Ultra : <= 4.3.0
   + Infinity 3 R4i : <= 11.6.0
 
-Prosegui con il [Flash di ntrboot (Singolo 3DS)](flashing-ntrboot-(3ds-single-system))
+Continue to [Flashing ntrboot (3DS Single System)](flashing-ntrboot-(3ds-single-system))
 {: .notice--primary}
 
 ___
@@ -64,7 +64,7 @@ ___
 
 Questo metodo richiede l'accesso temporaneo ad una seconda console su cui è installato boot9strap.
 
-Prosegui con il [Flash di ntrboot (Con più 3DS)](flashing-ntrboot-(3ds-multi-system))
+Continue to [Flashing ntrboot (3DS Multi System)](flashing-ntrboot-(3ds-multi-system))
 {: .notice--primary}
 
 ___
@@ -73,7 +73,7 @@ ___
 
 Questo metodo richiede momentaneamente l'utilizzo di un Nintendo DS o DS Lite compatibile con la tua flashcart.
 
-Prosegui con il [Flash di ntrboot (NDS)](flashing-ntrboot-(nds))
+Continue to [Flashing ntrboot (NDS)](flashing-ntrboot-(nds))
 {: .notice--primary}
 
 ___
@@ -90,7 +90,7 @@ Tieni presente che versioni del software del DSi più recenti hanno bloccato l'a
   + R4i Ultra : <= 1.4.1
   + Infinity 3 R4i : <= 1.4.5
 
-Prosegui con il [Flash di ntrboot (DSi)](flashing-ntrboot-(dsi))
+Continue to [Flashing ntrboot (DSi)](flashing-ntrboot-(dsi))
 {: .notice--primary}
 
 ___
@@ -99,5 +99,5 @@ ___
 
 Quando disponibile, questo metodo richiederà temporaneamente l'utilizzo di un [Powersaves](https://www.amazon.it/Action-Replay-PowerSaves-2016-Nintendo/dp/B01EOMFY3C/). Non è ancora pronto, al suo posto è presente solo una pagina temporanea.
 
-Prosegui con [Flash di ntrboot (Powersaves)](flashing-ntrboot-(powersaves))
+Continue to [Flashing ntrboot (Powersaves)](flashing-ntrboot-(powersaves))
 {: .notice--primary}
