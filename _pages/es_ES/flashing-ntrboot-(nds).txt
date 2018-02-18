@@ -25,7 +25,7 @@ Este método requiere de acceso tempral a una consola Nintendo DS o Nintendo DS 
 Ten en cuenta que en raras ocasiones, es posible que realizar el proceso de flasheo en un clon de flashcart podría dejarla **permanentemente inutilizable**. Esto es poco probable, pero sin embargo, sólo las flashcarts originales mencionadas son compatibles. Para reducir la posibilidad de recibir un clon, se recomienda utilizar un sitio de confianza para comprar una flashcart (como [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
 
-### What You Need
+### Qué necesitas
 
 * Tu flashcart compatible con ntrboot
 * Dos consolas 
@@ -61,5 +61,5 @@ Ten en cuenta que en raras ocasiones, es posible que realizar el proceso de flas
 
 ___
 
-### Continue to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
+### Continúa a [Instalar boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
 {: .notice--primary}
