@@ -61,5 +61,5 @@ Nota bene che in alcune rare circostanze, è possibile **brickare** una flashcar
 
 ___
 
-Prosegui con l'[Installazione di boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
+### Continue to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
 {: .notice--primary}
