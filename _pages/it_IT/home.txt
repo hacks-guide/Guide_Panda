@@ -103,5 +103,5 @@ Questa guida potrebbe essere compatibile con le seguenti unità di sviluppo, ma 
 
 ___
 
-Prosegui con [Cominciamo!](get-started)
+### Continue to [Get Started](get-started)
 {: .notice--primary}
