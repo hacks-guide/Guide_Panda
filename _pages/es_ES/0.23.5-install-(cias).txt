@@ -32,5 +32,5 @@ Para utilizar los enlaces [magnet](https://es.wikipedia.org/wiki/Magnet) de esta
   + SNAKE / CLOSER / JAN: `0004013820000002.cia`
 1. Actualiza el FIRM de tu PANDA presionando (Start + Y) mientras tienes seleccionado el CIA del NATIVE_FIRM
 
-Continúa a [Instalar boot9strap (Navegador)](installing-boot9strap-(browser))
+### Continue to [Installing boot9strap (Browser)](installing-boot9strap-(browser))
 {: .notice--primary}
