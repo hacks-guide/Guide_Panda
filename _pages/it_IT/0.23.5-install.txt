@@ -34,7 +34,7 @@ Questo metodo è compatibile con le seguenti console
 +  CTR / SPR / FTR
    + [EUR / USA]
 
-Prosegui con l'[Installazione 0.23.5 (CIA)](0.23.5-install-(cias))
+### Continue to [0.23.5 Install (CIAs)](0.23.5-install-(cias))
 {: .notice--primary}
 
 ___
@@ -48,5 +48,5 @@ Questo metodo è compatibile con le seguenti console
 +  CTR / SPR / FTR
    + [CHN / EUR / JPN / KOR / TWN / USA]
 
-Prosegui con l'[Installazione 0.23.5 (CSU)](0.23.5-install-(csu))
+### Continue to [0.23.5 Install (CSU)](0.23.5-install-(csu))
 {: .notice--primary}
