@@ -15,7 +15,7 @@ GodMode9 es una potente herramienta que tiene la capacidad de modificar básicam
 Algunas de las siguientes instrucciones sólo son aplicables a la última versión de GodMode9, y como tal debes seguir esta sección para actualizar tu instalación antes de continuar. Sobrescribe cualquier archivo que se te indique.
 {: .notice--info}
 
-### What You Need
+### Qué necesitas
 
 * La ultima versión de [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 
