@@ -4,6 +4,8 @@ title: "Risoluzione dei problemi"
 
 {% include toc title="Indice" %}
 
+### Lettura necessaria
+
 Se non riesci ad avviare la tua console, consulta la sezione relativa al tuo problema e segui le istruzioni.
 
 Se comunque non riesci a risolvere il tuo problema e hai bisogno di aiuto, incolla il contenuto dei file .log rilevanti dalla directory principale della tua scheda SD in un [Gist](https://gist.github.com/), successivamente fornisci una descrizione dettagliata del tuo problema e delle eventuali operazioni che hai fatto per provare a risolverlo.
@@ -12,7 +14,7 @@ Per usare i link [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) di qu
 
 ## Software DS / DSi non funzionante dopo aver completato la guida
 
-### Quello che ti serve
+### What You Need
 
 * Il file `.cia` del TWL_FIRM per la tua console
     + <i class="fa fa-magnet" aria-hidden="true" title="Questo è un link magnet. Usa un client per i torrent per scaricare questo file."></i> - [`New_3DS TWL_FIRM - v9936.cia`](magnet:?xt=urn:btih:eab8558c97b18b1f329a2bfcc3c899b84c082a27&dn=New%5F3DS%20TWL%5FFIRM%20-%20v9936.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)

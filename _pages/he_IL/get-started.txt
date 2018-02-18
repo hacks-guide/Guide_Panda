@@ -34,7 +34,7 @@ ___
 
 שיטה דורשת שנמוך לגרסה ישנה כדי להשתמש בפירצה מבוססת דפדפן. היא *לא* תומכת במכשירי JAN (New 2DS XL) בגלל שאי אפשר לשנמך אותם מתחת ל0.25.5.
 
-Continue to [0.23.5 Install](0.23.5-install)
+### Continue to [0.23.5 Install](0.23.5-install)
 {: .notice--primary}
 
 ___
@@ -43,5 +43,5 @@ ___
 
 דרך זו צורבת כרטיס פריצה עם פירצת ntrboot ואז היא מפעילה אותו על הPANDA שלכם. היא תומכת בכל סוגי הגרסאות והמודלים (כולל JAN).
 
-Continue to [ntrboot](ntrboot)
+### Continue to [ntrboot](ntrboot)
 {: .notice--primary}

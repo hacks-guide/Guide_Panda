@@ -4,7 +4,7 @@ title: "Completamento dell'installazione"
 
 {% include toc title="Indice" %}
 
-### Panoramica
+### Lettura necessaria
 
 Il file `boot.firm` viene lanciato da boot9strap stesso al termine del caricamento dalla NAND, e può essere un qualunque payload arm9 valido in formato FIRM. Questo file può essere sostituito in qualunque momento, tuttavia Luma3DS permette il lancio di diversi payload arm9 in formato FIRM grazie al chainloader di Luma3DS.
 
@@ -17,7 +17,7 @@ Durante la guida verranno anche configurate le seguenti applicazioni:
 +  **Luma3DS Updater** *(aggiorna facilmente il CFW)*
 +  **GodMode9** *(applicazione multifunzione per gestire NAND e schede di gioco)*
 
-### Quello che ti serve
+### What You Need
 
 * L'ultima versione di [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(il file `.cia`)*
 * L'ultima release di [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)

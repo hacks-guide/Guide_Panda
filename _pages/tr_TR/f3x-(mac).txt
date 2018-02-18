@@ -12,7 +12,7 @@ Depending on the size of your SD card and the speed of your computer, this proce
 
 Bu sayfa yalnızca Mac kullanıcılar içindir. If you are not on Mac, check out the [H2testw (windows)](h2testw-(windows)) or [F3 (Linux)](f3-(linux)) pages.
 
-### İhtiyacınız olanlar
+### What You Need
 
 * The latest release of [F3X](https://github.com/insidegui/F3X/releases)
 
@@ -31,5 +31,5 @@ If the test shows the result `Success! Your card is ok!` your SD card is good an
 If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 {: .notice--danger}
 
-Return to [Get Started](Get-Started)
+### Return to [Get Started](Get-Started)
 {: .notice--primary}

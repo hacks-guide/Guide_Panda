@@ -4,7 +4,7 @@ title: "Installing boot9strap (ntrboot)"
 
 {% include toc title="İçindekiler" %}
 
-### İhtiyacınız olanlar
+### What You Need
 
 * A magnet that triggers the sleep mode of your device (if using a folding style device)
 * ntrboot yüklü flash kartınız
@@ -62,7 +62,7 @@ title: "Installing boot9strap (ntrboot)"
 
 ___
 
-Continue to [Finalizing Setup](finalizing-setup)
+### Continue to [Finalizing Setup](finalizing-setup)
 {: .notice--primary}
 
 ___
@@ -75,7 +75,7 @@ Do not follow this section until you have completed the rest of the instructions
 
 #### Bölüm V - ntrboot'u Kaldırma
 
-##### İhtiyacınız olanlar
+##### What You Need
 
 * The latest release of [ntrboot_flasher](https://github.com/kitling/ntrboot_flasher/releases/latest)
 * The flashrom backup corresponding to your flashcart    

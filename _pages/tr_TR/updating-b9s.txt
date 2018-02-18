@@ -4,6 +4,8 @@ title: "B9S Güncelleme"
 
 {% include toc title="İçindekiler" %}
 
+### Okumanız Gerekli
+
 This page is for existing boot9strap users to update their installation of boot9strap to the latest version.
 
 {% capture notice-1 %}
@@ -22,7 +24,7 @@ There have been reports of a wave of bans being handed out to CFW users by Ninte
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### İhtiyacınız olanlar
+### What You Need
 
 * [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest) 'in en son sürümü
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(the `devkit` file, not the `ntr` file)*

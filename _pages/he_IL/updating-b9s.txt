@@ -4,6 +4,8 @@ title: "עדכון B9S"
 
 {% include toc title="Table of Contents" %}
 
+### Required Reading
+
 העמוד הזה קיים בשביל משתמשי boot9strap קיימים כדי לעדכן את ההתקנה שלהם לגרסה הכי חדשה.
 
 {% capture notice-1 %}
@@ -22,7 +24,7 @@ title: "עדכון B9S"
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### What you need
+### What You Need
 
 * הגרסה העדכנית של [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * הגרסא העדכנית של [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(קובץ ה`devkit`, לא קובץ ה `ntr`)*

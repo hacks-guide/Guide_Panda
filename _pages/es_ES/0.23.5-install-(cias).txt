@@ -4,6 +4,8 @@ title: "Instalar 0.23.5 (CIAs)"
 
 {% include toc title="Tabla de contenidos" %}
 
+### Lectura requerida
+
 Para utilizar los enlaces [magnet](https://es.wikipedia.org/wiki/Magnet) de esta página, vas a necesitar un cliente torrent como [Deluge](http://dev.deluge-torrent.org/wiki/Download)
 
 ¡DEBES hacer downgrade con el pack adecuado para tu consola/región!
@@ -30,5 +32,5 @@ Para utilizar los enlaces [magnet](https://es.wikipedia.org/wiki/Magnet) de esta
   + SNAKE / CLOSER / JAN: `0004013820000002.cia`
 1. Actualiza el FIRM de tu PANDA presionando (Start + Y) mientras tienes seleccionado el CIA del NATIVE_FIRM
 
-Continúa a [Instalar boot9strap (Navegador)](installing-boot9strap-(browser))
+### Continúa a [Instalar boot9strap (Navegador)](installing-boot9strap-(browser))
 {: .notice--primary}

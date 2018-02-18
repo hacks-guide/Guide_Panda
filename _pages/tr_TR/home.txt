@@ -32,7 +32,7 @@ This guide needs *your* help to seed [these](https://3ds.guide/rss.xml) torrents
 
 ## Homebrew Nedir?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
+[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. This includes homebrew tools, applications, games, and emulators.
 
 In most cases, running homebrew on your console is 100% free using just the browser.
 
@@ -103,5 +103,5 @@ This guide may be compatible with the following developer units, but this is unc
 
 ___
 
-Continue to [Get Started](get-started)
+### Continue to [Get Started](get-started)
 {: .notice--primary}

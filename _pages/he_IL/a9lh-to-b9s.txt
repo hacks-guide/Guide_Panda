@@ -4,6 +4,8 @@ title: "A9LH אל B9S"
 
 {% include toc title="Table of Contents" %}
 
+### Required Reading
+
 דף זה מיועד למשתמשי arm9loaderhax קיימים לעדכן את מכשיריהם לboot9strap.
 
 כל המהדורות הבאות של Luma3DS יוצרו בתוך פורמט ה'firm' בלבד, שיתמוך רק בboot9strap ובsighax. זה אומר שכדי להמשיך לקבל את העדכונים האחרונים של Luma3DS עליכם להשתמש בדף הזה כדי לעדכן את ההתקנה שלכם.
@@ -29,7 +31,7 @@ title: "A9LH אל B9S"
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### What you need
+### What You Need
 
 שימו לב שהקובץ הדרוש הנקרא `secret_sector_dev.bin` הוא אותו אחד שנמצא בקובץ `safea9lhinstaller_v2_panda.zip` עם השם `secret_sector.bin`. אם יש לכם את הקובץ הזה איפושהו, אתם יכולים להשתמש בו (לשנות לו שם) במקום להוריד את האחד למטה.
 {: .notice--info}

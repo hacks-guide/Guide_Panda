@@ -4,7 +4,9 @@ title: "Instalar 0.23.5"
 
 {% include toc title="Tabla de contenidos" %}
 
-### Resumen de los pasos
+### Lectura requerida
+
+Con esta guía podrás: 
 
 - Instalar la versión 0.23.5 para tu consola / región
 - Instalar boot9strap usando CakeHax Browser
@@ -32,7 +34,7 @@ Este método es compatible con las siguientes consolas
 +  CTR / SPR / FTR
    + [EUR / USA]
 
-Continúa a [Instalar 0.23.5 (CIAs)](0.23.5-install-(cias))
+### Continúa en [Instalar 0.23.5 (CIAs)](0.23.5-install-(cias))
 {: .notice--primary}
 
 ___
@@ -46,5 +48,5 @@ Este método es compatible con las siguientes consolas
 +  CTR / SPR / FTR
    + [CHN / EUR / JPN / KOR / TWN / USA]
 
-Continúa a [Instalar 0.23.5 (CSU)](0.23.5-install-(csu))
+### Continúa en [Instalar 0.23.5 (CSU)](0.23.5-install-(csu))
 {: .notice--primary}

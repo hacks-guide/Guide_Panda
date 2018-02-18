@@ -4,7 +4,9 @@ title: "0.23.5 Install"
 
 {% include toc title="Table of Contents" %}
 
-### Overview of steps
+### Required Reading
+
+This guide will: 
 
 - Install the version 0.23.5 for your region / device
 - Install boot9strap using CakeHax Browser
@@ -32,7 +34,7 @@ This method is compatible with the following devices
 +  CTR / SPR / FTR
    + [EUR / USA]
 
-Continue to [0.23.5 Install (CIAs)](0.23.5-install-(cias))
+### Continue to [0.23.5 Install (CIAs)](0.23.5-install-(cias))
 {: .notice--primary}
 
 ___
@@ -46,5 +48,5 @@ This method is compatible with the following devices
 +  CTR / SPR / FTR
    + [CHN / EUR / JPN / KOR / TWN / USA]
 
-Continue to [0.23.5 Install (CSU)](0.23.5-install-(csu))
+### Continue to [0.23.5 Install (CSU)](0.23.5-install-(csu))
 {: .notice--primary}

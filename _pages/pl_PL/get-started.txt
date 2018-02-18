@@ -34,7 +34,7 @@ ___
 
 This method involves downgrading to an older firmware version to utilize a browser-based exploit. It is *not* compatible with JAN (New 2DS XL) units because they cannot downgrade below 0.25.5.
 
-Continue to [0.23.5 Install](0.23.5-install)
+### Continue to [0.23.5 Install](0.23.5-install)
 {: .notice--primary}
 
 ___
@@ -43,5 +43,5 @@ ___
 
 This method flashes a commercial flashcart with the ntrboot exploit then boots it on your PANDA. It is compatible with all models and versions (including JAN).
 
-Continue to [ntrboot](ntrboot)
+### Continue to [ntrboot](ntrboot)
 {: .notice--primary}
