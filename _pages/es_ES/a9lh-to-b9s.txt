@@ -31,7 +31,7 @@ Ha habido muchos reportes de olas de baneos a usuarios de CFW por parte de Ninte
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### What You Need
+### Qué necesitas
 
 Ten en cuenta que el siguiente archivo requerido llamado `secret_sector_dev.bin`es el mismo encontrado en `safea9lhinstaller_v2_panda.zip` con el nombre `secret_sector.bin`. Si ya tienes ese archivo en alguna parte de tu disco, puedes usar ese (renombrándolo) en vez de descargar el que está más abajo.
 {: .notice--info}
