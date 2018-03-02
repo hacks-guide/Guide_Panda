@@ -9,14 +9,14 @@ minimal_mistakes_skin    : "nord"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Dev 3DS Hacks Guide"
+title                    : "Panda 3DS Hacks Guide"
 title_separator          : "-"
 name                     : "Plailect"
 description              : "Full sighax CFW Guide"
-url                      : "https://dev3ds.hacks.guide" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-enforce_ssl              : "dev3ds.hacks.guide"
+url                      : "https://panda.hacks.guide" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+enforce_ssl              : "panda.hacks.guide"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "Plailect/Guide_Dev3DS" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "Plailect/Guide_Panda" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
