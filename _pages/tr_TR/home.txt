@@ -1,12 +1,12 @@
 ---
 layout: splash
-title: "Dev 3DS Hacks Kılavuzu" #
+title: "Panda 3DS Hacks Guide" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "A complete guide to 3DS custom firmware, <br /> from stock to boot9strap.<br />"
+excerpt: "A complete guide to Panda 3DS custom firmware, <br /> from stock to boot9strap.<br />"
 ---
 
 Thoroughly read all of the introductory pages (including this one!) before proceeding.
