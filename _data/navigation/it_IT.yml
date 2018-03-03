@@ -25,16 +25,16 @@ main:
     title: Utilizzare GodMode9
     url: godmode9-usage
   - 
-    title: Site Navigation
+    title: Mappa del sito
     url: site-navigation
   - 
     title: Disinstallare il CFW
     url: uninstall-cfw
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
+    title: Se hai bisogno di aiuto, chiedi pure su <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew su Discord</a> (in inglese).
   - 
-    title: If you appreciate this guide, I accept <a href="donations">Donations</a>.
+    title: Se hai gradito questa guida, accetto <a href="donations">donazioni</a>.
 footer:
   - 
     title: Codice Sorgente
