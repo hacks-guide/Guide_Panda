@@ -4,7 +4,7 @@ title: "Installazione di boot9strap (ntrboot)"
 
 {% include toc title="Indice" %}
 
-### What You Need
+### Cosa serve
 
 * Un magnete che ponga la console in modalità riposo (in caso sia del tipo a chiusura)
 * La flashcart con installato ntrboot
@@ -62,7 +62,7 @@ title: "Installazione di boot9strap (ntrboot)"
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Prosegui con il [Completamento dell'installazione](finalizing-setup)
 {: .notice--primary}
 
 ___
@@ -75,7 +75,7 @@ Non seguire questa parte finché non avrai completato tutte le altre istruzioni 
 
 #### Sezione V - Rimozione di ntrboot
 
-##### What You Need
+##### Cosa serve
 
 * L'ultima versione di [ntrboot_flasher](https://github.com/kitling/ntrboot_flasher/releases/latest)
 * Il backup della flashrom per la tua flashcart    
