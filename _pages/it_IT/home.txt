@@ -1,15 +1,15 @@
 ---
 layout: splash
-title: "Panda 3DS Hacks Guide" #
+title: "Guida per l'Hacking del 3DS Panda" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "A complete guide to Panda 3DS custom firmware, <br /> from stock to boot9strap.<br />"
+excerpt: "La guida omnicomprensiva per installare un custom firmware su 3DS Panda, <br /> da zero a boot9strap.<br />"
 ---
 
-For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+Per la lista di tutte le guide per l'installazione di homebrew e custom firmware su altre console, visita [Hacks.Guide](https://hacks.guide).
 {: .notice--primary}
 
 ___
@@ -19,15 +19,16 @@ Leggi attentamente tutte le pagine introduttive (compresa questa!) prima di cont
 
 {% capture notice-home %}
 Questa guida è *solo* per console per sviluppatori ("PANDA")!    
-If you have a retail (consumer purchased; not from the Nintendo Developer Program) console, check out the [retail 3DS Hacks Guide](https://3ds.guide)
+Se hai una console normale (comprata in negozio; non derivata dal Programma Nintendo per gli Sviluppatori), vai sulla [guida per 3DS normali](https://3ds.guide)
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
 {% capture notice-1 %}
-This guide is available in other languages!    
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
-Alternatively, click [here](https://crowdin.com/project/3ds-devguide) to help to keep these translations up to date.
+Questa guida è disponibile anche in altre lingue!    
+Clicca l'icona <i class="fa fa-language" aria-hidden="true"></i> in alto a destra per cambiare la lingua.    
+Oppure, clicca [qui]
+(https://crowdin.com/project/3ds-devguide) per aiutare a mantenere queste traduzioni aggiornate.
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
@@ -37,7 +38,7 @@ La guida ha bisogno di *te* per il seeding di [questi](https://3ds.guide/rss.xml
 
 ## Cosa vuol dire Homebrew?
 
-Con [**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) di solito si fa riferimento a software non autorizzato da Nintendo. This includes homebrew tools, applications, games, and emulators.
+Con [**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) di solito si fa riferimento a software non autorizzato da Nintendo. Tra questi ci sono strumenti, applicazioni, giochi ed emulatori.
 
 Nella maggior parte dei casi, è possibile avviare homebrew sulla tua console in modo del tutto gratuito attraverso il browser internet.
 
@@ -56,9 +57,10 @@ boot9strap è attualmente il più recente e miglior metodo per installare un Cus
 
 L'uso di boot9strap rispetto metodi preesistenti per l'avvio di un Custom Firmware è consigliato sotto ogni aspetto, per cui si raccomanda l'uso di questa guida al posto di procedure basate su software ormai datati (come menuhax + rxTools, arm9loaderhax, o anche normali sighax).
 
-For information on how boot9strap works, please see [this paper](https://arxiv.org/abs/1802.00359).
+Per informazioni sul funzionamento di boot9strap, consulta [questo articolo]
+(https://arxiv.org/abs/1802.00359).
 
-For a list of each of the calculated sighax signatures, see [this gist](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52).
+Per una lista di tutte le firme di sighax, è possibile consultare [questo gist](https://gist.github.com/SciresM/cdd2266efb80175d37eabbe86f9d8c52).
 
 ## Cosa posso fare con un Custom Firmware?
 
@@ -108,5 +110,5 @@ Questa guida potrebbe essere compatibile con le seguenti unità di sviluppo, ma 
 
 ___
 
-### Continue to [Get Started](get-started)
+### Prosegui con [Cominciamo!](get-started)
 {: .notice--primary}
