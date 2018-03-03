@@ -15,7 +15,7 @@ GodMode9 è un software potente che rende possibile la modifica di qualunque asp
 Some of the instructions below are only applicable to the latest version of GodMode9, and as such you should follow this section to update your copy before continuing. Sovrascrivi qualunque file preesistente.
 {: .notice--info}
 
-### What You Need
+### Cosa serve
 
 * L'ultima release di [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 
