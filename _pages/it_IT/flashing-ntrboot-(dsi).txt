@@ -21,7 +21,7 @@ Tieni presente che versioni del software del DSi più recenti hanno bloccato l'a
 Nota bene che in alcune rare circostanze, è possibile **brickare** una flashcart contraffatta durante il processo di installazione e renderla così permanentemente inutilizzabile. È improbabile, tuttavia sono supportate soltanto le flashcart originali qui indicate. Per ridurre il rischio di ottenere una flashcart contraffatta, si raccomanda di comprarne una solo da siti affidabili (come [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
 
-### What You Need
+### Cosa serve
 
 * La flashcart compatibile con ntrboot
 * Due console 
@@ -52,5 +52,5 @@ Nota bene che in alcune rare circostanze, è possibile **brickare** una flashcar
 
 ___
 
-### Continue to [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
+### Prosegui con l'[Installazione di boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
 {: .notice--primary}

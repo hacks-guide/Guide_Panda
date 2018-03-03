@@ -17,7 +17,7 @@ Durante la guida verranno anche configurate le seguenti applicazioni:
 +  **Luma3DS Updater** *(aggiorna facilmente il CFW)*
 +  **GodMode9** *(applicazione multifunzione per gestire NAND e schede di gioco)*
 
-### What You Need
+### Cosa serve
 
 * L'ultima versione di [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(il file `.cia`)*
 * L'ultima release di [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)

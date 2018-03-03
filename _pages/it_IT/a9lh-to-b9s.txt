@@ -31,7 +31,7 @@ Se Luma3DS è configurato con un PIN di accesso, SafeB9SInstaller ti darà l'err
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### What You Need
+### Cosa serve
 
 Tieni presente che il file `secret_sector_dev.bin` qui richiesto è lo stesso che si trova nell'archivio `safea9lhinstaller_v2_panda.zip` con il nome `secret_sector.bin`. Se hai ancora quel file da qualche parte nell'hard disk, puoi utilizzarlo (rinominandolo) al posto di quello richiesto da scaricare in questa sezione.
 {: .notice--info}

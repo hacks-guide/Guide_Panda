@@ -12,7 +12,7 @@ A seconda della dimensione della tua scheda SD e della velocità del tuo compute
 
 Questa pagina è solo per utenti Windows. Se non sei su Windows, usa [F3 (linux)](f3-(linux)) o [F3X (mac)](f3x-(mac)).
 
-### What You Need
+### Cosa serve
 
 * L'ultima versione di [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
@@ -34,5 +34,5 @@ Se il test mostra come risultato "Test finished without errors", la tua scheda S
 Se il test mostra qualunque altro risultato, la tua scheda SD potrebbe essere corrotta o danneggiata e potresti doverla sostituire!
 {: .notice--danger}
 
-### Return to [Get Started](Get-Started)
+### Ritorna a [Cominciamo!](Get-Started)
 {: .notice--primary}

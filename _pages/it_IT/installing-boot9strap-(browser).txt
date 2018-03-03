@@ -4,7 +4,7 @@ title: "Installazione di boot9strap (Browser)"
 
 {% include toc title="Indice" %}
 
-### What You Need
+### Cosa serve
 
 * L'ultima versione di [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * L'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(il file `devkit`; non il file `ntr`)*
@@ -47,5 +47,5 @@ title: "Installazione di boot9strap (Browser)"
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Prosegui con il [Completamento dell'installazione](finalizing-setup)
 {: .notice--primary}
