@@ -9,6 +9,11 @@ header:
 excerpt: "A complete guide to Panda 3DS custom firmware, <br /> from stock to boot9strap.<br />"
 ---
 
+For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+{: .notice--primary}
+
+___
+
 תקראו ביסודיות את כל הדפים המקדימים (כולל את זה!) לפני שאתם ממשיכים.
 {: .notice--warning}
 
