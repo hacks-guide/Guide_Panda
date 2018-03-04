@@ -1,15 +1,15 @@
 ---
 layout: splash
-title: "Panda 3DS Hacks Guide" #
+title: "Guía de hacks para 3DS Panda" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: /images/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: "A complete guide to Panda 3DS custom firmware, <br /> from stock to boot9strap.<br />"
+excerpt: "Una guía completa de custom firmware para las 3DS Panda, <br /> desde stock a boot9strap.<br />"
 ---
 
-For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+Si buscas guías completas de homebrew y custom firmware para otras consolas, echa un vistazo al sitio web [Hacks.Guide](https://hacks.guide).
 {: .notice--primary}
 
 ___
