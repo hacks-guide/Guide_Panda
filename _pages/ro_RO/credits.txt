@@ -1,14 +1,14 @@
 ---
-title: "Credits"
+title: "Contribuții"
 ---
 
-**Special thanks to all of [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) for being awesome!**
+**Mulțumiri speciale tuturor oamenilor din [#Cakey de pe Freenode](http://webchat.freenode.net/?channels=%23Cakey) pentru că sunt minunați!**
 {: .notice--primary}
 
-**Special thanks to all of [the translators](https://crowdin.com/project/3ds-devguide/) for being awesome!**
+**Mulțumiri speciale tuturor [traducătorilor](https://crowdin.com/project/3ds-devguide/) pentru că sunt minunați!**
 {: .notice--primary}
 
-If I forgot you here, contact me and I'll add your name.
+Dacă te-am uitat, contactează-mă și îți voi adaugă numele.
 
 {% capture notice-1 %}
 
