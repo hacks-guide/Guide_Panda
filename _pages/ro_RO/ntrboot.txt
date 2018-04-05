@@ -2,18 +2,18 @@
 title: "ntrboot"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Cuprins" %}
 
-### Required Reading
+### Lectură obligatorie
 
-If you already flashed ntrboot to your flashcart, you can follow [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot)) for instructions on how to use it.
+Dacă aveți ntrboot deja instalat pe flashcart, puteți urmări [Instalând boot9strap (ntrboot)](installing-boot9strap-(ntrboot)) pentru instrucțiuni despre cum să le folosiți.
 {: .notice--success}
 
-### Required Reading
+### Lectură obligatorie
 
-Installing boot9strap with ntrboot requires a compatible DS / DSi flashcart to flash ntrboot to.
+Instalând boot9strap cu ntrboot necesită un flashcart DS / DSi compatibil pentru a instala ntrboot.
 
-The ntrboot exploit itself is compatible with the following flashcarts:
+Exploit-ul ntrboot în sine este compatibil cu următoarele flashcart-uri:
 
   + [R4i Gold 3DS (RTS)](http://www.nds-card.com/ProShow.asp?ProID=149)
   + [Acekard 2i](http://www.nds-card.com/ProShow.asp?ProID=160)
@@ -21,33 +21,33 @@ The ntrboot exploit itself is compatible with the following flashcarts:
   + R4i Ultra
   + R4 3D Revolution
   + Infinity 3 R4i
-  + DSTT ([some flash chips only!](https://gist.github.com/Hikari-chin/6b48f1bb8dd15136403c15c39fafdb42))
+  + DSTT ([merge doar cu unele chipuri flash!](https://gist.github.com/Hikari-chin/6b48f1bb8dd15136403c15c39fafdb42))
 
   ![]({{ "/images/screenshots/ntrboot-flashcarts.png" | absolute_url }})
   {: .notice--info}
 
-Note that specific methods may have additional compatibility information.
+Țineți cont că metodele specifice pot avea informații suplimentare despre compatibilitate.
 
-The usage of this exploit, regardless of flashing method, requires access to a small magnet if the target device is of a folding style (any 3DS family system that is not the old 2DS with a sleep switch). This is because the exploit requires your device to enter sleep mode while still having access to the buttons.
+Utilizarea acestui exploit, indiferent de metoda de instalare, necesită accesul la un mic magnet dacă dispozitivul țintă este pliabil (oricare din familia 3DS care nu este Old 2DS cu un întrerupător pentru modul de suspendare). Asta este pentru că exploit-ul are nevoie ca dispozitivul să intre în modul de suspendare în timp ce aveți acces la butoane.
 
-To test if a magnet will work, hold it on or around the (A)(B)(X)(Y) buttons while the device is powered on to see if it triggers sleep mode. If it does, both displays will go black as long as the magnet is held in that spot.
+Pentru a testa dacă magnetul funcționează, țineți-l pe sau în jurul butoanelor (A)(B)(X)(Y) în timp ce dispozitivul este pornit pentru a verifica dacă declanșează modul de suspendare. Dacă e așa, ambele ecrane se vor stinge cât timp magnetul este ținut în același loc.
 {: .notice--info}
 
-Note that the flashcart will not be able to be used for its standard functions while the ntrboot exploit is installed on it (except for in the case of the Acekard 2i, which remains functional *on 3DS systems with custom firmware installed only*). There are optional steps at the end of the ntrboot flashing instructions to remove it from your flashcart when you are done.
+Țineți cont că flashcart-ul nu va putea fi folosit pentru funcțiile lui obişnuite cât timp exploit-ul este instalat pe el (excepție în cazul unui Acekard 2i, care rămâne funcțional *numai pe dispozitivele 3DS care au custom firmware instalat*). Există paşi opționali la sfârșitul instrucțiunilor pentru instalarea ntrboot-ului cu scopul de a-l şterge de pe flashcart după ce ați terminat.
 
-Note that in some rare circumstances, it may be possible for the flashing process to **brick** a counterfeit flashcart and render it permanently unusable. This is unlikely, but nevertheless only original listed flashcarts are supported. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](http://www.nds-card.com/))
+Țineți cont că în anumite cazuri rare, poate fi posibil ca procesul de instalare să facă **brick** unui flashcard contrafăcut și să devină complet nefolositor. Acest lucru este puţin probabil, totuși, numai flashcart-urile originale menționate sunt compatibile. Pentru a reduce şansa de a primi un card contrafăcut, este recomandat să folosiți un site de încredere pentru a cumpăra flashcart-ul (cum ar fi [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
 
 ___
-### Methods
+### Metode
 
 ___
 
-#### Flashing ntrboot (3DS Single System)
+#### Instalând ntrboot (Un 3DS)
 
-This method requires nothing more than your stock unhacked 3DS and a compatible flashcart.
+Această metodă necesită nimic mai mult decât un 3DS stoc nemodat şi un flashcart compatibil.
 
-Note that more recent 3DS versions have blocked access to some flashcarts, and some flashcarts have always been blocked on the 3DS. This leaves them unable to launch the flasher `.nds` file on some (or all) versions. The ntrboot compatible flashcarts are able to launch `.nds` files on the 3DS (under the listed versions):
+Țineți cont că versiunile mai recente de 3DS au accesul blocat la unele flashcart-uri, și altele au fost întotdeauna blocate pe 3DS. Acest lucru le face incapabile să pornească fișierul de instalare`.nds` pe unele (sau toate) versiuni mai recente. Flashcart-urile compatibile cu ntrboot pot porni fișierele `.nds`pe 3DS (sub următoarele versiuni):
 
   + [R4i Gold 3DS (RTS)](http://www.nds-card.com/ProShow.asp?ProID=149) : <= 11.6.0
   + [Acekard 2i](http://www.nds-card.com/ProShow.asp?ProID=160) : <= 4.3.0
@@ -55,34 +55,34 @@ Note that more recent 3DS versions have blocked access to some flashcarts, and s
   + R4i Ultra : <= 4.3.0
   + Infinity 3 R4i : <= 11.6.0
 
-Continue to [Flashing ntrboot (3DS Single System)](flashing-ntrboot-(3ds-single-system))
+Continuați la [Instalând ntrboot (Un 3DS)](flashing-ntrboot-(3ds-single-system))
 {: .notice--primary}
 
 ___
 
-#### Flashing ntrboot (3DS Multi System)
+#### Instalând ntrboot (Două 3DS-uri)
 
-This method requires temporary access to a second 3DS family device that is already running boot9strap.
+Această metodă necesită acces temporar la un al doilea dispozitiv din familia 3DS care deja pornește boot9strap.
 
-Continue to [Flashing ntrboot (3DS Multi System)](flashing-ntrboot-(3ds-multi-system))
+Continuați la [Instalând ntrboot (Două 3DS-uri)](flashing-ntrboot-(3ds-multi-system))
 {: .notice--primary}
 
 ___
 
-#### Flashing ntrboot (NDS)
+#### Instalând ntrboot (NDS)
 
-This method requires temporary access to a Nintendo DS or Nintendo DS Lite that is compatible with your flashcart.
+Această metodă necesită acces temporar la un Nintendo DS sau Nintendo DS Lite care este compatibil cu flashcart-ul dumneavoastră.
 
-Continue to [Flashing ntrboot (NDS)](flashing-ntrboot-(nds))
+Continuați la [Instalând ntrboot (NDS)](flashing-ntrboot-(nds))
 {: .notice--primary}
 
 ___
 
-#### Flashing ntrboot (DSi)
+#### Instalând ntrboot (DSi)
 
-This method requires temporary access to a Nintendo DSi that is compatible with your flashcart.
+Această metodă necesită acces temporar la un Nintendo DSi care este compatibil cu flashcart-ul dumneavoastră.
 
-Note that more recent DSi versions have blocked access to some flashcarts. This leaves them unable to launch the flasher `.nds` file on newer versions. The ntrboot compatible flashcarts are able to launch `.nds` files under the following versions:
+Țineți cont că versiunile mai recente de DSi au accesul blocat la unele flashhcart-uri. Acest lucru le face incapabile să pornească fișierul de instalare`.nds` pe versiuni mai recente. Flashcart-urile compatibile cu ntrboot pot porni fișierele `.nds` sub următoarele versiuni:
 
   + [R4i Gold 3DS RTS](http://www.nds-card.com/ProShow.asp?ProID=149) : <= 1.4.5
   + [Acekard 2i](http://www.nds-card.com/ProShow.asp?ProID=160) : <= 1.4.4
@@ -90,14 +90,14 @@ Note that more recent DSi versions have blocked access to some flashcarts. This 
   + R4i Ultra : <= 1.4.1
   + Infinity 3 R4i : <= 1.4.5
 
-Continue to [Flashing ntrboot (DSi)](flashing-ntrboot-(dsi))
+Continuați la [Instalând ntrboot (DSi)](flashing-ntrboot-(dsi))
 {: .notice--primary}
 
 ___
 
-#### Flashing ntrboot (Powersaves)
+#### Instalând ntrboot (Powersaves)
 
-This method, once ready, will require temporary access to a [Powersaves](https://amzn.to/2fb3VY7). This method is not yet complete, and as such is just a placeholder page.
+Această metodă, după ce este gata, va necesita acces temporar la un [Powersaves] (https://amzn.to/2fb3VY7). Această metodă nu este încă completă, şi ca atare este doar o pagină substituent.
 
-Continue to [Flashing ntrboot (Powersaves)](flashing-ntrboot-(powersaves))
+Continuați la [Instalând ntrboot (Powersaves)](flashing-ntrboot-(powersaves))
 {: .notice--primary}

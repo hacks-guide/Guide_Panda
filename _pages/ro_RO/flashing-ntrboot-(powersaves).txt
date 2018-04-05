@@ -1,7 +1,7 @@
 ---
-title: "Flashing ntrboot (Powersaves)"
+title: "Instalând ntrboot (Powersaves)"
 ---
 
-This method is not yet complete, and as such is just a placeholder page.
+Această metodă nu este încă completă, şi ca atare este doar o pagină substituent.
 
-This method, once ready, will require temporary access to a [Powersaves](https://amzn.to/2fb3VY7). This method is not yet complete, and as such is just a placeholder page.
+Această metodă, după ce este gata, va necesita acces temporar la un [Powersaves] (https://amzn.to/2fb3VY7). Această metodă nu este încă completă, şi ca atare este doar o pagină substituent.

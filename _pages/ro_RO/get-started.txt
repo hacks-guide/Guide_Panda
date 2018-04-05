@@ -1,47 +1,47 @@
 ---
-title: "Get Started"
+title: "Începeți"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Cuprins" %}
 
-### Required Reading
+### Lectură obligatorie
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+Înainte să începeți, este de dorit să vă verificați cardul SD pentru erori folosind [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), sau [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
 {% capture notice-1 %}
-There have been reports of a wave of bans being handed out to CFW users by Nintendo. To protect yourself, please do the following steps before starting this guide:
+Au existat rapoarte despre un val de banuri adresate utilizatorilor de CFW de către Nintendo. Pentru a vă proteja, efectuaţi următorii paşi înainte de a începe acest ghid:
 
-1. Go to System Settings, then "Internet Settings", then "SpotPass", then "Sending of System Information"
-1. Disable the "Sending of System Information" option
-1. Exit the System Settings
-1. Go to your Friend's List (the Face Icon in the top row of your Home Menu)
-  + If you receive an error and are kicked out of the menu, the Friend's List setting is already disabled
-1. Go to the Friend's List settings, then "Friend Notification Settings", then "Show friends what you're playing"
-1. Disable the "Show friends what you're playing" option
-1. Exit your Friend's List
+1. Mergeți în System Settings, apoi "Internet Settings", apoi "SpotPass", apoi "Sending of System Information"
+1. Dezactivați opţiunea "Sending of System Information"
+1. Ieșiți din System Settings
+1. Mergeți la Lista de prieteni (pictograma cu o față de pe rândul de sus al meniului HOME)
+  + În cazul în care ați primit o eroare şi meniul se închide, setarea de pe Lista de prieteni este deja dezactivată
+1. Mergeți la setările de pe Lista de prieteni, apoi "Friend Notification Settings", apoi "Show friends what you're playing"
+1. Dezactivați opțiunea "Show friends what you're playing"
+1. Ieșiți din Lista de prieteni
 
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
 ___
-### Methods
+### Metode
 
 ___
 
-#### 0.23.5 Install
+#### Instalare 0.23.5
 
-This method involves downgrading to an older firmware version to utilize a browser-based exploit. It is *not* compatible with JAN (New 2DS XL) units because they cannot downgrade below 0.25.5.
+Această metodă constă în a retrograda srpre un firmware mai vechi pentru a folosi un exploit de browser. *Nu* este compatibilă cu unitățile JAN (New 2DS XL) din cauza că nu este posibilă retrogradarea spre o versiune mai mică de 0.25.5.
 
-### Continue to [0.23.5 Install](0.23.5-install)
+### Continuați la [Instalare 0.23.5](0.23.5-install)
 {: .notice--primary}
 
 ___
 
 #### ntrboot
 
-This method flashes a commercial flashcart with the ntrboot exploit then boots it on your PANDA. It is compatible with all models and versions (including JAN).
+Această metodă introduce explouit-ul de ntrboot într-un flashcart comercial după care îl pornește în PANDA-ul dumneavoastră. Este compatibil cu toate modelele şi versiunile (inclusiv JAN).
 
-### Continue to [ntrboot](ntrboot)
+### Continuă la [ntrboot](ntrboot)
 {: .notice--primary}
