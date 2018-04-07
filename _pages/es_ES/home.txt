@@ -81,7 +81,7 @@ Para una lista de cada una de las firmas calculadas de sighax, echa un vistazo a
 + Si todo va según el plan, no perderás datos y terminarás con todo lo que tenías anteriormente.
 + ¡Mantén la consola conectada al cargador a lo largo de todo el proceso para evitar pérdida de datos o daños por un apagado inesperado!
 + Tu tarjeta SD debe ser [MBR, no GPT](http://www.howtogeek.com/245610/) (la tarjeta SD que viene con la consola será MBR por defecto).
-+ If you need to format a brand new SD card, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
++ Si necesitas formatear una tarjeta SD nueva, puedes usar [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) y ajustar el tamaño de unidad de asignación a 32K.
 + La 2DS es esencialmente idéntica a la Old 3DS en términos de software, y cualquiera de los pasos donde aparece "Old 3DS" también se aplican a 2DS.
 
 ## ¿Con qué consolas es compatible esta guía?
