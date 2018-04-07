@@ -23,8 +23,8 @@ title: "סיום התהליך"
 * הגרסה העדכנית של [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * את הגרסה העדכנית של [FBI](https://github.com/Steveice10/FBI/releases/latest) *(יש להוריד את קובץ ה- `.cia` ואת קובץ ה`.3dsx)*
 * הפורק העדכני של [Luma3DS Updater](https://github.com/KunoichiZ/lumaupdate/releases/latest) *(יש להוריד את קובץ ה- `.cia`)*
-* [`setup_ctrnand_luma3ds.gm9`]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }})
-* [`cleanup_sd_card.gm9`]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }})
+* [setup_ctrnand_luma3ds.gm9]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }})
+* [cleanup_sd_card.gm9]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }})
 
 ### Instructions
 
