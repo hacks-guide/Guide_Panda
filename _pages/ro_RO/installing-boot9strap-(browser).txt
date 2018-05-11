@@ -4,11 +4,18 @@ title: "Instalând boot9strap (Browser)"
 
 {% include toc title="Cuprins" %}
 
+### Lectură obligatorie
+
+If you have already hacked your device before and have a EmuNAND based CFW setup, this guide deals exclusively with SysNAND and you should follow all instructions from within or applying to SysNAND. Note that the terms EmuNAND and RedNAND refer to slightly different implementations of [the same concept](http://3dbrew.org/wiki/NAND_Redirection).
+
+To extract the `.7z` files linked on this page, you will need a file archiver like [7-Zip](http://www.7-zip.org/) or [The Unarchiver](https://theunarchiver.com/).
+
 ### Ce aveți nevoie
 
-* Cea mai nouă versiune de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* Cea mai nouă versiune de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(fișierul `devkit`, nu cel `ntr`)*
-* Cea mai nouă versiune de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(fișierul '.7z')*
+* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
+* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
+* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(the `.7z` file)*
+* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 
 ### Instrucțiuni
 
@@ -17,17 +24,26 @@ title: "Instalând boot9strap (Browser)"
 1. Închideți dispozitivul
 1. Introduceți cardul SD în calculator
 1. Copiați `boot.firm` de la Luma3DS `.7z` pe rădăcina cardului SD
+1. Copy `boot.3dsx` to the root of your SD card
 1. Creați un folder numit 'boot9strap' pe rădăcina cardului SD
-1. Copiați `boot9strap_dev.firm` și `boot9strap_dev.firm.sha` din arhiva `.zip` boot9strap în folderul `/boot9strap/` de pe cardul SD
+1. Copiați `boot9strap.firm` și `boot9strap.firm.sha` din arhiva `.zip` boot9strap în folderul `/boot9strap/` de pe cardul SD
 1. Copiați `SafeB9SInstaller.dat` și `Launcher.dat` din arhiva `.zip` SafeB9SInstaller în rădăcina cardului SD
+
+    ![]({{ "/images/screenshots/boot9strap-browser-file-layout.png" | absolute_url }})
+    {: .notice--info}
+
 1. Reintroduceţi cardul SD în dispozitiv
 1. Porniți dispozitivul
 
 #### Secțiunea II - Lansând SafeB9SInstaller
 
-1. Porniți browserul și mergeți la următorul URL pe dispozitivul dumneavoastră
+1. Launch the browser and go to one of the following URLs on your device
   + `https://dukesrg.github.io/?SafeB9SInstaller.dat`
-  + Dacă primiți o eroare, [urmați acest ghid de depanare](troubleshooting#ts_browser)
+  + `http://go.gateway-3ds.com/`
+  + `http://www.reboot.ms/3ds/load.html?Launcher.dat`
+  + `http://dukesrg.dynu.net/3ds/rop?GW17567.dat&Launcher.dat`
+  + Make sure to try each URL if the first one doesn't work (some versions cannot use the first one, and some versions cannot use the last three)
+  + If you get an error, [follow this troubleshooting guide](troubleshooting#a-browser-based-exploit-is-not-working)
 1. Dacă exploit-ul a avut succes, veți porni în SafeB9SInstaller
 
 #### Secțiunea III - Instalând boot9strap
@@ -39,7 +55,7 @@ title: "Instalând boot9strap (Browser)"
 #### Secțiunea IV - Configurând Luma3DS
 
 1. Dispozitivul dumneavoastră ar trebui să fi repornit în meniul de configurare Luma3DS
-  + Dacă vă apare un ecran negru, [urmați acest ghid de depanare](troubleshooting#ts_sys_b9s)
+  + Dacă vedeți un ecran negru, [urmați acest ghid de depanare](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
 1. Folosiți butonul (A) și D-Pad-ul ca să activați următoarele:    
   + **"Show NAND or user string in System Settings"**
 1. Apăsați (Start) pentru a salva și reporni
