@@ -4,6 +4,11 @@ title: "Usos de GodMode9"
 
 {% include toc title="Tabla de contenidos" %}
 
+For support with GodMode9, as well as help with scripting and to get updates and info, join the [GodMode9 Discord server](https://discord.gg/EGu6Qxw).
+{: .notice--primary}
+
+### Lectura requerida
+
 GodMode9 es un explorador de archivos con acceso completo para la consola 3DS de Nintendo, dando acceso a la tarjeta SD, las particiones FAT dentro de tu SysNAND y EmuNAND, y básicamente a cualquier otra cosa. Entre otras funciones, te permite copiar, eliminar, renombrar archivos y crear carpetas.
 
 Ten en cuenta que si tienes archivos de payloads distintos de `GodMode9.firm` en la carpeta `/luma/payloads/` en tu tarjeta SD, al mantener (Start) al inicio se desplegará un "chainloader menu" donde tendrás que usar el D-Pad y pulsar (A) para seleccionar "GodMode9", para esas instrucciones. 
@@ -17,7 +22,7 @@ Algunas de las siguientes instrucciones sólo son aplicables a la última versi�
 
 ### Qué necesitas
 
-* La ultima versión de [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
 
 ### Instrucciones
 
@@ -112,8 +117,8 @@ Esto sólo funcionará si la inyección sobre Salud y Seguridad fue realizada co
 
 1. Inicia GodMode9 manteniendo presionado (Start) mientras enciendes la consola
 1. Selecciona la unidad correspondiente al tipo de título que quieras volcar:
-  + **Título instalado por el usuario**: Ve a `[A:] SYSNAND SD`
-  + **Título del sistema**: Ve a `[1:] SYSNAND CTRNAND`
+  + **User Installed Title**: `[A:] SYSNAND SD`
+  + **System Title**: `[1:] SYSNAND CTRNAND`
 1. Mantén (R) y presiona (A) al mismo tiempo para abrir las opciones de unidad
 1. Selecciona "Search for titles"
 1. Presiona (A) para continuar
@@ -211,11 +216,22 @@ Para identificar el ID de título de un archivo `<TitleID>.gbavc.sav`, puedes ob
 
 ## Remover un NNID sin formatear tu consola
 
+### Qué necesitas
+
+* [remove_nnid.gm9]({{ "/gm9_scripts/remove_nnid.gm9" | absolute_url }}){:download}
+
+### Instrucciones
+
 1. Inicia GodMode9 manteniendo presionado (Start) mientras enciendes la consola
-1. Ve a `[1:] SYSNAND CTRNAND` -> `data` -> (ID de 32 caracteres) -> `sysdata` -> `00010038`
-1. Manteniendo pulsado el botón (R), presiona (X) sobre `00000000` para renombrar este archivo
-1. Presiona una vez (Arriba) para cambiar el nombre a `10000000`
-1. Presiona (A) para guardar los cambios
-1. Presiona (A) para desbloquear la escritura de SysNAND y después haz la combinación de teclas mostrada
-1. Vuelve al menú principal
+1. Mantén (R) y presiona (B) al mismo tiempo para extraer la SD
+1. Inserta tu tarjeta SD en tu computadora
+1. Copy `remove_nnid.gm9` to the `/gm9/scripts/` folder on your SD card
+1. Reinserta la tarjeta SD en tu consola
+1. Presiona el botón (Home) para abrir el menú de acción
+1. Selecciona "Scripts..."
+1. Select "remove_nnid"
+1. Presiona (A) para continuar cuando se te pida
+1. Presiona (A) para desbloquear la escritura de SysNAND (lvl1) y después introduce la combinación de teclas mostrada
+1. Presiona (A) para continuar
+1. Presiona (A) para volver a bloquear los permisos de escritura
 1. Presiona (Start) para reiniciar tu consola
