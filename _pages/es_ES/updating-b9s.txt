@@ -8,7 +8,7 @@ title: "Actualizar B9S" #
 
 Esta página es para ayudar a los usuarios actuales de boot9strap a actualizar su instalación a la última versión.
 
-To extract the `.7z` files linked on this page, you will need a file archiver like [7-Zip](http://www.7-zip.org/) or [The Unarchiver](https://theunarchiver.com/).
+Para extraer los archivos `.7z` enlazados esta página, necesitarás un gestor de archivos como [7-Zip](http://www.7-zip.org/) o [The Unarchiver](https://theunarchiver.com/).
 
 {% capture notice-1 %}
 Ha habido muchos reportes de olas de baneos a usuarios de CFW por parte de Nintendo. Para protegerte, puedes realizar los siguientes pasos antes de seguir esta guía:
@@ -16,11 +16,11 @@ Ha habido muchos reportes de olas de baneos a usuarios de CFW por parte de Ninte
 1. Ve a Configuración de la consola, luego a "Configuración de internet", luego "Envío de información sobre la consola"
 1. Desactiva la opción "Envío de información sobre la consola"
 1. Sal de la Configuración de la consola
-1. Go to your Friend List (the [orange Face Icon]({{ "/images/friend-list-icon.png" | absolute_url }}) in the top row of your Home Menu)
-  + If you receive an error and are kicked out of the menu, the Friend List setting is either already disabled or your console cannot connect to Nintendo's servers (due to a ban or connection issues)
-1. Go to the Friend List settings, then "Friend Notification Settings", then "Show friends what you're playing"
+1. Ve a tu Lista de Amigos (el [Icono Naranja con una cara]({{ "/images/friend-list-icon.png" | absolute_url }}) en la fila superior de tu Menú HOME)
+  + Si recibes un error y eres expulsado del menú, la configuración de la Lista de Amigos ya ha sido deshabilitada o tu consola no se puede conectar a los servidores de Nintendo (debido a un ban o por problemas de conexión)
+1. Ve a la configuración de la Lista de amigos, luego a "Notificaciones entre amigos", y luego "Mostrar qué estás jugando"
 1. Desactiva la opción "Mostrar qué estás jugando"
-1. Exit your Friend List
+1. Sal de tu Lista de amigos
 
 {% endcapture %}
 
@@ -28,10 +28,10 @@ Ha habido muchos reportes de olas de baneos a usuarios de CFW por parte de Ninte
 
 ### Qué necesitas
 
-* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(the `.7z` file)*
+* La última versión de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
+* La última versión de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(boot9strap normal; no el archivo `devkit` ni el archivo `ntr`)*
+* La última versión de [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
+* La última versión de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(el archivo`.7z`)*
 * [setup_ctrnand_luma3ds.gm9]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }}){:download}
 * [cleanup_sd_card.gm9]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }}){:download}
 
