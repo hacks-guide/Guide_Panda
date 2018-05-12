@@ -62,7 +62,7 @@ chequeos ty a completar
 
 1. Apaga tu consola
 1. Inserta tu tarjeta SD en tu computadora
-1. Copy `boot.firm` from the Luma3DS `.7z` to the root of your SD card, replacing the existing file
+1. Copia `boot.firm` desde el `.7z` de Luma3DS a la raíz de tu tarjeta SD reemplazando el archivo existente
 1. Reinserta la tarjeta SD en tu consola
 1. Enciende tu consola
 
@@ -75,9 +75,9 @@ Esta sección es sólo necesaria si se ha mostrado la configuración Luma3DS lue
   + **"Show NAND or user string in System Settings"**
 1. Presiona (Start) para guardar y reiniciar
 
-#### Section V - CTRNAND Luma3DS
+#### Sección V - CTRNAND Luma3DS
 
-1. Reboot holding (Start) to launch GodMode9
+1. Reinicia tu consola manteniendo pulsado (Start) para entrar a GodMode9
 1. Si se te pide crear copias de seguridad de archivos esenciales, presiona (A) para hacerlo y luego presiona (A) para continuar una vez que haya terminado
 1. Si se te pide fijar la fecha y hora RTC, presiona (A) para hacerlo, luego define la fecha y la hora, y después presiona (A) para continuar
   + Ten en cuenta que, si tuviste que cambiar la fecha y hora RTC, también deberás cambiar la hora en la Configuración de la consola después de hacer esta guía
@@ -99,12 +99,12 @@ Esta sección es sólo necesaria si se ha mostrado la configuración Luma3DS lue
 1. Selecciona "cleanup_sd_card"
 1. Presiona (A) para continuar cuando se te pida
 1. Presiona (A) para continuar
-1. Hold (R) and press (Start) to power off your device
+1. Mantén presionado (R) y presiona (Start) para apagar tu consola
 
 ___
 
-Boot9strap has been successfully updated.
+Boot9strap ha sido actualizado correctamente.
 {: .notice--success}
-1. Launch Luma3DS chainloader menu by holding (Start) during boot
+1. Inicia el menú de selección de payloads de Luma3DS manteniendo (Start) al encender
 1. Inicia SafeB9SInstaller presionando (A)
-1. Wait for all safe
+1. Espera a que se completen los chequeos
