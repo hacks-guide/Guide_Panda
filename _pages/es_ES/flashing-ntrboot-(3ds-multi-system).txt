@@ -8,7 +8,7 @@ title: "Flashear ntrboot (Dos consolas 3DS)"
 
 Antes de continuar, asegúrate de haber leído toda la información en [ntrboot](ntrboot)
 
-Este método requiere acceso temporal a una segunda consola de la familia 3DS que ya tenga boot9strap instalado. This does not require your flashcart to support either 3DS's version. See the flashcart table on [ntrboot](ntrboot) for more information.
+Este método requiere acceso temporal a una segunda consola de la familia 3DS que ya tenga boot9strap instalado. Esto no requiere que tu flashcart soporte las versiones de cada consola. Consulta la tabla de flashcarts en [ntrboot](ntrboot) para más información.
 
 Ten en cuenta que en raras ocasiones, es posible que realizar el proceso de flasheo en un clon de flashcart podría dejarla **permanentemente inutilizable**. Esto es poco probable, pero sin embargo, sólo las flashcarts originales mencionadas son compatibles. Para reducir la posibilidad de recibir un clon, se recomienda utilizar un sitio de confianza para comprar una flashcart (como [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
@@ -17,10 +17,10 @@ Ten en cuenta que en raras ocasiones, es posible que realizar el proceso de flas
 
 * Tu flashcart compatible con ntrboot
 * Dos consolas de la familia 3DS 
-  + **The source 3DS**: the 3DS family device that is already running boot9strap
+  + **La 3DS de origen**: la consola de la familia 3DS que ya tiene boot9strap instalado
   + **3DS de destino**: la consola sin modificar
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(`ntr` boot9strap; not the `devkit` file)*
-* The latest release of [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest){:target="_blank"}
+* La última versión de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(el archivo `ntr`; no el archivo `devkit`)*
+* La última versión de [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest){:target="_blank"}
 
 ### Instrucciones
 
@@ -30,7 +30,7 @@ Ten en cuenta que en raras ocasiones, es posible que realizar el proceso de flas
 1. Inserta la tarjeta SD de **la 3DS de origen** en tu computadora
 1. Crea una carpeta llamada`ntrboot` en la raíz de tu tarjeta SD
 1. Copia `boot9strap_ntr.firm` y `boot9strap_ntr.firm.sha` desde el archivo `.zip` de bootstrap ntr a la carpeta `/ntrboot/` en tu tarjeta SD
-1. Copy `ntrboot_flasher.firm` to the `/luma/payloads/` folder on **the source 3DS**'s SD card
+1. Copia `ntrboot_flasher.firm` a la carpeta `/luma/payloads` en la tarjeta SD de la **3DS de origen**
 1. Reinserta la tarjeta SD de la **3DS de origen** en la **3DS de origen**
 1. Inserta tu flashcart de DS / DSi compatible con ntrboot en la **3DS de origen**
 
@@ -47,10 +47,10 @@ Ten en cuenta que en raras ocasiones, es posible que realizar el proceso de flas
 1. Presiona (A) para continuar
 1. Presiona (A) para regresar al menú principal
 1. Selecciona "Inject Ntrboot"
-1. Press (A) for retail unit ntrboot
+1. Presiona (A) para seleccionar "retail unit ntrboot"
 1. Espera hasta que se complete el proceso
 1. Presiona (A) para regresar al menú principal
-1. Press (B) to power off **the source 3DS**
+1. Presiona (B) para apagar la **3DS de origen**
 
 ___
 
