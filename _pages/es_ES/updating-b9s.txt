@@ -53,12 +53,12 @@ Para todos los pasos en esta sección, sobreescribe cualquier archivo existente 
 1. Reinserta la tarjeta SD en tu consola
 
 #### Sección II - Instalar boot9strap
-ty checks to complete
+chequeos ty a completar
 1. Cuando se solicite, introduce la combinación de botones mostrada para instalar boot9strap
 1. Una vez que se haya completado, mantén presionado (Start) mientras pulsas (A) para reiniciar tu consola en el selector de payloads de Luma3DS
-  + If you encounter an `argc = 0` error booting your device after the B9S update, just continue to fix it
+  + Si se produce un error `argc = 0` al iniciar tu consola luego de actualizar B9S, tan sólo continúa para solucionarlo
 
-#### Section III - Update Luma3DS
+#### Sección III - Actualizar Luma3DS
 
 1. Apaga tu consola
 1. Inserta tu tarjeta SD en tu computadora
