@@ -71,36 +71,36 @@ Ten en cuenta que si tienes archivos de payloads distintos de `GodMode9.firm` en
 1. Presiona (A) para volver a bloquear los permisos de escritura
 1. Presiona (Start) para reiniciar tu consola
 
-## Cannot inject H&S on Gateway downgraded device
+## No se puede inyectar H&S en una consola downgradeada con Gateway
 
-This is caused by Gateway implementing a very shoddy downgrade method which leaves two versions of each app on the system. One of them is unused, but it confuses the H&S inject system, causing it to inject into the wrong one.
+Esto ocurre porque la implementación del downgrade de Gateway es muy mala, haciendo que aparezcan dos versiones de cada aplicación en el sistema. Una de ellas no se usa, pero confunde al sistema de inyección de H&S causando una inyección errónea.
 
 Ten en cuenta que si tienes archivos de payloads distintos de `GodMode9.firm` en la carpeta `/luma/payloads/` en tu tarjeta SD, al mantener (Start) al inicio se desplegará un "chainloader menu" donde tendrás que usar el D-Pad y pulsar (A) para seleccionar "GodMode9", para esas instrucciones. 
 {: .notice--info}
 
 1. Inicia GodMode9 manteniendo presionado (Start) mientras enciendes la consola
-1. Navigate to `[1:] SYSNAND CTRNAND` -> `title` -> `00040010`
-1. Navigate to the folder for your device and region:
-  + **Old 3DS or Old 2DS EUR**: `00022300` -> `content`
-  + **Old 3DS or Old 2DS JPN**: `00020300` -> `content`
-  + **Old 3DS or Old 2DS USA**: `00021300` -> `content`
-  + **New 3DS or New 2DS EUR**: `20022300` -> `content`
-  + **New 3DS or New 2DS JPN**: `20020300` -> `content`
-  + **New 3DS or New 2DS USA**: `20021300` -> `content`
-1. Notice that there are two sets of app and tmd files, one set with uppercase extensions (`.TMD` and `.APP`), and one set with lowercase extensions (`.tmd` and `.app`)
-1. While holding the (R) trigger, press (Y) to create a new directory
-1. Press (A) to confirm the name `newdir` (it does not matter what the folder is called)
+1. Ve a `[1:] SYSNAND CTRNAND` -> `title` -> `00040010`
+1. Ve a la carpeta según tu consola y región:
+  + **Old 3DS u Old 2DS EUR**: `00022300` -> `content`
+  + **Old 3DS u Old 2DS JPN**: `00020300` -> `content`
+  + **Old 3DS u Old 2DS USA**: `00021300` -> `content`
+  + **New 3DS o New 2DS EUR**: `20022300` -> `content`
+  + **New 3DS o New 2DS JPN**: `20020300` -> `content`
+  + **New 3DS o New 2DS USA**: `20021300` -> `content`
+1. Ten en cuenta que hay dos conjuntos de archivos app y tmd: Uno tiene la extensión en mayúsculas (`.TMD` y `.APP`) y otro en minúsculas (`.tmd` y `.app`)
+1. Mientras mantienes presionado el botón (R), presiona (Y) para crear una nueva carpeta
+1. Presiona (A) para confirmar el nombre `newdir` (no importa cómo se llame la carpeta)
 1. Presiona (A) para desbloquear la escritura de SysNAND (lvl1) y después introduce la combinación de teclas mostrada
-1. Press (B) to decline relocking write permissions if prompted
-1. Press the (L) trigger on each of the uppercase extension files (`.TMD` and `.APP`) to mark them
-1. Press (Y) to copy the files
-1. Navigate to `newdir`
-1. Press (Y) to paste the files
-1. Select "Move path(s)"
-1. The uppercase extension files will have been moved to the `newdir` directory
+1. Presiona (B) para rechazar el rebloqueo de permisos de escritura si se solicita
+1. Presiona el botón (L) para cada una de las extensiones que estén en mayúsculas (`.TMD` y `.APP`) para marcarlas
+1. Presiona (Y) para copiar los arhivos
+1. Ve a `newdir`
+1. Presiona (Y) para pegar los archivos
+1. Selecciona "Move path(s)"
+1. Las extensiones en mayúsculas deberían haberse movido a la carpeta `newdir`
 1. Presiona (Start) para reiniciar tu consola
-1. Retry the H&S injection
-1. If this still doesn't work, move the uppercase extension files back to the `content` folder, then move the lowercase extension files to the `newdir` folder, then retry the H&S injection
+1. Vuelve a intentar la inyección de H&S
+1. Si esto tampoco funciona, mueve los archivos con la extensión en mayúscula de regreso a la carpeta `content`, y luego mueve los archivos con la extensión en minúscula a la carpeta `newdir`, luego reintenta la inyección de H&S
 
 ## Un exploit basado en el navegador no funciona
 
@@ -126,12 +126,12 @@ Ten en cuenta que si tienes archivos de payloads distintos de `GodMode9.firm` en
     1. Extrae tu tarjeta SD de tu consola
     1. Enciende tu consola
     1. Cuando aparezca el Menú HOME, reinserta tu tarjeta SD en tu consola
-    1. If this worked, you should clear Home Menu's extdata by following these instructions:
+    1. Si esto funcionó, debes limpiar el extdata del Home Menu, siguiendo estas instrucciones:
         1. Apaga tu consola
         1. Inicia GodMode9 manteniendo presionado (Start) mientras enciendes la consola
         1. Presiona el botón (Home) para abrir el menú de acción
         1. Selecciona "Scripts..."
-        1. Select "remove_extdata"
+        1. Selecciona "remove_extdata"
         1. Presiona (A) para continuar cuando se te pida
         1. Presiona (A) para desbloquear la escritura de SysNAND (lvl1) y después introduce la combinación de teclas mostrada
         1. Presiona (A) para continuar
@@ -146,18 +146,18 @@ Ten en cuenta que si tienes archivos de payloads distintos de `GodMode9.firm` en
     1. Si entras al modo seguro, actualiza tu consola
 1. Tu consola podría estar brickeada. Para soporte, puedes pedir ayuda (*en inglés*) en el [Discord de Nintendo Homebrew](https://discord.gg/MWxPgEp)
 
-## Clear Home Menu extdata
+## Limpiar el extdata del Menú HOME
 
 1. Apaga tu consola
 1. Inserta tu tarjeta SD en tu computadora
-1. Navigate to the `/Nintendo 3DS/(32 Character ID)/(32 Character ID)/extdata/00000000/` folder on your SD card
-1. Delete the extdata file corresponding to your region:
-  + **EUR Region**: `00000098`
-  + **JPN Region**: `00000082`
-  + **USA Region**: `0000008f`
-  + **CHN Region**: `000000A1`
-  + **KOR Region**: `000000A9`
-  + **TWN Region**: `000000B1`
+1. Ve a la carpeta `/Nintendo 3DS/(ID de 32 caracteres)/(ID de 32 caracteres)/extdata/00000000/` en tu tarjeta SD
+1. Elimina la carpeta de extdata correspondiente a tu región:
+  + **Región EUR**: `00000098`
+  + **Región JPN**: `00000082`
+  + **Región USA**: `0000008f`
+  + **Región CHN**: `000000A1`
+  + **Región KOR**: `000000A9`
+  + **Región TWN**: `000000B1`
 1. Reinserta la tarjeta SD en tu consola
 
 ## Pantalla negra al iniciar la SysNAND luego de instalar boot9strap
@@ -180,14 +180,14 @@ Ten en cuenta que si tienes archivos de payloads distintos de `GodMode9.firm` en
     1. Inicia GodMode9 manteniendo presionado (Start) mientras enciendes la consola
     1. Presiona el botón (Home) para abrir el menú de acción
     1. Selecciona "Scripts..."
-    1. Select "remove_extdata"
+    1. Selecciona "remove_extdata"
     1. Presiona (A) para continuar cuando se te pida
     1. Presiona (A) para desbloquear la escritura de SysNAND (lvl1) y después introduce la combinación de teclas mostrada
     1. Presiona (A) para continuar
     1. Presiona (A) para volver a bloquear los permisos de escritura
     1. Presiona (Start) para reiniciar tu consola
 1. Trata de arrancar sin cartuchos insertados (incluyendo flashcards)
-1. If you previously downgraded with Gateway, ensure that you are using the latest Luma3DS version
+1. Si previamente hiciste un downgrade con Gateway, asegúrate que la versión de Luma3DS que estés utilizando sea la más reciente
 1. Prueba siguiendo [CTRTransfer](ctrtransfer)
 1. Pide ayuda (*en inglés*) en el [Discord de Nintendo Homebrew](https://discord.gg/MWxPgEp)
 
