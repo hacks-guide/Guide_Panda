@@ -8,17 +8,19 @@ title: "Actualizând B9S"
 
 Această pagină este pentru utilizatorii de boot9strap ca să-și actualizeze instalarea către ultima versiune.
 
+To extract the `.7z` files linked on this page, you will need a file archiver like [7-Zip](http://www.7-zip.org/) or [The Unarchiver](https://theunarchiver.com/).
+
 {% capture notice-1 %}
 Au existat rapoarte despre un val de banuri adresate utilizatorilor de CFW de către Nintendo. Pentru a vă proteja, efectuaţi următorii paşi înainte de a începe acest ghid:
 
 1. Mergeți în System Settings, apoi "Internet Settings", apoi "SpotPass", apoi "Sending of System Information"
 1. Dezactivați opţiunea "Sending of System Information"
 1. Ieșiți din System Settings
-1. Mergeți la Lista de prieteni (pictograma cu o față de pe rândul de sus al meniului HOME)
-  + În cazul în care ați primit o eroare şi meniul se închide, setarea de pe Lista de prieteni este deja dezactivată
-1. Mergeți la setările de pe Lista de prieteni, apoi "Friend Notification Settings", apoi "Show friends what you're playing"
+1. Go to your Friend List (the [orange Face Icon]({{ "/images/friend-list-icon.png" | absolute_url }}) in the top row of your Home Menu)
+  + If you receive an error and are kicked out of the menu, the Friend List setting is either already disabled or your console cannot connect to Nintendo's servers (due to a ban or connection issues)
+1. Go to the Friend List settings, then "Friend Notification Settings", then "Show friends what you're playing"
 1. Dezactivați opțiunea "Show friends what you're playing"
-1. Ieșiți din Lista de prieteni
+1. Exit your Friend List
 
 {% endcapture %}
 
@@ -26,9 +28,12 @@ Au existat rapoarte despre un val de banuri adresate utilizatorilor de CFW de c�
 
 ### Ce aveți nevoie
 
-* Cea mai nouă versiune de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* Cea mai nouă versiune de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(fișierul `devkit`, nu cel `ntr`)*
-* [cleanup_sd_card.gm9]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }})
+* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
+* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
+* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(the `.7z` file)*
+* [setup_ctrnand_luma3ds.gm9]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }}){:download}
+* [cleanup_sd_card.gm9]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }}){:download}
 
 ### Instrucțiuni
 
@@ -37,35 +42,69 @@ Au existat rapoarte despre un val de banuri adresate utilizatorilor de CFW de c�
 Pentru toți pașii din această secțiune, suprascrieți fișierele existente de pe cardul SD.
 {: .notice--info}
 
-1. Închideți dispozitivul
 1. Introduceți cardul SD în calculator
 1. Creați un folder numit 'boot9strap' pe rădăcina cardului SD
-1. Copiați `cleanup_sd_card.gm9` în folderul `/gm9/scripts/` de pe cardul SD
+1. Copiați `boot9strap.firm` și `boot9strap.firm.sha` din arhiva `.zip` boot9strap în folderul `/boot9strap/` de pe cardul SD
 1. Copiați `SafeBS9Installer.firm` din arhiva `.zip` SafeB9SInstaller în folderul `/luma/payloads/` de pe cardul SD
-1. Copiați `boot9strap_dev.firm` și `boot9strap_dev.firm.sha` din arhiva `.zip` boot9strap în folderul `/boot9strap/` de pe cardul SD
+1. Copiați `GodMode9.firm` din arhiva `.zip` GodMode9 în folderul `/luma/payloads/` de pe cardul SD
+1. Copiați folderul `gm9` de pe arhiva `.zip` GodMode9 în rădăcina cardului SD
+1. Copiați `setup_ctrnand_luma3ds.gm9` în folderul `/gm9/scripts/` de pe cardul SD
+1. Copiați `cleanup_sd_card.gm9` în folderul `/gm9/scripts/` de pe cardul SD
 1. Reintroduceţi cardul SD în dispozitiv
 
 #### Secțiunea II - Instalând boot9strap
-
-1. Reporniți ținând apăsat (Start) în timpul pornirii pentru a lansa meniul chainloader Luma3DS
-1. Lansați SafeB9SInstaller apăsând (A)
-1. Așteptaţi ca toate verificările de siguranță să fie completate
+ty checks to complete
 1. Când vi se cere, introduceți combinația de butoane ca să instalați boot9strap
 1. Odată completat, țineți apăsat (Start) în timp ce apăsați (A) pentru a reporni dispozitivul în meniul de selectare de payload-uri Luma3DS
+  + If you encounter an `argc = 0` error booting your device after the B9S update, just continue to fix it
 
-#### Secțiunea III - Curățarea cardului SD
+#### Section III - Update Luma3DS
 
-1. Lansați GodMode9 ținând apăsat (Start) în timpul pornirii
+1. Închideți dispozitivul
+1. Introduceți cardul SD în calculator
+1. Copy `boot.firm` from the Luma3DS `.7z` to the root of your SD card, replacing the existing file
+1. Reintroduceţi cardul SD în dispozitiv
+1. Porniți dispozitivul
+
+#### Secțiunea IV - Configurând Luma3DS
+
+Această secţiune este necesară numai în cazul în care vi se arată meniul de configurare Luma3DS după repornire.
+{: .notice--info}
+
+1. În meniul de configurare Luma3DS, folosiți butonul (A) și D-Pad-ul ca să activați următoarele:    
+  + **"Show NAND or user string in System Settings"**
+1. Apăsați (Start) pentru a salva și reporni
+
+#### Section V - CTRNAND Luma3DS
+
+1. Reboot holding (Start) to launch GodMode9
 1. Dacă vi se cere să faceți o copie de rezervă a fișierelor esențiale, apăsați (A) pentru a o realiza, apoi apăsați (A) ca să continuați după ce s-a terminat
+1. Dacă vi se cere să reparați dara și ora RTC, apăsați (A) pentru a efectua, apoi setați data și ora, apoi apăsați (A) pentru a continua
+  + Țineți cont că, dacă trebuiați să reparați data și ora RTC, va trebui să reparați ora în System Settings de asemenea după completarea acestui ghid
 1. Apăsați (Home) pentru a arăta meniul de acțiuni
-1. Selectați "More..."
+1. Selectați "Scripts..."
+1. Selectaţi "setup_ctrnand_luma3ds"
+1. Când vi se solicită, apăsaţi (A) pentru a continua
+1. Apăsați (A) ca să deblocați scrierea în SysNAND (lvl1), apoi introduceți combinația de butoane care vi se cere
+1. Apăsați (A) pentru a continua
+1. Apăsați (A) ca să reblocați permisiunile de scriere
+
+#### Secțiunea VI - Curățarea cardului SD
+
+Țineți cont că acest script va șterge folderele `/boot9strap/` și `/cias/` de pe cardul SD!
+{: .notice--danger}
+
+1. Apăsați (Home) pentru a arăta meniul de acțiuni
 1. Selectați "Scripts..."
 1. Selectaţi "cleanup_sd_card"
 1. Când vi se solicită, apăsaţi (A) pentru a continua
 1. Apăsați (A) pentru a continua
-1. Apăsați (Start) pentru a reporni
+1. Hold (R) and press (Start) to power off your device
 
 ___
 
-Este recomandat să folosiți Luma3DS Updater pentru a vă actualiza instalarea de Luma3DS după ce ați completat actualizarea la boot9strap.
-{: .notice--info}
+Boot9strap has been successfully updated.
+{: .notice--success}
+1. Launch Luma3DS chainloader menu by holding (Start) during boot
+1. Lansați SafeB9SInstaller apăsând (A)
+1. Wait for all safe

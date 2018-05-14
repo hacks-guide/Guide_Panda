@@ -8,19 +8,7 @@ title: "Instalând ntrboot (NDS)"
 
 Înainte de a continua, asigurați-vă că ați citit toate informațiile de pe [ntrboot](ntrboot)
 
-Țineți cont că flashcart-urile R4i Gold 3DS RTS nu vor putea să fie folosite pentru funcțiile lor obișnuite (cum ar fi pornirea de fișiere`.nds`) cât timp exploit-ul de ntrboot este instalat pe ele. Aceasta nu se aplică la Acekard 2i.
-
-Există paşi opționali la sfârșitul instrucțiunilor pentru instalarea ntrboot-ului cu scopul de a-l şterge de pe flashcart după ce ați terminat.
-
-Această metodă necesită acces temporar la un Nintendo DS sau Nintendo DS Lite care este compatibil cu flashcart-ul dumneavoastră. Țineți cont că această metodă *nu* este compatibilă cu Nintendo DSi. Este compatibil cu următoarele flashcart-uri:
-
-  + [R4i Gold 3DS (RTS)](http://www.nds-card.com/ProShow.asp?ProID=149)
-  + [Acekard 2i](http://www.nds-card.com/ProShow.asp?ProID=160)
-  + R4i Gold 3DS "Starter"
-  + R4i Ultra
-  + R4 3D Revolution
-  + Infinity 3 R4i
-  + DSTT ([some flash chips only!](https://gist.github.com/Hikari-chin/6b48f1bb8dd15136403c15c39fafdb42))
+Această metodă necesită acces temporar la un Nintendo DS sau Nintendo DS Lite care este compatibil cu flashcart-ul dumneavoastră.
 
 Țineți cont că în anumite cazuri rare, poate fi posibil ca procesul de instalare să facă **brick** unui flashcard contrafăcut și să devină complet nefolositor. Acest lucru este puţin probabil, totuși, numai flashcart-urile originale menționate sunt compatibile. Pentru a reduce şansa de a primi un card contrafăcut, este recomandat să folosiți un site de încredere pentru a cumpăra flashcart-ul (cum ar fi [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
@@ -31,7 +19,7 @@ Această metodă necesită acces temporar la un Nintendo DS sau Nintendo DS Lite
 * Două dispozitive 
   + **NDS/NDSL-ul sursă**: dispozitivul care este compatibil cu flashcart-ul dumneavoastră
   + **3DS-ul țintă**: dispozitivul pe firmware stoc
-* Cea mai nouă versiune de [ak2i_ntrcardhax_flasher](https://github.com/d3m3vilurr/ak2i_ntrcardhax_flasher/releases/latest) *(flasher standard; nu cel `dsi`)*
+* The latest release of [ds_ntrboot_flasher](https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest){:target="_blank"} *(standard flasher; not the `dsi` flasher)*
 
 ### Instrucțiuni
 
@@ -39,13 +27,13 @@ Această metodă necesită acces temporar la un Nintendo DS sau Nintendo DS Lite
 
 1. Închideți **NDS / NDSL-ul sursă**
 1. Introduceți cardul SD al flashcart-ului în calculator
-1. Copiați `ak2i_ntrcardhax_flasher.nds` pe cardul SD al flashcart-ului
+1. Copy `ds_ntrboot_flasher.nds` to your flashcart's SD card
 1. Reintroduceți cardul SD al flashcart-ului în flashcart
 1. Introduceți flashcart-ul DS / DSi compatibil cu ntrboot în **NDS / NDSL-ul sursă**
 
 #### Secțiunea II - Instalând ntrboot
 
-1. Lansați `ak2i_ntrcardhax_flasher.nds` pe **NDS / NDSL-ul sursă** folosind flashcart-ul
+1. Launch `ds_ntrboot_flasher.nds` on **the source NDS / NDSL** using your flashcart
 1. Apăsați (A) pentru a continua
 1. Folosiți (Sus) și (Jos) pentru a selecta flashcart-ul dumneavostră
 1. Apăsați (A) pentru a continua
@@ -56,7 +44,7 @@ Această metodă necesită acces temporar la un Nintendo DS sau Nintendo DS Lite
 1. Reintroduceţi flashcart-ul în **NDS / NDSL-ul sursă** cu cardul SD scos
 1. Apăsați (A) pentru a continua
 1. Apăsași (A) pentru a executa comanda "inject ntrboothax"
-1. Apăsați (X) pentru a selecta "DEVKIT"
+1. Press (A) to select "RETAIL"
 1. Ejectați flashcart-ul din **NDS / NDSL-ul sursă**
 
 ___

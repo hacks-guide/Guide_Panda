@@ -8,17 +8,19 @@ title: "Aggiornare B9S"
 
 Questa pagina spiega come aggiornare la propria installazione di boot9strap all'ultima versione.
 
+To extract the `.7z` files linked on this page, you will need a file archiver like [7-Zip](http://www.7-zip.org/) or [The Unarchiver](https://theunarchiver.com/).
+
 {% capture notice-1 %}
 È stata segnalata recentemente un'ondata di ban da parte di Nintendo riscontrata da utenti con CFW. Per ridurre il rischio che capiti anche a te, esegui i seguenti passaggi prima di iniziare questa guida:
 
 1. Entra nelle Impostazioni della Console, quindi in "Impostazioni Internet", poi "SpotPass" ed infine "Invio informazioni della console"
 1. Disabilita l'impostazione "Invio informazioni della console"
 1. Esci dalle Impostazioni della Console
-1. Entra nella tua lista di amici (l'icona con la faccina nella barra superiore del menu HOME)
-  + Se ricevi un errore e vieni fatto uscire al menu, l'impostazione nella lista di amici è stata già disabilitata
-1. Vai nelle impostazioni della lista di amici, quindi "Imposta notifiche amici" ed infine "Vuoi mostrare il software in uso?"
+1. Go to your Friend List (the [orange Face Icon]({{ "/images/friend-list-icon.png" | absolute_url }}) in the top row of your Home Menu)
+  + If you receive an error and are kicked out of the menu, the Friend List setting is either already disabled or your console cannot connect to Nintendo's servers (due to a ban or connection issues)
+1. Go to the Friend List settings, then "Friend Notification Settings", then "Show friends what you're playing"
 1. Disabilita l'impostazione "Vuoi mostrare il software in uso?"
-1. Esci dalla lista di amici
+1. Exit your Friend List
 
 {% endcapture %}
 
@@ -26,9 +28,12 @@ Questa pagina spiega come aggiornare la propria installazione di boot9strap all'
 
 ### Cosa serve
 
-* L'ultima versione di [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* L'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(il file `devkit`; non il file `ntr`)*
-* [cleanup_sd_card.gm9]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }})
+* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
+* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
+* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(the `.7z` file)*
+* [setup_ctrnand_luma3ds.gm9]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }}){:download}
+* [cleanup_sd_card.gm9]({{ "/gm9_scripts/cleanup_sd_card.gm9" | absolute_url }}){:download}
 
 ### Istruzioni
 
@@ -37,35 +42,69 @@ Questa pagina spiega come aggiornare la propria installazione di boot9strap all'
 Se durante questa sezione ti verrà chiesto di sovrascrivere dei file sulla tua scheda SD, conferma sempre la scelta.
 {: .notice--info}
 
-1. Spegni la tua console
 1. Inserisci la scheda SD nel tuo computer
 1. Crea una cartella chiamata `boot9strap` nella directory principale della tua scheda SD
-1. Copia il file `cleanup_sd_card.gm9` nella cartella `/gm9/scripts/` della tua scheda SD
+1. Copia i file `boot9strap.firm` e `boot9strap.firm.sha` dall'archivio `.zip` di boot9strap nella cartella `/boot9strap/` della tua scheda SD
 1. Copia il file `SafeB9SInstaller.firm` dall'archivio `.zip` di SafeB9SInstaller nella cartella `/luma/payloads/` della tua scheda SD
-1. Copia i file `boot9strap_dev.firm` e `boot9strap_dev.firm.sha` dall'archivio `.zip` di boot9strap nella cartella `/boot9strap/` della tua scheda SD
+1. Copia il file `GodMode9.firm` dall'archivio `.zip` di GodMode9 dentro la cartella `/luma/payloads/` della tua scheda SD
+1. Copia la cartella `gm9` presente nell'archivio `.zip` di GodMode9 nella directory principale della tua scheda SD
+1. Copia il file `setup_ctrnand_luma3ds.gm9` nella cartella `/gm9/scripts/` della tua scheda SD
+1. Copia il file `cleanup_sd_card.gm9` nella cartella `/gm9/scripts/` della tua scheda SD
 1. Reinserisci la scheda SD nella tua console
 
 #### Sezione II - Installazione di boot9strap
-
-1. Riavvia tenendo premuto (Start) durante l'avvio per avviare il chainloader menu di Luma3DS
-1. Avvia SafeB9SInstaller premendo (A)
-1. Attendi il termine di tutti i controlli di sicurezza
+ty checks to complete
 1. Quando richiesto, inserisci la combinazione di tasti richiesta a schermo per installare boot9strap
 1. Al termine, premi contemporaneamente (A) e (Start) per riavviare la console nel chainloader di Luma3DS
+  + If you encounter an `argc = 0` error booting your device after the B9S update, just continue to fix it
 
-#### Sezione III - Pulizia della scheda SD
+#### Section III - Update Luma3DS
 
-1. Avvia GodMode9 tenendo premuto (Start) durante l'accensione della console
+1. Spegni la tua console
+1. Inserisci la scheda SD nel tuo computer
+1. Copy `boot.firm` from the Luma3DS `.7z` to the root of your SD card, replacing the existing file
+1. Reinserisci la scheda SD nella tua console
+1. Accendi la console
+
+#### Sezione IV - Configurare Luma3DS
+
+Questa sezione è necessaria solo se ti viene presentato il menu di configurazione di Luma3DS dopo il riavvio.
+{: .notice--info}
+
+1. Nel menu di configurazione di Luma3DS, attiva con il D-Pad e il pulsante (A) le seguenti opzioni:    
+  + **"Show NAND or user string in System Settings"**
+1. Premi (Start) per salvare e riavviare il 3DS
+
+#### Section V - CTRNAND Luma3DS
+
+1. Reboot holding (Start) to launch GodMode9
 1. Se ti viene richiesto di creare un backup dei file essenziali, premi (A) per accettare, e al termine di nuovo (A) per proseguire
+1. Se ti viene chiesto di reimpostare la data e l'ora dell'RTC, premi (A) per farlo, poi imposta la data e l'ora, infine premi (A) per continuare
+  + Tieni presente che in tal caso dovrai anche reimpostare data ed ora anche nelle Impostazioni della Console al termine della guida
 1. Premi il pulsante (Home) per far apparire il menu delle azioni
-1. Seleziona "More..."
+1. Seleziona "Scripts..."
+1. Seleziona "setup_ctrnand_luma3ds"
+1. Quando richiesto, premi (A) per procedere
+1. Premi il pulsante (A) per sbloccare i permessi di scrittura di primo livello su SysNAND, quindi inserisci la combinazione di tasti richiesta a schermo
+1. Premi il pulsante (A) per continuare
+1. Premi (A) per ritirare le autorizzazioni di scrittura
+
+#### Sezione VI - Pulizia della scheda SD
+
+Attenzione: questo script rimuoverà le cartelle `/boot9strap/` e `/cias/` dalla tua scheda SD!
+{: .notice--danger}
+
+1. Premi il pulsante (Home) per far apparire il menu delle azioni
 1. Seleziona "Scripts..."
 1. Seleziona "cleanup_sd_card"
 1. Quando richiesto, premi (A) per procedere
 1. Premi il pulsante (A) per continuare
-1. Premi il pulsante (Start) per riavviare la console
+1. Hold (R) and press (Start) to power off your device
 
 ___
 
-Si consiglia di usare Luma3DS Updater per aggiornare la propria installazione di Luma3DS al termine dell'aggiornamento di boot9strap.
-{: .notice--info}
+Boot9strap has been successfully updated.
+{: .notice--success}
+1. Launch Luma3DS chainloader menu by holding (Start) during boot
+1. Avvia SafeB9SInstaller premendo (A)
+1. Wait for all safe
