@@ -8,17 +8,7 @@ title: "Instalând ntrboot (Un 3DS)"
 
 Înainte de a continua, asigurați-vă că ați citit toate informațiile de pe [ntrboot](ntrboot)
 
-Această metodă necesită nimic mai mult decât un 3DS stoc nemodat şi un flashcart compatibil.
-
-Țineți cont că versiunile mai recente de 3DS au accesul blocat la unele flashcart-uri, și altele au fost întotdeauna blocate pe 3DS. Acest lucru le face incapabile să pornească fișierul de instalare`.nds` pe unele (sau toate) versiuni mai recente. Flashcart-urile compatibile cu ntrboot pot porni fișierele `.nds`pe 3DS (sub următoarele versiuni):
-
-  + [R4i Gold 3DS (RTS)](http://www.nds-card.com/ProShow.asp?ProID=149) : <= 11.6.0
-  + [Acekard 2i](http://www.nds-card.com/ProShow.asp?ProID=160) : <= 4.3.0
-  + R4i Gold 3DS "Starter" : 4.1.0 - 4.5.0
-  + R4i Ultra : <= 4.3.0
-  + Infinity 3 R4i : <= 11.6.0
-
-Asigurați-vă că flashcart-ul poate porni cum trebuie înainte să începeți. Fiți sigur că aveți orice fișier de kernel sau firmware necesar copiat pe cardul SD al flashcart-ului. Consultați instrucțiunile specifice ale flashcart-ului pentru mai multe informații.
+Această metodă necesită nimic mai mult decât un 3DS stoc nemodat şi un flashcart compatibil. This method uses the flashcart to run the ntrboot flasher `.nds` file on your 3DS. This means that your flashcart must support launching `.nds` files on your 3DS's version. See the flashcart table on [ntrboot](ntrboot) for more information.
 
 Țineți cont că în anumite cazuri rare, poate fi posibil ca procesul de instalare să facă **brick** unui flashcard contrafăcut și să devină complet nefolositor. Acest lucru este puţin probabil, totuși, numai flashcart-urile originale menționate sunt compatibile. Pentru a reduce şansa de a primi un card contrafăcut, este recomandat să folosiți un site de încredere pentru a cumpăra flashcart-ul (cum ar fi [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
@@ -26,7 +16,7 @@ Asigurați-vă că flashcart-ul poate porni cum trebuie înainte să începeți.
 ### Ce aveți nevoie
 
 * Flashcart-ul dumneavoastră compatibil cu ntrboot
-* Cea mai nouă versiune de [ak2i_ntrcardhax_flasher](https://github.com/d3m3vilurr/ak2i_ntrcardhax_flasher/releases/latest) *( flasher `dsi`; nu cel standard)*
+* The latest release of [ds_ntrboot_flasher](https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest){:target="_blank"} *(`dsi` flasher; not the standard flasher)*
 
 ### Instrucțiuni
 
@@ -34,18 +24,18 @@ Asigurați-vă că flashcart-ul poate porni cum trebuie înainte să începeți.
 
 1. Închideți dispozitivul
 1. Introduceți cardul SD al flashcart-ului în calculator
-1. Copiați `ak2i_ntrcardhax_flasher_dsi.nds` pe cardul SD al flashcart-ului
+1. Copy `ds_ntrboot_flasher_dsi.nds` to your flashcart's SD card
 1. Reintroduceți cardul SD al flashcart-ului în flashcart
 1. Introduceți flashcart-ul DS / DSi compatibil cu ntrboot în dispozitiv
 
 #### Secțiunea II - Instalând ntrboot
 
-1. Lansați `ak2i_ntrcardhax_flasher_dsi.nds` pe dispozitiv folosind flashcart-ul
+1. Launch `ds_ntrboot_flasher_dsi.nds` on your device using your flashcart
 1. Apăsați (A) pentru a continua
 1. Folosiți (Sus) și (Jos) pentru a selecta flashcart-ul dumneavostră
 1. Apăsați (A) pentru a continua
 1. Apăsași (A) pentru a executa comanda "inject ntrboothax"
-1. Apăsați (X) pentru a selecta "DEVKIT"
+1. Press (A) to select "RETAIL"
 1. Apăsați (A) pentru a continua
 1. Selectaţi "EXIT"
 

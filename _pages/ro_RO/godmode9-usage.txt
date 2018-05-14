@@ -4,6 +4,11 @@ title: "Folosind GodMode9"
 
 {% include toc title="Cuprins" %}
 
+For support with GodMode9, as well as help with scripting and to get updates and info, join the [GodMode9 Discord server](https://discord.gg/EGu6Qxw).
+{: .notice--primary}
+
+### Lectură obligatorie
+
 GodMode9 este un navigator de fișiere cu acces complet pentru dispozitivul Nintendo 3DS, oferindu-vă acces la cardul SD, partiţii FAT din SysNAND, EmuNAND şi practic orice altceva. Printre alte funcţionalităţi, puteţi copia, şterge, redenumi fişiere şi crea foldere.
 
 Țineți cont că dacă aveți alte payload-uri în afară de `GodMode9.firm` în folderul `/luma/payloads/` de pe cardul SD, apăsând (Start) va lansa un "meniu chainloader" în care va trebui să folosiți D-Pad-ul și butonul (A) ca să selectați "GodMode9" pentru aceste instrucțiuni. 
@@ -17,7 +22,7 @@ Unele dintre instrucțiunile de mai jos se aplică doar la ultima versiune de Go
 
 ### Ce aveți nevoie
 
-* Cea mai nouă versiune de [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest){:target="_blank"}
 
 ### Instrucțiuni
 
@@ -112,8 +117,8 @@ Aceasta va funcţiona doar dacă injectarea Health & Safety a fost efectuată de
 
 1. Lansați GodMode9 ținând apăsat (Start) în timpul pornirii
 1. Selectați unitatea corespunzătoare tipului de titlu care vreți să îi faceți copie:
-  + **Titlu instalat de utilizator**: Navigați spre `[A:] SYSNAND SD`
-  + **Titlu preinstalat**: Navigați spre `[1:] SYSNAND CTRNAND`
+  + **User Installed Title**: `[A:] SYSNAND SD`
+  + **System Title**: `[1:] SYSNAND CTRNAND`
 1. Țineți apăsat (R) și apăsați (A) în același timp pentru a deschide opțiunile de drive
 1. Selectați "Search for titles"
 1. Apăsați (A) pentru a continua
@@ -211,11 +216,22 @@ Pentru a identifica ID-ul de titlu al fișierului `<TitleID>.gbavc.sav`, puteți
 
 ## Scoaterea NNID-ului fără a formata dispozitivul dumneavoastră
 
+### Ce aveți nevoie
+
+* [remove_nnid.gm9]({{ "/gm9_scripts/remove_nnid.gm9" | absolute_url }}){:download}
+
+### Instrucțiuni
+
 1. Lansați GodMode9 ținând apăsat (Start) în timpul pornirii
-1. Navigați spre `[1:] SYSNAND CTRNAND` -> `data` ->(ID de 32 de caractere) -> `sysdata` -> `00010038`
-1. Țineți apăsat (R), apoi apăsați (X) pe `00000000` pentru a redenumi fișierul
-1. Apăsați (Sus) odată pentru a schimba numele în `10000000`
-1. Apăsați (A) pentru a salva modificările
-1. Apăsati (A) pentru a debloca scrierea în SysNAND, apoi introduceți combinația de butoane care vi se cere
-1. Navigați înapoi în meniul principal
+1. Țineți apăsat (R) și apăsați (B) în același timp pentru a scoate cardul SD
+1. Introduceți cardul SD în calculator
+1. Copy `remove_nnid.gm9` to the `/gm9/scripts/` folder on your SD card
+1. Reintroduceţi cardul SD în dispozitiv
+1. Apăsați (Home) pentru a arăta meniul de acțiuni
+1. Selectați "Scripts..."
+1. Select "remove_nnid"
+1. Când vi se solicită, apăsaţi (A) pentru a continua
+1. Apăsați (A) ca să deblocați scrierea în SysNAND (lvl1), apoi introduceți combinația de butoane care vi se cere
+1. Apăsați (A) pentru a continua
+1. Apăsați (A) ca să reblocați permisiunile de scriere
 1. Apăsați (Start) pentru a reporni dispozitivul

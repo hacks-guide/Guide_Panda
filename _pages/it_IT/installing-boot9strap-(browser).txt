@@ -4,11 +4,18 @@ title: "Installazione di boot9strap (Browser)"
 
 {% include toc title="Indice" %}
 
+### Lettura necessaria
+
+If you have already hacked your device before and have a EmuNAND based CFW setup, this guide deals exclusively with SysNAND and you should follow all instructions from within or applying to SysNAND. Note that the terms EmuNAND and RedNAND refer to slightly different implementations of [the same concept](http://3dbrew.org/wiki/NAND_Redirection).
+
+To extract the `.7z` files linked on this page, you will need a file archiver like [7-Zip](http://www.7-zip.org/) or [The Unarchiver](https://theunarchiver.com/).
+
 ### Cosa serve
 
-* L'ultima versione di [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* L'ultima versione di [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(il file `devkit`; non il file `ntr`)*
-* L'ultima versione di [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(il file `.7z`)*
+* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest){:target="_blank"}
+* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
+* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest){:target="_blank"} *(the `.7z` file)*
+* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest){:target="_blank"}
 
 ### Istruzioni
 
@@ -17,17 +24,26 @@ title: "Installazione di boot9strap (Browser)"
 1. Spegni la tua console
 1. Inserisci la scheda SD nel tuo computer
 1. Copia il file `boot.firm` dall'archivio `.7z` di Luma3DS nella directory principale della tua scheda SD
+1. Copy `boot.3dsx` to the root of your SD card
 1. Crea una cartella chiamata `boot9strap` nella directory principale della tua scheda SD
-1. Copia i file `boot9strap_dev.firm` e `boot9strap_dev.firm.sha` dall'archivio `.zip` di boot9strap nella cartella `/boot9strap/` della tua scheda SD
+1. Copia i file `boot9strap.firm` e `boot9strap.firm.sha` dall'archivio `.zip` di boot9strap nella cartella `/boot9strap/` della tua scheda SD
 1. Copia i file `SafeB9SInstaller.dat` e `Launcher.dat` dall'archivio `.zip` di SafeB9SInstaller nella directory principale della tua scheda SD
+
+    ![]({{ "/images/screenshots/boot9strap-browser-file-layout.png" | absolute_url }})
+    {: .notice--info}
+
 1. Reinserisci la scheda SD nella tua console
 1. Accendi la console
 
 #### Sezione II - Avvio di SafeB9SInstaller
 
-1. Avvia il browser internet della tua console, e vai al seguente indirizzo
+1. Launch the browser and go to one of the following URLs on your device
   + `https://dukesrg.github.io/?SafeB9SInstaller.dat`
-  + Se ottieni un errore, [segui questa guida per risolvere il problema](troubleshooting#ts_browser)
+  + `http://go.gateway-3ds.com/`
+  + `http://www.reboot.ms/3ds/load.html?Launcher.dat`
+  + `http://dukesrg.dynu.net/3ds/rop?GW17567.dat&Launcher.dat`
+  + Make sure to try each URL if the first one doesn't work (some versions cannot use the first one, and some versions cannot use the last three)
+  + If you get an error, [follow this troubleshooting guide](troubleshooting#a-browser-based-exploit-is-not-working)
 1. Se l'exploit è andato a buon fine, si avvierà SafeB9SInstaller
 
 #### Sezione III - Installazione di boot9strap
@@ -39,7 +55,7 @@ title: "Installazione di boot9strap (Browser)"
 #### Sezione IV - Configurare Luma3DS
 
 1. La tua console dovrebbe riavviarsi all'interno del menu di configurazione di Luma3DS
-  + Se ottieni una schermata nera, [segui questa guida per risolvere il problema](troubleshooting#ts_sys_b9s)
+  + Se ottieni uno schermo nero, [segui questa guida per risolvere il problema](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
 1. Usa il pulsante (A) e il D-Pad per abilitare le seguenti opzioni:    
   + **"Show NAND or user string in System Settings"**
 1. Premi (Start) per salvare e riavviare il 3DS
