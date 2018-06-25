@@ -19,7 +19,7 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 
 {% capture notice-home %}
 This guide is for developer ("PANDA") consoles *only*!    
-Piyasada satılan bir konsolunuz varsa (tüketicinin satın aldığı; Nintendo Geliştirici Programından olmayan), lütfen [retail 3DS Hacks Guide](https://3ds.guide)'i kontrol edin
+If you have a retail (consumer purchased; not from the Nintendo Developer Program) console, check out the [retail 3DS Hacks Guide](https://3ds.hacks.guide)
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>

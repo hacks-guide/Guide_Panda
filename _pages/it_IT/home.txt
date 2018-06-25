@@ -19,7 +19,7 @@ Leggi attentamente tutte le pagine introduttive (compresa questa!) prima di cont
 
 {% capture notice-home %}
 Questa guida è *solo* per console per sviluppatori ("PANDA")!    
-Se hai una console normale (comprata in negozio; non derivata dal Programma Nintendo per gli Sviluppatori), vai sulla [guida per 3DS normali](https://3ds.guide)
+If you have a retail (consumer purchased; not from the Nintendo Developer Program) console, check out the [retail 3DS Hacks Guide](https://3ds.hacks.guide)
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
