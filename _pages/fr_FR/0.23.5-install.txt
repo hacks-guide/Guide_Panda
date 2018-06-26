@@ -1,18 +1,18 @@
 ---
-title: "0.23.5 Install"
+title: "Installation de la v0.23.5"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
-### Required Reading
+### Lecture requise
 
-This guide will: 
+Ce guide va : 
 
-- Install the version 0.23.5 for your region / device
-- Install boot9strap using CakeHax Browser
-- (Optionally) install the latest version for your region / device
+- Installer la version 0.23.5 pour votre région/console
+- Installer boot9strap en utilisant CakeHax Browser
+- (Optionnellement) installer la dernière version pour votre région/console
 
-### Required Reading
+### Lecture requise
 
 There are two different methods of installing the version 0.23.5 onto your PANDA unit.
 
