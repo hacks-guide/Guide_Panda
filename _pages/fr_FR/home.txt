@@ -19,7 +19,7 @@ Lisez attentivement toutes les pages d'introduction (y compris celle-ci !) avant
 
 {% capture notice-home %}
 Ce guide n'est *que* pour les consoles développeur ("PANDA") !    
-If you have a retail (consumer purchased; not from the Nintendo Developer Program) console, check out the [retail 3DS Hacks Guide](https://3ds.guide)
+If you have a retail (consumer purchased; not from the Nintendo Developer Program) console, check out the [retail 3DS Hacks Guide](https://3ds.hacks.guide)
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
