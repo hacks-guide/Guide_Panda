@@ -77,7 +77,7 @@ Para una lista de cada una de las firmas calculadas de sighax, echa un vistazo a
 ## ¿Qué necesito saber antes de empezar?
 
 + **Antes de comenzar la guía, debes conocer los riesgos de hackear la 3DS: CADA VEZ que modificas tu sistema, siempre existe la posibilidad de que tu consola quede inutilizable de forma IRRECUPERABLE. Es algo raro, pero la posibilidad está ahí, así que asegúrate de seguir TODAS las instrucciones AL PIE DE LA LETRA.**
-+ This guide will work on New 3DS, Old 3DS, and 2DS in all regions on all firmware versions
++ Esta guía funcionará en consolas New 3DS, Old 3DS y 2DS de todas las regiones en todas las versiones de firmware
 + Si todo va según el plan, no perderás datos y terminarás con todo lo que tenías anteriormente.
 + ¡Mantén la consola conectada al cargador a lo largo de todo el proceso para evitar pérdida de datos o daños por un apagado inesperado!
 + Tu tarjeta SD debe ser [MBR, no GPT](http://www.howtogeek.com/245610/) (la tarjeta SD que viene con la consola será MBR por defecto).
