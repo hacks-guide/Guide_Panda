@@ -37,7 +37,7 @@ Il y a eu des informations concernant une vague de bannissements contre les util
 
 ### Instructions
 
-#### Section I - Prep Work
+#### Section I - Préparatifs
 
 For all steps in this section, overwrite any existing files on your SD card.
 {: .notice--info}
