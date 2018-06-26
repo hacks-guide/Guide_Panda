@@ -12,8 +12,6 @@ Cu acest ghid veți putea:
 - Instala boot9strap folosind CakeHax Browser
 - (Opţional) instala cea mai recentă versiune pentru regiunea / dispozitivul dumneavoastră
 
-### Lectură obligatorie
-
 Există două metode diferite de a instala versiunea 0.23.5 în unitatea PANDA.
 
 O metodă nu necesită instrumente externe, dar acceptă numai unele regiuni şi dispozitive din cauza pachetelor CIA lipsă pentru restul regiunilor şi dispozitive.
