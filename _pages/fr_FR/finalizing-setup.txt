@@ -28,7 +28,7 @@ During this process, we also setup programs such as the following:
 
 ### Instructions
 
-#### Section I - Prep Work
+#### Section I - Préparatifs
 
 1. Power off your device
 1. Insert your SD card into your computer
