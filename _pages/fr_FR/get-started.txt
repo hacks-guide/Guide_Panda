@@ -4,7 +4,7 @@ title: "Get Started"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Lecture requise
 
 Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
