@@ -57,20 +57,20 @@ ___
 
 ___
 
-#### Flasher ntrboot (3DS Single System)
+#### Flasher ntrboot (une seule 3DS)
 
-Cette méthode n’exige rien de plus que votre 3DS originale non hackée et un linker compatible. Cette méthode utilise le linker pour lancer le fichier `.nds` du flasheur ntrboot sur votre 3DS. This means that your flashcart must support launching `.nds` files on your 3DS's version. See the flashcart table above for more information.
+Cette méthode n’exige rien de plus que votre 3DS originale non hackée et un linker compatible. Cette méthode utilise le linker pour lancer le fichier `.nds` du flasheur ntrboot sur votre 3DS. Cela signifie que votre linker doit pouvoir lancer des fichiers `.nds` sur votre 3DS. Référez-vous au tableau ci-dessus pour une liste des versions compatibles.
 
-Continue to [Flashing ntrboot (3DS Single System)](flashing-ntrboot-(3ds-single-system))
+Continuer vers [Flash de ntrboot (une seule 3DS)](flashing-ntrboot-(3ds-single-system))
 {: .notice--primary}
 
 ___
 
-#### Flashing ntrboot (3DS Multi System)
+#### Flasher ntrboot (plusieurs 3DS)
 
-This method requires temporary access to a second 3DS family device that is already running boot9strap. This does not require your flashcart to support either 3DS's version. See the flashcart table above for more information.
+Cette méthode nécessite un accès temporaire à un second périphérique de la famille 3DS qui utilise déjà boot9strap. Votre linker n'a pas besoin de fonctionner sur aucune des deux 3DS. Référez-vous au tableau ci-dessus pour une liste des versions compatibles.
 
-Continue to [Flashing ntrboot (3DS Multi System)](flashing-ntrboot-(3ds-multi-system))
+Continuer vers [Flash de ntrboot (plusieurs 3DS)](flashing-ntrboot-(3ds-multi-system))
 {: .notice--primary}
 
 ___
