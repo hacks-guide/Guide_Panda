@@ -51,7 +51,7 @@ Note that, only on New 3DS, `secret_sector_dev.bin` is needed to revert the arm9
 
 ### Instructions
 
-#### Section I - Prep Work
+#### Section I - Préparatifs
 
 For all steps in this section, overwrite any existing files on your SD card.
 {: .notice--info}
