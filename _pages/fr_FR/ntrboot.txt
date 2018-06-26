@@ -59,7 +59,7 @@ ___
 
 #### Flasher ntrboot (3DS Single System)
 
-Cette méthode n’exige rien de plus que votre 3DS originale non hackée et un linker compatible. This method uses the flashcart to run the ntrboot flasher `.nds` file on your 3DS. This means that your flashcart must support launching `.nds` files on your 3DS's version. See the flashcart table above for more information.
+Cette méthode n’exige rien de plus que votre 3DS originale non hackée et un linker compatible. Cette méthode utilise le linker pour lancer le fichier `.nds` du flasheur ntrboot sur votre 3DS. This means that your flashcart must support launching `.nds` files on your 3DS's version. See the flashcart table above for more information.
 
 Continue to [Flashing ntrboot (3DS Single System)](flashing-ntrboot-(3ds-single-system))
 {: .notice--primary}
