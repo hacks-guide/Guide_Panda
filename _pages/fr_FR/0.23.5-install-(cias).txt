@@ -24,14 +24,14 @@ Vous DEVEZ downgrader avec le pack correct correspondant a votre console/région
 
 ### Instructions
 
-1. Extract the 0.23.5 SystemUpdater `.zip` to the root of your SD card
-1. Reinsert your SD card into your PANDA
-1. Using Dev Menu, navigate to the 0.23.5 SystemUpdater folder
-1. Press (L + R + A) to install all CIAs
-1. Navigate to the NATIVE_FIRM CIA
+1. Extraire le fichier `.zip` du SystemUpdater de la 0.23.5 à la racine de la carte SD
+1. Réinsérez votre carte SD dans votre PANDA
+1. En utilisant le menu développeur, naviguez dans le dossier SystemUpdater 0.23.5
+1. Appuyez sur les touches L+R+A pour installer tous les CIAs
+1. Naviguez vers le CIA de la NATIVE_FIRM
   + CTR / SPR / FTR: `0004013800000002.cia`
   + SNAKE / CLOSER / JAN: `0004013820000002.cia`
-1. Update your PANDA's FIRM by pressing (Start + Y) while highlighting the NATIVE_FIRM CIA
+1. Mettez a jour le firmware de la PANDA en appuyant sur (Start + Y) pendant que le CIA de la NATIVE_FIRM est surligné
 
-### Continue to [Installing boot9strap (Browser)](installing-boot9strap-(browser))
+### Continuez vers [Installation de boot9strap (navigateur web)](installing-boot9strap-(browser))
 {: .notice--primary}
