@@ -93,21 +93,21 @@ Ce guide est compatible avec les consoles développeur suivantes :
 +  SPR *(unité de test Old 3DS XL)*
 +  FTR *(unité de test 2DS)*
 +  SNAKE *(unité de test New 3DS)*
-+  CLOSER *(New 3DS XL Test Unit)*
-+  PARTNER-CTR [Capture] [Debugger] [Capture Debugger] *(Old 3DS [Debugger] [Capture] [Capture with Debugger] Unit)*
-+  IS-CTR-DEBUGGER [w/ SPR] *(Old 3DS Debugger [with SPR Handset] Unit)*
-+  IS-SPR-DEBUGGER [w/ CAPTURE] *(Old 3DS XL Debugger [with Capture] Unit)*
++  CLOSER *(unité de test New 3DS XL)*
++  PARTNER-CTR [Capture] [Debugger] [Capture Debugger] *(unité Old 3DS [Débogueur] [Capture] [Capture avec débogage])*
++  IS-CTR-DEBUGGER [w/ SPR] *(unité débogueur Old 3DS [avec handset SPR])*
++  IS-SPR-DEBUGGER [w/ CAPTURE] *(unité débogueur Old 3DS XL [avec Capture])*
 +  IS-SNAKE-DevKit *(New 3DS DevKit)*
 
-This guide may be compatible with the following developer units, but this is unconfirmed:
+Ce guide est peut-être compatible avec les consoles développeur suivantes, mais ce n'est pas confirmé :
 
-+  JAN *(New 2DS XL Test Unit)*
-+  IS-CTR-BOX [w/ Expansion Kit] *(CTR Flash Card Writer [with Debugger or Emulator expansion] Unit)*
-+  IS-SNAKE-TESTER *(New 3DS Tester Kit)*
-+  IS-SNAKE-BOX *(CTR Flash Card Writer with SNAKE Debugger and Emulator Unit)*
-+  IS-RAY-DEBUGGER *(IS-SNAKE-BOX Prototype)*
++  JAN *(unité de test New 2DS XL)*
++  IS-CTR-BOX [w/ Expansion Kit] *(unité de flasheur de cartouches CTR [avec extension Débogueur ou Émulateur])*
++  IS-SNAKE-TESTER *(kit de test New 3DS)*
++  IS-SNAKE-BOX *(unité de flasheur de cartouches CTR avec débogueur et émulateur SNAKE)*
++  IS-RAY-DEBUGGER *(prototype de IS-SNAKE-BOX)*
 
 ___
 
-### Continue to [Get Started](get-started)
+### Continuer vers [Pour Commencer](get-started)
 {: .notice--primary}
