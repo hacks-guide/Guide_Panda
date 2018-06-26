@@ -1,91 +1,91 @@
 ---
 main:
   - 
-    title: Home
+    title: Accueil
     url: /
   - 
     title: FAQ
     url: faq
   - 
-    title: Donations
+    title: Dons
     url: donations
   - 
-    title: Credits
+    title: Remerciements
     url: credits
   - 
-    title: Updating B9S
+    title: Mise à jour de B9S
     url: updating-b9s
   - 
-    title: A9LH to B9S
+    title: Mise à jour vers boot9strap
     url: a9lh-to-b9s
   - 
-    title: Troubleshooting
+    title: Problèmes et Dépannage
     url: troubleshooting
   - 
-    title: GodMode9 Usage
+    title: Utilisation de GodMode9
     url: godmode9-usage
   - 
-    title: Site Navigation
+    title: Index du site
     url: site-navigation
   - 
-    title: Uninstall CFW
+    title: Désinstallation du CFW
     url: uninstall-cfw
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
+    title: Pour un support en Anglais, demander de l'aide sur <a href="https://discord.gg/MWxPgEp">le Discord Nintendo Homebrew</a>.
   - 
-    title: If you appreciate this guide, I accept <a href="donations">Donations</a>.
+    title: Si vous appréciez ce guide, j'accepte les <a href="donations">Dons</a>.
 footer:
   - 
     title: Source
   - 
-    title: Site Navigation
+    title: Index du site
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Progression globale
 sidebar_pages:
   - 
-    title: Home
+    title: Accueil
     url: /
   - 
-    title: Get Started
+    title: Pour commencer
     url: get-started
   - 
-    title: 0.23.5 Install
+    title: Installation de la v0.23.5
     url: 0.23.5-install
   - 
     title: ntrboot
     url: ntrboot
   - 
-    title: Multiple Options
+    title: Options multiples
     url: multiple-options
   - 
-    title: 0.23.5 Install (CIAs)
+    title: Installation de la v0.23.5 (CIAs)
     url: 0.23.5-install-(cias)
   - 
-    title: 0.23.5 Install (CSU)
+    title: Installation de la v0.23.5 (CSU)
     url: 0.23.5-install-(csu)
   - 
-    title: Flashing ntrboot (3DS Single System)
+    title: Flash de ntrboot (une seule 3DS)
     url: flashing-ntrboot-(3ds-single-system)
   - 
-    title: Flashing ntrboot (3DS Multi System)
+    title: Flash de ntrboot (plusieurs 3DS)
     url: flashing-ntrboot-(3ds-multi-system)
   - 
-    title: Flashing ntrboot (DSi)
+    title: Flash de ntrboot (DSi)
     url: flashing-ntrboot-(dsi)
   - 
-    title: Flashing ntrboot (NDS)
+    title: Flash de ntrboot (NDS)
     url: flashing-ntrboot-(nds)
   - 
-    title: Flashing ntrboot (Powersaves)
+    title: Flasher ntrboot (Powersaves)
     url: flashing-ntrboot-(powersaves)
   - 
-    title: Installing boot9strap (Browser)
+    title: Installation de boot9strap (Navigateur internet)
     url: installing-boot9strap-(browser)
   - 
-    title: Installing boot9strap (ntrboot)
+    title: Installation de boot9strap (ntrboot)
     url: installing-boot9strap-(ntrboot)
   - 
-    title: Finalizing Setup
+    title: Finalisation de la configuration
     url: finalizing-setup

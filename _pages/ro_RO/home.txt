@@ -19,7 +19,7 @@ Citiți cu atenție toate paginile introductive (inclusiv aceasta!) înainte de 
 
 {% capture notice-home %}
 Acest ghid este *numai* pentru dispozitive de dezvolator ("PANDA")!    
-Dacă aveți un dispozitiv retail (cumpărată de consumatori; nu del a Nintendo Developers Program), vedeți [Ghidul de Modări 3DS retail](https://3ds.guide)
+If you have a retail (consumer purchased; not from the Nintendo Developer Program) console, check out the [retail 3DS Hacks Guide](https://3ds.hacks.guide)
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>

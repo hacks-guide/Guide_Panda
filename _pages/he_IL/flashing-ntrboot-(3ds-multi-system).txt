@@ -19,8 +19,8 @@ This method requires temporary access to a second 3DS family device that is alre
 + שתי קונסולות ממשפחת ה3DS 
   + **The source 3DS**: the 3DS family device that is already running boot9strap
   + **3DS היעד**: הקונסולה על הקושחה המקורית
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest){:target="_blank"} *(`ntr` boot9strap; not the `devkit` file)*
-* The latest release of [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest){:target="_blank"}
+* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`ntr` boot9strap; not the `devkit` file)*
+* The latest release of [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest)
 
 ### Instructions
 

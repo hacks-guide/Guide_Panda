@@ -2,20 +2,20 @@
 title: "Flashing ntrboot (NDS)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
-### Required Reading
+### Lecture requise
 
-Before proceeding, ensure you have read all of the information on [ntrboot](ntrboot)
+Avant de commencer, assurez vous de connaître les informations sur [ntrboot](ntrboot)
 
 This method requires temporary access to a Nintendo DS or Nintendo DS Lite that is compatible with your flashcart.
 
-Note that in some rare circumstances, it may be possible for the flashing process to **brick** a counterfeit flashcart and render it permanently unusable. This is unlikely, but nevertheless only original listed flashcarts are supported. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](http://www.nds-card.com/))
+Notez que dans de rares circonstances, il est possible, pendant le processus de flash sur un linker contrefait ou un clone, que celui-ci **brique** et devienne inutilisable de manière permanente. C'est peu probable, mais notez que seuls les originaux sont supportés. Pour réduire les chances de recevoir un linker contrefait, il est recommandé d'utiliser un site réputé pour acheter votre linker (comme [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
 
-### What You Need
+### Ce dont vous avez besoin
 
-* Your ntrboot compatible flashcart
+* Votre linker compatible ntrboot
 * Two devices 
   + **The source NDS / NDSL**: the Nintendo DS or Nintendo DS Lite which is compatible with your flashcart
   + **The target 3DS**: the 3DS family device on stock firmware
@@ -23,7 +23,7 @@ Note that in some rare circumstances, it may be possible for the flashing proces
 
 ### Instructions
 
-#### Section I - Prep Work
+#### Section I - Préparatifs
 
 1. Power off **the source NDS / NDSL**
 1. Insert your flashcart's SD card into your computer

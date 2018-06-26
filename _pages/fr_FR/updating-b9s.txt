@@ -2,31 +2,31 @@
 title: "Updating B9S"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
-### Required Reading
+### Lecture requise
 
 This page is for existing boot9strap users to update their installation of boot9strap to the latest version.
 
 To extract the `.7z` files linked on this page, you will need a file archiver like [7-Zip](http://www.7-zip.org/) or [The Unarchiver](https://theunarchiver.com/).
 
 {% capture notice-1 %}
-There have been reports of a wave of bans being handed out to CFW users by Nintendo. To protect yourself, please do the following steps before starting this guide:
+Il y a eu des informations concernant une vague de bannissements contre les utilisateurs de CFW par Nintendo. To protect yourself, please do the following steps before starting this guide:
 
 1. Go to System Settings, then "Internet Settings", then "SpotPass", then "Sending of System Information"
 1. Disable the "Sending of System Information" option
 1. Exit the System Settings
 1. Go to your Friend List (the [orange Face Icon]({{ "/images/friend-list-icon.png" | absolute_url }}) in the top row of your Home Menu)
-  + If you receive an error and are kicked out of the menu, the Friend List setting is either already disabled or your console cannot connect to Nintendo's servers (due to a ban or connection issues)
-1. Go to the Friend List settings, then "Friend Notification Settings", then "Show friends what you're playing"
-1. Disable the "Show friends what you're playing" option
-1. Exit your Friend List
+  + Si vous obtenez un message d’erreur et êtes sorti du menu de force, soit la liste d’ami est déjà désactivée soit votre console ne peut pas se connecter aux serveurs de Nintendo (en raison d’un ban ou un problème de connexion)
+1. Allez dans les paramètres de la liste d’ami, puis "Notification à vos amis", puis "Afficher le titre du logiciel que vous utilisez"
+1. Désactivez cette option
+1. Sortez de votre Liste d’amis
 
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### What You Need
+### Ce dont vous avez besoin
 
 * The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
 * The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
@@ -37,7 +37,7 @@ There have been reports of a wave of bans being handed out to CFW users by Ninte
 
 ### Instructions
 
-#### Section I - Prep Work
+#### Section I - Préparatifs
 
 For all steps in this section, overwrite any existing files on your SD card.
 {: .notice--info}

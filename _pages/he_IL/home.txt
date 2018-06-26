@@ -19,7 +19,7 @@ ___
 
 {% capture notice-home %}
 המדריך הזה הוא *רק* בשביל קונסולת מפתח ("PANDA")!    
-If you have a retail (consumer purchased; not from the Nintendo Developer Program) console, check out the [retail 3DS Hacks Guide](https://3ds.guide)
+If you have a retail (consumer purchased; not from the Nintendo Developer Program) console, check out the [retail 3DS Hacks Guide](https://3ds.hacks.guide)
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
