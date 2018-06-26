@@ -1,47 +1,47 @@
 ---
-title: "Get Started"
+title: "Pour Commencer"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
 ### Lecture requise
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+Avant de commencer, vous devriez vérifier si votre carte SD ne contient pas d'erreurs en utilisant [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), ou [F3X (Mac)](f3x-(mac)) !
 {: .notice--warning}
 
 {% capture notice-1 %}
-There have been reports of a wave of bans being handed out to CFW users by Nintendo. To protect yourself, please do the following steps before starting this guide:
+Il y a eu des informations concernant une vague de bannissements contre les utilisateurs de CFW par Nintendo. Pour vous protéger, merci de suivre les étapes suivantes avant de commencer ce guide:
 
-1. Go to System Settings, then "Internet Settings", then "SpotPass", then "Sending of System Information"
-1. Disable the "Sending of System Information" option
-1. Exit the System Settings
-1. Go to your Friend List (the [orange Face Icon]({{ "/images/friend-list-icon.png" | absolute_url }}) in the top row of your Home Menu)
-  + If you receive an error and are kicked out of the menu, the Friend List setting is either already disabled or your console cannot connect to Nintendo's servers (due to a ban or connection issues)
-1. Go to the Friend List settings, then "Friend Notification Settings", then "Show friends what you're playing"
-1. Disable the "Show friends what you're playing" option
-1. Exit your Friend List
+1. Allez dans les paramètres de la console, puis dans "Paramètres Internet", puis dans "SpotPass", puis dans "Envoi d'informations système"
+1. Désactivez l'option "Envoyer des informations système"
+1. Sortez des paramètres de la console
+1. Accédez à votre liste d’ami ([icône de visage orange]({{ "/images/friend-list-icon.png" | absolute_url}}) dans la rangée du haut de votre Menu Home)
+  + Si vous obtenez un message d’erreur et êtes sorti du menu de force, soit la liste d’ami est déjà désactivée soit votre console ne peut pas se connecter aux serveurs de Nintendo (en raison d’un ban ou un problème de connexion)
+1. Allez dans les paramètres de la liste d’ami, puis "Notification à vos amis", puis "Afficher le titre du logiciel que vous utilisez"
+1. Désactivez cette option
+1. Sortez de votre Liste d’amis
 
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
 ___
-### Methods
+### Méthodes
 
 ___
 
-#### 0.23.5 Install
+#### Installation de la v0.23.5
 
-This method involves downgrading to an older firmware version to utilize a browser-based exploit. It is *not* compatible with JAN (New 2DS XL) units because they cannot downgrade below 0.25.5.
+Cette méthode implique le downgrade vers une ancienne version du firmware afin d'utiliser un exploit basé sur le navigateur web. Elle n'est *pas* compatible avec les unités JAN (New 2DS XL) car elles ne peuvent pas être downgradées en dessous de la version 0.25.5.
 
-### Continue to [0.23.5 Install](0.23.5-install)
+### Continuez vers [Installation de la 0.23.5](0.23.5-install)
 {: .notice--primary}
 
 ___
 
 #### ntrboot
 
-This method flashes a commercial flashcart with the ntrboot exploit then boots it on your PANDA. It is compatible with all models and versions (including JAN).
+Cette méthode flashe un linker commercial avec l'exploit ntrboot et le démarre ensuite sur votre unité PANDA. Elle est compatible avec tous les modèles et versions (incluant JAN).
 
-### Continue to [ntrboot](ntrboot)
+### Continuer vers [ntrboot](ntrboot)
 {: .notice--primary}
