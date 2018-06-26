@@ -14,39 +14,39 @@ Ce guide va :
 
 ### Lecture requise
 
-There are two different methods of installing the version 0.23.5 onto your PANDA unit.
+Il y a deux méthodes différentes pour installer la version 0.23.5 sur votre unité PANDA.
 
-One method requires no external tools but only supports some regions and devices due to missing CIA packs for the remaining regions and devices.
+L'une d'elle ne requiert aucun outil externe mais ne supporte que quelques régions et appareils à cause de packs de CIA manquants pour le reste des régions et appareils.
 
-The other method supports all regions and devices, but requires a CTR flash card and the necessary development hardware to write a CSU to that CTR flash card.
-
-___
-### Methods
+L'autre supporte toutes les régions et appareils, mais requière une flashcard CTR et le matériel de développement nécessaire pour écrire un CSU sur cette flashcard CTR.
 
 ___
+### Méthodes
 
-#### 0.23.5 Install (CIAs)
+___
 
-This method is compatible with the following devices 
+#### Installation de la v0.23.5 (CIAs)
+
+Cette méthode est compatible avec les appareils suivants 
 
 +  SNAKE / CLOSER / JAN
     + [EUR / JPN / USA]
 +  CTR / SPR / FTR
    + [EUR / USA]
 
-### Continue to [0.23.5 Install (CIAs)](0.23.5-install-(cias))
+### Continuez vers [Installation de la v0.23.5 (CIAs)](0.23.5-install-(cias))
 {: .notice--primary}
 
 ___
 
-#### 0.23.5 Install (CSU)
+#### Installation de la v0.23.5 (CSU)
 
-This method is compatible with the following devices 
+Cette méthode est compatible avec les appareils suivants 
 
 +  SNAKE / CLOSER / JAN
    + [EUR / JPN / USA]
 +  CTR / SPR / FTR
    + [CHN / EUR / JPN / KOR / TWN / USA]
 
-### Continue to [0.23.5 Install (CSU)](0.23.5-install-(csu))
+### Continuez vers [Installation de la v0.23.5 (CSU)](0.23.5-install-(csu))
 {: .notice--primary}
