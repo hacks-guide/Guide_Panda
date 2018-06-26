@@ -12,8 +12,6 @@ Con esta guía podrás:
 - Instalar boot9strap usando CakeHax Browser
 - (Opcional) Instalar la última versión para tu consola / región
 
-### Lectura requerida
-
 Existen dos diferentes métodos para instalar la versión 0.23.5 en tu unidad PANDA.
 
 Un método se puede realizar sin herramientas externas pero es sólo para algunas regiones y consolas debido a la falta de packs de CIAs para dichas regiones y consolas restantes.
