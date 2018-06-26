@@ -16,16 +16,16 @@ If you have a PIN enabled on Luma3DS, SafeB9SInstaller will give you an "OTP Cry
 {: .notice--warning}
 
 {% capture notice-1 %}
-There have been reports of a wave of bans being handed out to CFW users by Nintendo. To protect yourself, please do the following steps before starting this guide:
+Il y a eu des informations concernant une vague de bannissements contre les utilisateurs de CFW par Nintendo. To protect yourself, please do the following steps before starting this guide:
 
 1. Go to System Settings, then "Internet Settings", then "SpotPass", then "Sending of System Information"
 1. Disable the "Sending of System Information" option
 1. Exit the System Settings
 1. Go to your Friend List (the [orange Face Icon]({{ "/images/friend-list-icon.png" | absolute_url }}) in the top row of your Home Menu)
-  + If you receive an error and are kicked out of the menu, the Friend List setting is either already disabled or your console cannot connect to Nintendo's servers (due to a ban or connection issues)
-1. Go to the Friend List settings, then "Friend Notification Settings", then "Show friends what you're playing"
-1. Disable the "Show friends what you're playing" option
-1. Exit your Friend List
+  + Si vous obtenez un message d’erreur et êtes sorti du menu de force, soit la liste d’ami est déjà désactivée soit votre console ne peut pas se connecter aux serveurs de Nintendo (en raison d’un ban ou un problème de connexion)
+1. Allez dans les paramètres de la liste d’ami, puis "Notification à vos amis", puis "Afficher le titre du logiciel que vous utilisez"
+1. Désactivez cette option
+1. Sortez de votre Liste d’amis
 
 {% endcapture %}
 
