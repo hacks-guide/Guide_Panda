@@ -26,7 +26,7 @@ To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on th
 
 ### Instructions
 
-#### Section I - Prep Work
+#### Section I - Préparatifs
 
 1. Power off your device
 1. Insert your SD card into your computer
