@@ -2,7 +2,7 @@
 title: "Finalizing Setup"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
 ### Lecture requise
 
@@ -17,7 +17,7 @@ During this process, we also setup programs such as the following:
 +  **Luma3DS Updater** *(updates your CFW installation easily)*
 +  **GodMode9** *(multipurpose tool which can do NAND and cartridge functions)*
 
-### What You Need
+### Ce dont vous avez besoin
 
 * The latest release of [Anemone3DS](https://github.com/astronautlevel2/Anemone3DS/releases/latest) *(the `.cia` file)*
 * The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
