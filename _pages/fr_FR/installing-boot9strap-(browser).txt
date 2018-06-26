@@ -19,7 +19,7 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
 
 ### Instructions
 
-#### Section I - Prep Work
+#### Section I - Préparatifs
 
 1. Power off your device
 1. Insert your SD card into your computer
