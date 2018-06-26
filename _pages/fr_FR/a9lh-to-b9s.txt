@@ -2,7 +2,7 @@
 title: "A9LH to B9S"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
 ### Lecture requise
 
@@ -31,7 +31,7 @@ Il y a eu des informations concernant une vague de bannissements contre les util
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### What You Need
+### Ce dont vous avez besoin
 
 Note that the following required file named `secret_sector_dev.bin` is the same one that was found in `safea9lhinstaller_v2_panda.zip` with the name `secret_sector.bin`. If you already have that file on your disk somewhere, you can use that one (renaming it) instead of downloading the one below.
 {: .notice--info}
