@@ -43,7 +43,7 @@ Dans la plupart des cas, exécuter un homebrew sur votre console est 100% gratui
 
 ## Qu'est-ce qu'un Custom Firmware ?
 
-Un **Custom Firmware** ("CFW") vous permet d'utiliser des hacks plus avancés auxquels les homebrew "userland" ne peuvent pas accéder facilement. Par exemple, les patchs de signatures vous permettent d'installer des titres non signés directement sur votre menu HOME.
+Un **Custom Firmware** ("CFW") vous permet d'utiliser des hacks plus avancés auxquels les homebrew "userland" ne peuvent pas accéder facilement. Par exemple, les patchs de signatures vous permettent d'installer des titres non signés directement sur votre menu Home.
 
 Un CFW peut facilement être installé dans n'importe quelle console développeur
 
@@ -69,30 +69,30 @@ Pour une liste de chacune des signatures sighax calculées, voir [ce gist](https
 + Prendre des captures d'écran de jeux et d'applications
 + [Sauvegarder, modifier et restaurer](https://gbatemp.net/threads/413143/) vos sauvegardes pour de nombreux jeux
 + Jouer à des jeux d'autres consoles plus anciennes via des émulateurs, comme RetroArch ou d'autres émulateurs individuels. (Fonctionne mieux sur New 3DS)
-+ Install homebrew titles to your system, and have them appear on your HOME Menu
-+ Dump your game cards to a format you can install, and play them without needing the card
-+ New 3DS only: stream live gameplay to your PC wirelessly with NTR CFW
-+ Run many old Nintendo DS flash carts that were blocked long ago or never worked on Nintendo 3DS
-+ Safely update to the latest system version without fear of losing access to homebrew
++ Installer des homebrew sur votre console et les faire apparaître sur votre menu Home
++ Copier votre cartouche de jeu dans un format que vous pouvez installer, et y jouer sans la cartouche
++ Uniquement sur New 3DS : diffuser en Wi-fi vos sessions de jeu vers votre PC grâce à NTR CFW
++ Lancer la plupart des vieux linkers pour Nintendo DS qui ont été bloqués il y a longtemps - voire n'ont jamais marché - sur 3DS
++ Mettre à jour la console vers la dernière version sans craindre de perdre l'accès aux homebrew
 
-## What do I need to know before starting?
+## Que dois-je savoir avant de commencer ?
 
-+ **Before beginning the guide, you must know the risks of 3DS hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
-+ This guide will work on New 3DS, Old 3DS, and 2DS in all regions on on all firmware versions
-+ If everything goes according to plan, you will lose no data and end up with everything that you started with.
-+ Keep the device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!
-+ Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/) (the SD card that comes with the device will be MBR by default).
-+ If you need to format a brand new SD card, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K (32768).
-+ The 2DS is essentially identical to the Old 3DS in terms of software, and that any steps which say "Old 3DS" also apply to 2DS.
++ **Avant de commencer à suivre ce guide, vous devez connaître les risques liés au hack de votre 3DS : à CHAQUE fois que vous modifiez votre système, il y a toujours un risque de brick IRRÉCUPÉRABLE. Cela arrive rarement, mais c'est toujours une possibilité donc assurez-vous de suivre EXACTEMENT TOUTES les consignes.**
++ Ce guide fonctionnera sur les New3DS, Old3DS, Old2DS et New2DS (XL y compris) dans toutes les régions et versions
++ Si tout se passe comme prévu, vous ne perdrez aucune donnée et finirez avec tout ce que vous aviez au départ.
++ Assurez-vous que votre console reste branchée et chargée pendant l’intégralité du processus pour éviter la perte de données ou les dommages causés par une extinction inattendue !
++ Votre carte SD doit être en [MBR, pas GPT](http://www.howtogeek.com/245610/) (la carte SD fournie avec la console est en MBR par défaut).
++ Si vous devez formater une carte SD neuve, vous pouvez utiliser [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) et choisir une taille d'unité d'allocation ("Allocation Unit Size") de 32K (32768).
++ La 2DS est quasiment identique à une Old (Ancienne) 3DS en termes de logiciel, donc toutes les étapes qui s'appliquent aux Old 3DS s'appliquent aussi à la 2DS.
 
-## What devices is this guide compatible with?
+## Avec quelles consoles ce guide est-il compatible ?
 
-This guide is confirmed to be compatible with the following developer units:
+Ce guide est compatible avec les consoles développeur suivantes :
 
-+  CTR *(Old 3DS Test Unit)*
-+  SPR *(Old 3DS XL Test Unit)*
-+  FTR *(2DS Test Unit)*
-+  SNAKE *(New 3DS Test Unit)*
++  CTR *(unité de test Old 3DS)*
++  SPR *(unité de test Old 3DS XL)*
++  FTR *(unité de test 2DS)*
++  SNAKE *(unité de test New 3DS)*
 +  CLOSER *(New 3DS XL Test Unit)*
 +  PARTNER-CTR [Capture] [Debugger] [Capture Debugger] *(Old 3DS [Debugger] [Capture] [Capture with Debugger] Unit)*
 +  IS-CTR-DEBUGGER [w/ SPR] *(Old 3DS Debugger [with SPR Handset] Unit)*
