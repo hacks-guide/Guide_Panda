@@ -77,7 +77,7 @@ For a list of each of the calculated sighax signatures, see [this gist](https://
 ## What do I need to know before starting?
 
 + **Before beginning the guide, you must know the risks of 3DS hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
-+ This guide will work on New 3DS, Old 3DS, and 2DS in all regions on on all firmware versions
++ This guide will work on New 3DS, Old 3DS, and 2DS in all regions on all firmware versions
 + If everything goes according to plan, you will lose no data and end up with everything that you started with.
 + Keep the device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!
 + Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/) (the SD card that comes with the device will be MBR by default).
