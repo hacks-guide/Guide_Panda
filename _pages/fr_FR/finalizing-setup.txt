@@ -54,34 +54,34 @@ Cette section est facultative et nécessite une cartouche CTR et le matériel de
 
 1. Using Dev Menu, navigate to the `cias` folder
 1. Press (L + R + A) to install all CIAs
-1. Exit Dev Menu
+1. Quittez le Dev Menu
 
 #### Section IV - CTRNAND Luma3DS
 
-1. Launch GodMode9 by holding (Start) during boot
+1. Ouvrez GodMode9 en maintenant (Start) au démarrage
 1. If you are prompted to create an essential files backup, press (A) to do so, then press (A) to continue once it has completed
-1. Press (Home) to bring up the action menu
+1. Appuyez sur (Home) pour faire apparaître le menu d’actions
 1. Select "More..."
-1. Select "Scripts..."
-1. Select "setup_ctrnand_luma3ds"
-1. When prompted, press (A) to proceed
+1. Sélectionnez "Scripts"
+1. Sélectionnez "setup_ctrnand_luma3ds"
+1. Lorsque vous y êtes invité, appuyez sur (A)
 1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
 1. Appuyez sur (A) pour continuer
-1. Press (A) to relock write permissions
+1. Appuyez (A) pour reverrouiller les autorisations en écriture
 
 #### Section V - Backup Essential Files
 
 1. Press (Home) to bring up the action menu
 1. Select "Scripts..."
-1. Select "Backup SysNAND"
+1. Sélectionnez "Backup SysNAND"
 1. Press (A) to confirm
-  + This process will take some time
+  + Ce processus prendra un certain temps
   + If you get an error, make sure that you have at least 1.2GB to 1.3GB of free space on your SD card
 1. Press (A) to continue
 1. Hold (R) and press (B) at the same time to eject your SD card
 1. Insert your SD card into your computer
 1. Copy `<date>_<serialnumber>_sysnand_###.bin` and `essential.exefs` from the `/gm9/out/` folder on your SD card to a safe location on your computer
-  + Make backups in multiple locations (such as online file storage)
+  + Faites des sauvegardes dans plusieurs endroits (tels que des stockages de fichiers en ligne par exemple)
   + These backups will save you from a brick and/or help you recover files from the NAND image if anything goes wrong in the future
 1. Delete `<date>_<serialnumber>_sysnand_###.bin` and `<date>_<serialnumber>_sysnand_###.bin.sha` from the `/gm9/out/` folder on your SD card after copying it
 1. Reinsert your SD card into your device
@@ -91,10 +91,10 @@ Cette section est facultative et nécessite une cartouche CTR et le matériel de
 1. Press (Home) to bring up the action menu
 1. Select "More..."
 1. Select "Scripts..."
-1. Select "cleanup_sd_card"
+1. Sélectionnez "cleanup_sd_card"
 1. When prompted, press (A) to proceed
 1. Press (A) to continue
-1. Press (Start) to reboot
+1. Appuyez sur (Start) pour redémarrer
 
 ___
 
