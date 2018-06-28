@@ -125,7 +125,7 @@ This section is optional and requires both a CTR flash card and the development 
 1. Select "setup_ctrnand_luma3ds"
 1. When prompted, press (A) to proceed
 1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
-1. Press (A) to continue
+1. Appuyez sur (A) pour continuer
 1. Press (A) to relock write permissions
 
 #### Section VII - Backup SysNAND
@@ -135,7 +135,7 @@ This section is optional and requires both a CTR flash card and the development 
 1. Select "Backup SysNAND"
 1. Press (A) to confirm
   + This process will take some time
-1. Press (A) to continue
+1. Appuyez sur (A) pour continuer
 1. Hold (R) and press (B) at the same time to eject your SD card
 1. Insert your SD card into your computer
 1. Copy `<date>_<serialnumber>_sysnand_###.bin` from the `/gm9/out/` folder on your SD card to a safe location on your computer
@@ -154,7 +154,7 @@ Note that this script will remove the `/boot9strap/` and `/cias/` folders from y
 1. Select "Scripts..."
 1. Select "cleanup_sd_card"
 1. When prompted, press (A) to proceed
-1. Press (A) to continue
+1. Appuyez sur (A) pour continuer
 1. Press (Start) to reboot
 
 ___
