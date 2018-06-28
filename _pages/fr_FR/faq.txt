@@ -35,11 +35,11 @@ title: "FAQ"
 <a name="faq_ge128gbsd" /> **Q :** *Puis-je utiliser une carte SD 128 Go (ou plus) ?*    
 **R :** Oui, mais certains utilisateurs ont signalé des ralentissements lors de l’utilisation de cartes SD de grandes capacités. Notez que vous ne pouvez pas formater la carte en exFAT ; vous devez la formater en FAT32.
 
-<a name="faq_movesd" />**Q:** *How do I move to a new SD card at the end of this?*    
-**A:** Just copy all the files to the new SD card.
+<a name="faq_movesd" />**Q:** *Comment passer sur une nouvelle carte SD après avoir fini tout ça ?*    
+**R :** Il suffit de copier tous les fichiers de l'ancienne carte SD sur la nouvelle.
 
-<a name="faq_nopc" />**Q:** *Can I do this without a computer (e.g. an Android phone)?*    
-**A:** All you need is the ability to put files on an SD card!
+<a name="faq_nopc" /> **Q :** *Puis-je faire cela sans ordinateur (ex : un téléphone Android) ?*    
+**R :** Tout ce dont vous avez besoin est la possibilité de mettre des fichiers sur une carte SD !
 
-<a name="faq_problem" />**Q:** *Help! Something bad happened and now I cannot boot...*    
-**A:** Please look at the [troubleshooting guide](troubleshooting).
+<a name="faq_problem" /> **Q :** *À l'aide ! Quelque chose s'est mal passé et maintenant je ne peux plus démarrer...*    
+**R :** Consultez le [guide de dépannage](troubleshooting).
