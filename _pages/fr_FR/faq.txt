@@ -2,20 +2,20 @@
 title: "FAQ"
 ---
 
-<a name="faq_latestfw" />**Q:** *I am on the latest system version, is my device hackable?*    
-**A:** Yes
+<a name="faq_latestfw" /> **Q :** *Je suis sur la dernière version du système, est-ce que ma console est hackable ?*    
+**R :** Oui
 
-<a name="faq_updatecfw" />**Q:** *How do I update Luma3DS?*    
-**A:** Use Luma3DS Updater
+<a name="faq_updatecfw" /> **Q :** *Comment mettre à jour Luma3DS ?*    
+**R :** Utilisez Luma3DS Updater
 
-<a name="faq_gatewaysky" />**Q:** *I heard about this thing I have to pay for (Gateway, Sky3DS, etc), is that something I need?*    
-**A:** No. boot9strap is a superior method of loading hax that runs early in boot.
+<a name="faq_gatewaysky" /> **Q :** *J’ai entendu parler de cette chose payante (Gateway, Sky3DS, etc.), est-ce quelque chose dont j’ai besoin ?*    
+**R :** Non. boot9strap est une meilleure méthode pour charger des hax, et s’exécute plus tôt pendant le démarrage.
 
-<a name="faq_need" />**Q:** *What do I need to do this guide?*    
-**A:** This guide can be completely done with free software and (if you have no browser) a compatible game   
+<a name="faq_need" /> **Q :** *De quoi ai-je besoin pour suivre ce guide ?*    
+**R :** Ce guide peut être entièrement suivi avec des logiciels libres et (si vous n’avez pas de navigateur) un jeu compatible   
 
-<a name="faq_risky" />**Q:** *How risky is hacking my console?*    
-**A:** Bricks are now *basically* impossible unless you ignore/circumvent all safety checks.
+<a name="faq_risky" /> **Q :** *À quel point le processus de hack la console est-il risqué ?*    
+**R :** Les bricks sont *en pratique* impossibles, à moins que vous n'ignoriez/ne contourniez les étapes de vérification.
 
 <a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
 **A:** Yes! Custom Firmware not only enables the Homebrew Launcher, but it also will give you hacks on all versions, which means you keep it forever, even with updates.
