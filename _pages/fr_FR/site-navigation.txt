@@ -1,28 +1,28 @@
 ---
-title: "Site Navigation" #
+title: "Index" #
 sitemap: false
 ---
 
 {% capture notice-2 %}
-**All**
+**Toutes**
 
-+ [0.23.5 Install](0.23.5-install)
-+ [0.23.5 Install (CIAs)](0.23.5-install-(cias))
-+ [0.23.5 Install (CSU)](0.23.5-install-(csu))
-+ [A9LH to B9S](a9lh-to-b9s)
-+ [Credits](credits)
++ [Installation de la v0.23.5](0.23.5-install)
++ [Installation de la v0.23.5 (CIAs)](0.23.5-install-(cias))
++ [Installation de la v0.23.5 (CSU)](0.23.5-install-(csu))
++ [Mise à jour d'AL9H vers boot9strap](a9lh-to-b9s)
++ [Remerciements](credits)
 + [Donations](donations)
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
 + [FAQ](faq)
-+ [Flashing ntrboot (3DS Single System)](flashing-ntrboot-(3ds-single-system))
-+ [Flashing ntrboot (3DS Multi System)](flashing-ntrboot-(3ds-multi-system))
-+ [Flashing ntrboot (DSi)](flashing-ntrboot-(dsi))
-+ [Flashing ntrboot (NDS)](flashing-ntrboot-(nds))
-+ [Flashing ntrboot (Powersaves)](flashing-ntrboot-(powersaves))
-+ [Get Started](get-started)
++ [Flash de ntrboot (une seule 3DS)](flashing-ntrboot-(3ds-single-system))
++ [Flash de ntrboot (plusieurs 3DS)](flashing-ntrboot-(3ds-multi-system))
++ [Flash de ntrboot (DSi)](flashing-ntrboot-(dsi))
++ [Flash de ntrboot (NDS)](flashing-ntrboot-(nds))
++ [Flash de ntrboot (Powersaves)](flashing-ntrboot-(powersaves))
++ [Bien démarrer](get-started)
 + [H2testw (Windows)](h2testw-(windows))
-+ [Home](/)
++ [Home](/fr_FR/)
 + [Installing boot9strap (Browser)](installing-boot9strap-(browser))
 + [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
 + [ntrboot](ntrboot)
