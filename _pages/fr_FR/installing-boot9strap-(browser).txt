@@ -33,7 +33,7 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
     {: .notice--info}
 
 1. Reinsert your SD card into your device
-1. Power on your device
+1. Allumez à présent votre 3DS
 
 #### Section II - Launching SafeB9SInstaller
 
@@ -52,7 +52,7 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
 1. When prompted, input the key combo given to install boot9strap
 1. Once it has completed, press (A) to reboot your device
 
-#### Section IV - Configuring Luma3DS
+#### Section IV - Configuration de Luma3DS
 
 1. Your device should have rebooted into the Luma3DS configuration menu
   + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
