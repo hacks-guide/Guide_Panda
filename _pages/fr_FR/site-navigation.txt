@@ -9,7 +9,7 @@ sitemap: false
 + [Installation de la v0.23.5](0.23.5-install)
 + [Installation de la v0.23.5 (CIAs)](0.23.5-install-(cias))
 + [Installation de la v0.23.5 (CSU)](0.23.5-install-(csu))
-+ [Mise à jour d'AL9H vers boot9strap](a9lh-to-b9s)
++ [Mise à jour d'A9LH vers boot9strap](a9lh-to-b9s)
 + [Remerciements](credits)
 + [Donations](donations)
 + [F3 (Linux)](f3-(linux))
@@ -23,10 +23,10 @@ sitemap: false
 + [Bien démarrer](get-started)
 + [H2testw (Windows)](h2testw-(windows))
 + [Home](/fr_FR/)
-+ [Installing boot9strap (Browser)](installing-boot9strap-(browser))
-+ [Installing boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
++ [Installation de boot9strap (navigateur)](installing-boot9strap-(browser))
++ [Installation de boot9strap (ntrboot)](installing-boot9strap-(ntrboot))
 + [ntrboot](ntrboot)
-+ [Troubleshooting](troubleshooting)
-+ [Updating B9S](updating-b9s)
++ [Dépannage](troubleshooting)
++ [Mise à jour de B9S](updating-b9s)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
