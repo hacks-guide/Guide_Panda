@@ -1,5 +1,5 @@
 ---
-title: "Flashing ntrboot (NDS)"
+title: "Flash de ntrboot (NDS)"
 ---
 
 {% include toc title="Table des matières" %}
@@ -16,36 +16,36 @@ Notez que dans de rares circonstances, il est possible, pendant le processus de 
 ### Ce dont vous avez besoin
 
 * Votre linker compatible ntrboot
-* Two devices 
-  + **The source NDS / NDSL**: the Nintendo DS or Nintendo DS Lite which is compatible with your flashcart
-  + **The target 3DS**: the 3DS family device on stock firmware
-* The latest release of [ds_ntrboot_flasher](https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest) *(standard flasher; not the `dsi` flasher)*
+* Deux consoles 
+  + **La NDS/NDSL source** : la Nintendo DS ou Nintendo DS Lite qui est compatible avec votre linker
+  + **La 3DS cible** : la 3DS sur un firmware original non modifié
+* La dernière version de [ds_ntrboot_flasher](https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest) *(flasheur standard ; pas le flasheur `dsi`)*
 
 ### Instructions
 
 #### Section I - Préparatifs
 
-1. Power off **the source NDS / NDSL**
+1. Éteignez **la NDS/NDSL source**
 1. Insérez la carte SD de votre linker dans votre ordinateur
-1. Copy `ds_ntrboot_flasher.nds` to your flashcart's SD card
+1. Copiez `ds_ntrboot_flasher.nds` sur la carte SD de votre linker
 1. Réinsérez sa carte SD dans votre linker
-1. Insert your ntrboot compatible DS / DSi flashcart into **the source NDS / NDSL**
+1. Insérez votre linker DS/DSi compatible ntrboot dans **la NDS/NDSL source**
 
 #### Section II - Flasher ntrboot
 
-1. Launch `ds_ntrboot_flasher.nds` on **the source NDS / NDSL** using your flashcart
+1. Lancez `ds_ntrboot_flasher.nds` sur **la NDS / NDSL (Lite) source** grâce à votre linker
 1. Appuyez sur (A) pour continuer
 1. Utilisez (Haut) et (Bas) pour sélectionner votre linker
 1. Appuyez sur (A) pour continuer
-1. Press (X) to "load flashrom"
+1. Appuyez sur (X) pour "load flashrom"
 1. Appuyez sur (A) pour continuer
-1. Eject your flashcart from **the source NDS / NDSL**
-1. Eject the SD card from your flashcart
-1. Reinsert your flashcart into **the source NDS / NDSL** with the SD card removed
+1. Éjectez votre linker de **la NDS/NDSL source**
+1. Éjectez la carte SD de votre linker
+1. Réinsérez votre linker dans **la NDS / NDSL source** après avoir retiré sa carte SD
 1. Appuyez sur (A) pour continuer
 1. Appuyez sur (A) pour "inject ntrboothax"
 1. Appuyez sur (A) pour sélectionner "RETAIL"
-1. Eject your flashcart from **the source NDS / NDSL**
+1. Éjectez votre linker de **la NDS/NDSL source**
 
 ___
 
