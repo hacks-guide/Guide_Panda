@@ -130,37 +130,37 @@ Notez que si vous avez un autre payload que `GodMode9.firm` dans le dossier `/lu
         1. Éteignez votre console
         1. Ouvrez GodMode9 en maintenant (Start) au démarrage
         1. Appuyez sur (Home) pour faire apparaître le menu d’actions
-        1. Select "Scripts..."
+        1. Sélectionnez "Scripts..."
         1. Sélectionnez "remove_extdata"
         1. Lorsque vous y êtes invité, appuyez sur (A)
         1. Appuyez sur (A) pour autoriser l'écriture (lv1) sur votre SysNAND, puis entrez la combinaison de touches demandée
         1. Appuyez sur (A) pour continuer
         1. Appuyez (A) pour reverrouiller les autorisations en écriture
         1. Appuyez sur (Start) pour redémarrer votre système
-1. Try booting without any cartridges inserted (including flashcarts)
-1. If you have a hardmod and a NAND backup, flash the backup back to SysNAND
-1. Try booting into recovery mode and updating your system
+1. Essayez de démarrer votre console sans aucune cartouche insérée (ni linker)
+1. Si vous avez un hardmod et une sauvegarde de votre NAND, flashez-la vers votre SysNAND
+1. Essayez de démarrer en mode de récupération et de mettre à jour votre console
     1. Éteignez votre console
-    1. Hold (L) + (R) + (A) + (Up)
+    1. Maintenir (L) + (R) + (A) + (Haut)
     1. Allumez à présent votre 3DS
-    1. If you enter safe mode, update your device
-1. Your device may be bricked. For support, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
+    1. Si vous passez en mode sécurisé, mettez à jour votre console
+1. Votre console est peut-être brickée. Pour obtenir de l'aide, demandez de l'aide au [Discord Nintendo Homebrew (en Anglais)](https://discord.gg/MWxPgEp)
 
-## Clear Home Menu extdata
+## Effacer l'extdata du Menu HOME
 
 1. Éteignez votre console
 1. Insérez votre carte SD dans votre ordinateur
-1. Navigate to the `/Nintendo 3DS/(32 Character ID)/(32 Character ID)/extdata/00000000/` folder on your SD card
-1. Delete the extdata file corresponding to your region:
-  + **EUR Region**: `00000098`
-  + **JPN Region**: `00000082`
-  + **USA Region**: `0000008f`
-  + **CHN Region**: `000000A1`
-  + **KOR Region**: `000000A9`
-  + **TWN Region**: `000000B1`
+1. Naviguez vers le dossier `/Nintendo 3DS/(ID de 32 caractères)/(ID de 32 caractères)/extdata/00000000/` sur votre carte SD
+1. Supprimez le fichier extdata correspondant à votre région :
+  + **Région EUR** : `00000098`
+  + **Région JPN** : `00000082`
+  + **Région USA** : `0000008f`
+  + **Région CHN** : `000000A1`
+  + **Région KOR** : `000000A9`
+  + **Région TWN** : `000000B1`
 1. Réinsérez votre carte SD dans votre console
 
-## Black screen on SysNAND boot after Installing boot9strap
+## Écran noir au démarrage de la SysNAND après l’installation de boot9strap
 
 ### Ce dont vous avez besoin
 
@@ -168,30 +168,30 @@ Notez que si vous avez un autre payload que `GodMode9.firm` dans le dossier `/lu
 
 ### Instructions
 
-1. Ensure you have a working payload
-    1. Check for the existence of `boot.firm` in the root of your SD card.
-1. Try resetting Luma's config and fix options
-    1. Delete `/luma/config.bin` from your SD card
-    1. Set your options when it boots
-1. Test booting GodMode9
-    1. On Luma3DS, hold (Start) on boot
-1. Try deleting home menu's extdata
+1. Assurez-vous d'avoir un payload fonctionnel
+    1. Vérifiez l’existence de `boot.firm` à la racine de votre carte SD.
+1. Essayez de réinitialiser la configuration de Luma3DS et de corriger les options
+    1. Supprimez `/luma/config.bin` de votre carte SD
+    1. Définissez vos options au prochain démarrage de la console
+1. Essayez de démarrer GodMode9
+    1. Avec Luma3DS, maintenez (Start) au démarrage
+1. Essayez de supprimer les données additionnelles (extdata) du menu Home
     1. Éteignez votre console
     1. Ouvrez GodMode9 en maintenant (Start) au démarrage
     1. Appuyez sur (Home) pour faire apparaître le menu d’actions
     1. Sélectionnez "Scripts"
-    1. Select "remove_extdata"
+    1. Sélectionnez "remove_extdata"
     1. Lorsque vous y êtes invité, appuyez sur (A)
     1. Appuyez sur (A) pour autoriser l'écriture (lv1) sur votre SysNAND, puis entrez la combinaison de touches demandée
     1. Appuyez sur (A) pour continuer
     1. Appuyez (A) pour reverrouiller les autorisations en écriture
     1. Appuyez sur (Start) pour redémarrer votre système
-1. Try booting without any cartridges inserted (including flashcarts)
-1. If you previously downgraded with Gateway, ensure that you are using the latest Luma3DS version
-1. Try following [CTRTransfer](ctrtransfer)
-1. Ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
+1. Essayez de démarrer votre console sans aucune cartouche insérée (ni linker)
+1. Si vous avez auparavant réalisé un downgrade via Gateway, assurez-vous que vous utilisez la dernière version de Luma3DS
+1. Essayez [CTRTransfer](ctrtransfer)
+1. Pour obtenir de l'aide, demandez sur le [Discord Nintendo Homebrew (en Anglais)](https://discord.gg/MWxPgEp).
 
-## Blue screen on boot (bootrom error)
+## Écran bleu au démarrage (erreur bootrom)
 
-1. Your device is bricked
-1. You will need to get a [hardmod](https://gbatemp.net/threads/414498/) or repair / replace your device
+1. Votre console est brickée
+1. Vous allez devoir mettre en place un [hardmod](https://gbatemp.net/threads/414498/) ou réparer/remplacer votre console
