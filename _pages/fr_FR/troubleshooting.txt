@@ -19,10 +19,10 @@ Pour utiliser les liens [magnet](https://fr.wikipedia.org/wiki/Magnet_(standard)
 * Le `.cia` du TWL_FIRM de votre console
     + <i class="fa fa-magnet" aria-hidden="true" title="Ceci est un lien magnet. Utilisez un client de torrent pour télécharger le fichier."></i> - [New_3DS TWL_FIRM - v9936.cia](magnet:?xt=urn:btih:eab8558c97b18b1f329a2bfcc3c899b84c082a27&dn=New%5F3DS%20TWL%5FFIRM%20-%20v9936.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
     + <i class="fa fa-magnet" aria-hidden="true" title="Ceci est un lien magnet. Utilisez un client de torrent pour télécharger le fichier."></i> - [Old_3DS TWL_FIRM - v8817.cia](magnet:?xt=urn:btih:17511eadb6e6f3ff22d04f90644e37bd2d96ca43&dn=Old%5F3DS%20TWL%5FFIRM%20-%20v8817.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
-* <i class="fa fa-magnet" aria-hidden="true" title="Ceci est un lien magnet. Use a torrent client to download the file."></i> - [TWL Version Data - v0.cia](magnet:?xt=urn:btih:4a106681407fede5de95cc8bda635432481f6b5d&dn=TWL%20Version%20Data%20-%20v0.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
-* <i class="fa fa-magnet" aria-hidden="true" title="Ceci est un lien magnet. Use a torrent client to download the file."></i> - [DS Internet - v2048.cia](magnet:?xt=urn:btih:2b9df8496922f2546dfb0b01220068ce53c19d3d&dn=DS%20Internet%20-%20v2048.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
-* <i class="fa fa-magnet" aria-hidden="true" title="Ceci est un lien magnet. Use a torrent client to download the file."></i> - [DS Download Play - v1024.cia](magnet:?xt=urn:btih:b581d3c5d98f5e621fddfc1ce5704bb45bf05a8c&dn=DS%20Download%20Play%20-%20v1024.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
-* <i class="fa fa-magnet" aria-hidden="true" title="Ceci est un lien magnet. Use a torrent client to download the file."></i> - [Nintendo DS Cart Whitelist - v11264.cia](magnet:?xt=urn:btih:7b90d506ad032a581a00035616eaa17a68c48eff&dn=Nintendo%20DS%20Cart%20Whitelist%20-%20v11264.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
+* <i class="fa fa-magnet" aria-hidden="true" title="Ceci est un lien magnet. Utilisez un client de torrent pour télécharger le fichier."></i> - [TWL Version Data - v0.cia](magnet:?xt=urn:btih:4a106681407fede5de95cc8bda635432481f6b5d&dn=TWL%20Version%20Data%20-%20v0.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
+* <i class="fa fa-magnet" aria-hidden="true" title="Ceci est un lien magnet. Utilisez un client de torrent pour télécharger le fichier."></i> - [DS Internet - v2048.cia](magnet:?xt=urn:btih:2b9df8496922f2546dfb0b01220068ce53c19d3d&dn=DS%20Internet%20-%20v2048.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
+* <i class="fa fa-magnet" aria-hidden="true" title="Ceci est un lien magnet. Utilisez un client de torrent pour télécharger le fichier."></i> - [DS Download Play - v1024.cia](magnet:?xt=urn:btih:b581d3c5d98f5e621fddfc1ce5704bb45bf05a8c&dn=DS%20Download%20Play%20-%20v1024.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
+* <i class="fa fa-magnet" aria-hidden="true" title="Ceci est un lien magnet. Utilisez un client de torrent pour télécharger le fichier."></i> - [Nintendo DS Cart Whitelist - v11264.cia](magnet:?xt=urn:btih:7b90d506ad032a581a00035616eaa17a68c48eff&dn=Nintendo%20DS%20Cart%20Whitelist%20-%20v11264.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
 
 ### Instructions
 
@@ -31,22 +31,22 @@ Pour utiliser les liens [magnet](https://fr.wikipedia.org/wiki/Magnet_(standard)
 1. Éteignez votre console
 1. Insérez votre carte SD dans votre ordinateur
 1. Créez un dossier nommé `cias` à la racine de votre carte SD si celui ci n'existe pas
-1. Copy `TWL Version Data - v0.cia` to the `/cias/` folder on your SD card
-1. Copy `DS Download Play - v1024.cia` to the `/cias/` folder on your SD card
-1. Copy `DS Internet - v2048.cia` to the `/cias/` folder on your SD card
-1. Copy `Nintendo DS Cart Whitelist - v11264.cia` to the `/cias/` folder on your SD card
-1. Copy either `New_3DS TWL_FIRM - v9936.cia`  or `Old_3DS TWL_FIRM - v8817.cia` to the `/cias/` folder on your SD card
+1. Copiez `TWL Version Data - v0.cia` dans le dossier `/cias/` sur votre carte SD
+1. Copiez `DS Download Play - v1024.cia` dans le dossier `/cias/` sur votre carte SD
+1. Copiez `DS Internet - v2048.cia` dans le dossier `/cias/` sur votre carte SD
+1. Copiez `Nintendo DS Cart Whitelist - v11264.cia` dans le dossier `/cias/` sur votre carte SD
+1. Copiez soit `New_3DS TWL_FIRM - v9936.cia` soit `Old_3DS TWL_FIRM - v8817.cia` dans le dossier `/cias/` sur votre carte SD
 1. Réinsérez votre carte SD dans votre console
 
-#### Section II - Installing titles
+#### Section II - Installation des applications
 
-1. Launch FBI
-1. Navigate to `SD` -> `cias`
-1. Select "\<current directory>"
-1. Select "Install and delete all CIAs"
-1. Press (Home) to exit FBI
+1. Lancez FBI
+1. Naviguez vers `SD` -> `cias`
+1. Sélectionnez "\<current directory>"
+1. Sélectionnez "Install and delete all CIAs"
+1. Appuyez sur (Home) pour quitter FBI
 
-## Removing an NNID without formatting your device
+## Supprimer un NNID sans formater votre console
 
 ### Ce dont vous avez besoin
 
@@ -54,63 +54,63 @@ Pour utiliser les liens [magnet](https://fr.wikipedia.org/wiki/Magnet_(standard)
 
 ### Instructions
 
-Note that if you have any payload files other than `GodMode9.firm` in the `/luma/payloads/` folder on your SD card, holding (Start) on boot will display a "chainloader menu" where you will have to use the D-Pad and the (A) button to select "GodMode9" for these instructions. 
+Notez que si vous avez un autre payload que `GodMode9.firm` dans le dossier `/luma/payloads/` sur votre carte SD, appuyer sur (Start) au démarrage affiche un "chainloader menu" où vous devrez utiliser le D-Pad et le bouton (A) pour sélectionner "GodMode9" . 
 {: .notice--info}
 
 1. Ouvrez GodMode9 en maintenant (Start) au démarrage
 1. Maintenez (R) et appuyez sur (B) en même temps pour éjecter votre carte SD
 1. Insérez votre carte SD dans votre ordinateur
-1. Copy `remove_nnid.gm9` to the `/gm9/scripts/` folder on your SD card
+1. Copiez `remove_nnid.gm9` dans le dossier `/gm9/scripts/` sur votre carte SD
 1. Réinsérez votre carte SD dans votre console
 1. Appuyez sur (Home) pour faire apparaître le menu d’actions
 1. Sélectionnez "Scripts"
-1. Select "remove_nnid"
+1. Sélectionnez "remove_nnid"
 1. Lorsque vous y êtes invité, appuyez sur (A)
 1. Appuyez sur (A) pour autoriser l'écriture (lv1) sur votre SysNAND, puis entrez la combinaison de touches demandée
 1. Appuyez sur (A) pour continuer
 1. Appuyez (A) pour reverrouiller les autorisations en écriture
-1. Press (Start) to reboot your device
+1. Appuyez sur (Start) pour redémarrer votre système
 
-## Cannot inject H&S on Gateway downgraded device
+## Je ne peux pas injecter dans Santé et Sécurité sur une console downgradée via Gateway
 
-This is caused by Gateway implementing a very shoddy downgrade method which leaves two versions of each app on the system. One of them is unused, but it confuses the H&S inject system, causing it to inject into the wrong one.
+Cela vient de l'implémentation bancale faite par Gateway pour downgrader et qui laisse deux versions de chaque application sur la console. L'une des deux est inutilisée, mais cela perturbe le système d'injection de S&S, provoquant l'injection dans la mauvaise version.
 
-Note that if you have any payload files other than `GodMode9.firm` in the `/luma/payloads/` folder on your SD card, holding (Start) on boot will display a "chainloader menu" where you will have to use the D-Pad and the (A) button to select "GodMode9" for these instructions. 
+Notez que si vous avez un autre payload que `GodMode9.firm` dans le dossier `/luma/payloads/` sur votre carte SD, appuyer sur (Start) au démarrage affiche un "chainloader menu" où vous devrez utiliser le D-Pad et le bouton (A) pour sélectionner "GodMode9" . 
 {: .notice--info}
 
 1. Ouvrez GodMode9 en maintenant (Start) au démarrage
-1. Navigate to `[1:] SYSNAND CTRNAND` -> `title` -> `00040010`
-1. Navigate to the folder for your device and region:
-  + **Old 3DS or Old 2DS EUR**: `00022300` -> `content`
-  + **Old 3DS or Old 2DS JPN**: `00020300` -> `content`
-  + **Old 3DS or Old 2DS USA**: `00021300` -> `content`
-  + **New 3DS or New 2DS EUR**: `20022300` -> `content`
-  + **New 3DS or New 2DS JPN**: `20020300` -> `content`
-  + **New 3DS or New 2DS USA**: `20021300` -> `content`
-1. Notice that there are two sets of app and tmd files, one set with uppercase extensions (`.TMD` and `.APP`), and one set with lowercase extensions (`.tmd` and `.app`)
-1. While holding the (R) trigger, press (Y) to create a new directory
-1. Press (A) to confirm the name `newdir` (it does not matter what the folder is called)
+1. Naviguez vers `[1:] SYSNAND CTRNAND` -> `title` -> `00040010`
+1. Sélectionnez le dossier correspondant à votre console et votre région :
+  + **Old 3DS ou Old 2DS EUR**: `00022300` -> `content`
+  + **Old 3DS ou Old 2DS JPN**: `00020300` -> `content`
+  + **Old 3DS ou Old 2DS USA**: `00021300` -> `content`
+  + **New 3DS ou New 2DS EUR**: `20022300` -> `content`
+  + **New 3DS ou New 2DS JPN**: `20020300` -> `content`
+  + **New 3DS ou New 2DS USA**: `20021300` -> `content`
+1. Notez qu'il y a deux fois les fichiers app et tmd, une dont les extensions de fichier sont en majuscules (`.TMD` and `.APP`), et une dont les extensions de fichier sont en minuscules (`.tmd` and `.app`)
+1. En maintenant le bouton (R), appuyez sur (Y) pour créer un nouveau dossier
+1. Appuyez sur (A) pour confirmer le nom `newdir` (le nom du dossier n'a pas d'importance)
 1. Appuyez sur (A) pour autoriser l'écriture (lv1) sur votre SysNAND, puis entrez la combinaison de touches demandée
-1. Press (B) to decline relocking write permissions if prompted
-1. Press the (L) trigger on each of the uppercase extension files (`.TMD` and `.APP`) to mark them
-1. Press (Y) to copy the files
-1. Navigate to `newdir`
-1. Press (Y) to paste the files
-1. Select "Move path(s)"
-1. The uppercase extension files will have been moved to the `newdir` directory
-1. Press (Start) to reboot your device
-1. Retry the H&S injection
-1. If this still doesn't work, move the uppercase extension files back to the `content` folder, then move the lowercase extension files to the `newdir` folder, then retry the H&S injection
+1. Appuyez sur (B) pour décliner le verrouillage des autorisations en écriture si vous y êtes invité
+1. Appuyez sur le bouton (L) sur chacun des fichiers dont l'extension de fichier est en majucules (`.TMD` and `.APP`) pour les marquer
+1. Appuyez sur (Y) pour copier les fichiers
+1. Sélectionnez `newdir`
+1. Appuyez sur (Y) pour les coller
+1. Sélectionnez "Move path(s)"
+1. Les fichiers dont les extensions sont en majuscules seront déplacés vers le dossier `newdir`
+1. Appuyez sur (Start) pour redémarrer votre système
+1. Recommencez l’injection S&S
+1. Si cela ne fonctionne toujours pas, déplacez les fichiers avec une extension en majuscules dans le dossier `content`, puis déplacez les fichiers avec une extension en minuscules dans le dossier `newdir`, puis réessayez l'injection S&S
 
-## A browser based exploit is not working
+## Un exploit basé sur le navigateur web ne fonctionne pas
 
-Browser based exploits (such as browserhax or 2xrsa) are often unstable and crash frequently, but they can sometimes be fixed by doing the following steps.
+Les exploits basés sur le navigateur (tels que browserhax ou 2xrsa) sont parfois instables et plantent fréquemment, mais ils peuvent parfois être réglés en suivant ces étapes.
 
-1. Launch the browser, then launch the browser settings
-1. Scroll to the bottom and Initialize Savedata (it also may be called Clear All Save Data)
-1. Try the exploit again
+1. Lancez le navigateur, puis accédez aux paramètres du navigateur
+1. Faites défiler tout en bas et sélectionnez "Initialiser les données de sauvegarde" (ou "Effacer les données de sauvegarde")
+1. Retentez l'exploit
 
-## Black screen on SysNAND boot
+## Écran noir au démarrage de la SysNAND
 
 ### Ce dont vous avez besoin
 
@@ -118,25 +118,25 @@ Browser based exploits (such as browserhax or 2xrsa) are often unstable and cras
 
 ### Instructions
 
-Note that if you have any payload files other than `GodMode9.firm` in the `/luma/payloads/` folder on your SD card, holding (Start) on boot will display a "chainloader menu" where you will have to use the D-Pad and the (A) button to select "GodMode9" for these instructions. 
+Notez que si vous avez un autre payload que `GodMode9.firm` dans le dossier `/luma/payloads/` sur votre carte SD, appuyer sur (Start) au démarrage affiche un "chainloader menu" où vous devrez utiliser le D-Pad et le bouton (A) pour sélectionner "GodMode9" . 
 {: .notice--info}
 
-1. Try booting with your SD card out, and then reinserting it after booting
+1. Essayez de démarrer sans carte SD, puis de la réinsérer après le démarrage
     1. Éteignez votre console
-    1. Remove your SD card from your device
+    1. Retirez votre carte SD de votre console
     1. Allumez à présent votre 3DS
-    1. When the home menu appears, reinsert your SD card into your device
-    1. If this worked, you should clear Home Menu's extdata by following these instructions:
+    1. Lorsque le menu Home apparaît, vous pouvez réinsérer votre carte SD dans votre console
+    1. Si cela a fonctionné, vous devriez effacer l'extdata du menu Home en suivant les instructions suivantes :
         1. Éteignez votre console
         1. Ouvrez GodMode9 en maintenant (Start) au démarrage
         1. Appuyez sur (Home) pour faire apparaître le menu d’actions
-        1. Sélectionnez "Scripts"
-        1. Select "remove_extdata"
+        1. Select "Scripts..."
+        1. Sélectionnez "remove_extdata"
         1. Lorsque vous y êtes invité, appuyez sur (A)
         1. Appuyez sur (A) pour autoriser l'écriture (lv1) sur votre SysNAND, puis entrez la combinaison de touches demandée
         1. Appuyez sur (A) pour continuer
         1. Appuyez (A) pour reverrouiller les autorisations en écriture
-        1. Press (Start) to reboot your device
+        1. Appuyez sur (Start) pour redémarrer votre système
 1. Try booting without any cartridges inserted (including flashcarts)
 1. If you have a hardmod and a NAND backup, flash the backup back to SysNAND
 1. Try booting into recovery mode and updating your system
@@ -185,7 +185,7 @@ Note that if you have any payload files other than `GodMode9.firm` in the `/luma
     1. Appuyez sur (A) pour autoriser l'écriture (lv1) sur votre SysNAND, puis entrez la combinaison de touches demandée
     1. Appuyez sur (A) pour continuer
     1. Appuyez (A) pour reverrouiller les autorisations en écriture
-    1. Press (Start) to reboot your device
+    1. Appuyez sur (Start) pour redémarrer votre système
 1. Try booting without any cartridges inserted (including flashcarts)
 1. If you previously downgraded with Gateway, ensure that you are using the latest Luma3DS version
 1. Try following [CTRTransfer](ctrtransfer)
