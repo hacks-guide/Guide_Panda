@@ -29,14 +29,14 @@ To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on th
 #### Section I - Préparatifs
 
 1. Éteignez votre console
-1. Insert your SD card into your computer
-1. Create a folder named `cias` on the root of your SD card if it does not already exist
+1. Insérez votre carte SD dans votre ordinateur
+1. Créez un dossier nommé `cias` à la racine de votre carte SD si celui ci n'existe pas
 1. Copy `TWL Version Data - v0.cia` to the `/cias/` folder on your SD card
 1. Copy `DS Download Play - v1024.cia` to the `/cias/` folder on your SD card
 1. Copy `DS Internet - v2048.cia` to the `/cias/` folder on your SD card
 1. Copy `Nintendo DS Cart Whitelist - v11264.cia` to the `/cias/` folder on your SD card
 1. Copy either `New_3DS TWL_FIRM - v9936.cia`  or `Old_3DS TWL_FIRM - v8817.cia` to the `/cias/` folder on your SD card
-1. Reinsert your SD card into your device
+1. Réinsérez votre carte SD dans votre console
 
 #### Section II - Installing titles
 
@@ -59,9 +59,9 @@ Note that if you have any payload files other than `GodMode9.firm` in the `/luma
 
 1. Launch GodMode9 by holding (Start) during boot
 1. Hold (R) and press (B) at the same time to eject your SD card
-1. Insert your SD card into your computer
+1. Insérez votre carte SD dans votre ordinateur
 1. Copy `remove_nnid.gm9` to the `/gm9/scripts/` folder on your SD card
-1. Reinsert your SD card into your device
+1. Réinsérez votre carte SD dans votre console
 1. Press (Home) to bring up the action menu
 1. Select "Scripts..."
 1. Select "remove_nnid"
@@ -149,7 +149,7 @@ Note that if you have any payload files other than `GodMode9.firm` in the `/luma
 ## Clear Home Menu extdata
 
 1. Éteignez votre console
-1. Insert your SD card into your computer
+1. Insérez votre carte SD dans votre ordinateur
 1. Navigate to the `/Nintendo 3DS/(32 Character ID)/(32 Character ID)/extdata/00000000/` folder on your SD card
 1. Delete the extdata file corresponding to your region:
   + **EUR Region**: `00000098`
@@ -158,7 +158,7 @@ Note that if you have any payload files other than `GodMode9.firm` in the `/luma
   + **CHN Region**: `000000A1`
   + **KOR Region**: `000000A9`
   + **TWN Region**: `000000B1`
-1. Reinsert your SD card into your device
+1. Réinsérez votre carte SD dans votre console
 
 ## Black screen on SysNAND boot after Installing boot9strap
 
