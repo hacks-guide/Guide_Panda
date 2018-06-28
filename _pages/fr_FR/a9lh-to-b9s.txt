@@ -54,62 +54,62 @@ Notez que, seulement sur New 3DS, `secret_sector_dev.bin` est nécessaire pour d
 
 #### Section I - Préparatifs
 
-For all steps in this section, overwrite any existing files on your SD card.
+Pour toutes les étapes de cette section, remplacez tous les fichiers existants sur votre carte SD.
 {: .notice--info}
 
 1. Éteignez votre console
-1. Insert your SD card into your computer
-1. Copy _the contents of_ `starter.zip` to the root of your SD card
-1. Copy `boot.firm` from the latest version Luma3DS `.7z` to the root of your SD card
-1. Copy `arm9loaderhax.bin` from the v7.0.5 Luma3DS `.7z` to the root of your SD card
-1. Create a folder named `cias` on the root of your SD card if it does not already exist
-1. Copy `lumaupdater.cia` to the `/cias/` folder on your SD card
-1. Create a folder named `boot9strap` on the root of your SD card
-1. Delete any existing `.bin` payloads in the `/luma/payloads/` folder on your SD card as they will not be compatible with boot9strap compatible Luma3DS versions
-1. Copy `GodMode9.firm` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card
-1. Copy the `gm9` folder from the GodMode9 `.zip` to the root of your SD card
-1. Copy `setup_ctrnand_luma3ds.gm9` to the `/gm9/scripts/` folder on your SD card
-1. Copy `cleanup_sd_card.gm9` to the `/gm9/scripts/` folder on your SD card
-1. Copy `SafeB9SInstaller.bin` from the SafeB9SInstaller `.zip` to the `/luma/payloads/` folder on your SD card
-1. Rename `SafeB9SInstaller.bin` in the `/luma/payloads/` folder on your SD card to `start_SafeB9SInstaller.bin`
-1. Copy `boot9strap.firm` and `boot9strap.firm.sha` from the boot9strap `.zip` to the `/boot9strap/` folder on your SD card
-1. **New 3DS Users Only:** Copy `secret_sector.bin` to the `/boot9strap/` folder on your SD card
+1. Insérez votre carte SD dans votre ordinateur
+1. Copier _le contenu de_ `starter.zip` vers la racine de votre carte SD
+1. Copiez `boot.firm` du fichier `.7z` de la dernière version de Luma3DS vers la racine de votre carte SD
+1. Copier `arm9loaderhax.bin` du fichier `.7z` de la version 7.0.5 de Luma3DS vers la racine de votre carte SD
+1. Créez un dossier nommé `cias` à la racine de votre carte SD si celui ci n'existe pas
+1. Copiez `lumaupdater.cia` vers le dossier`/cias/` sur votre carte SD
+1. Créez un dossier à la racine de votre carte SD nommé `boot9strap`
+1. Supprimez tous les fichiers payloads `.bin` existants dans le dossier `/luma/payloads/` de votre carte SD car ils ne seront pas compatibles avec les versions de Luma3DS compatibles avec boot9strap
+1. Copiez le fichier `GodMode9.firm` de l'archive `.zip` de GodMode9 dans le dossier `/luma/payloads/` de votre carte SD
+1. Copiez le dossier `gm9` du fichier `.zip` de GodMode9 à la racine de votre carte SD
+1. Copiez `setup_ctrnand_luma3ds.gm9` dans le dossier `/gm9/scripts/` sur votre carte SD
+1. Copiez `cleanup_sd_card.gm9` dans le dossier `/gm9/scripts/` sur votre carte SD
+1. Copiez `SafeB9SInstaller.bin` du fichier `.zip` de SafeB9SInstaller vers le dossier `/luma/payloads/` de votre carte SD
+1. Renommez `SafeB9SInstaller.bin` du dossier `/luma/payloads/` de votre carte SD en `start_SafeB9SInstaller.bin`
+1. Copiez `boot9strap.firm` et `boot9strap.firm.sha` depuis le fichier `.zip` de boot9strap vers le dossier `/boot9strap/` sur votre carte SD
+1. **New 3DS seulement :** Copiez `secret_sector.bin` vers le dossier `/boot9strap/` sur votre carte SD
 
     ![]({{ "/images/screenshots/a9lh-to-b9s-file-layout.png" | absolute_url }})
     {: .notice--info}
 
-1. Reinsert your SD card into your device
+1. Réinsérez votre carte SD dans votre console
 
-#### Section II - Installing boot9strap
+#### Section II - Installation de boot9strap
 
-1. Boot your device while holding (Start) to launch the Luma3DS chainloader menu
-  + Some versions of Luma3DS will just directly start whichever payload begins with `start_`
-  + If your version does this, just proceed with the instructions
-1. Launch SafeB9SInstaller by pressing (A) on it
-  + If this gives you an error, try either using a new SD card, or formatting your current SD card (backup existing files first)
-1. Wait for all safety checks to complete
-  + If you get an "OTP Crypto Fail" error, download <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [aeskeydb.bin](magnet:?xt=urn:btih:d25dab06a7e127922d70ddaa4fe896709dc99a1e&dn=aeskeydb.bin&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce), then put it in the `/boot9strap/` folder on your SD card and try again
-1. When prompted, input the key combo given to install boot9strap
-1. Once it has completed, press (A) to reboot your device.
-  + If your device shuts down on boot, ensure that you have copied `boot.firm` from the Luma3DS `.7z` to the root of your SD card
+1. Démarrez la console en maintenant (Start) enfoncé pour accéder au menu de chainloader de Luma3DS
+  + Certaines versions de Luma3DS lanceront directement le payload commençant par `start_`
+  + Si votre version fait ça, poursuivez juste les instructions
+1. Lancez SafeB9SInstaller en appuyant sur (A)
+  + Si vous obtenez une erreur, essayez soit en utilisant une nouvelle carte SD, soit en formatant votre carte SD actuelle (sauvegardez d'abord les fichiers existants)
+1. Attendez que tous les tests de sécurité soient finis
+  + Si vous obtenez une erreur "OTP Crypto Fail", téléchargez <i class="fa fa-magnet" aria-hidden="true" title="Ceci est un lien magnet. Utilisez un client de torrent pour télécharger le fichier."></i> - [aeskeydb.bin](magnet:?xt=urn:btih:d25dab06a7e127922d70ddaa4fe896709dc99a1e&dn=aeskeydb.bin&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce), then put it in the `/boot9strap/` folder on your SD card and try again
+1. Quand cela est demandé, appuyez sur la combinaison de boutons donnée pour installer boot9strap
+1. Une fois que c'est fini, appuyez sur (A) pour redémarrer la console.
+  + Si votre appareil s’éteint au démarrage, assurez-vous que vous avez copié `boot.firm` du fichier `.7z` de Luma3DS à la racine de votre carte SD
 
-#### Section III - Configuring Luma3DS
+#### Section III - Configuration de Luma3DS
 
-This section is only needed if you are prompted with the Luma3DS configuration menu after the reboot.
+Cette section est nécessaire uniquement si le menu de configuration de Luma3DS s'affiche après le redémarrage.
 {: .notice--info}
 
-1. In the Luma3DS configuration menu, use the (A) button and the D-Pad to turn on the following:    
+1. Dans le menu de configuration Luma3DS, utilisez le bouton (A) et le D-Pad pour configurer l'option suivante :    
   + **"Show NAND or user string in System Settings"**
-1. Press (Start) to save and reboot
+1. Appuyez sur (Start) pour enregistrer les modifications et redémarrer
 
-#### Section IV - Updating the System
+#### Section IV - Mise à jour du système
 
-This section is optional and requires both a CTR flash card and the development hardware to write a CSU to that CTR flash card.
+Cette section est facultative et nécessite une cartouche CTR et le matériel de développement afin d’écrire un fichier CSU sur cette cartouche CTR.
 {: .notice--info}
 
-1. Update your PANDA unit by using the latest version CTR System Updater (CSU) available to you
+1. Mettez à jour votre appareil PANDA en utilisant la dernière version de CTR System Updater (CSU) à votre disposition
 
-#### Section V - Installing Luma3DS Updater
+#### Section V - Installation de Luma3DS Updater
 
 1. Using Dev Menu, navigate to the `cias` folder
 1. Install `lumaupdater.cia`
@@ -138,7 +138,7 @@ This section is optional and requires both a CTR flash card and the development 
   + This process will take some time
 1. Appuyez sur (A) pour continuer
 1. Hold (R) and press (B) at the same time to eject your SD card
-1. Insert your SD card into your computer
+1. Insérez votre carte SD dans votre ordinateur
 1. Copy `<date>_<serialnumber>_sysnand_###.bin` from the `/gm9/out/` folder on your SD card to a safe location on your computer
   + Make backups in multiple locations (such as online file storage)
   + This backup will save you from a brick if anything goes wrong in the future
