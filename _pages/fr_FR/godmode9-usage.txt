@@ -89,7 +89,7 @@ This will only work if the Health & Safety injection was performed by GodMode9 (
 
 1. Ouvrez GodMode9 en maintenant (Start) au démarrage
 1. Appuyez sur (Home) pour faire apparaître le menu d’actions
-1. Select "More..."
+1. Sélectionnez "More..."
 1. Select "Restore H&S"
 1. Appuyez sur (A) pour autoriser l'écriture (lv1) sur votre SysNAND, puis entrez la combinaison de touches demandée
 1. Press (A) to relock write permissions if prompted
@@ -188,7 +188,7 @@ To identify a `<TitleID>.gbavc.sav` file's Title ID, you can get a listing of al
 
 1. Ouvrez GodMode9 en maintenant (Start) au démarrage
 1. Appuyez sur (Home) pour faire apparaître le menu d’actions
-1. Select "More..."
+1. Sélectionnez "More..."
 1. Select "SD format menu"
 1. Select any EmuNAND options you wish to use
   + Most users will want to select "No EmuNAND"
