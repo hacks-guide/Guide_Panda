@@ -1,5 +1,5 @@
 ---
-title: "Flash de ntrboot (une seule 3DS)"
+title: "Flash de ntrboot (plusieurs 3DS)"
 ---
 
 {% include toc title="Table des matières" %}
