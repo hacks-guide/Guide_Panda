@@ -107,4 +107,4 @@ Boot9strap has been successfully updated.
 {: .notice--success}
 1. Launch Luma3DS chainloader menu by holding (Start) during boot
 1. Launch SafeB9SInstaller by pressing (A)
-1. Wait for all safe
+1. Wait for all safety checks to complete
