@@ -8,16 +8,16 @@ title: "Installing boot9strap (ntrboot)"
 
 Pour utiliser les liens [magnet](https://fr.wikipedia.org/wiki/Magnet_(standard)) suivants, vous aurez besoin d'un client Torrent comme [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 
-To extract the `.7z` files linked on this page, you will need a file archiver like [7-Zip](http://www.7-zip.org/) or [The Unarchiver](https://theunarchiver.com/).
+Pour extraire les fichiers `.7z` sur cette page, vous aurez besoin d'un programme d'archives comme [7-Zip](http://www.7-zip.org/) ou [The Unarchiver](https://theunarchiver.com).
 
 ### Ce dont vous avez besoin
 
 * A magnet that triggers the sleep mode of your device (if using a folding style device)
 * Your ntrboot flashed flashcart
 * La dernière version de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
+* La dernière version de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(boot9strap standard, ni le fichier `devkit`, ni le fichier `ntr`)*
 * La dernière version de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(le fichier`.7z`)*
-* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
+* La dernière version de [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 
 ### Instructions
 
@@ -27,7 +27,7 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
 1. Insert your device's SD card into your computer
   + This is the SD card from your 3DS, *not* the SD card from your flashcart
 1. Copy `SafeB9SInstaller.firm` to the root of your SD card and rename it to `boot.firm`
-1. Copy `boot.3dsx` to the root of your SD card
+1. Copiez `boot.3dsx` à la racine de votre carte SD
 1. Créez un dossier à la racine de votre carte SD nommé `boot9strap`
 1. Copiez `boot9strap.firm` et `boot9strap.firm.sha` depuis le fichier `.zip` de boot9strap vers le dossier `/boot9strap/` sur votre carte SD
 
@@ -47,9 +47,9 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
   + On old 2DS, you should instead enable the sleep mode switch
 1. Hold (Start) + (Select) + (X) + (Power) for several seconds, then release the buttons
   + It may take a few attempts to get this to work because the positioning is awkward
-1. If the exploit was successful, you will have booted into SafeB9SInstaller
+1. Si l'exploit a réussi, vous devriez avoir démarré dans SafeB9SInstaller
 
-#### Section III - Installing boot9strap
+#### Section III - Installation de boot9strap
 
 1. Attendez que tous les tests de sécurité soient finis
 1. Remove the magnet from your device
@@ -62,19 +62,19 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
 
 1. Insérez votre carte SD dans votre ordinateur
 1. Delete `boot.firm` from the root of your SD card
-1. Copy `boot.firm` from the Luma3DS `.7z` to the root of your SD card
+1. Copiez `boot.firm` du fichier `.7z` de Luma3DS vers la racine de votre carte SD
 1. Réinsérez votre carte SD dans votre console
 1. Allumez à présent votre 3DS
 1. Your device should have booted into the Luma3DS configuration menu
-  + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
-1. Use the (A) button and the D-Pad to turn on the following:    
+  + Si vous avez un écran noir, [suivez ce guide de dépannage](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
+1. Utilisez le bouton (A) et la croix directionnelle pour activer les éléments suivants:    
   + **"Show NAND or user string in System Settings"**
 1. Appuyez sur (Start) pour enregistrer les modifications et redémarrer
-  + If you get an error, just continue the next page
+  + Si vous obtenez une erreur, continuez à la prochaine page
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Continuer vers [Finalisation de l'installation](finalizing-setup)
 {: .notice--primary}
 
 ___
