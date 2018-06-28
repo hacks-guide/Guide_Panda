@@ -16,24 +16,24 @@ Notez que dans de rares circonstances, il est possible, pendant le processus de 
 ### Ce dont vous avez besoin
 
 * Votre linker compatible ntrboot
-* Two devices 
-  + **The source DSi**: the Nintendo DSi which is compatible with your flashcart
-  + **The target 3DS**: the 3DS family device on stock firmware
+* Deux consoles 
+  + **La DSi source** : la Nintendo DSi qui est compatible avec votre linker
+  + **La 3DS cible** : la 3DS sur un firmware original non modifié
 * La dernière version de [ds_ntrboot_flasher](https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest) *(le flasher `dsi` ; pas le flasher standard)*
 
 ### Instructions
 
 #### Section I - Préparatifs
 
-1. Power off **the source DSi**
+1. Éteignez **la DSi source**
 1. Insérez la carte SD de votre linker dans votre ordinateur
 1. Copiez `ds_ntrboot_flasher_dsi.nds` sur la carte SD de votre linker
 1. Réinsérez sa carte SD dans votre linker
-1. Insert your ntrboot compatible DS / DSi flashcart into **the source DSi**
+1. Insérez votre linker compatible ntrboot dans **la DSi source**
 
 #### Section II - Flasher ntrboot
 
-1. Launch `ds_ntrboot_flasher_dsi.nds` on **the source DSi** using your flashcart
+1. Lancez`ds_ntrboot_flasher_dsi.nds` sur **la DSi source** en utilisant votre linker
 1. Appuyez sur (A) pour continuer
 1. Utilisez (Haut) et (Bas) pour sélectionner votre linker
 1. Appuyez sur (A) pour continuer
