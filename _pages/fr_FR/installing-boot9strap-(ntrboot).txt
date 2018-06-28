@@ -6,7 +6,7 @@ title: "Installing boot9strap (ntrboot)"
 
 ### Lecture requise
 
-To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download).
+Pour utiliser les liens [magnet](https://fr.wikipedia.org/wiki/Magnet_(standard)) suivants, vous aurez besoin d'un client Torrent comme [Deluge](http://dev.deluge-torrent.org/wiki/Download).
 
 To extract the `.7z` files linked on this page, you will need a file archiver like [7-Zip](http://www.7-zip.org/) or [The Unarchiver](https://theunarchiver.com/).
 
@@ -137,6 +137,6 @@ Do not follow this section until you have completed the rest of the instructions
   + Si vous ne voyez pas votre linker dans la liste en haut, lisez l'écran du bas pour plus d'informations sur chaque option
 1. Select "Restore Flash"
 1. Press (A) to proceed
-1. Wait until the process is completed
+1. Attendez que le processus soit terminé
 1. Appuyez sur (A) pour revenir au menu principal
 1. Press (B) to power off your device
