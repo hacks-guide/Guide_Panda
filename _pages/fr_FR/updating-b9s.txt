@@ -60,7 +60,7 @@ ty checks to complete
 
 #### Section III - Update Luma3DS
 
-1. Power off your device
+1. Éteignez votre console
 1. Insert your SD card into your computer
 1. Copy `boot.firm` from the Luma3DS `.7z` to the root of your SD card, replacing the existing file
 1. Reinsert your SD card into your device
