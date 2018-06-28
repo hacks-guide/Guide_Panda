@@ -22,7 +22,7 @@ Some of the instructions below are only applicable to the latest version of GodM
 
 ### Ce dont vous avez besoin
 
-* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+* La dernière version de [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 
 ### Instructions
 
