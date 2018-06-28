@@ -75,18 +75,18 @@ Continuer vers [Flash de ntrboot (plusieurs 3DS)](flashing-ntrboot-(3ds-multi-sy
 
 ___
 
-#### Flashing ntrboot (NDS)
+#### Flasher ntrboot (NDS)
 
-This method requires temporary access to a Nintendo DS or Nintendo DS Lite that is compatible with your flashcart. This method uses the flashcart to run the ntrboot flasher `.nds` file on your NDS.
+Cette méthode nécessite un accès temporaire à une Nintendo DS ou DS Lite qui soit compatible avec votre linker. Cette méthode utilise le linker pour exécuter le flasheur ntrboot `.nds` sur votre DS.
 
-Continue to [Flashing ntrboot (NDS)](flashing-ntrboot-(nds))
+Continuer vers [Flash de ntrboot (NDS)](flashing-ntrboot-(nds))
 {: .notice--primary}
 
 ___
 
-#### Flashing ntrboot (DSi)
+#### Flasher ntrboot (DSi)
 
-This method requires temporary access to a Nintendo DSi that is compatible with your flashcart. This method uses the flashcart to run the ntrboot flasher `.nds` file on your DSi.
+Cette méthode nécessite un accès temporaire à une Nintendo DSi qui soit compatible avec votre linker. Cette méthode utilise le linker pour lancer le flasheur ntrboot contenu dans le fichier `.nds` sur votre DSi.
 
-Continue to [Flashing ntrboot (DSi)](flashing-ntrboot-(dsi))
+Continuer vers [Flash de ntrboot (DSi)](flashing-ntrboot-(dsi))
 {: .notice--primary}
