@@ -189,30 +189,30 @@ Pour identifier le Title ID d'un fichier `<TitleID>.gbavc.sav`, vous pouvez obte
 1. Ouvrez GodMode9 en maintenant (Start) au démarrage
 1. Appuyez sur (Home) pour faire apparaître le menu d’actions
 1. Sélectionnez "More..."
-1. Select "SD format menu"
-1. Select any EmuNAND options you wish to use
-  + Most users will want to select "No EmuNAND"
-1. Select "Auto"
-1. Press (A) to accept the label `GM9SD`
-  + Optionally, you may input a custom name for the SD card
-1. When prompted, input the key combo given to confirm
+1. Sélectionnez "SD format menu"
+1. Sélectionnez les options d'EmuNAND que vous souhaitez utiliser
+  + La plupart des utilisateurs voudront sélectionner "No EmuNAND"
+1. Sélectionnez "Auto"
+1. Appuyez sur (A) pour accepter l'étiquette `GM9SD`
+  + Optionellement, vous pouvez entrer un nom personnalisé pour la carte SD
+1. Lorsque cela vous est demandé, entrez la combinaison de touches demandée pour confirmer
 
-## Encrypting / Decrypting a .CIA file
+## Cryptage/Décryptage d'un fichier .CIA
 
 #### Préparation
 
-+ For organizational purposes, copy each `.cia` file you wish to encrypt / decrypt to the `/cias/` folder on your SD card
++ À des fins d'organisation, copiez chaque fichier `.cia` que vous souhaitez crypter/décrypter dans le dossier `/cias/`sur votre carte SD
 {: .notice--info}
 
 1. Ouvrez GodMode9 en maintenant (Start) au démarrage
 1. Naviguez vers `[0:] SDCARD` -> `cias`
-1. Press (A) on the `.cia` file to select it, then select "CIA image options..."
-1. Select the option to perform the desired function:
-    + **Encrypt to 0:/gm9/out:** Create an encrypted copy of the selected `.cia` file in the `/gm9/out/` folder on your SD card
-    + **Decrypt to 0:/gm9/out:** Create a decrypted copy of the selected `.cia` file in the `/gm9/out/` folder on your SD card
-    + **Encrypt inplace:** Replace the selected `.cia` file with an encrypted version
-    + **Decrypt inplace:** Replace the selected `.cia` file with a decrypted version
-1. Your encrypted / decrypted `.cia` will be outputted to the desired location
+1. Appuyez sur (A) sur le fichier `.cia` pour le sélectionner, puis sélectionnez `CIA image options...`
+1. Sélectionnez l’option correspondant à la fonction désirée:
+    + **Encrypt to 0:/gm9/out:** Créer une copie cryptée du fichier `.cia` sélectionné dans le dossier `/gm9/out/` sur votre carte SD
+    + **Decrypt to 0:/gm9/out:** Créer une copie décryptée du fichier `.cia` sélectionné dans le dossier `/gm9/out/` sur votre carte SD
+    + **Encrypt inplace:** Remplacez le fichier `.cia` sélectionné par une version cryptée
+    + **Decrypt inplace:** Remplacez le fichier `.cia` sélectionné par une version décryptée
+1. Votre `.cia` crypté/décrypté sera envoyé à l'emplacement désiré
 
 ## Supprimer un NNID sans formater votre console
 
@@ -234,4 +234,4 @@ Pour identifier le Title ID d'un fichier `<TitleID>.gbavc.sav`, vous pouvez obte
 1. Appuyez sur (A) pour autoriser l'écriture (lv1) sur votre SysNAND, puis entrez la combinaison de touches demandée
 1. Appuyez sur (A) pour continuer
 1. Appuyez (A) pour reverrouiller les autorisations en écriture
-1. Press (Start) to reboot your device
+1. Appuyez sur (Start) pour redémarrer votre système
