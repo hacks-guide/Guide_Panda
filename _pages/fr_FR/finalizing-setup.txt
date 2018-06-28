@@ -66,7 +66,7 @@ This section is optional and requires both a CTR flash card and the development 
 1. Select "setup_ctrnand_luma3ds"
 1. When prompted, press (A) to proceed
 1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
-1. Press (A) to continue
+1. Appuyez sur (A) pour continuer
 1. Press (A) to relock write permissions
 
 #### Section V - Backup Essential Files
