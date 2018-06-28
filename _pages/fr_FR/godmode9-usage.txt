@@ -1,23 +1,23 @@
 ---
-title: "GodMode9 Usage"
+title: "Utilisation de GodMode9"
 ---
 
 {% include toc title="Table des matières" %}
 
-For support with GodMode9, as well as help with scripting and to get updates and info, join the [GodMode9 Discord server](https://discord.gg/EGu6Qxw).
+Pour de l'aide sur GodMode9 ainsi que sur le scripting, et pour être tenu à jour et informé, rejoignez le [Discord GodMode9](https://discord.gg/EGu6Qxw).
 {: .notice--primary}
 
 ### Lecture requise
 
-GodMode9 is a full access file browser for the Nintendo 3DS console, giving you access to your SD card, the FAT partitions inside your SysNAND and EmuNAND, and basically anything else. Among other functionality, you can copy, delete, rename files, and create folders.
+GodMode9 est un navigateur de fichiers avec un accès complet pour la Nintendo 3DS, vous donnant accès à votre carte SD, aux partitions FAT à l’intérieur de votre SysNAND et EmuNAND, et en gros un peu tout. Parmi les autres fonctionnalités, vous pouvez copier, supprimer, renommer des fichiers et créer des dossiers.
 
-Note that if you have any payload files other than `GodMode9.firm` in the `/luma/payloads/` folder on your SD card, holding (Start) on boot will display a "chainloader menu" where you will have to use the D-Pad and the (A) button to select "GodMode9" for these instructions. 
+Notez que si vous avez un autre payload que `GodMode9.firm` dans le dossier `/luma/payloads/` sur votre carte SD, appuyer sur (Start) au démarrage affiche un "chainloader menu" où vous devrez utiliser le D-Pad et le bouton (A) pour sélectionner "GodMode9" . 
 
-GodMode9 is powerful software that has the capability to modify essentially anything on your console. Though many of these modifications are locked behind a permissions system, and it is impossible to accidentally perform dangerous actions without deliberately unlocking permissions, you should still follow instructions carefully and keep backups just in case.
+GodMode9 est un logiciel puissant qui a la capacité de modifier plus ou moins tout sur votre console. Bien que beaucoup de ces modifications soient verrouillées derrière un système de permissions, et qu'il est impossible d'effectuer accidentellement des actions dangereuses sans déverrouiller délibérément les permissions, vous devez quand même suivre attentivement les instructions et conserver des sauvegardes au cas où.
 
-## Updating GodMode9
+## Mise à jour de GodMode9
 
-Some of the instructions below are only applicable to the latest version of GodMode9, and as such you should follow this section to update your copy before continuing. Overwrite any existing files.
+Certaines des instructions ci-dessous ne s'appliquent qu'à la dernière version de GodMode9, et en tant que tel, vous devriez suivre cette section pour mettre à jour votre copie avant de continuer. Remplacez tous les fichiers déjà existants.
 {: .notice--info}
 
 ### Ce dont vous avez besoin
@@ -32,7 +32,7 @@ Some of the instructions below are only applicable to the latest version of GodM
 1. Copiez le dossier `gm9` du fichier `.zip` de GodMode9 à la racine de votre carte SD
 1. Réinsérez votre carte SD dans votre console
 
-## Creating a NAND Backup
+## Création d'une sauvegarde de la NAND
 
 1. Ouvrez GodMode9 en maintenant (Start) au démarrage
 1. Appuyez sur (Home) pour faire apparaître le menu d’actions
@@ -49,29 +49,29 @@ Some of the instructions below are only applicable to the latest version of GodM
 1. Supprimez `<date>_<serialnumber>_sysnand_###.bin` dans le dossier `/gm9/out/` de votre carte SD après l'avoir copié
 1. Réinsérez votre carte SD dans votre console
 
-## Restoring a NAND Backup
+## Restauration de la sauvegarde de la NAND
 
 1. Ouvrez GodMode9 en maintenant (Start) au démarrage
 1. Maintenez (R) et appuyez sur (B) en même temps pour éjecter votre carte SD
 1. Insérez votre carte SD dans votre ordinateur
-1. Copy `<date>_<serialnumber>_sysnand_###.bin` from your computer to the `/gm9/out/` folder on your SD card if you deleted it after backing it up
+1. Copiez `<date>_<serialnumber>_sysnand_###.bin` de votre ordinateur dans le dossier `/gm9/out/` de votre carte SD si vous l'avez supprimé après la sauvegarde
 1. Réinsérez votre carte SD dans votre console
 1. Appuyez sur (Home) pour faire apparaître le menu d’actions
 1. Sélectionnez "Scripts"
-1. Select "Restore SysNAND (Safe)"
-1. Select your NAND backup
+1. Sélectionnez "Restore SysNAND (Safe)"
+1. Sélectionnez votre sauvegarde NAND
 1. Appuyez sur (A) pour continuer
-1. Press (A) to unlock SysNAND (lvl2) writing, then input the key combo given
-  + This will not overwrite your boot9strap installation
-1. Once it has completed, press (A) to continue
-1. Press (A) to relock write permissions if prompted
+1. Appuyez sur (A) pour autoriser l'écriture (lv2) sur votre SysNAND, puis entrez la combinaison de touches demandée
+  + Ceci n'effacera pas votre installation boot9strap
+1. Une fois le transfert terminé, appuyez sur (A) pour continuer
+1. Appuyez (A) pour reverrouiller les autorisations en écriture si vous y êtes invités
 
-## Injecting any .CIA app into Health & Safety
+## Injection d'une app .CIA dans Santé & Sécurité
 
-For organizational purposes, copy the `.cia` file you wish to inject to the `/cias/` folder on your SD card
+À des fins d’organisation, copiez le fichier `.cia` que vous souhaitez injecter dans le dossier `/cias/` sur votre carte SD
 {: .notice--info}
 
-Note that it is not possible to inject files into Health & Safety that are larger than it (including games and other large applications)
+Notez qu’il n’est pas possible d’injecter des fichiers dans Santé & Sécurité qui sont plus lourds que l'application elle même (y compris des jeux et autres applications lourdes)
 {: .notice--info}
 
 1. Ouvrez GodMode9 en maintenant (Start) au démarrage
@@ -80,7 +80,7 @@ Note that it is not possible to inject files into Health & Safety that are large
 1. Press (A) on the `.app` file, then select "NCCH image options", then select "Inject to H&S"
 1. Appuyez sur (A) pour autoriser l'écriture (lv1) sur votre SysNAND, puis entrez la combinaison de touches demandée
 1. Appuyez sur (A) pour continuer
-1. Press (A) to relock write permissions if prompted
+1. Appuyez (A) pour reverrouiller les autorisations en écriture si vous y êtes invités
 
 ## Restoring Health & Safety after injecting a .CIA app
 
@@ -92,7 +92,7 @@ This will only work if the Health & Safety injection was performed by GodMode9 (
 1. Sélectionnez "More..."
 1. Select "Restore H&S"
 1. Appuyez sur (A) pour autoriser l'écriture (lv1) sur votre SysNAND, puis entrez la combinaison de touches demandée
-1. Press (A) to relock write permissions if prompted
+1. Appuyez (A) pour reverrouiller les autorisations en écriture si vous y êtes invités
 
 ## Dumping a Game Cartridge
 
