@@ -67,7 +67,7 @@ Note that if you have any payload files other than `GodMode9.firm` in the `/luma
 1. Select "remove_nnid"
 1. When prompted, press (A) to proceed
 1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
-1. Press (A) to continue
+1. Appuyez sur (A) pour continuer
 1. Press (A) to relock write permissions
 1. Press (Start) to reboot your device
 
@@ -134,7 +134,7 @@ Note that if you have any payload files other than `GodMode9.firm` in the `/luma
         1. Select "remove_extdata"
         1. When prompted, press (A) to proceed
         1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
-        1. Press (A) to continue
+        1. Appuyez sur (A) pour continuer
         1. Press (A) to relock write permissions
         1. Press (Start) to reboot your device
 1. Try booting without any cartridges inserted (including flashcarts)
@@ -183,7 +183,7 @@ Note that if you have any payload files other than `GodMode9.firm` in the `/luma
     1. Select "remove_extdata"
     1. When prompted, press (A) to proceed
     1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
-    1. Press (A) to continue
+    1. Appuyez sur (A) pour continuer
     1. Press (A) to relock write permissions
     1. Press (Start) to reboot your device
 1. Try booting without any cartridges inserted (including flashcarts)
