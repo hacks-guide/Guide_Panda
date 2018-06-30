@@ -8,7 +8,7 @@ title: "Flash di ntrboot (Con più 3DS)"
 
 Prima di procedere, assicurati di aver letto tutte le informazioni presenti alla pagina [ntrboot](ntrboot)
 
-Questo metodo richiede l'accesso temporaneo ad una seconda console su cui è installato boot9strap. This does not require your flashcart to support either 3DS's version. See the flashcart table on [ntrboot](ntrboot) for more information.
+Questo metodo richiede l'accesso temporaneo ad una seconda console su cui è installato boot9strap. This does not require your flashcart to support either 3DS's version.
 
 Nota bene che in alcune rare circostanze, è possibile **brickare** una flashcart contraffatta durante il processo di installazione e renderla così permanentemente inutilizzabile. È improbabile, tuttavia sono supportate soltanto le flashcart originali qui indicate. Per ridurre il rischio di ottenere una flashcart contraffatta, si raccomanda di comprarne una solo da siti affidabili (come [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
@@ -19,7 +19,7 @@ Nota bene che in alcune rare circostanze, è possibile **brickare** una flashcar
 * Due console 3DS 
   + **The source 3DS**: the 3DS family device that is already running boot9strap
   + **Il 3DS di destinazione**: la console con versione del software originale
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`ntr` boot9strap; not the `devkit` file)*
+* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`ntr-devkit` boot9strap)*
 * The latest release of [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest)
 
 ### Istruzioni
