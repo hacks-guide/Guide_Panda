@@ -8,7 +8,7 @@ title: "Flash de ntrboot (DSi)"
 
 Avant de commencer, assurez vous de connaître les informations sur [ntrboot](ntrboot)
 
-Cette méthode nécessite un accès temporaire à une Nintendo DSi qui soit compatible avec votre linker. Cette méthode utilise le linker pour exécuter le flasheur ntrboot `.nds` sur votre DSi. This means that your flashcart must support launching `.nds` files on your NDS's version. Consultez le tableau des linkers dans [ntrboot](ntrboot) pour plus d’informations.
+Cette méthode nécessite un accès temporaire à une Nintendo DSi qui soit compatible avec votre linker. Cette méthode utilise le linker pour lancer le flasheur ntrboot contenu dans le fichier `.nds` sur votre DSi. This means that your flashcart must support launching `.nds` files on your DSi's version. Consultez le tableau des linkers dans [ntrboot](ntrboot) pour plus d’informations.
 
 Notez que dans de rares circonstances, il est possible, pendant le processus de flash sur un linker contrefait ou un clone, que celui-ci **brique** et devienne inutilisable de manière permanente. C'est peu probable, mais notez que seuls les originaux sont supportés. Pour réduire les chances de recevoir un linker contrefait, il est recommandé d'utiliser un site réputé pour acheter votre linker (comme [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
