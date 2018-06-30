@@ -53,7 +53,10 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
 1. תכניסו מחדש את כרטיס הSD שלכם לתוך המכשיר שלכם
 
 #### Section II - Installing boot9strap
-ty checks to complete
+
+1. Launch Luma3DS chainloader menu by holding (Start) during boot
+1. תפעילו את SafeB9SInstaller על ידי לחיצת (A)
+1. תחכו שכל בדיקות הבטיחות יסתיימו
 1. כאשר תתבקשו, תלחצו על הכפתורים שנתונים לכם כדי להתקין את boot9strap
 1. אחרי שזה סיים, תחזיקו (Start) בזמן שאתם לוחצים (A) כדי לאתחל את הקונסולה אל תפריט הטעינה שלLuma3DS
   + If you encounter an `argc = 0` error booting your device after the B9S update, just continue to fix it
@@ -105,6 +108,3 @@ ___
 
 Boot9strap has been successfully updated.
 {: .notice--success}
-1. Launch Luma3DS chainloader menu by holding (Start) during boot
-1. תפעילו את SafeB9SInstaller על ידי לחיצת (A)
-1. Wait for all safe
