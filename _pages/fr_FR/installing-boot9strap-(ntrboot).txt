@@ -1,5 +1,5 @@
 ---
-title: "Installing boot9strap (ntrboot)"
+title: "Installation de boot9strap (ntrboot)"
 ---
 
 {% include toc title="Table des matières" %}
@@ -12,10 +12,10 @@ Pour extraire les fichiers `.7z` sur cette page, vous aurez besoin d'un programm
 
 ### Ce dont vous avez besoin
 
-* A magnet that triggers the sleep mode of your device (if using a folding style device)
-* Your ntrboot flashed flashcart
+* Un aimant qui déclenche le mode veille de votre console (si votre console est pliable)
+* Votre linker flashé avec ntrboot
 * La dernière version de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`devkit` boot9strap; not the `ntr` file)*
+* La dernière version de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(boot9strap `devkit`, pas le fichier `ntr`)*
 * La dernière version de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(le fichier`.7z`)*
 * La dernière version de [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 
@@ -24,9 +24,9 @@ Pour extraire les fichiers `.7z` sur cette page, vous aurez besoin d'un programm
 #### Section I - Préparatifs
 
 1. Éteignez votre console
-1. Insert your device's SD card into your computer
-  + This is the SD card from your 3DS, *not* the SD card from your flashcart
-1. Copy `SafeB9SInstaller.firm` to the root of your SD card and rename it to `boot.firm`
+1. Insérez la carte SD de votre appareil dans votre ordinateur
+  + Ceci signifie la carte SD de votre 3DS, et *non* la carte SD de votre linker
+1. Copiez `SafeB9SInstaller.firm` à la racine de votre carte SD et renommez-le `boot.firm`
 1. Copiez `boot.3dsx` à la racine de votre carte SD
 1. Créez un dossier à la racine de votre carte SD nommé `boot9strap`
 1. Copiez `boot9strap.firm` et `boot9strap.firm.sha` depuis le fichier `.zip` de boot9strap vers le dossier `/boot9strap/` sur votre carte SD
@@ -39,33 +39,33 @@ Pour extraire les fichiers `.7z` sur cette page, vous aurez besoin d'un programm
 
 #### Section II - ntrboot
 
-1. Use the magnet to find the spot on your device where the sleep sensor is triggered
-  + This step is not needed on the old 2DS (which has a sleep mode switch)
+1. Utilisez l’aimant pour repérer l’emplacement sur votre appareil où le capteur de veille est déclenché
+  + Cette étape n’est pas nécessaire sur les old 2DS (qui ont un commutateur de mode veille)
 1. Éteignez votre console
-1. Insert your flashcart into your device
-1. Place the magnet on your device to trigger the sleep sensor
-  + On old 2DS, you should instead enable the sleep mode switch
-1. Hold (Start) + (Select) + (X) + (Power) for several seconds, then release the buttons
-  + It may take a few attempts to get this to work because the positioning is awkward
+1. Insérez votre linker dans votre console
+1. Placez l’aimant sur votre appareil pour déclencher le capteur de veille
+  + Sur les old 2DS, vous devez activer le commutateur de mode veille à la place
+1. Maintenez les boutons (Start) + (Select) + (X) + (On/Off) pendant plusieurs secondes, puis relâchez-les
+  + Cela peut demander plusieurs tentatives, le placement de l'aimant n'est pas évident
 1. Si l'exploit a réussi, vous devriez avoir démarré dans SafeB9SInstaller
 
 #### Section III - Installation de boot9strap
 
 1. Attendez que tous les tests de sécurité soient finis
-1. Remove the magnet from your device
-  + On old 2DS, you should instead disable the sleep mode switch
+1. Retirez l'aimant de votre appareil
+  + Sur les old 2DS, vous devez désactiver le commutateur de mode veille à la place
 1. Quand cela est demandé, appuyez sur la combinaison de boutons donnée pour installer boot9strap
-1. Once it has completed, force your device to power off by holding down the power button
-  + Your device will only boot to the SafeB9SInstaller screen until the next section is completed
+1. Une fois terminé, appuyez longtemps sur le bouton off pour éteindre la console
+  + Votre console ne démarrera que sur l’écran de SafeB9SInstaller tant que vous n'aurez pas terminé la section suivante
 
 #### Section IV - Configuration de Luma3DS
 
 1. Insérez votre carte SD dans votre ordinateur
-1. Delete `boot.firm` from the root of your SD card
+1. Supprimez le fichier `boot.firm` de la racine de votre carte SD s'il existe
 1. Copiez `boot.firm` du fichier `.7z` de Luma3DS vers la racine de votre carte SD
 1. Réinsérez votre carte SD dans votre console
 1. Allumez à présent votre 3DS
-1. Your device should have booted into the Luma3DS configuration menu
+1. Votre console va démarrer sur le menu de configuration de Luma3DS
   + Si vous avez un écran noir, [suivez ce guide de dépannage](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
 1. Utilisez le bouton (A) et la croix directionnelle pour activer les éléments suivants:    
   + **"Show NAND or user string in System Settings"**
@@ -79,9 +79,9 @@ ___
 
 ___
 
-The following is an optional section that will allow you to restore your flashcart to its original state (to allow it to be used for its standard functions).
+Voici une section facultative qui vous permettra de restaurer votre linker dans son état d’origine (afin qu’il puisse être utilisé pour ses fonctions standards).
 
-Note that the Acekard 2i retains its ability to launch `.nds` files while having the ntrboot exploit installed. This only applies when the Acekard 2i is in an NDS or custom firmware 3DS! While the ntrboot exploit is installed to the Acekard 2i, it will be unable to launch `.nds` files on DSi or stock 3DS systems.
+Notez que l’Acekard 2i conserve sa capacité de lancer des fichiers `.nds` tout en ayant ntrboot installé. Cela s’applique uniquement lorsque l’Acekard 2i est dans une NDS ou une 3DS exécutant un custom firmware ! While the ntrboot exploit is installed to the Acekard 2i, it will be unable to launch `.nds` files on DSi or stock 3DS systems.
 
 Do not follow this section until you have completed the rest of the instructions on this page.
 
@@ -124,7 +124,7 @@ Do not follow this section until you have completed the rest of the instructions
 
 1. Éteignez votre console
 1. Insérez votre carte SD dans votre ordinateur
-  + This is the SD card from your 3DS, *not* the SD card from your flashcart
+  + Ceci signifie la carte SD de votre 3DS, et *non* la carte SD de votre linker
 1. Créez un dossier appelé `ntrboot` à la racine de votre carte SD
 1. Copy the `.bin` file from your flashrom backup `.zip` to the `/ntrboot/` folder on the root of your SD card
 1. Créez un dossier appelé `payloads` dans le répertoire `luma` sur votre carte SD 
