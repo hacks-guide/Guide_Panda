@@ -57,7 +57,7 @@ Se durante questa sezione ti verrà chiesto di sovrascrivere dei file sulla tua 
 {: .notice--info}
 
 1. Spegni la tua console
-1. Inserisci la scheda SD nel tuo computer
+1. Insert your SD card into your computer
 1. Copia il _contenuto_ dell'archivio `starter.zip` nella directory principale della tua scheda SD
 1. Copia il file `boot.firm` dall'archivio `.7z` dell'ultima versione di Luma3DS nella directory principale della tua scheda SD
 1. Copia il file `arm9loaderhax.bin` dall'archivio`.7z` della versione 7.0.5 di Luma3DS nella directory principale della tua scheda SD
@@ -137,7 +137,7 @@ Questa sezione è opzionale e richiede sia una Flash Card CTR che l'hardware di 
   + Questo processo durerà un po'
 1. Premi il pulsante (A) per continuare
 1. Tenendo premuto (R), premi (B) per rimuovere la scheda SD
-1. Inserisci la scheda SD nel tuo computer
+1. Insert your SD card into your computer
 1. Copia il file `<data>_<codiceseriale>_sysnand_###.bin` dalla cartella `/gm9/out/` della tua scheda SD in una posizione sicura sul tuo computer
   + Crea dei backup in più posti (come ad esempio un servizio di storage dei file online)
   + Questi backup ti salveranno da un brick nel caso dovesse accadere qualcosa in futuro
