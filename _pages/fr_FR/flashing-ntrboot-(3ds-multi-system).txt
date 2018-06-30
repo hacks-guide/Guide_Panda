@@ -8,7 +8,7 @@ title: "Flash de ntrboot (plusieurs 3DS)"
 
 Avant de commencer, assurez vous de connaître les informations sur [ntrboot](ntrboot)
 
-Cette méthode nécessite un accès temporaire à un second périphérique de la famille 3DS qui utilise déjà boot9strap. Votre linker n'a pas besoin de fonctionner sur aucune des deux 3DS. Consultez le tableau des linkers dans [ntrboot](ntrboot) pour plus d’informations.
+Cette méthode nécessite un accès temporaire à un second périphérique de la famille 3DS qui utilise déjà boot9strap. Votre linker n'a pas besoin de fonctionner sur aucune des deux 3DS.
 
 Notez que dans de rares circonstances, il est possible, pendant le processus de flash sur un linker contrefait ou un clone, que celui-ci **brique** et devienne inutilisable de manière permanente. C'est peu probable, mais notez que seuls les originaux sont supportés. Pour réduire les chances de recevoir un linker contrefait, il est recommandé d'utiliser un site réputé pour acheter votre linker (comme [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
@@ -19,7 +19,7 @@ Notez que dans de rares circonstances, il est possible, pendant le processus de 
 * Deux dispositifs de la famille 3DS 
   + **La 3DS source** : la 3DS qui tourne déjà sous boot9strap
   + **La 3DS cible** : la 3DS en firmware normal
-* La dernière version de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`ntr` standard, pas le fichier `devkit`)*
+* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`ntr-devkit` boot9strap)*
 * La dernière version de [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest)
 
 ### Instructions
