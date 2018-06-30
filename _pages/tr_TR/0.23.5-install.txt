@@ -12,8 +12,6 @@ This guide will:
 - Install boot9strap using CakeHax Browser
 - (Optionally) install the latest version for your region / device
 
-### Okumanız Gerekli
-
 There are two different methods of installing the version 0.23.5 onto your PANDA unit.
 
 One method requires no external tools but only supports some regions and devices due to missing CIA packs for the remaining regions and devices.

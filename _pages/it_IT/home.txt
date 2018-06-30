@@ -79,7 +79,7 @@ Per una lista di tutte le firme di sighax, è possibile consultare [questo gist]
 ## Cosa mi serve sapere prima di cominciare?
 
 + **Prima di seguire la guida, è necessario che tu conosca il rischio dell'hacking di un 3DS: OGNI volta che si modifica il sistema c'è sempre il rischio di un brick IRREVERSIBILE. È raro ma può sempre capitare, quindi assicurati di seguire ESATTAMENTE OGNI SINGOLO PASSAGGIO.**
-+ Questa guida è applicabile a New 3DS, Old 3DS e 2DS di ogni regione e con qualunque versione del software
++ This guide will work on New 3DS, Old 3DS, and 2DS in all regions on all firmware versions
 + Seguendo correttamente la guida non perderai alcun dato e manterrai tutto ciò che era installato nella console.
 + Mantieni sempre la console in carica per evitare la perdita di dati o danni derivanti dall'improvviso spegnimento della console!
 + La tua scheda SD dovrebbe essere [MBR e non GPT](http://www.howtogeek.com/245610/) (la scheda SD preconfezionata con la console è MBR di default).

@@ -77,7 +77,7 @@ For a list of each of the calculated sighax signatures, see [this gist](https://
 ## מה עלי לדעת לפני שמתחילים?
 
 + **לפני תחילת המדריך, אתם חייבים לדעת את הסיכונים של פריצת 3DS: בכל פעם שתשנו את המערכת שלכם, תמיד יש הפוטנציאל** לבריק בלתי הפיך. הם נדירים, אבל עדיין אפשרות לקבל אותם אז תקפידו לעקוב אחרי השלבים במדיוק.**
-+ המדריך הזה יעבוד על כל New 3DS, Old 3DS ו- 2DS בכל האזורים על כל הגרסאות
++ This guide will work on New 3DS, Old 3DS, and 2DS in all regions on all firmware versions
 + אם הכול ילך לפי התוכנית, לא תאבדו נתונים ותסיימו עם כל מה שהתחלתם.
 + Keep the device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!
 + ה- SD שלכם צריך להיות [MBR, לא GPT] (http://www.howtogeek.com/245610/) (כרטיס ה- SD שמגיע עם הקונסולה יהיה MBR כברירת מחדל).
