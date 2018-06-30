@@ -8,7 +8,7 @@ title: "Flashing ntrboot (3DS Multi System)"
 
 Before proceeding, ensure you have read all of the information on [ntrboot](ntrboot)
 
-This method requires temporary access to a second 3DS family device that is already running boot9strap. This does not require your flashcart to support either 3DS's version. See the flashcart table on [ntrboot](ntrboot) for more information.
+This method requires temporary access to a second 3DS family device that is already running boot9strap. This does not require your flashcart to support either 3DS's version.
 
 Note that in some rare circumstances, it may be possible for the flashing process to **brick** a counterfeit flashcart and render it permanently unusable. This is unlikely, but nevertheless only original listed flashcarts are supported. To reduce the chance of receiving a counterfeit card, it is recommended that you use a reputable site to buy your flashcart (such as [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
@@ -19,7 +19,7 @@ Note that in some rare circumstances, it may be possible for the flashing proces
 * İki 3DS ailesinden konsol 
   + **The source 3DS**: the 3DS family device that is already running boot9strap
   + **The target 3DS**: the device on stock firmware
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`ntr` boot9strap; not the `devkit` file)*
+* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`ntr-devkit` boot9strap)*
 * The latest release of [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest)
 
 ### Talimatlar

@@ -54,7 +54,10 @@ Para todos los pasos en esta sección, sobreescribe cualquier archivo existente 
 1. Reinserta la tarjeta SD en tu consola
 
 #### Sección II - Instalar boot9strap
-chequeos ty a completar
+
+1. Inicia el menú de selección de payloads de Luma3DS manteniendo (Start) al encender
+1. Inicia SafeB9SInstaller presionando (A)
+1. Espera a que todas las verificaciones de seguridad se completen
 1. Cuando se solicite, introduce la combinación de botones mostrada para instalar boot9strap
 1. Una vez que se haya completado, mantén presionado (Start) mientras pulsas (A) para reiniciar tu consola en el selector de payloads de Luma3DS
   + Si se produce un error `argc = 0` al iniciar tu consola luego de actualizar B9S, tan sólo continúa para solucionarlo
@@ -106,6 +109,3 @@ ___
 
 Boot9strap ha sido actualizado correctamente.
 {: .notice--success}
-1. Inicia el menú de selección de payloads de Luma3DS manteniendo (Start) al encender
-1. Inicia SafeB9SInstaller presionando (A)
-1. Espera a que se completen los chequeos

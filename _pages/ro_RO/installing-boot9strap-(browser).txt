@@ -13,7 +13,7 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
 ### Ce aveți nevoie
 
 * Cea mai nouă versiune de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
+* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`devkit` boot9strap; not the `ntr` file)*
 * Cea mai nouă versiune de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(fișierul '.7z')*
 * The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 

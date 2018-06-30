@@ -1,67 +1,67 @@
 ---
-title: "Installing boot9strap (Browser)"
+title: "Installer boot9strap (Navigateur)"
 ---
 
 {% include toc title="Table des matières" %}
 
 ### Lecture requise
 
-If you have already hacked your device before and have a EmuNAND based CFW setup, this guide deals exclusively with SysNAND and you should follow all instructions from within or applying to SysNAND. Note that the terms EmuNAND and RedNAND refer to slightly different implementations of [the same concept](http://3dbrew.org/wiki/NAND_Redirection).
+Si vous avez déjà hacké votre console auparavant et que vous avez un CFW basé sur une EmuNAND, notez que ce guide s'applique exclusivement à votre SysNAND et vous devez appliquer toutes les instructions depuis ou vers votre SysNAND. Veuillez noter que les termes EmuNAND et RedNAND désignent 2 implémentations légèrement différentes du [même concept](http://3dbrew.org/wiki/NAND_Redirection).
 
-To extract the `.7z` files linked on this page, you will need a file archiver like [7-Zip](http://www.7-zip.org/) or [The Unarchiver](https://theunarchiver.com/).
+Pour extraire les fichiers `.7z` sur cette page, vous aurez besoin d'un programme d'archives comme [7-Zip](http://www.7-zip.org/) ou [The Unarchiver](https://theunarchiver.com).
 
 ### Ce dont vous avez besoin
 
-* The latest release of [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
-* The latest release of [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(the `.7z` file)*
-* The latest release of [the Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
+* La dernière version de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
+* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`devkit` boot9strap; not the `ntr` file)*
+* La dernière version de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(le fichier`.7z`)*
+* La dernière version de [Homebrew Launcher](https://github.com/fincs/new-hbmenu/releases/latest)
 
 ### Instructions
 
 #### Section I - Préparatifs
 
-1. Power off your device
-1. Insert your SD card into your computer
-1. Copy `boot.firm` from the Luma3DS `.7z` to the root of your SD card
-1. Copy `boot.3dsx` to the root of your SD card
-1. Create a folder named `boot9strap` on the root of your SD card
-1. Copy `boot9strap.firm` and `boot9strap.firm.sha` from the boot9strap `.zip` to the `/boot9strap/` folder on your SD card
-1. Copy `SafeB9SInstaller.dat` and `Launcher.dat` from the SafeB9SInstaller `.zip` to the root of your SD card
+1. Éteignez votre console
+1. Insérez votre carte SD dans votre ordinateur
+1. Copiez `boot.firm` du fichier `.7z` de Luma3DS vers la racine de votre carte SD
+1. Copiez `boot.3dsx` à la racine de votre carte SD
+1. Créez un dossier à la racine de votre carte SD nommé `boot9strap`
+1. Copiez `boot9strap.firm` et `boot9strap.firm.sha` depuis le fichier `.zip` de boot9strap vers le dossier `/boot9strap/` sur votre carte SD
+1. Copiez `SafeB9SInstaller.dat` et `Launcher.dat` depuis le fichier `.zip` de SafeB9SInstaller à la racine de votre carte SD
 
     ![]({{ "/images/screenshots/boot9strap-browser-file-layout.png" | absolute_url }})
     {: .notice--info}
 
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Réinsérez votre carte SD dans votre console
+1. Allumez à présent votre 3DS
 
-#### Section II - Launching SafeB9SInstaller
+#### Section II - Lancement de SafeB9SInstaller
 
-1. Launch the browser and go to one of the following URLs on your device
+1. Lancez le navigateur et allez à l’une des URL suivantes depuis votre console
   + `https://dukesrg.github.io/?SafeB9SInstaller.dat`
   + `http://go.gateway-3ds.com/`
   + `http://www.reboot.ms/3ds/load.html?Launcher.dat`
   + `http://dukesrg.dynu.net/3ds/rop?GW17567.dat&Launcher.dat`
-  + Make sure to try each URL if the first one doesn't work (some versions cannot use the first one, and some versions cannot use the last three)
-  + If you get an error, [follow this troubleshooting guide](troubleshooting#a-browser-based-exploit-is-not-working)
-1. If the exploit was successful, you will have booted into SafeB9SInstaller
+  Assurez-vous d’essayer chaque URL si la première ne fonctionne pas (certaines versions ne peuvent pas utiliser la première, et certaines versions ne peuvent pas utiliser les trois dernières)
+  + Si vous rencontrez une autre erreur, [suivez ce guide de dépannage](troubleshooting#a-browser-based-exploit-is-not-working)
+1. Si l'exploit a réussi, vous devriez avoir démarré dans SafeB9SInstaller
 
-#### Section III - Installing boot9strap
+#### Section III - Installation de boot9strap
 
-1. Wait for all safety checks to complete
-1. When prompted, input the key combo given to install boot9strap
-1. Once it has completed, press (A) to reboot your device
+1. Attendez que tous les tests de sécurité soient finis
+1. Quand cela est demandé, appuyez sur la combinaison de boutons donnée pour installer boot9strap
+1. Une fois que c'est fini, appuyez sur (A) pour redémarrer la console
 
-#### Section IV - Configuring Luma3DS
+#### Section IV - Configuration de Luma3DS
 
-1. Your device should have rebooted into the Luma3DS configuration menu
-  + If you get a black screen, [follow this troubleshooting guide](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
-1. Use the (A) button and the D-Pad to turn on the following:    
+1. Votre console devrait avoir redémarré dans le menu de configuration de Luma3DS
+  + Si vous avez un écran noir, [suivez ce guide de dépannage](troubleshooting#black-screen-on-sysnand-boot-after-installing-boot9strap)
+1. Utilisez le bouton (A) et la croix directionnelle pour activer les éléments suivants:    
   + **"Show NAND or user string in System Settings"**
-1. Press (Start) to save and reboot
-  + If you get an error, just continue the next page
+1. Appuyez sur (Start) pour enregistrer les modifications et redémarrer
+  + Si vous obtenez une erreur, continuez à la prochaine page
 
 ___
 
-### Continue to [Finalizing Setup](finalizing-setup)
+### Continuer vers [Finalisation de l'installation](finalizing-setup)
 {: .notice--primary}

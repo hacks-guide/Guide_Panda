@@ -8,7 +8,7 @@ title: "Instalând ntrboot (Două 3DS-uri)"
 
 Înainte de a continua, asigurați-vă că ați citit toate informațiile de pe [ntrboot](ntrboot)
 
-Această metodă necesită acces temporar la un al doilea dispozitiv din familia 3DS care deja pornește boot9strap. This does not require your flashcart to support either 3DS's version. See the flashcart table on [ntrboot](ntrboot) for more information.
+Această metodă necesită acces temporar la un al doilea dispozitiv din familia 3DS care deja pornește boot9strap. This does not require your flashcart to support either 3DS's version.
 
 Țineți cont că în anumite cazuri rare, poate fi posibil ca procesul de instalare să facă **brick** unui flashcard contrafăcut și să devină complet nefolositor. Acest lucru este puţin probabil, totuși, numai flashcart-urile originale menționate sunt compatibile. Pentru a reduce şansa de a primi un card contrafăcut, este recomandat să folosiți un site de încredere pentru a cumpăra flashcart-ul (cum ar fi [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
@@ -19,7 +19,7 @@ Această metodă necesită acces temporar la un al doilea dispozitiv din familia
 * Două dispozitive din familia 3DS 
   + **The source 3DS**: the 3DS family device that is already running boot9strap
   + **3DS-ul țintă**: dispozitivul pe firmware stoc
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`ntr` boot9strap; not the `devkit` file)*
+* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(`ntr-devkit` boot9strap)*
 * The latest release of [ntrboot_flasher](https://github.com/ntrteam/ntrboot_flasher/releases/latest)
 
 ### Instrucțiuni
