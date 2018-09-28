@@ -60,7 +60,7 @@ To extract the `.7z` files linked on this page, you will need a file archiver li
 
 #### Sezione IV - Configurare Luma3DS
 
-1. Inserisci la scheda SD nel tuo computer
+1. Insert your SD card into your computer
 1. Elimina il file `boot.firm` dalla directory principale della tua scheda SD
 1. Copia il file `boot.firm` dall'archivio `.7z` di Luma3DS nella directory principale della tua scheda SD
 1. Reinserisci la scheda SD nella tua console
@@ -123,7 +123,7 @@ Non seguire questa parte finché non avrai completato tutte le altre istruzioni 
 ##### Istruzioni
 
 1. Spegni la tua console
-1. Inserisci la scheda SD nel tuo computer
+1. Insert your SD card into your computer
   + This is the SD card from your 3DS, *not* the SD card from your flashcart
 1. Crea una cartella chiamata `ntrboot` nella directory principale della tua scheda SD
 1. Copy the `.bin` file from your flashrom backup `.zip` to the `/ntrboot/` folder on the root of your SD card
