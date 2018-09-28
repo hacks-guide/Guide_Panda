@@ -68,7 +68,7 @@ Ten en cuenta que si tienes archivos de payloads distintos de `GodMode9.firm` en
 1. Presiona (A) para continuar cuando se te pida
 1. Presiona (A) para desbloquear la escritura de SysNAND (lvl1) y después introduce la combinación de teclas mostrada
 1. Presiona (A) para continuar
-1. Presiona (A) para volver a bloquear los permisos de escritura
+1. Press (A) to relock write permissions
 1. Presiona (Start) para reiniciar tu consola
 
 ## No se puede inyectar H&S en una consola downgradeada con Gateway
@@ -135,7 +135,7 @@ Ten en cuenta que si tienes archivos de payloads distintos de `GodMode9.firm` en
         1. Presiona (A) para continuar cuando se te pida
         1. Presiona (A) para desbloquear la escritura de SysNAND (lvl1) y después introduce la combinación de teclas mostrada
         1. Presiona (A) para continuar
-        1. Presiona (A) para volver a bloquear los permisos de escritura
+        1. Press (A) to relock write permissions
         1. Presiona (Start) para reiniciar tu consola
 1. Trata de arrancar sin cartuchos insertados (incluyendo flashcards)
 1. Si tienes un hardmod y una copia de seguridad de la NAND, flashea el respaldo de regreso a la SysNAND
@@ -184,7 +184,7 @@ Ten en cuenta que si tienes archivos de payloads distintos de `GodMode9.firm` en
     1. Presiona (A) para continuar cuando se te pida
     1. Presiona (A) para desbloquear la escritura de SysNAND (lvl1) y después introduce la combinación de teclas mostrada
     1. Presiona (A) para continuar
-    1. Presiona (A) para volver a bloquear los permisos de escritura
+    1. Press (A) to relock write permissions
     1. Presiona (Start) para reiniciar tu consola
 1. Trata de arrancar sin cartuchos insertados (incluyendo flashcards)
 1. Si previamente hiciste un downgrade con Gateway, asegúrate que la versión de Luma3DS que estés utilizando sea la más reciente
