@@ -168,7 +168,7 @@ Ten en cuenta que si tienes archivos de payloads distintos de `GodMode9.firm` en
 
 ### Instrucciones
 
-1. Asegúrate de tener un payload funcional
+1. Ensure you have a working payload
     1. Comprueba que existe el archivo `boot.firm` en la raíz de tu tarjeta SD.
 1. Intenta reiniciar la configuración de Luma y arregla sus opciones
     1. Elimina `/luma/config.bin` de tu tarjeta SD
