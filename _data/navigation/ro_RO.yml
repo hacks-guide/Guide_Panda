@@ -5,7 +5,7 @@ main:
     url: /
   - 
     title: Întrebări frecvente
-    url: ro_RO/faq
+    url: faq
   - 
     title: Donații
     url: donations
