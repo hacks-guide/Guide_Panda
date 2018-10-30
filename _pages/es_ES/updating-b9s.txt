@@ -91,7 +91,7 @@ Esta sección es sólo necesaria si se ha mostrado la configuración Luma3DS lue
 1. Presiona (A) para continuar cuando se te pida
 1. Presiona (A) para desbloquear la escritura de SysNAND (lvl1) y después introduce la combinación de teclas mostrada
 1. Presiona (A) para continuar
-1. Press (A) to relock write permissions
+1. Presiona (A) para volver a bloquear los permisos de escritura
 
 #### Sección VI - Limpiar tarjeta SD
 
