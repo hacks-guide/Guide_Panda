@@ -233,5 +233,5 @@ Para identificar el ID de título de un archivo `<TitleID>.gbavc.sav`, puedes ob
 1. Presiona (A) para continuar cuando se te pida
 1. Presiona (A) para desbloquear la escritura de SysNAND (lvl1) y después introduce la combinación de teclas mostrada
 1. Presiona (A) para continuar
-1. Press (A) to relock write permissions
+1. Presiona (A) para volver a bloquear los permisos de escritura
 1. Presiona (Start) para reiniciar tu consola
