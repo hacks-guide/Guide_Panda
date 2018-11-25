@@ -69,21 +69,21 @@ Această secţiune este opţională şi necesită atât un flash card CTR şi ha
 1. Apăsați (A) pentru a continua
 1. Apăsați (A) ca să reblocați permisiunile de scriere
 
-#### Section V - Backup Essential Files
+#### Secţiunea V - Copie de rezervă fişierelor esenţiale
 
 1. Apăsați (Home) pentru a arăta meniul de acțiuni
 1. Selectați "Scripts..."
 1. Selectați "Backup SysNAND"
 1. Apăsați (A) pentru a confirma
   + Acest proces va lua ceva timp
-  + If you get an error, make sure that you have at least 1.2GB to 1.3GB of free space on your SD card
+  + Dacă primiţi o eroare, asiguraţi-vă că aveţi cel puţin 1.2GB până la 1.3GB de spaţiu liber pe cardul SD
 1. Apăsați (A) pentru a continua
 1. Țineți apăsat (R) și apăsați (B) în același timp pentru a scoate cardul SD
 1. Introduceți cardul SD în calculator
-1. Copy `<date>_<serialnumber>_sysnand_###.bin` and `essential.exefs` from the `/gm9/out/` folder on your SD card to a safe location on your computer
+1. Copiați `<dată>_<numărdeserie>_sysnand_###.bin` și `essential.exefs` din folderul `/gm9/out/` de pe cardul SD într-o locaţie sigură pe calculator
   + Faceți copii de rezervă în mai multe locații (cum ar fi stocări online ale fișierelor)
-  + These backups will save you from a brick and/or help you recover files from the NAND image if anything goes wrong in the future
-1. Delete `<date>_<serialnumber>_sysnand_###.bin` and `<date>_<serialnumber>_sysnand_###.bin.sha` from the `/gm9/out/` folder on your SD card after copying it
+  + Aceste copii de rezervă vă va salva de un brick și/sau vă va ajuta să recuperați fișierele dintr-o imagine NAND dacă ceva merge în neregulă pe viitor
+1. Ştergeţi `<dată>_ <numărdeserie>_sysnand_ ###.bin` şi `<dată>_ <numărdeserie>_sysnand_ ###.bin.sha` din folderul `/ gm9/out /` de pe cardul SD după copiere
 1. Reintroduceţi cardul SD în dispozitivul dumneavoastră
 
 #### Secțiunea VI - Curățarea cardului SD
