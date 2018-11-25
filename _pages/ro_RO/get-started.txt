@@ -15,11 +15,11 @@ Au existat rapoarte despre un val de banuri adresate utilizatorilor de CFW de c�
 1. Mergeți în System Settings, apoi "Internet Settings", apoi "SpotPass", apoi "Sending of System Information"
 1. Dezactivați opţiunea "Sending of System Information"
 1. Ieșiți din System Settings
-1. Go to your Friend List (the [orange Face Icon]({{ "/images/friend-list-icon.png" | absolute_url }}) in the top row of your Home Menu)
-  + If you receive an error and are kicked out of the menu, the Friend List setting is either already disabled or your console cannot connect to Nintendo's servers (due to a ban or connection issues)
-1. Go to the Friend List settings, then "Friend Notification Settings", then "Show friends what you're playing"
+1. Mergeți în Lista de prieteni ([iconița cu fața portocalie]({{ "/images/friend-list-icon.png" | absolute_url }} în rândul superior de pe meniul HOME)
+  + Dacă primiți o eroare și sunteți dat afară din meniu, setarea Listei de prieteni este dezactivată sau consola nu se mai poate conecta în serverele Nintendo (din cauza unui ban sau problemelor de conexiune)
+1. Mergeți la setările de pe Lista de prieteni, apoi "Friend Notification Settings", apoi "Show friends what you're playing"
 1. Dezactivați opțiunea "Show friends what you're playing"
-1. Exit your Friend List
+1. Ieșiți din Lista de prieteni
 
 {% endcapture %}
 
