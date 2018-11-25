@@ -8,7 +8,7 @@ title: "Instalând ntrboot (Un 3DS)"
 
 Înainte de a continua, asigurați-vă că ați citit toate informațiile de pe [ntrboot](ntrboot)
 
-Această metodă necesită nimic mai mult decât un 3DS stoc nemodat şi un flashcart compatibil. This method uses the flashcart to run the ntrboot flasher `.nds` file on your 3DS. This means that your flashcart must support launching `.nds` files on your 3DS's version. See the flashcart table on [ntrboot](ntrboot) for more information.
+Această metodă necesită nimic mai mult decât un 3DS stoc nemodat şi un flashcart compatibil. Această metodă folosește flashcart-ul pentru a rula fişierul ntrboot flasher `.nds` pe 3DS-ul dumneavoastră. Asta înseamnă că flashcart-ul trebuie să poată porni fişiere `.nds` pe versiunea 3DS-ului dumneavoastră. Vedeți tabelul pe [ntrboot](ntrboot) pentru mai multe informații.
 
 Țineți cont că în anumite cazuri rare, poate fi posibil ca procesul de instalare să facă **brick** unui flashcard contrafăcut și să devină complet nefolositor. Acest lucru este puţin probabil, totuși, numai flashcart-urile originale menționate sunt compatibile. Pentru a reduce şansa de a primi un card contrafăcut, este recomandat să folosiți un site de încredere pentru a cumpăra flashcart-ul (cum ar fi [NDS Card](http://www.nds-card.com/))
 {: .notice--danger}
@@ -16,7 +16,7 @@ Această metodă necesită nimic mai mult decât un 3DS stoc nemodat şi un flas
 ### Ce aveți nevoie
 
 * Flashcart-ul dumneavoastră compatibil cu ntrboot
-* The latest release of [ds_ntrboot_flasher](https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest) *(`dsi` flasher; not the standard flasher)*
+* Cea mai nouă versiune de [ds_ntrboot_flasher](https://github.com/ntrteam/ds_ntrboot_flasher/releases/latest) *( flasher `dsi`; nu cel standard)*
 
 ### Instrucțiuni
 
@@ -24,18 +24,18 @@ Această metodă necesită nimic mai mult decât un 3DS stoc nemodat şi un flas
 
 1. Închideți dispozitivul
 1. Introduceți cardul SD al flashcart-ului în calculator
-1. Copy `ds_ntrboot_flasher_dsi.nds` to your flashcart's SD card
+1. Copiați `ds_ntrboot_flasher_dsi.nds`pe cardul SD al flashcart-ului
 1. Reintroduceți cardul SD al flashcart-ului în flashcart
 1. Introduceți flashcart-ul DS / DSi compatibil cu ntrboot în dispozitiv
 
 #### Secțiunea II - Instalând ntrboot
 
-1. Launch `ds_ntrboot_flasher_dsi.nds` on your device using your flashcart
+1. Lansați `ds_ntrboot_flasher_dsi.nds` pe dispozitiv folosind flashcart-ul
 1. Apăsați (A) pentru a continua
 1. Folosiți (Sus) și (Jos) pentru a selecta flashcart-ul dumneavostră
 1. Apăsați (A) pentru a continua
 1. Apăsași (A) pentru a executa comanda "inject ntrboothax"
-1. Press (A) to select "RETAIL"
+1. Apăsați (A) pentru a selecta "RETAIL"
 1. Apăsați (A) pentru a continua
 1. Selectaţi "EXIT"
 
