@@ -8,7 +8,7 @@ title: "Actualizând B9S"
 
 Această pagină este pentru utilizatorii de boot9strap ca să-și actualizeze instalarea către ultima versiune.
 
-To extract the `.7z` files linked on this page, you will need a file archiver like [7-Zip](http://www.7-zip.org/) or [The Unarchiver](https://theunarchiver.com/).
+Pentru a extrage fişierele `.7z` de pe această pagină, veţi avea nevoie de un arhivator de fişiere ca [7-Zip](http://www.7-zip.org/) sau [The Unarchiver] (https://theunarchiver.com/).
 
 {% capture notice-1 %}
 Au existat rapoarte despre un val de banuri adresate utilizatorilor de CFW de către Nintendo. Pentru a vă proteja, efectuaţi următorii paşi înainte de a începe acest ghid:
@@ -16,11 +16,11 @@ Au existat rapoarte despre un val de banuri adresate utilizatorilor de CFW de c�
 1. Mergeți în System Settings, apoi "Internet Settings", apoi "SpotPass", apoi "Sending of System Information"
 1. Dezactivați opţiunea "Sending of System Information"
 1. Ieșiți din System Settings
-1. Go to your Friend List (the [orange Face Icon]({{ "/images/friend-list-icon.png" | absolute_url }}) in the top row of your Home Menu)
-  + If you receive an error and are kicked out of the menu, the Friend List setting is either already disabled or your console cannot connect to Nintendo's servers (due to a ban or connection issues)
-1. Go to the Friend List settings, then "Friend Notification Settings", then "Show friends what you're playing"
+1. Mergeți în Lista de prieteni ([iconița cu fața portocalie]({{ "/images/friend-list-icon.png" | absolute_url }} în rândul superior de pe meniul HOME)
+  + Dacă primiți o eroare și sunteți dat afară din meniu, setarea Listei de prieteni este dezactivată sau consola nu se mai poate conecta în serverele Nintendo (din cauza unui ban sau problemelor de conexiune)
+1. Mergeți la setările de pe Lista de prieteni, apoi "Friend Notification Settings", apoi "Show friends what you're playing"
 1. Dezactivați opțiunea "Show friends what you're playing"
-1. Exit your Friend List
+1. Ieșiți din Lista de prieteni
 
 {% endcapture %}
 
@@ -29,7 +29,7 @@ Au existat rapoarte despre un val de banuri adresate utilizatorilor de CFW de c�
 ### Ce aveți nevoie
 
 * Cea mai nouă versiune de [SafeB9SInstaller](https://github.com/d0k3/SafeB9SInstaller/releases/latest)
-* The latest release of [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(standard boot9strap; not the `devkit` file, not the `ntr` file)*
+* Cea mai nouă versiune de [boot9strap](https://github.com/SciresM/boot9strap/releases/latest) *(boot9strap standard; nu fișierul `devkit`, nici cel `ntr`)*
 * Cea mai nouă versiune de [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 * Cea mai nouă versiune de [Luma3DS](https://github.com/AuroraWright/Luma3DS/releases/latest) *(fișierul '.7z')*
 * [setup_ctrnand_luma3ds.gm9]({{ "/gm9_scripts/setup_ctrnand_luma3ds.gm9" | absolute_url }}){:download}
@@ -54,18 +54,18 @@ Pentru toți pașii din această secțiune, suprascrieți fișierele existente d
 
 #### Secțiunea II - Instalând boot9strap
 
-1. Launch Luma3DS chainloader menu by holding (Start) during boot
+1. Lansați meniul de selectare de payload-uri Luma3DS ținând apăsat (Start) în timpul pornirii
 1. Lansați SafeB9SInstaller apăsând (A)
 1. Așteptaţi ca toate verificările de siguranță să fie completate
 1. Când vi se cere, introduceți combinația de butoane ca să instalați boot9strap
 1. Odată completat, țineți apăsat (Start) în timp ce apăsați (A) pentru a reporni dispozitivul în meniul de selectare de payload-uri Luma3DS
-  + If you encounter an `argc = 0` error booting your device after the B9S update, just continue to fix it
+  + Dacă apare o eroare `argc = 0` în timp ce porniți dispozitivul după actualizarea B9S, doar continuați ca să-l reparați
 
-#### Section III - Update Luma3DS
+#### Secțiunea III - Actualizând Luma3DS
 
 1. Închideți dispozitivul
 1. Introduceți cardul SD în calculator
-1. Copy `boot.firm` from the Luma3DS `.7z` to the root of your SD card, replacing the existing file
+1. Copiați `boot.firm` din Luma3DS `.7z` pe rădăcina cardului SD, înlocuind fișierul existent
 1. Reintroduceţi cardul SD în dispozitiv
 1. Porniți dispozitivul
 
@@ -78,9 +78,9 @@ Această secţiune este necesară numai în cazul în care vi se arată meniul d
   + **"Show NAND or user string in System Settings"**
 1. Apăsați (Start) pentru a salva și reporni
 
-#### Section V - CTRNAND Luma3DS
+#### Secțiunea V - CTRNAND Luma3DS
 
-1. Reboot holding (Start) to launch GodMode9
+1. Reporniți ținând apăsat (Start) pentru a lansa GodMode9
 1. Dacă vi se cere să faceți o copie de rezervă a fișierelor esențiale, apăsați (A) pentru a o realiza, apoi apăsați (A) ca să continuați după ce s-a terminat
 1. Dacă vi se cere să reparați dara și ora RTC, apăsați (A) pentru a efectua, apoi setați data și ora, apoi apăsați (A) pentru a continua
   + Țineți cont că, dacă trebuiați să reparați data și ora RTC, va trebui să reparați ora în System Settings de asemenea după completarea acestui ghid
@@ -102,9 +102,9 @@ Această secţiune este necesară numai în cazul în care vi se arată meniul d
 1. Selectaţi "cleanup_sd_card"
 1. Când vi se solicită, apăsaţi (A) pentru a continua
 1. Apăsați (A) pentru a continua
-1. Hold (R) and press (Start) to power off your device
+1. Țineți apăsat (R) și apăsați (Start) pentru a închide dispozitivul
 
 ___
 
-Boot9strap has been successfully updated.
+Boot9strap a fost actualizat cu succes.
 {: .notice--success}
