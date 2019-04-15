@@ -83,7 +83,7 @@ $(document).ready(function(){
 
     $("nav.greedy-nav .nav-selector").css("left", "2.5rem");
     $("nav.greedy-nav .lang-selector").css("left", ".2rem");
-    
+
     $("nav.greedy-nav .links-menu").css("right", "auto");
     $("nav.greedy-nav .lang-menu").css("right", "auto");
 
@@ -111,11 +111,11 @@ $(document).ready(function(){
   }
 
   var sidebar_shown = true;
-  var sidebar_hidden_pages = ["404", "a9lh-to-b9s", "credits", "donations", "f3-(linux)", "f3x-(mac)",  
-                              "faq", "file-extensions-(windows)", "get-started", "h2testw-(windows)", 
-                              "site-navigation", "troubleshooting", "uninstall-cfw", "updating-b9s", 
-                              "why-ads"];
-  
+  var sidebar_hidden_pages = ["404", "a9lh-to-b9s", "credits", "donations", "f3-(linux)", "f3x-(mac)",
+                              "faq", "file-extensions-(windows)", "get-started", "h2testw-(windows)",
+                              "site-navigation", "troubleshooting", "uninstall-cfw", "updating-b9s",
+                              "why-ads", "privacy-policy"];
+
   for(var i = 0; i < sidebar_hidden_pages.length; i++){
     if(window.location.href.indexOf(sidebar_hidden_pages[i]) > -1) {
       sidebar_shown = false;
@@ -145,7 +145,7 @@ $(document).ready(function(){
   if(!(method = localStorage.getItem('method'))){
     sidebar_shown = false;
   }
- 
+
   if(sidebar_shown){
     var unhide = [];
     var route = {
@@ -170,10 +170,10 @@ $(document).ready(function(){
       ol.children().each(function(idx, li) {
         var link = $(li).find("a").attr('href');
         var name = $(li).attr('data-name');
-        if((window.location.href.endsWith(link) || 
-            window.location.href.endsWith(link + "/") || 
-            window.location.href.indexOf(link + "#") > -1 || 
-            window.location.href.indexOf(link + ".html") > -1) 
+        if((window.location.href.endsWith(link) ||
+            window.location.href.endsWith(link + "/") ||
+            window.location.href.indexOf(link + "#") > -1 ||
+            window.location.href.indexOf(link + ".html") > -1)
             && name !== "home"){
           $(li).addClass("active");
           return false;
