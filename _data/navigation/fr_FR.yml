@@ -25,7 +25,7 @@ main:
     title: Utilisation de GodMode9
     url: godmode9-usage
   - 
-    title: Site Navigation
+    title: Index du site
     url: site-navigation
   - 
     title: Désinstallation du CFW
@@ -40,6 +40,8 @@ footer:
     title: Source
   - 
     title: Index du site
+  - 
+    title: Privacy Policy
 sidebar_title:
   - 
     title: Progression globale
