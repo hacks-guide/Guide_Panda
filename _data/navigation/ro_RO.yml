@@ -30,6 +30,9 @@ main:
   - 
     title: Dezinstalând CFW
     url: uninstall-cfw
+top:
+  - 
+    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
 bottom:
   - 
     title: Pentru suport în engleză, cereți ajutor la <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew pe Discord</a>.
@@ -40,6 +43,8 @@ footer:
     title: Codul sursă
   - 
     title: Navigarea pe site
+  - 
+    title: Privacy Policy
 sidebar_title:
   - 
     title: Progres total
