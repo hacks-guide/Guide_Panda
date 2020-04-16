@@ -143,7 +143,7 @@ This section is optional and requires both a CTR flash card and the development 
   + This backup will save you from a brick if anything goes wrong in the future
   + Replace your old arm9loaderhax NAND backup with this new boot9strap one
 1. Delete `<date>_<serialnumber>_sysnand_###.bin` from the `/gm9/out/` folder on your SD card after copying it
-1. Reinsert your SD card into your device
+1. Hafıza kartınızı aygıtınıza yeniden takın
 
 #### Section VIII - Cleanup SD Card
 
