@@ -21,7 +21,7 @@ Bu sayfa yalnızca Linux kullanıcıları içindir. If you are not on Linux, che
 1. F3 `.zip` dosyasını çıkartın
 1. F3 dizinine `cd` ile gidin
 1. F3'ü derlemek için `make` komutunu çalıştırın
-1. Insert your SD card into your computer
+1. Hafıza kartınızı bilgisayarınıza takın
 1. Hafıza kartınızı takın
 1. Run `./f3write <your sd card mount point>`
 1. Wait until the process is complete. Çıktı örneği için aşağıya bakın.

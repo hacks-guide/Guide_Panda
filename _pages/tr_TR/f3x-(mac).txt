@@ -19,7 +19,7 @@ Bu sayfa yalnızca Mac kullanıcılar içindir. If you are not on Mac, check out
 ### Talimatlar
 
 1. F3X `.zip` dosyasını çıkartın
-2. Insert your SD card into your computer
+2. Hafıza kartınızı bilgisayarınıza takın
 2. F3X uygulamasını çalıştırın
 4. Hafıza kartınızı seçin
 5. "Start Test" 'e basin
