@@ -3,41 +3,12 @@ main:
   - 
     title: Acasă
     url: /
-  - 
-    title: Întrebări frecvente
-    url: faq
-  - 
-    title: Donații
-    url: donations
-  - 
-    title: Contribuţii
-    url: credits
-  - 
-    title: Actualizând B9S
-    url: updating-b9s
-  - 
-    title: A9LH către B9S
-    url: a9lh-to-b9s
-  - 
-    title: Depanare
-    url: troubleshooting
-  - 
-    title: Folosind GodMode9
-    url: godmode9-usage
-  - 
-    title: Navigarea pe site
-    url: site-navigation
-  - 
-    title: Dezinstalând CFW
-    url: uninstall-cfw
 top:
   - 
     title: Acest website folosește cookie-uri pentru a afișa progresul actual al ghidului pe bara laterală și astfel îmbunătăți site-ul prin alte mijloace.
 bottom:
   - 
-    title: Pentru suport în engleză, cereți ajutor la <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew pe Discord</a>.
-  - 
-    title: Dacă apreciați acest ghid, accept <a href="donations">Donații</a>.
+    title: 'This guide has temporarily been removed pending major updates. In the meantime, if you require assistance with installing custom firmware on developer consoles, please ask @fox8091#9999 for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.'
 footer:
   - 
     title: Codul sursă
@@ -45,52 +16,3 @@ footer:
     title: Navigarea pe site
   - 
     title: Politica de confidenţialitate
-sidebar_title:
-  - 
-    title: Progres total
-sidebar_pages:
-  - 
-    title: Acasă
-    url: /
-  - 
-    title: Începeți
-    url: get-started
-  - 
-    title: Instalare 0.23.5
-    url: 0.23.5-install
-  - 
-    title: ntrboot
-    url: ntrboot
-  - 
-    title: Mai multe opţiuni
-    url: multiple-options
-  - 
-    title: Instalare 0.23.5 (CIA-uri)
-    url: 0.23.5-install-(cias)
-  - 
-    title: Instalare 0.23.5 (CSU-uri)
-    url: 0.23.5-install-(csu)
-  - 
-    title: Instalând ntrboot (Un 3DS)
-    url: flashing-ntrboot-(3ds-single-system)
-  - 
-    title: Instalând ntrboot (Două 3DS-uri)
-    url: flashing-ntrboot-(3ds-multi-system)
-  - 
-    title: Instalând ntrboot (DSi)
-    url: flashing-ntrboot-(dsi)
-  - 
-    title: Instalând ntrboot (NDS)
-    url: flashing-ntrboot-(nds)
-  - 
-    title: Instalând ntrboot (Powersaves)
-    url: flashing-ntrboot-(powersaves)
-  - 
-    title: Instalând boot9strap (Browser)
-    url: installing-boot9strap-(browser)
-  - 
-    title: Instalând boot9strap (ntrboot)
-    url: installing-boot9strap-(ntrboot)
-  - 
-    title: Finalizând instalarea
-    url: finalizing-setup

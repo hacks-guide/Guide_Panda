@@ -3,41 +3,12 @@ main:
   - 
     title: Accueil
     url: /
-  - 
-    title: FAQ
-    url: faq
-  - 
-    title: Dons
-    url: donations
-  - 
-    title: Remerciements
-    url: credits
-  - 
-    title: Mise à jour de B9S
-    url: updating-b9s
-  - 
-    title: Mise à jour d'AL9H vers boot9strap
-    url: a9lh-to-b9s
-  - 
-    title: Problèmes et Dépannage
-    url: troubleshooting
-  - 
-    title: Utilisation de GodMode9
-    url: godmode9-usage
-  - 
-    title: Index du site
-    url: site-navigation
-  - 
-    title: Désinstallation du CFW
-    url: uninstall-cfw
 top:
   - 
     title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
 bottom:
   - 
-    title: Pour un support en Anglais, demander de l'aide sur <a href="https://discord.gg/MWxPgEp">le Discord Nintendo Homebrew</a>.
-  - 
-    title: Si vous appréciez ce guide, j'accepte les <a href="donations">Dons</a>.
+    title: 'This guide has temporarily been removed pending major updates. In the meantime, if you require assistance with installing custom firmware on developer consoles, please ask @fox8091#9999 for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.'
 footer:
   - 
     title: Source
@@ -45,52 +16,3 @@ footer:
     title: Index du site
   - 
     title: Privacy Policy
-sidebar_title:
-  - 
-    title: Progression globale
-sidebar_pages:
-  - 
-    title: Accueil
-    url: /
-  - 
-    title: Pour commencer
-    url: get-started
-  - 
-    title: Installation de la v0.23.5
-    url: 0.23.5-install
-  - 
-    title: ntrboot
-    url: ntrboot
-  - 
-    title: Options multiples
-    url: multiple-options
-  - 
-    title: Installation de la v0.23.5 (CIAs)
-    url: 0.23.5-install-(cias)
-  - 
-    title: Installation de la v0.23.5 (CSU)
-    url: 0.23.5-install-(csu)
-  - 
-    title: Flash de ntrboot (une seule 3DS)
-    url: flashing-ntrboot-(3ds-single-system)
-  - 
-    title: Flash de ntrboot (plusieurs 3DS)
-    url: flashing-ntrboot-(3ds-multi-system)
-  - 
-    title: Flash de ntrboot (DSi)
-    url: flashing-ntrboot-(dsi)
-  - 
-    title: Flash de ntrboot (NDS)
-    url: flashing-ntrboot-(nds)
-  - 
-    title: Flasher ntrboot (Powersaves)
-    url: flashing-ntrboot-(powersaves)
-  - 
-    title: Installation de boot9strap (Navigateur internet)
-    url: installing-boot9strap-(browser)
-  - 
-    title: Installation de boot9strap (ntrboot)
-    url: installing-boot9strap-(ntrboot)
-  - 
-    title: Finalisation de la configuration
-    url: finalizing-setup
