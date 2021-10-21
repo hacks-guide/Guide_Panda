@@ -3,41 +3,12 @@ main:
   - 
     title: Home
     url: /
-  - 
-    title: FAQ
-    url: faq
-  - 
-    title: Bağışlar
-    url: donations
-  - 
-    title: Credits
-    url: credits
-  - 
-    title: B9S Güncelleniyor
-    url: updating-b9s
-  - 
-    title: A9LH 'den B9S 'e
-    url: a9lh-to-b9s
-  - 
-    title: Troubleshooting
-    url: troubleshooting
-  - 
-    title: GodMode9 Kullanımı
-    url: godmode9-usage
-  - 
-    title: Site Navigation
-    url: site-navigation
-  - 
-    title: CFW'yi kaldır
-    url: uninstall-cfw
 top:
   - 
     title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
 bottom:
   - 
-    title: İngilizce destek için <a href="https://discord.gg/MWxPgEp"> Nintendo Homebrew üzerinde </a>, yardım isteyin.
-  - 
-    title: Kılavuzdan memnun kaldıysanız, <a href="donations">bağışlarınızı</a> kabul ediyorum.
+    title: 'This guide has temporarily been removed pending major updates. In the meantime, if you require assistance with installing custom firmware on developer consoles, please ask @fox8091#9999 for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.'
 footer:
   - 
     title: Source
@@ -45,52 +16,3 @@ footer:
     title: Site Navigation
   - 
     title: Privacy Policy
-sidebar_title:
-  - 
-    title: Overall Progress
-sidebar_pages:
-  - 
-    title: Home
-    url: /
-  - 
-    title: Get Started
-    url: get-started
-  - 
-    title: 0.23.5 Yükle
-    url: 0.23.5-install
-  - 
-    title: ntrboot
-    url: ntrboot
-  - 
-    title: Çoklu seçenek
-    url: multiple-options
-  - 
-    title: 0.23.5 (CIAs) Kurulumu
-    url: 0.23.5-install-(cias)
-  - 
-    title: 0.23.5 (CSU) Kurulumu
-    url: 0.23.5-install-(csu)
-  - 
-    title: Flashing ntrboot (3DS Single System)
-    url: flashing-ntrboot-(3ds-single-system)
-  - 
-    title: Flashing ntrboot (3DS Multi System)
-    url: flashing-ntrboot-(3ds-multi-system)
-  - 
-    title: Flashing (Yükleme) ntrboot (DSi)
-    url: flashing-ntrboot-(dsi)
-  - 
-    title: Flashing (Yükleme) ntrboot (NDS)
-    url: flashing-ntrboot-(nds)
-  - 
-    title: Flashing (Yükleme) ntrboot (Powersaves)
-    url: flashing-ntrboot-(powersaves)
-  - 
-    title: boot9strap kurulumu (Tarayıcı)
-    url: installing-boot9strap-(browser)
-  - 
-    title: boot9strap kurulumu (ntrboot)
-    url: installing-boot9strap-(ntrboot)
-  - 
-    title: Kurulum Sonlandırılıyor
-    url: finalizing-setup
