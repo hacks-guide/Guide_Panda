@@ -238,7 +238,6 @@ $(document).ready(function() {
     unhide = unhide.concat(route[device][method]);
     if(typeof unhide !== 'undefined' && unhide.length > 0){
       unhide.push("home");
-      unhide.push("get-started");
       var ol = $('.sidebar.sticky .nav__list .nav__items ol');
       for (var i = 0; i < unhide.length; i++){
         ol.children('li[data-name="' + unhide[i] + '"]').css("display", "");

@@ -16,3 +16,16 @@ footer:
     title: Site Navigation
   -
     title: Privacy Policy
+sidebar_title:
+  - 
+    title: Overall Progress
+sidebar_pages:
+  - 
+    title: Home
+    url: /
+  -
+    title: Installing boot9strap (uloader)
+    url: installing-boot9strap-(uloader)
+  -
+    title: Finalizing Setup
+    url: finalizing-setup
